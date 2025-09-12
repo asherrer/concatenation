@@ -149,6 +149,11 @@
     "modId": "borninconfiguration",
     "version": "3.0.3"
   },
+  "BotanyPots-Forge-1.20.1-13.0.41.jar": {
+    "jarName": "BotanyPots-Forge-1.20.1-13.0.41.jar",
+    "modId": "botanypots",
+    "version": "13.0.41"
+  },
   "caelus-forge-3.2.0+1.20.1.jar": {
     "jarName": "caelus-forge-3.2.0+1.20.1.jar",
     "modId": "caelus",
@@ -229,10 +234,10 @@
     "modId": "commoncapabilities",
     "version": "2.9.7"
   },
-  "concatenationcore-1.0.5-forge-1.20.1.jar": {
-    "jarName": "concatenationcore-1.0.5-forge-1.20.1.jar",
+  "concatenationcore-1.0.6-forge-1.20.1.jar": {
+    "jarName": "concatenationcore-1.0.6-forge-1.20.1.jar",
     "modId": "concatenationcore",
-    "version": "1.0.5"
+    "version": "1.0.6"
   },
   "connectivity-1.20.1-7.1.jar": {
     "jarName": "connectivity-1.20.1-7.1.jar",
@@ -288,6 +293,11 @@
     "jarName": "cosmeticcorpsecompat-1.19.x-1.20.x-Forge-1.0.0.jar",
     "modId": "cosmeticcorpsecompat",
     "version": "1.0.0"
+  },
+  "craftingrecipeexporter-1.20.1-Forge-1.0.2.jar": {
+    "jarName": "craftingrecipeexporter-1.20.1-Forge-1.0.2.jar",
+    "modId": "craftingrecipeexporter",
+    "version": "1.0.2"
   },
   "craftingtweaks-forge-1.20.1-18.2.5.jar": {
     "jarName": "craftingtweaks-forge-1.20.1-18.2.5.jar",
@@ -951,6 +961,11 @@
     "jarName": "PlayerRevive_FORGE_v2.0.31_mc1.20.1.jar",
     "modId": "playerrevive",
     "version": "2.0.31"
+  },
+  "polyeng-forge-0.1.1-1.20.1.jar": {
+    "jarName": "polyeng-forge-0.1.1-1.20.1.jar",
+    "modId": "polyeng",
+    "version": "0.1.1-1.20.1"
   },
   "polymorph-forge-0.49.10+1.20.1.jar": {
     "jarName": "polymorph-forge-0.49.10+1.20.1.jar",

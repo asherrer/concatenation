@@ -232,7 +232,7 @@ ServerEvents.recipes(event => {
         //         }
         // )
         event.shaped(
-                Item.of('concatenationcore:experienced_paper'),
+                Item.of('concatenationcore:experienced_paper', 4),
                 [
                         ' A ',
                         'ABA',
@@ -466,7 +466,7 @@ ServerEvents.recipes(event => {
                 ['ars_elemental:fire_focus', 'concatenationcore:experienced_paper', 'ars_elemental:water_focus', 'concatenationcore:experienced_paper', 'ars_elemental:air_focus', 'concatenationcore:experienced_paper', 'ars_elemental:earth_focus', 'concatenationcore:experienced_paper'],
                 'ars_nouveau:apprentice_spell_book',
                 'ars_nouveau:archmage_spell_book',
-                100000,
+                10000,
                 true
         )
         event.recipes.ars_nouveau.enchanting_apparatus(

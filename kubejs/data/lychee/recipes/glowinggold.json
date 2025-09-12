@@ -3,7 +3,7 @@
     "post": [
         {
             "type": "execute",
-            "command": "fill ~-1 ~-1 ~-1 ~1 ~1 ~1 concatenationcore:glowing_gold_block replace gold_block"
+            "command": "fill ~-1 ~-1 ~-1 ~1 ~1 ~1 concatenationcore:shimmering_gold_block replace gold_block"
         }
     ]
 }

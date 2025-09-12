@@ -1,0 +1,19 @@
+{
+	id: "176987536B9A7AC0"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ item: "born_in_chaos_v1:bone_heart" }
+		{
+			item: {
+				Count: 1
+				id: "born_in_chaos_v1:charmof_stealth"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 2, item: "born_in_chaos_v1:nightmare_claw" }
+	]
+	title: "Sweet Dreams are Overrated"
+}

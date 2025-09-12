@@ -25,6 +25,11 @@ ServerEvents.recipes(event => {
                 'minecraft:ender_pearl',
                 'concatenationcore:woven_pearl'
         )
+        event.replaceInput(
+                { mod: 'botanypots' },
+                'minecraft:flower_pot',
+                'hexerei:herb_jar'
+        )
 
         event.shaped(
                 Item.of('concatenationcore:kestrel'),
@@ -442,5 +447,12 @@ ServerEvents.recipes(event => {
                         B: 'concatenationcore:descran',
                         A: 'concatenationcore:experience_orb'
                 }
+        )
+        event.shapeless(
+                Item.of('tconstruct:blood_slime_leaves', 4),
+                [
+                        'hexerei:blood_bottle',
+                        'minecraft:nether_wart_block'
+                ]
         )
 });

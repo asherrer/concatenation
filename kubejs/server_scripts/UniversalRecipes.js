@@ -462,7 +462,7 @@ ServerEvents.recipes(event => {
         ).keepIngredient('tarotcards:wheel_of_fortune')
 
         event.shaped(
-                Item.of('born_in_chaos_v1:dark_upgrade'),
+                Item.of('born_in_chaos_v1:dark_upgrade', 3),
                 [
                         'ABA',
                         'CDC',
