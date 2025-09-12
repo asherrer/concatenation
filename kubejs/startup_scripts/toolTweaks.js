@@ -17,6 +17,12 @@ ItemEvents.modification(event => {
 		["tfmg:steel_axe", 9],
 		["tfmg:steel_sword", 7],
 
+		1200,
+		["mekanismtools:steel_pickaxe", 4],
+		["mekanismtools:steel_shovel", 4.5],
+		["mekanismtools:steel_axe", 9],
+		["mekanismtools:steel_sword", 8],
+
 		// psi psimetal
 		1200,
 		["psi:psimetal_pickaxe", 4],

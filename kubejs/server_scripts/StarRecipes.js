@@ -256,4 +256,48 @@ ServerEvents.recipes(event => {
         }
     )
 
+    //Temporary
+    event.shaped(
+        Item.of('concatenationcore:antimony'),
+        [
+            'ABC',
+            'DDD',
+            'D  '
+        ],
+        {
+            D: 'theurgy:sal_ammoniac_crystal',
+            A: 'concatenationcore:breaking_tool',
+            C: 'thermal:lead_ingot',
+            B: 'concatenationcore:ectorite'
+        }
+    )
+    event.shaped(
+        Item.of('concatenationcore:antimony'),
+        [
+            'ABC',
+            'DDD',
+            'D  '
+        ],
+        {
+            D: 'theurgy:sal_ammoniac_crystal',
+            B: 'concatenationcore:bloodstained_steel',
+            A: 'concatenationcore:breaking_tool',
+            C: 'thermal:lead_ingot'
+        }
+    )
+    event.shaped(
+        Item.of('concatenationcore:antimony'),
+        [
+            'ABC',
+            'CDD',
+            'DDD'
+        ],
+        {
+            D: 'theurgy:sal_ammoniac_crystal',
+            B: 'concatenationcore:blood_powder',
+            A: 'concatenationcore:breaking_tool',
+            C: 'thermal:lead_ingot'
+        }
+    )
+
 });

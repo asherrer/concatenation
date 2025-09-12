@@ -27,6 +27,8 @@
 				"{@pagebreak}"
 				"To switch to this path, only &7the Tower&r and &dthe Hermit&r (through &bthe High Priestess&r) are considered adjacent. Engineers and tinkerers can craft &9the Hierophant&r card with silver paper and their own unique ingredients."
 			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
 			id: "73F4AAF2267BB33B"
 			rewards: [{
 				id: "6C860A479D3CD959"
@@ -634,7 +636,11 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["5746BB5C34ED74C7"]
+			dependencies: [
+				"5746BB5C34ED74C7"
+				"2E2A38A96D401883"
+			]
+			dependency_requirement: "one_completed"
 			description: [
 				"The Solid Fuel Quarry is a marvel of engineering, but is an extremely outdated design. It is powered by simple fossil fuels and sports impressive range - all the way to bedrock, but unlucky quarrying can result in a lack of self-sustainability in coal. "
 				"{@pagebreak}"
@@ -809,7 +815,7 @@
 			icon: "born_in_chaos_v1:shattered_skull"
 			id: "22157DFEF1887E78"
 			rewards: [{
-				count: 5
+				count: 10
 				id: "50CBF8E829FFF62D"
 				item: {
 					Count: 1
@@ -1688,22 +1694,38 @@
 				"Finally, the Smeltery can be used to cast powerful tool parts for specialized tools."
 			]
 			id: "0964BD6C4413A9C9"
-			rewards: [{
-				id: "2F69D11469D5A573"
-				item: {
-					Count: 1
-					id: "ftbquests:lootcrate"
-					tag: {
-						display: {
-							Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
-							Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+			rewards: [
+				{
+					id: "2F69D11469D5A573"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							display: {
+								Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
+								Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+							}
+							type: "building_kit"
 						}
-						type: "building_kit"
 					}
+					random_bonus: 1
+					type: "item"
 				}
-				random_bonus: 1
-				type: "item"
-			}]
+				{
+					id: "63DC63213AAF03AB"
+					item: {
+						Count: 1
+						id: "tconstruct:seared_fuel_tank"
+						tag: {
+							tank: {
+								Amount: 4000
+								FluidName: "minecraft:lava"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
 			size: 1.1d
 			tasks: [
 				{
@@ -2232,22 +2254,30 @@
 			dependencies: ["7DD14D1827FF575E"]
 			description: ["It's possible to compact skystone harvested from meteors and smelt it to produce meteorite metal."]
 			id: "7CD059E89A322EA1"
-			rewards: [{
-				id: "32F962D36C538ECA"
-				item: {
-					Count: 1
-					id: "ftbquests:lootcrate"
-					tag: {
-						display: {
-							Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
-							Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+			rewards: [
+				{
+					id: "32F962D36C538ECA"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							display: {
+								Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
+								Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+							}
+							type: "building_kit"
 						}
-						type: "building_kit"
 					}
+					random_bonus: 1
+					type: "item"
 				}
-				random_bonus: 1
-				type: "item"
-			}]
+				{
+					count: 4
+					id: "5FA699794181CFF6"
+					item: "minecraft:clay"
+					type: "item"
+				}
+			]
 			subtitle: "Have I seen this somewhere?"
 			tasks: [{
 				id: "21A950DAE54FEF5D"
@@ -2331,6 +2361,7 @@
 					type: "item"
 				}
 				{
+					count: 4
 					id: "7F505068F82819E0"
 					item: "concatenationcore:transplant"
 					type: "item"
@@ -2495,7 +2526,11 @@
 			y: -7.5d
 		}
 		{
-			dependencies: ["6F736EF54A792577"]
+			dependencies: [
+				"6F736EF54A792577"
+				"73F4AAF2267BB33B"
+			]
+			dependency_requirement: "one_completed"
 			description: [
 				"Meteors can be found throughout the world and even underground. The true prize is the special certus quartz growing inside and the alien technology it houses."
 				"{@pagebreak}"
@@ -2527,10 +2562,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"1A0E2D5ACAF189AC"
-				"7BB90DEFC570E065"
-			]
+			dependencies: ["7BB90DEFC570E065"]
 			description: [
 				"This circuit model is often nicknamed as deficient by most engineers of our age. Everything needs to start somewhere, and this highly inefficient circuit does its job, although the manufacturing process is annoying."
 				"{@pagebreak}"
@@ -2539,6 +2571,7 @@
 			]
 			id: "2E2A38A96D401883"
 			rewards: [{
+				count: 2
 				id: "3B81EF8DDD0D7702"
 				item: "concatenationcore:altcircuit"
 				type: "item"
@@ -3009,9 +3042,10 @@
 			description: ["The element infuser can enhance almost all of your tools with a special effect depending on the elemental used. However, only one effect can be active at a time per tool or armor piece. It is also used in the crafting of ingredients required for more advanced instruments."]
 			id: "12F6BD166085B3B5"
 			rewards: [{
-				id: "5D7E0F7F58DD4A0D"
-				type: "xp_levels"
-				xp_levels: 1
+				count: 4
+				id: "589A83D8FC37F0A9"
+				item: "minecraft:iron_ingot"
+				type: "item"
 			}]
 			tasks: [{
 				id: "56583FD7B3E6FB3E"
@@ -3427,9 +3461,9 @@
 			]
 			id: "01383DAE3AE95A28"
 			rewards: [{
-				id: "04C1F7DFFADF1482"
-				type: "xp_levels"
-				xp_levels: 1
+				id: "08ACA33E0661864F"
+				item: "elementalcraft:purecrystal"
+				type: "item"
 			}]
 			tasks: [
 				{
@@ -3540,9 +3574,9 @@
 			]
 			id: "5DF3CE9894B8409C"
 			rewards: [{
+				count: 3
 				id: "7237D6D89521710F"
 				item: "elementalcraft:swift_alloy_ingot"
-				random_bonus: 2
 				type: "item"
 			}]
 			tasks: [{
@@ -3693,6 +3727,12 @@
 				"I've received the advice to forget about this horror and use other alternatives such as finding wild sources and using a displacement plate."
 			]
 			id: "77B0944FD82CEEC4"
+			rewards: [{
+				count: 16
+				id: "570568E917218804"
+				item: "rftoolsbase:dimensionalshard"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7CD11D137E92614C"
 				item: {
@@ -4207,7 +4247,7 @@
 			dependencies: ["6A5FC0572660FB1E"]
 			description: [
 				"The Novice Spellbook is the first tool of any mage delving into spellcrafting. It is an instrument capable of casting elaborate spells with myriad utilities."
-				""
+				"{@pagebreak}"
 				"When opening the spellbook, you can add together glyphs to create a spell. The longer and more complicated the spell, the more mana it will consume. Similarly, more powerful spells do the same."
 			]
 			id: "71AF6583ACE3E366"
@@ -4308,7 +4348,7 @@
 		}
 		{
 			dependencies: ["6A5FC0572660FB1E"]
-			description: ["The Imbuement Chamber is a magical apparatus capable of infusing materials with source."]
+			description: ["The Imbuement Chamber is a magical apparatus capable of infusing materials with source, passively gathering into the apparatus. The imbuement process can be sped up with source jars."]
 			id: "3DF92A514A6B22AF"
 			rewards: [{
 				id: "5667C2991588FD71"
@@ -5096,21 +5136,23 @@
 		}
 		{
 			dependencies: ["54DA52C7F14D64E9"]
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					"celestisynth:celestisynthitemstackcapabilities": {
-						cs.aquaSkin: 0
-					}
-				}
-				id: "ars_nouveau:enchanting_apparatus"
-			}
+			description: [""]
+			icon: "ars_nouveau:enchanting_apparatus"
 			id: "71BB28D5234F5991"
-			rewards: [{
-				id: "130C120502CC052D"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "46403D893E3238C0"
+					item: "concatenationcore:elemental_lens"
+					type: "item"
+				}
+				{
+					id: "0BFEDCE8EF633221"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Grand Ritual"
 			tasks: [
 				{
 					id: "2F2EA5D4CC65FACF"
@@ -5257,6 +5299,11 @@
 		}
 		{
 			dependencies: ["03F5F8D8A4E7D749"]
+			description: [
+				"Sourcelinks harvest the source from various natural processes."
+				""
+				"Commonly used sourcelinks are agricultural and mycelial sourcelinks, as one feeds off the nearby growing of crops and the other from the consumption of nutrition."
+			]
 			id: "2478F23E892A1AD7"
 			rewards: [{
 				id: "28DBDA3F1BE8F153"
@@ -6372,9 +6419,10 @@
 			description: ["The warpstone is an utility item, letting you travel to any waystone regardless of where you are situated. This however comes at a price: experience levels, increasing with the distance. In case of emergencies, you may return to a safe space quickly. This is not an absolute escape plan though. I recall a time while fighting a sea monster, I was unable to trigger the waystone while drowning."]
 			id: "02CAE7DE326720EA"
 			rewards: [{
-				id: "2E8E7B9F8F245D84"
-				type: "xp_levels"
-				xp_levels: 5
+				count: 4
+				id: "3AF65200D0D2233D"
+				item: "minecraft:ender_pearl"
+				type: "item"
 			}]
 			tasks: [{
 				id: "266D60B5FCA4B2D7"
@@ -6642,9 +6690,15 @@
 			description: ["An enhanced fabric woven from strips of leather, dyed and infused with mild spiritual power. You can use it to make the traditional robes of the witches."]
 			id: "08656304775DB207"
 			rewards: [{
-				id: "6790C05FF2AACBB4"
-				type: "xp_levels"
-				xp_levels: 1
+				id: "2FEDB6DF8653253D"
+				item: {
+					Count: 1
+					id: "minecraft:lingering_potion"
+					tag: {
+						Potion: "minecraft:long_fire_resistance"
+					}
+				}
+				type: "item"
 			}]
 			tasks: [{
 				id: "44FF35C4A6636054"
@@ -6667,9 +6721,10 @@
 			description: ["The ancient vestiments of the traditional witchcraft, it is relatively sturdy for its composition. If you wear these, witches will respect you as an initiate of their craft. Somehow, they did even though I stole the materials to make them right in front of them."]
 			id: "11448A0815CC7548"
 			rewards: [{
-				id: "1FE911769E9153F7"
-				type: "xp_levels"
-				xp_levels: 1
+				count: 6
+				id: "7BA7FC42CB049EE6"
+				item: "concatenationcore:blood_soaked_fabric"
+				type: "item"
 			}]
 			tasks: [
 				{
@@ -6809,9 +6864,9 @@
 			icon: "hexerei:blood_sigil"
 			id: "0CC91D0458ACB827"
 			rewards: [{
-				id: "7253CC69945F41B8"
-				type: "xp_levels"
-				xp_levels: 1
+				id: "617057D44A6E2E83"
+				item: "concatenationcore:pyrite"
+				type: "item"
 			}]
 			tasks: [
 				{
@@ -6850,9 +6905,16 @@
 			hide_dependency_lines: true
 			id: "01D68B8537CA69EA"
 			rewards: [{
-				id: "46155ADAC45C717F"
-				type: "xp_levels"
-				xp_levels: 3
+				count: 3
+				id: "551C8B0DBA12D2C6"
+				item: {
+					Count: 1
+					id: "minecraft:lingering_potion"
+					tag: {
+						Potion: "minecraft:strong_strength"
+					}
+				}
+				type: "item"
 			}]
 			tasks: [{
 				id: "7321E1DD222A27D3"
@@ -6882,9 +6944,10 @@
 			]
 			id: "59BB154080D3A193"
 			rewards: [{
-				id: "2C47BF6AF3D96619"
-				type: "xp_levels"
-				xp_levels: 1
+				count: 3
+				id: "73E5F2AD8811E786"
+				item: "minecraft:gold_ingot"
+				type: "item"
 			}]
 			tasks: [{
 				id: "5477EC9698C3E167"
@@ -10500,7 +10563,7 @@
 			description: ["The fluxduct transports RF power and distributes it across all connected machines."]
 			id: "5BAA69CBD6B64BEA"
 			rewards: [{
-				count: 2
+				count: 16
 				id: "5F6FF9DAD24F5121"
 				item: "thermal:lead_ingot"
 				type: "item"
@@ -11398,11 +11461,19 @@
 			]
 			icon: "thermal:energy_duct"
 			id: "4D66CC58CC466767"
-			rewards: [{
-				id: "5E3150A7C2BE5195"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "68AA48C33A174FE9"
+					item: "thermal:energy_duct"
+					type: "item"
+				}
+				{
+					id: "1EAFD6951BAF653D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			size: 0.75d
 			tasks: [
 				{
@@ -11445,9 +11516,10 @@
 			]
 			id: "51F0251F529BE03C"
 			rewards: [{
-				id: "75869CA476172FB1"
-				type: "xp_levels"
-				xp_levels: 1
+				count: 4
+				id: "13EC4FB4F273A47F"
+				item: "minecraft:glowstone"
+				type: "item"
 			}]
 			tasks: [{
 				id: "10A38B480D001D74"
@@ -11799,39 +11871,24 @@
 			icon: "rftoolspower:cell1"
 			id: "2638CC10E4FF66C1"
 			rewards: [{
-				id: "29C5BA55F0DDF7C8"
-				type: "xp_levels"
-				xp_levels: 1
+				id: "17EFF65A40EEC6C0"
+				item: "rftoolsbase:smartwrench"
+				type: "item"
 			}]
 			size: 0.9d
-			tasks: [
-				{
-					id: "530E774F93597CE0"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
+			tasks: [{
+				id: "530E774F93597CE0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
 						}
-						id: "rftoolspower:cell1"
 					}
-					type: "item"
+					id: "rftoolspower:cell1"
 				}
-				{
-					id: "2A5A9A43F18576C7"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "rftoolsbase:smartwrench"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			x: -17.299999999999997d
 			y: 2.724999999999998d
 		}
@@ -14912,7 +14969,7 @@
 			dependencies: ["3DF92A514A6B22AF"]
 			description: [
 				"Essences are a clear manifestation of magical energy in a condensed form. They are often used to aid spellcrafting."
-				""
+				"{@pagebreak}"
 				"The first four elemental essences can be produced from infusing elemental crystals into essences via the elemental infuser."
 			]
 			id: "08E10ADC80A20D8E"
@@ -15966,6 +16023,12 @@
 		{
 			dependencies: ["25E533314EFCD83A"]
 			id: "157142AE635735EC"
+			rewards: [{
+				count: 3
+				id: "342F09D1A171030D"
+				item: "createmetallurgy:steel_ingot"
+				type: "item"
+			}]
 			size: 0.9d
 			tasks: [{
 				id: "5C0448ADA38A976C"
@@ -16013,6 +16076,12 @@
 		{
 			dependencies: ["25E533314EFCD83A"]
 			id: "34D12E2DBE79C727"
+			rewards: [{
+				count: 3
+				id: "011440E65661BE73"
+				item: "createmetallurgy:steel_ingot"
+				type: "item"
+			}]
 			size: 0.9d
 			tasks: [{
 				id: "44C1301669159844"
@@ -16711,9 +16780,15 @@
 			hide_dependency_lines: true
 			id: "06460D3BD2DB0E21"
 			rewards: [{
-				id: "67C477A362362566"
-				type: "xp_levels"
-				xp_levels: 1
+				id: "636F765C711A4DF1"
+				item: {
+					Count: 1
+					id: "mekanismtools:steel_paxel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
 			}]
 			tasks: [
 				{
@@ -17083,6 +17158,7 @@
 					type: "item"
 				}
 			]
+			title: "Refined Armour"
 			x: -32.125d
 			y: 13.625d
 		}
@@ -17632,6 +17708,7 @@
 			dependencies: [
 				"7363621391F2E8EC"
 				"4551222320CBAE77"
+				"01514A831E1895F9"
 			]
 			dependency_requirement: "one_completed"
 			hide_text_until_complete: false
@@ -17709,7 +17786,7 @@
 			y: -9.5d
 		}
 		{
-			dependencies: ["1203CDC5DF26F779"]
+			dependencies: ["524067700E07EB06"]
 			id: "01514A831E1895F9"
 			rewards: [{
 				id: "630AC479BCEAE296"
@@ -17751,6 +17828,7 @@
 		}
 		{
 			dependencies: ["524067700E07EB06"]
+			disable_toast: true
 			id: "4551222320CBAE77"
 			rewards: [{
 				id: "5D4D5364B0321BB5"
@@ -17956,6 +18034,7 @@
 						]
 					}
 				}
+				title: "Any Salad"
 				type: "item"
 			}]
 			x: -5.0d
@@ -18072,6 +18151,7 @@
 		}
 		{
 			dependencies: ["4551222320CBAE77"]
+			disable_toast: true
 			id: "07216B5B04E8B927"
 			rewards: [{
 				count: 5
@@ -18110,6 +18190,11 @@
 		{
 			dependencies: ["524067700E07EB06"]
 			id: "1B74A356EED36832"
+			rewards: [{
+				id: "23D0ABA74F3825F0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "10724C94977CD3BA"
 				item: "born_in_chaos_v1:seedof_chaos"
@@ -18120,12 +18205,20 @@
 		}
 		{
 			dependencies: ["524067700E07EB06"]
+			disable_toast: true
 			id: "1BC80E0D5599DCCA"
-			tasks: [{
-				id: "5F693C18494019F1"
-				item: "born_in_chaos_v1:pieceofdarkmetal"
-				type: "item"
+			rewards: [{
+				id: "550E8CDA12B02DB7"
+				type: "xp_levels"
+				xp_levels: 1
 			}]
+			tasks: [{
+				advancement: "born_in_chaos_v1:dark_metallurgy"
+				criterion: ""
+				id: "4657FD00E290C0B2"
+				type: "advancement"
+			}]
+			title: "Dark Metal"
 			x: 5.5d
 			y: -9.5d
 		}
@@ -18133,6 +18226,17 @@
 			dependencies: ["0D70725FEAF0DC7B"]
 			description: ["Dark metal is an alluring substance, but some demiurge has altered reality to require a dull, grey abomination in its stead."]
 			id: "369EB408D49E5415"
+			rewards: [{
+				id: "53619EE65BE4FFF4"
+				item: {
+					Count: 1
+					id: "concatenationcore:dense_alloy"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "74FED63F0FEAF66F"
@@ -18158,6 +18262,11 @@
 		{
 			dependencies: ["369EB408D49E5415"]
 			id: "6E6759704F7023AB"
+			rewards: [{
+				id: "48AD06576EA0380F"
+				item: "minecraft:wither_skeleton_skull"
+				type: "item"
+			}]
 			tasks: [{
 				id: "17E638EC51074711"
 				item: "born_in_chaos_v1:dark_upgrade"
@@ -18169,6 +18278,11 @@
 		{
 			dependencies: ["6E6759704F7023AB"]
 			id: "074D1EAC06904845"
+			rewards: [{
+				id: "7BD829C5D37D330D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "56F95FCEDFAF3573"
@@ -18215,12 +18329,18 @@
 					type: "item"
 				}
 			]
+			title: "Dark Metal Armour"
 			x: 6.5d
 			y: -14.5d
 		}
 		{
 			dependencies: ["369EB408D49E5415"]
 			id: "3BDE972F9EB52CF5"
+			rewards: [{
+				id: "7D0BB53B6E2B4882"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "41F33A8F31D98A7B"
@@ -18240,6 +18360,11 @@
 		{
 			dependencies: ["3BDE972F9EB52CF5"]
 			id: "5309971BB143C533"
+			rewards: [{
+				id: "6D4EAA683D19E434"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "05C360865DFFFE68"
@@ -18286,12 +18411,18 @@
 					type: "item"
 				}
 			]
+			title: "Nightmare Armour"
 			x: 8.0d
 			y: -13.0d
 		}
 		{
 			dependencies: ["369EB408D49E5415"]
 			id: "30B2CAB9CBB2CD53"
+			rewards: [{
+				id: "5391AE7C1227682D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "3FBCF3FEA7E027BD"
 				item: {
@@ -18323,14 +18454,21 @@
 						]
 					}
 				}
+				title: "Any Dark Metal Weapon"
 				type: "item"
 			}]
+			title: "Dark Metal Weapons"
 			x: 5.0d
 			y: -14.0d
 		}
 		{
 			dependencies: ["3BDE972F9EB52CF5"]
 			id: "63F2A73E207912AD"
+			rewards: [{
+				id: "6D985542B0CBF2F6"
+				item: "minecraft:wither_skeleton_skull"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0BD712B1A02FA16C"
 				item: {
@@ -18369,8 +18507,10 @@
 						]
 					}
 				}
+				title: "Any Nightmare Weapon"
 				type: "item"
 			}]
+			title: "Nightmare Weapons"
 			x: 8.5d
 			y: -12.0d
 		}
@@ -18378,6 +18518,11 @@
 			dependencies: ["0D70725FEAF0DC7B"]
 			hide_dependency_lines: true
 			id: "2235C77100C1C31E"
+			rewards: [{
+				id: "62A4B8B1FBE01019"
+				item: "minecraft:wither_skeleton_skull"
+				type: "item"
+			}]
 			tasks: [{
 				id: "04881821449B5553"
 				item: {
@@ -18394,7 +18539,33 @@
 		}
 		{
 			dependencies: ["524067700E07EB06"]
+			description: [
+				"The Nightmare Stalker is a terrifying remnant of the endless night, a reaction to both the ritual that started it and the one that put an end to it."
+				""
+				"It has historically appeared within a 3 day period, but with the passing of time since the end of the endless night, some have noticed it only appears within a 7 day period now."
+				"{@pagebreak}"
+				"It lurks in the shadows, invisible except for white eyes in the dark, until it finds its prey and pounces in a surprise attack, withering its victim to weaken it and leeching off their blood."
+				""
+				"While dangerous, once it loses the element of weakness, it is weak to holy or fire weaponry, as well as being able to be outrunned quite easily."
+				"{@pagebreak}"
+				"The megatorch helps to keep Nightmare Stalkers away, but is not infallible."
+			]
 			id: "64655F5EE797B52B"
+			rewards: [
+				{
+					id: "2F944ED2804B8263"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3AE54BA1D1A16000"
+					table_id: 1687028327784282816L
+					team_reward: false
+					type: "choice"
+				}
+			]
+			size: 1.1d
 			tasks: [{
 				entity: "born_in_chaos_v1:nightmare_stalker"
 				icon: "born_in_chaos_v1:nightmare_stalker_skull"
@@ -18402,6 +18573,7 @@
 				type: "kill"
 				value: 1L
 			}]
+			title: "The Nightmare Stalker"
 			x: 4.0d
 			y: -9.5d
 		}
@@ -18409,11 +18581,18 @@
 			dependencies: ["3F53C388105917F6"]
 			description: ["Zinc Casing is a building base making use of galvanized iron to build lasting machinery."]
 			id: "5746BB5C34ED74C7"
-			rewards: [{
-				id: "1AF45666DCF4AC1D"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "225BD0A25C2CB5D6"
+					item: "concatenationcore:galvanized_iron"
+					type: "item"
+				}
+				{
+					id: "4F0AA99E8BC27481"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "4D21290D456F0EF8"
 				item: "concatenationcore:zinc_casing"
@@ -18652,9 +18831,10 @@
 			]
 			id: "5D90648C40D14717"
 			rewards: [{
-				id: "5481DD2A50E44CAF"
-				type: "xp_levels"
-				xp_levels: 1
+				count: 5
+				id: "62F6290846E35C27"
+				item: "createmetallurgy:steel_ingot"
+				type: "item"
 			}]
 			tasks: [
 				{
@@ -18906,9 +19086,10 @@
 			]
 			id: "49AD4063DDEB0BCE"
 			rewards: [{
-				id: "64DED6371F4AD794"
-				type: "xp_levels"
-				xp_levels: 1
+				count: 5
+				id: "7ECE9255BA129DEF"
+				item: "createmetallurgy:steel_ingot"
+				type: "item"
 			}]
 			tasks: [{
 				id: "1B25CEF4A3F1AA4C"
@@ -19364,15 +19545,20 @@
 			y: 20.849999999999998d
 		}
 		{
-			dependencies: ["4E4E81226BED0E7C"]
+			dependencies: ["0CC91D0458ACB827"]
 			id: "527DC00929B54279"
+			rewards: [{
+				id: "2ADC4CA9F0E9CEF7"
+				item: "minecraft:redstone_block"
+				type: "item"
+			}]
 			tasks: [{
 				id: "41030BFA692C2825"
 				item: "reliquary:alkahestry_altar"
 				type: "item"
 			}]
-			x: 28.9d
-			y: 19.349999999999998d
+			x: 12.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["4E4E81226BED0E7C"]
@@ -19538,6 +19724,7 @@
 						]
 					}
 				}
+				title: "Any Salt"
 				type: "item"
 			}]
 			x: 32.4d
@@ -20568,6 +20755,12 @@
 		{
 			dependencies: ["7E1C64AA0AA235C2"]
 			id: "29886789989F6CE9"
+			rewards: [{
+				count: 4
+				id: "0A4A01C94656F404"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
 			size: 0.75d
 			tasks: [
 				{
@@ -20728,11 +20921,18 @@
 			dependencies: ["524067700E07EB06"]
 			description: ["The megatorch prevents mobs from spawning in a large radius around itself."]
 			id: "288329048ACCA1E3"
-			rewards: [{
-				id: "133A101C0F89968B"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "48DF0E6E844523A0"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+				{
+					id: "2362E1EA3E6A4227"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			size: 0.9d
 			tasks: [{
 				id: "3767175CF3868F32"
@@ -20929,9 +21129,10 @@
 			hide_dependency_lines: true
 			id: "0C234E08F2DA20B1"
 			rewards: [{
-				id: "7DCDC18DA8D6F1F9"
-				type: "xp_levels"
-				xp_levels: 1
+				count: 4
+				id: "075701E91FEE641A"
+				item: "concatenationcore:celestial_calralite"
+				type: "item"
 			}]
 			tasks: [{
 				id: "4BF96387A0FDAE44"
@@ -20958,9 +21159,9 @@
 			hide_dependent_lines: true
 			id: "524B8C88541F6833"
 			rewards: [{
-				id: "26C10DC10DE36F09"
-				type: "xp_levels"
-				xp_levels: 1
+				id: "596310A4502C1F00"
+				item: "hexerei:mahogany_sapling"
+				type: "item"
 			}]
 			tasks: [{
 				id: "7250ADDE2F87C37E"
@@ -20969,6 +21170,47 @@
 			}]
 			x: 5.5d
 			y: 1.0d
+		}
+		{
+			dependencies: ["71BB28D5234F5991"]
+			id: "2BAED07EB551782D"
+			tasks: [{
+				id: "48268EDE678A1B3C"
+				item: "ars_nouveau:storage_lectern"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["5A50AE26BCF79069"]
+			id: "7B8FFE3C70CD7BC7"
+			tasks: [{
+				id: "2936A42F71271CF0"
+				item: "solarflux:sp_8"
+				type: "item"
+			}]
+			x: -29.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["6EB3E5667F8481FC"]
+			id: "5DC19F5250D0CF9D"
+			rewards: [{
+				id: "409D74CA46DCE953"
+				item: "concatenationcore:pyrite"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "botanypots:husbandry/get_basic_pot"
+				criterion: ""
+				disable_toast: true
+				id: "5C4A751FB184393F"
+				type: "advancement"
+			}]
+			title: "Botany Pot"
+			x: 11.5d
+			y: -1.0d
 		}
 	]
 	title: "The Journey"

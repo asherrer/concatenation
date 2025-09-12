@@ -434,10 +434,10 @@ mobDropsEnabled = true
 	[blocks.altar]
 		#Number of redstone it costs to activate altar
 		#Range: 0 ~ 10
-		redstoneCost = 0
+		redstoneCost = 4
 		#Time in minutes it takes for the altar to create glowstone block
 		#Range: 0 ~ 60
-		timeInMinutes = 5
+		timeInMinutes = 1
 		#Maximum time variance in minutes. A random part of it gets added to the Time in minutes.
 		#Range: 0 ~ 15
 		maximumTimeVarianceInMinutes = 5

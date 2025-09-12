@@ -12254,11 +12254,11 @@
         "isSelected": false
       },
       {
-        "path": "local\\crash_assistant\\65556_1757291267659.info",
+        "path": "local\\crash_assistant\\50008_1757293205098.info",
         "isSelected": false
       },
       {
-        "path": "local\\crash_assistant\\65556_1757291267659_app.jar",
+        "path": "local\\crash_assistant\\50008_1757293205098_app.jar",
         "isSelected": false
       },
       {
@@ -12266,19 +12266,15 @@
         "isSelected": false
       },
       {
-        "path": "local\\crash_assistant\\joined_world_pid65556.tmp",
+        "path": "local\\crash_assistant\\joined_world_pid50008.tmp",
         "isSelected": false
       },
       {
-        "path": "local\\crash_assistant\\normal_stop_pid65556.tmp",
+        "path": "local\\crash_assistant\\renderer_pid50008.tmp",
         "isSelected": false
       },
       {
-        "path": "local\\crash_assistant\\renderer_pid65556.tmp",
-        "isSelected": false
-      },
-      {
-        "path": "local\\crash_assistant\\successful_launch_pid65556.tmp",
+        "path": "local\\crash_assistant\\successful_launch_pid50008.tmp",
         "isSelected": false
       },
       {
@@ -13750,10 +13746,6 @@
         "isSelected": false
       },
       {
-        "path": "logs\\crash_assistant\\crash_assistant_app_2025-08-31_20-27-11.log.gz",
-        "isSelected": false
-      },
-      {
         "path": "logs\\crash_assistant\\crash_assistant_app_2025-08-31_20-55-28.log.gz",
         "isSelected": false
       },
@@ -13815,6 +13807,10 @@
       },
       {
         "path": "logs\\crash_assistant\\crash_assistant_app_2025-09-07_19-13-27.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\crash_assistant\\crash_assistant_app_2025-09-07_20-27-54.log.gz",
         "isSelected": false
       },
       {
@@ -14594,6 +14590,10 @@
         "isSelected": false
       },
       {
+        "path": "logs\\2025-09-07-6.log.gz",
+        "isSelected": false
+      },
+      {
         "path": "logs\\latest.log",
         "isSelected": false
       },
@@ -15227,6 +15227,10 @@
       },
       {
         "path": "logs\\quarry-debug-2025-09-07-4.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\quarry-debug-2025-09-07-5.log.gz",
         "isSelected": false
       },
       {
@@ -27878,10 +27882,6 @@
         "isSelected": false
       },
       {
-        "path": "saves\\New World (18)\\minecolonies\\colonies-2025-08-30_21.28.44.zip",
-        "isSelected": false
-      },
-      {
         "path": "saves\\New World (18)\\minecolonies\\colonies-2025-08-31_20.51.34.zip",
         "isSelected": false
       },
@@ -27955,6 +27955,10 @@
       },
       {
         "path": "saves\\New World (18)\\minecolonies\\colonies-2025-09-07_20.54.04.zip",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (18)\\minecolonies\\colonies-2025-09-07_21.05.11.zip",
         "isSelected": false
       },
       {

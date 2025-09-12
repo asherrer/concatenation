@@ -82,6 +82,22 @@ ServerEvents.recipes(event => {
                 }
         )
         event.shaped(
+                Item.of('concatenationcore:quarry_brain'),
+                [
+                        'ABA',
+                        'CDC',
+                        'FEF'
+                ],
+                {
+                        E: 'minecraft:repeater',
+                        C: 'thermal:tin_gear',
+                        A: '#concatenation:lower_circuits',
+                        B: 'minecraft:powered_rail',
+                        D: 'minecraft:copper_block',
+                        F: 'concatenationcore:stickyredstone'
+                }
+        )
+        event.shaped(
                 Item.of('concatenationcore:zinc_casing'),
                 [
                         'ABA',

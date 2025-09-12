@@ -1,7 +1,6 @@
 ServerEvents.recipes(event => {
         const remove = [
                 'thermal:dynamo_stirling',
-                'thermal:dynamo_numismatic',
                 'thermal:dynamo_compression',
                 'thermal:dynamo_gourmand',
                 'thermal:dynamo_disenchantment',
@@ -878,6 +877,77 @@ ServerEvents.recipes(event => {
                         'concatenationcore:meteorite',
                         'concatenationcore:meteorite'
                 ]
+        )
+        event.shaped(
+                Item.of('solarflux:sp_3', 2),
+                [
+                        'ABA',
+                        'BCB',
+                        'ABA'
+                ],
+                {
+                        C: 'concatenationcore:signalum_coil',
+                        B: 'solarflux:sp_2',
+                        A: 'rftoolspower:power_core1'
+                }
+        )
+        event.shaped(
+                Item.of('solarflux:photovoltaic_cell_4'),
+                [
+                        'AAA',
+                        'BCB',
+                        'BDB'
+                ],
+                {
+                        B: 'industrialforegoing:plastic',
+                        A: 'thermal:signalum_glass',
+                        D: 'createmetallurgy:steel_ingot',
+                        C: 'concatenationcore:primed_calculation_processor'
+                }
+        )
+        event.shaped(
+                Item.of('solarflux:photovoltaic_cell_5'),
+                [
+                        'AAA',
+                        'BCB',
+                        'BDB'
+                ],
+                {
+                        D: 'industrialforegoing:plastic',
+                        A: 'thermal:lumium_glass',
+                        C: 'solarflux:photovoltaic_cell_4',
+                        B: 'mekanism:ingot_osmium'
+                }
+        )
+        event.shaped(
+                Item.of('solarflux:sp_6'),
+                [
+                        'AAA',
+                        'BCB',
+                        'DED'
+                ],
+                {
+                        B: 'industrialforegoing:plastic',
+                        E: 'mekanism:advanced_control_circuit',
+                        C: 'thermal:enderium_gear',
+                        A: 'solarflux:photovoltaic_cell_4',
+                        D: 'solarflux:sp_5'
+                }
+        )
+        event.shaped(
+                Item.of('solarflux:sp_7'),
+                [
+                        'AAA',
+                        'BCB',
+                        'DED'
+                ],
+                {
+                        B: 'industrialforegoing:plastic',
+                        A: 'solarflux:photovoltaic_cell_5',
+                        C: 'thermal:netherite_gear',
+                        D: 'solarflux:sp_6',
+                        E: 'mekanism:elite_control_circuit'
+                }
         )
 
         event.recipes.thermal.press('concatenationcore:signalum_coil', ['thermal:signalum_dust', 'concatenationcore:copper_lead_coil'])
