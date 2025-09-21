@@ -1,0 +1,12 @@
+{
+	id: "5441581BD5D2FCB5"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{ item: "ars_elemental:fire_focus" }
+		{ item: "ars_elemental:water_focus" }
+		{ item: "ars_elemental:air_focus" }
+		{ item: "ars_elemental:earth_focus" }
+	]
+	title: "Focus Redemption"
+}

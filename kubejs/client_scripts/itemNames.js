@@ -20,8 +20,9 @@ ClientEvents.lang('en_us', event => {
   event.renameItem('tfmg:coal_coke', 'Precursor Coke');
 
   event.renameItem('thermal:onion', 'Ishikura Onion');
+  event.renameItem('thermal:rice', 'Precoce Rice');
   event.renameItem('tconstruct:rose_gold_ingot', 'Cast Rose Gold Ingot');
-  event.renameItem('farmersdelight:cutting_board', 'Board');
+  //event.renameItem('farmersdelight:cutting_board', 'Board');
 
   event.rename('fluid.bloodmagic.life_essence', 'Life Essence')
 })

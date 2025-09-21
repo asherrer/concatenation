@@ -3,10 +3,10 @@
 [Technomancer]
 	#Max mana bonus for each armor piece
 	#Range: 0 ~ 10000
-	armorMaxMana = 100
+	armorMaxMana = 110
 	#Mana regen bonus for each armor piece
 	#Range: 0 ~ 100
-	armorManaRegen = 4
+	armorManaRegen = 5
 	#If enabled, schematic cannons will fire faster when players wearing the full Technomancer set are nearby schematic cannons
 	schematicCannonSpeedBoostEnabled = true
 	#Range for above-mentioned perk, if enabled.

@@ -234,10 +234,10 @@
     "modId": "commoncapabilities",
     "version": "2.9.7"
   },
-  "concatenationcore-1.0.6-forge-1.20.1.jar": {
-    "jarName": "concatenationcore-1.0.6-forge-1.20.1.jar",
+  "concatenationcore-1.0.7-forge-1.20.1.jar": {
+    "jarName": "concatenationcore-1.0.7-forge-1.20.1.jar",
     "modId": "concatenationcore",
-    "version": "1.0.6"
+    "version": "1.0.7"
   },
   "connectivity-1.20.1-7.1.jar": {
     "jarName": "connectivity-1.20.1-7.1.jar",
@@ -293,6 +293,11 @@
     "jarName": "cosmeticcorpsecompat-1.19.x-1.20.x-Forge-1.0.0.jar",
     "modId": "cosmeticcorpsecompat",
     "version": "1.0.0"
+  },
+  "craftingrecipeexporter-1.20.1-Forge-1.0.2.jar": {
+    "jarName": "craftingrecipeexporter-1.20.1-Forge-1.0.2.jar",
+    "modId": "craftingrecipeexporter",
+    "version": "1.0.2"
   },
   "craftingtweaks-forge-1.20.1-18.2.5.jar": {
     "jarName": "craftingtweaks-forge-1.20.1-18.2.5.jar",
@@ -726,6 +731,11 @@
     "jarName": "kubejs-forge-2001.6.5-build.16.jar",
     "modId": "kubejs",
     "version": "2001.6.5-build.16"
+  },
+  "kubejs-mekanism-forge-2001.1.5.1-build.2.jar": {
+    "jarName": "kubejs-mekanism-forge-2001.1.5.1-build.2.jar",
+    "modId": "kubejs_mekanism",
+    "version": "2001.1.5.1-build.2"
   },
   "kubejs-thermal-2001.1.10-build.2.jar": {
     "jarName": "kubejs-thermal-2001.1.10-build.2.jar",

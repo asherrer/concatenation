@@ -30,7 +30,8 @@ ServerEvents.recipes(event => {
                 'reliquary:interdiction_torch',
                 'reliquary:salamander_eye',
                 'reliquary:magicbane',
-                'concatenationcore:gold_stick'
+                'concatenationcore:gold_stick',
+                'ars_nouveau:thread_undying'
         ]
 
         remove.forEach(item => {
@@ -480,6 +481,13 @@ ServerEvents.recipes(event => {
                 ['theurgy:alchemical_salt_mineral', 'theurgy:sal_ammoniac_crystal', 'theurgy:alchemical_salt_mineral', 'theurgy:sal_ammoniac_crystal', 'theurgy:alchemical_salt_mineral', 'ars_elemental:lesser_earth_focus', 'theurgy:alchemical_salt_mineral', 'ars_elemental:lesser_air_focus'],
                 'ars_nouveau:fire_essence',
                 'projecte:high_covalence_dust',
+                5000,
+                true
+        )
+        event.recipes.ars_nouveau.enchanting_apparatus(
+                ['minecraft:totem_of_undying', 'ars_nouveau:abjuration_essence', 'ars_nouveau:abjuration_essence', 'minecraft:phantom_membrane', 'minecraft:phantom_membrane', 'reliquary:phoenix_down'],
+                'ars_nouveau:blank_thread',
+                'ars_nouveau:thread_undying',
                 5000,
                 true
         )
