@@ -21,6 +21,11 @@ ServerEvents.recipes(event => {
         event.remove({ output: 'patchouli:guide_book', type: 'minecraft:crafting_shapeless' })
         event.remove({ output: 'born_in_chaos_v1:dark_metal_nugget', type: 'minecraft:crafting_shapeless' })
 
+        event.remove({ output: 'minecraft:chainmail_helmet', type: 'minecraft:crafting_shaped' })
+        event.remove({ output: 'minecraft:chainmail_chestplate', type: 'minecraft:crafting_shaped' })
+        event.remove({ output: 'minecraft:chainmail_leggings', type: 'minecraft:crafting_shaped' })
+        event.remove({ output: 'minecraft:chainmail_boots', type: 'minecraft:crafting_shaped' })
+
         event.shapeless(
                 Item.of('patchouli:guide_book', '{"patchouli:book":"via_romana:guide"}'),
                 [
@@ -571,4 +576,170 @@ ServerEvents.recipes(event => {
                         'celestisynth:solar_crystal'
                 ]
         )
+
+        // The World
+        event.shaped(
+                Item.of('concatenationcore:aeon'),
+                [
+                        'ABA',
+                        'CDE',
+                        'AFA'
+                ],
+                {
+                        F: 'concatenationcore:eternel_sud',
+                        E: 'concatenationcore:eternel_est',
+                        B: 'concatenationcore:eternel_nord',
+                        C: 'concatenationcore:eternel_ouest',
+                        A: 'concatenationcore:gold_paper',
+                        D: 'ae2:singularity'
+                }
+        )
+        event.shaped(
+                Item.of('concatenationcore:eternel_nord'),
+                [
+                        'ABC',
+                        'BDB',
+                        'EBF'
+                ],
+                {
+                        F: 'tarotcards:the_emperor',
+                        D: 'tarotcards:wheel_of_fortune',
+                        A: 'tarotcards:the_empress',
+                        B: 'concatenationcore:glowing_gold_block',
+                        C: 'tarotcards:death',
+                        E: 'tarotcards:the_chariot'
+                }
+        )
+        event.shaped(
+                Item.of('concatenationcore:eternel_ouest'),
+                [
+                        'ABC',
+                        'BDB',
+                        'EBF'
+                ],
+                {
+                        D: 'tarotcards:justice',
+                        B: 'concatenationcore:glowing_gold_block',
+                        E: 'tarotcards:the_tower',
+                        C: 'tarotcards:the_hierophant',
+                        F: 'tarotcards:the_hermit',
+                        A: 'tarotcards:the_high_priestess'
+                }
+        )
+        event.shaped(
+                Item.of('concatenationcore:eternel_sud'),
+                [
+                        'ABC',
+                        'BDB',
+                        'EBF'
+                ],
+                {
+                        E: 'tarotcards:the_hanged_man',
+                        F: 'tarotcards:the_lovers',
+                        C: 'tarotcards:the_sun',
+                        B: 'concatenationcore:glowing_gold_block',
+                        D: 'tarotcards:strength',
+                        A: 'tarotcards:judgement'
+                }
+        )
+        event.shaped(
+                Item.of('concatenationcore:eternel_est'),
+                [
+                        'ABC',
+                        'BDB',
+                        'EBF'
+                ],
+                {
+                        C: 'tarotcards:the_star',
+                        D: 'tarotcards:the_devil',
+                        E: 'tarotcards:temperance',
+                        B: 'concatenationcore:glowing_gold_block',
+                        A: 'tarotcards:the_magician',
+                        F: 'tarotcards:the_moon'
+                }
+        )
+        event.shaped(
+                Item.of('tarotcards:the_world'),
+                [
+                        'ABA',
+                        'CDE',
+                        'AFA'
+                ],
+                {
+                        F: 'concatenationcore:the_error',
+                        D: 'concatenationcore:aeon',
+                        A: 'concatenationcore:gold_paper',
+                        E: 'projecte:red_matter',
+                        C: 'create:shadow_steel',
+                        B: 'tarotcards:the_fool'
+                }
+        )
+        event.shaped(
+                Item.of('tarotcards:temperance'),
+                [
+                        'ABA',
+                        'BCB',
+                        'ABA'
+                ],
+                {
+                        A: 'minecraft:redstone',
+                        B: 'concatenationcore:silver_paper',
+                        C: 'tarotcards:the_world'
+                }
+        ).keepIngredient('tarotcards:the_world')
+        event.shaped(
+                Item.of('tarotcards:the_magician'),
+                [
+                        'ABA',
+                        'BCB',
+                        'ABA'
+                ],
+                {
+                        A: 'elementalcraft:inert_crystal',
+                        C: 'tarotcards:the_world',
+                        B: 'concatenationcore:silver_paper'
+                }
+        ).keepIngredient('tarotcards:the_world')
+        event.shaped(
+                Item.of('tarotcards:the_hierophant'),
+                [
+                        'ABA',
+                        'BCB',
+                        'ABA'
+                ],
+                {
+                        A: 'minecraft:iron_ingot',
+                        C: 'tarotcards:the_world',
+                        B: 'concatenationcore:silver_paper'
+                }
+        ).keepIngredient('tarotcards:the_world')
+        event.shaped(
+                Item.of('tarotcards:the_hermit'),
+                [
+                        'ABA',
+                        'BCB',
+                        'ABA'
+                ],
+                {
+                        A: 'minecraft:clay_ball',
+                        C: 'tarotcards:the_world',
+                        B: 'concatenationcore:silver_paper'
+                }
+        ).keepIngredient('tarotcards:the_world')
+        event.shaped(
+                Item.of('tarotcards:the_fool'),
+                [
+                        'ABC',
+                        'BDB',
+                        'EBF'
+                ],
+                {
+                        C: 'minecraft:rabbit_foot',
+                        E: 'minecraft:coarse_dirt',
+                        F: 'minecraft:writable_book',
+                        B: 'concatenationcore:gold_paper',
+                        D: 'tarotcards:the_world',
+                        A: 'immersive_weathering:moss_clump'
+                }
+        ).keepIngredient('tarotcards:the_world')
 });

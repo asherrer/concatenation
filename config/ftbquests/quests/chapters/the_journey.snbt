@@ -776,15 +776,33 @@
 			description: [
 				"If you happen to find many tarot cards like I do, you can store them in the Tarot Deck and still retain every effect with them inside."
 				""
+				"Applying a soulbound enchantment to a tarot deck will prove very useful. If you ever happen to lose it."
+				""
 				"{@pagebreak}"
 				"However, the minor arcana hands do not grant you extra hearts while they're inside of the Tarot Deck, despite being able to fit them inside. What a shame."
 			]
 			id: "258486DCF3CBD479"
-			rewards: [{
-				id: "5737DCC9C3196B2B"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "5737DCC9C3196B2B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "085EA378FDA320B7"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "ars_elemental:soulbound"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "1ED754487E1000F1"
 				item: {
@@ -863,6 +881,7 @@
 				"Either the small hull or the train car is the start to a logistics system common to both holders of the Hierophant card and Hermit card."
 			]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "1D9002F6E0272ABC"
 			min_required_dependencies: 1
 			rewards: [{
@@ -2002,6 +2021,7 @@
 		}
 		{
 			dependencies: ["73CD8163D268BA95"]
+			description: ["This strange sword resonates with the essence of experience within the body, ripping it out as small, marble-sized spheres. A small pain as the price of progress. It purges your inner experience into dark blue globby orbs. They can be consumed again to regain your levels."]
 			icon: {
 				Count: 1
 				id: "concatenationcore:shrike"
@@ -2063,6 +2083,7 @@
 				title: "Shrike or Experience Item"
 				type: "item"
 			}]
+			title: "Shrike"
 			x: -4.5d
 			y: -7.0d
 		}
@@ -4428,6 +4449,11 @@
 		}
 		{
 			dependencies: ["71BB28D5234F5991"]
+			description: [
+				"Most mage equipment can seem very unbecoming of most mages, but serve great utility. The enchanter's wand and mirror both provide a discount on spells inscribed and provide additional amplification and duration respectively."
+				""
+				"The Enchanter's Shield is used to block attacks effectively and converts the damage into a short burst of extra mana regeneration and spell damage."
+			]
 			hide_dependency_lines: true
 			id: "09D828A8998F6CAD"
 			rewards: [{
@@ -4507,11 +4533,17 @@
 				title: "Any Mage Equipment"
 				type: "item"
 			}]
+			title: "Mage Equipment"
 			x: 9.5d
 			y: 18.0d
 		}
 		{
 			dependencies: ["71BB28D5234F5991"]
+			description: [
+				"The Sorcerer set is one of the three first available sets of specialized clothing for mages. Compared to the arcanist and battlemage variants, it provides the least defensive prowess but the highest amount of threads can be woven into it, greatly increasing the magical customability of the set."
+				""
+				"It is woven from gold and magebloom fiber."
+			]
 			id: "6BE193169C2DB9F9"
 			rewards: [{
 				id: "3C83010A5E60989E"
@@ -4590,6 +4622,11 @@
 		}
 		{
 			dependencies: ["71BB28D5234F5991"]
+			description: [
+				"The Arcanist set is one of the three first available sets of specialized clothing for mages. Compared to the sorcerer and battlemage variants, it provides a balance between defensive necessity and thread capacity."
+				""
+				"It is woven from iron and magebloom fiber."
+			]
 			id: "09B5ECAA8C4F6057"
 			rewards: [{
 				id: "10A0455C36414BD6"
@@ -4668,6 +4705,11 @@
 		}
 		{
 			dependencies: ["71BB28D5234F5991"]
+			description: [
+				"The Battlemage set is one of the three first available sets of specialized clothing for mages. Compared to the sorcerer and arcanist variants, it provides a balance between the most oustanding defence, but the least room for threads."
+				""
+				"It is woven from diamond and magebloom fiber."
+			]
 			id: "7636B9A479C4AB82"
 			rewards: [{
 				id: "32F2BF3904478118"
@@ -4746,13 +4788,25 @@
 		}
 		{
 			dependencies: ["15F2CFDE130BEC2D"]
+			description: [
+				"The Technomancer set is the most unique, not following an elemental school and instead being a product of a fusion with the adjacent Tower pathway."
+				""
+				"Personally, it is my archmage set of choice. While it doesn't boast an elemental affinity of increasing a certain elemental spell's potency and reducing damage of a specific source, it does feature slightly higher mana regeneration and capacity. It does reduce damage from Tower pathway machinery."
+			]
 			hide_dependency_lines: true
 			id: "7D7E738B3324CCC3"
-			rewards: [{
-				id: "28A16E64CB545291"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "60FE133B2BDD0D5E"
+					item: "ars_elemental:anima_essence"
+					type: "item"
+				}
+				{
+					id: "799B22B4E881F190"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [
 				{
 					id: "638B1966F303EB81"
@@ -4824,13 +4878,25 @@
 		}
 		{
 			dependencies: ["15F2CFDE130BEC2D"]
+			description: [
+				"The Aethermancer set is one of the archmage robes available, customary of the School of Air, amplifying most air-type spells and increasing their potency. Damage related to air such as falling or flying is reduced, on top of converting part of damage into mana."
+				""
+				"This set is one of the available upgrade over the previous tier of mage armor, granting higher mana capacity and regeneration."
+			]
 			hide_dependency_lines: true
 			id: "5AC8D71864EEA396"
-			rewards: [{
-				id: "6C5423F7820641BE"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "377B416EC2514ED3"
+					item: "ars_elemental:air_bangle"
+					type: "item"
+				}
+				{
+					id: "0FADBB4832E9BC4B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [
 				{
 					id: "2C5010202A9231EA"
@@ -4902,13 +4968,25 @@
 		}
 		{
 			dependencies: ["15F2CFDE130BEC2D"]
+			description: [
+				"The Aquamancer set is is one of the archmage robes available, customary of the School of Water, amplifying most water-type spells and increasing their potency. Oxygen will be refilled when underwater, damage from water sources is decreased, on top of converting part of damage into mana."
+				""
+				"This set is one of the available upgrade over the previous tier of mage armor, granting higher mana capacity and regeneration."
+			]
 			hide_dependency_lines: true
 			id: "684EC9A9A6EF71CF"
-			rewards: [{
-				id: "30E5A41F23D31235"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "199C9A25C51090AB"
+					item: "ars_elemental:water_bangle"
+					type: "item"
+				}
+				{
+					id: "1112B57A8106E3D7"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [
 				{
 					id: "29012A41BEF6F8EA"
@@ -4980,13 +5058,25 @@
 		}
 		{
 			dependencies: ["15F2CFDE130BEC2D"]
+			description: [
+				"The Pyromancer set is one of the archmage robes available, customary of the School of Fire, amplifying most fire-type spells and increasing their potency. Fire damage will expand mana instead of causing damage. Fire is instantly put out, damage from fire sources is decreased, on top of converting part of damage into mana."
+				""
+				"This set is one of the available upgrade over the previous tier of mage armor, granting higher mana capacity and regeneration."
+			]
 			hide_dependency_lines: true
 			id: "7D40DE3BA384AFB0"
-			rewards: [{
-				id: "5B17F9F5FF3CAB51"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "337B01B71E019193"
+					item: "ars_elemental:fire_bangle"
+					type: "item"
+				}
+				{
+					id: "301F69C0C66E974A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [
 				{
 					id: "0F2122FDC378B0B9"
@@ -5058,13 +5148,25 @@
 		}
 		{
 			dependencies: ["15F2CFDE130BEC2D"]
+			description: [
+				"The Geomancer set is is one of the archmage robes available, customary of the School of Earth, amplifying most earth-type spells and increasing their potency. Damage related to earth such as falling or flying is reduced, on top of refilling hunger when deep underground and converting part of damage into mana."
+				""
+				"This set is one of the available upgrade over the previous tier of mage armor, granting higher mana capacity and regeneration."
+			]
 			hide_dependency_lines: true
 			id: "61915BF7CF963C6C"
-			rewards: [{
-				id: "0E59F3002D523EA6"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "4CCE562AEEB7E3F7"
+					item: "ars_elemental:earth_bangle"
+					type: "item"
+				}
+				{
+					id: "3E55C9F1590A5564"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [
 				{
 					id: "7EA377B5F7B980C0"
@@ -5136,7 +5238,11 @@
 		}
 		{
 			dependencies: ["54DA52C7F14D64E9"]
-			description: [""]
+			description: [
+				"The enchanting apparatus is the centerpiece of a mage's work. At the center sits the apparatus itself and an arcane core below. Arrayed around it are generally from 4 to 8 arcane pedestals to place ingredients for rituals."
+				""
+				"While not strictly required, true mages will enjoy a decorative circular pattern on the floor mystically linking the pedestals to the arcane core.  "
+			]
 			icon: "ars_nouveau:enchanting_apparatus"
 			id: "71BB28D5234F5991"
 			rewards: [
@@ -5274,6 +5380,13 @@
 				"6BE193169C2DB9F9"
 			]
 			dependency_requirement: "one_completed"
+			description: [
+				"The alteration table is used by mages to embed and remove threads from their armour or robes. Each piece of clothing has a certain amount of threads it can accodomate, based on its tier. The sorcerer's set allows for the most threads compared to the other sets."
+				""
+				"Each thread slot has a corresponding tier, strengthening the effect of the thread."
+				"{@pagebreak}"
+				"Mage armour can be upgraded in the enchanting apparatus with two blaze rods for the first tier, then chorus fruit and two enderpearls for the second tier, each granting an increase in mana capacity and regeneration."
+			]
 			hide_dependency_lines: true
 			id: "44240C2BEF40998D"
 			rewards: [{
@@ -5294,7 +5407,7 @@
 				}
 				type: "item"
 			}]
-			x: 13.5d
+			x: 13.0d
 			y: 20.5d
 		}
 		{
@@ -5379,11 +5492,16 @@
 		}
 		{
 			dependencies: ["44240C2BEF40998D"]
+			description: [
+				"Out of the common threads, the most frequently used are the ones of mana capacity and spell damage. This greatly increases any mage's capabilities."
+				""
+				"Highly prized rarer threads are those of the undying and gliding."
+			]
 			id: "6889E63B4D46CD15"
 			rewards: [{
-				id: "3AD8D31C8E5B323F"
-				type: "xp_levels"
-				xp_levels: 3
+				id: "17619523AC99E96E"
+				item: "ars_nouveau:thread_magic_capacity"
+				type: "item"
 			}]
 			tasks: [{
 				id: "356861E39880C64C"
@@ -5610,16 +5728,23 @@
 				title: "Any Thread"
 				type: "item"
 			}]
+			title: "Threads"
 			x: 14.0d
 			y: 21.5d
 		}
 		{
 			dependencies: ["71BB28D5234F5991"]
+			description: [
+				"The ritual brazier is used to perform, well, rituals. A tablet can be placed on top and activated to start one of the rites."
+				""
+				"The brazier is also used as a decoration piece. I was surprised to find mages lighting up ritual braziers with magelight below the columns of their temples when they weren't in use."
+			]
 			id: "3683C013E2CDB6DC"
 			rewards: [{
-				id: "1970C1FEFAC9AD75"
-				type: "xp_levels"
-				xp_levels: 1
+				count: 2
+				id: "263BFB7174F5E9F3"
+				item: "ars_nouveau:ritual_brazier"
+				type: "item"
 			}]
 			tasks: [{
 				id: "2BD85D3AB1DDBDA9"
@@ -5639,6 +5764,11 @@
 		}
 		{
 			dependencies: ["3683C013E2CDB6DC"]
+			description: [
+				"Wilden can be found in nature living in dens, aggressive to the humans that may surround them. As mages hunted down these beasts for their horns, spikes, and wings, they've become rarer to find. "
+				""
+				"Elder mages have sought to resolve this issue by creating a ritual to borrow power from the wilden chimeras, summoning wilden beasts at will. "
+			]
 			id: "4FD664E0F7A92893"
 			rewards: [{
 				count: 3
@@ -5708,11 +5838,21 @@
 					type: "item"
 				}
 			]
+			title: "The Wilden"
 			x: 16.0d
 			y: 19.5d
 		}
 		{
 			dependencies: ["4FD664E0F7A92893"]
+			description: [
+				"The cost of borrowing chimeral power came at a severe backlash. When augmented with every wilden parts, the wilden chimera will usurp the ritual and be summoned instead, to punish the hunter of its kin."
+				""
+				"I've been a witness to such a summoning, the area around the brazier left devastated in the aftermath of multiple mages battling against the chimera."
+				"{@pagebreak}"
+				"Nowadays, with greater knowledge of the wilden, many mages aspiring to become archmages intentionally summon wilden chimeras to gain their tribute."
+				""
+				"Fighting against the chimera has become significantly easier now with elder archmages posessing ever more destructive power than their earlier mages could dream of."
+			]
 			id: "65C15526A590FDF9"
 			rewards: [{
 				id: "08EB47A75EF9F571"
@@ -5738,6 +5878,11 @@
 		}
 		{
 			dependencies: ["3683C013E2CDB6DC"]
+			description: [
+				"Out of the common rituals, the most frequently used are often the rituals of flight, restoration or those used to acquire familiars and summon wilden to fight."
+				"{@pagebreak}"
+				"The ritual of flight can provide the ability of flight to anyone jumping close to the brazier. Each time, this will expand some source. I had come across a cathedral on my travels, the centerpiece of a town known as Sparkon. At the altar, below an upside down cross laid a brazier, providing free movement to all priests within their cathedral and libraries."
+			]
 			id: "4080496891426ACB"
 			rewards: [{
 				id: "5D414DE3A1358F51"
@@ -6005,11 +6150,21 @@
 				title: "Any Ritual except Wilden"
 				type: "item"
 			}]
+			title: "Ritual Tablet"
 			x: 17.0d
 			y: 18.5d
 		}
 		{
 			dependencies: ["71BB28D5234F5991"]
+			description: [
+				"Mages can use various curios to supplement their equipment."
+				""
+				"The one found the most useful by mages are the discount rings to minimize mana consumption in spellcasting. Similarly, the rings of mana regeneration are also frequently used."
+				"{@pagebreak}"
+				"More underrated are the Belt of Levitation and the Belt of Unstable Gifts. I have witnessed an old air mage make use of levitation to ease travel through the mountains."
+				""
+				"While the effect of the unstable gifts is completely up to luck, the effects are very beneficial most of the time."
+			]
 			hide_dependency_lines: true
 			id: "6825EAE108FEAE02"
 			rewards: [{
@@ -6098,11 +6253,13 @@
 				title: "Any Small Mage Equipment"
 				type: "item"
 			}]
+			title: "Mage Trinkets"
 			x: 8.5d
 			y: 18.5d
 		}
 		{
 			dependencies: ["71BB28D5234F5991"]
+			description: ["The mage spellbook is an upgrade to the prior novice spellbook, able to adapt to more glyphs. It is the catalyst to mint a proper new mage, able to use most spells and rituals bestowed to us by source."]
 			id: "3CB40DE1FBC306E5"
 			rewards: [{
 				id: "741344787E0D91AD"
@@ -6209,13 +6366,27 @@
 				"1E37E99BEE301A2A"
 				"5306B96BF30D32BD"
 			]
+			description: [
+				"The archmage spellbook is the final tier of spellbook, the archmage's most trusted weapon and tool. It is capable of accommodating every spell glyph. Its pages are woven from pages that have seen the countless experience of a myriad of beings, greater elemental focuses serving as expensive page markers."
+				""
+				"While the journey of most mages was to become an archmage, making their lifegoal to acquire such a powerful tome, my experience was quite lamentable. Gone was the established society of magic. I had found an archmage's spellbook on the ruined ground of a magetower, the only tower left standing of a once grand castle complex."
+			]
 			id: "199BA50861FD9E27"
-			rewards: [{
-				id: "7E88C8DE3AC63F74"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "635EBC8833D6D99E"
+					table_id: 6071230649246874805L
+					type: "choice"
+				}
+				{
+					id: "2CEF4CE753709AFB"
+					type: "xp_levels"
+					xp_levels: 33
+				}
+			]
 			size: 1.1d
+			subtitle: "Archmage's Testament"
 			tasks: [{
 				id: "6401066FB519A6AC"
 				item: {
@@ -6234,6 +6405,7 @@
 		}
 		{
 			dependencies: ["65C15526A590FDF9"]
+			description: ["The mark of mastery is a testament to an aspiring archmage's knowledge and ability. To form such a mark, one must not only produce every essence, including the anima essence, but also defeat a chimera."]
 			id: "15F2CFDE130BEC2D"
 			rewards: [{
 				id: "676B2E0A757A9EF0"
@@ -6258,6 +6430,7 @@
 		}
 		{
 			dependencies: ["71BB28D5234F5991"]
+			description: ["A spell focus is a curio used to amplify the power and provide a mana discount to a spell of a specific elemental school, while weakening spells of other schools as a counterbalance."]
 			id: "0E552646DDCDCA4A"
 			rewards: [{
 				id: "5EC7F5B1788B35A5"
@@ -6318,13 +6491,19 @@
 				title: "Any Lesser Focus"
 				type: "item"
 			}]
-			x: 16.5d
+			title: "Lesser Focuses"
+			x: 17.0d
 			y: 22.5d
 		}
 		{
 			dependencies: [
 				"0E552646DDCDCA4A"
 				"15F2CFDE130BEC2D"
+			]
+			description: [
+				"The greater focuses no longer weaken the effects of other elemetal schools on top of providing a special elemental effect. For instance, the greater focus of fire provides Spell Damage II when on fire."
+				""
+				"There exists the focus of summoning and the focus of necromancy, providing more power in those domains."
 			]
 			id: "1E37E99BEE301A2A"
 			rewards: [{
@@ -6392,6 +6571,7 @@
 		}
 		{
 			dependencies: ["4080496891426ACB"]
+			description: ["Experience gems born from source are created from the use of disintegration rituals. This will dissolve most beings into experience shards, which can be condensed and purified into larger chunks."]
 			id: "5306B96BF30D32BD"
 			rewards: [{
 				id: "120B88DB32F49761"
@@ -6526,6 +6706,7 @@
 		}
 		{
 			dependencies: ["03F5F8D8A4E7D749"]
+			description: ["Source relays can transmit source from jars to another using a dominion wand to direct the leylines."]
 			id: "5A785E9F42A6E64E"
 			rewards: [{
 				id: "1A154933D0657AFB"
@@ -6550,16 +6731,16 @@
 		}
 		{
 			dependencies: ["032A60B0D79C6ACB"]
+			description: [
+				"The Witch Covens are scattered throughout the world, housing gathering of witches. These come in many forms, from elaborate villages to walking houses."
+				""
+				"Witches of the Temperance pathway will especially find these structures useful to gather materials and magical ingredients."
+			]
 			id: "0F56E99C05BFF14A"
 			rewards: [{
 				id: "3179F5426DB12847"
 				item: {
 					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
 					id: "hexerei:warhammer"
 					tag: {
 						Damage: 0
@@ -6571,11 +6752,6 @@
 				{
 					icon: {
 						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
 						id: "hexerei:witch_helmet"
 						tag: {
 							Damage: 0
@@ -6583,16 +6759,12 @@
 					}
 					id: "02D3401CD427C0FE"
 					structure: "hexerei:witch_hut"
+					title: "Find a Witch hut"
 					type: "structure"
 				}
 				{
 					icon: {
 						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
 						id: "hexerei:witch_helmet"
 						tag: {
 							Damage: 0
@@ -6600,16 +6772,12 @@
 					}
 					id: "4F626ADE82098BF1"
 					structure: "hexerei:baba_yaga_hut"
+					title: "Find a Baba Yaga Hut"
 					type: "structure"
 				}
 				{
 					icon: {
 						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
 						id: "hexerei:mushroom_witch_hat"
 						tag: {
 							Damage: 0
@@ -6617,16 +6785,12 @@
 					}
 					id: "1DBFDF594BCA3C76"
 					structure: "hexerei:nature_coven"
+					title: "Find a Nature Coven"
 					type: "structure"
 				}
 				{
 					icon: {
 						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
 						id: "hexerei:mushroom_witch_hat"
 						tag: {
 							Damage: 0
@@ -6634,10 +6798,11 @@
 					}
 					id: "50C3C8F97EDDB2E3"
 					structure: "hexerei:dark_coven"
+					title: "Find a Dark Coven"
 					type: "structure"
 				}
 			]
-			title: "Find a Witch's Hut"
+			title: "Find the Witch Covens"
 			x: 1.5d
 			y: -8.5d
 		}
@@ -6933,7 +7098,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: -4.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["0CC91D0458ACB827"]
@@ -7840,7 +8005,7 @@
 			description: [
 				"The &4Moon Pathway&r delves further into the occult rather than witchcraft."
 				"{@pagebreak}"
-				"It is adjacent to the T&cemperance Pathway&r and &fStar Pathway&r."
+				"It is adjacent to the &cTemperance Pathway&r and &fStar Pathway&r."
 			]
 			hide_dependency_lines: true
 			id: "00E41146BE22270E"
@@ -10466,7 +10631,7 @@
 		}
 		{
 			dependencies: ["3B8127AF958727B0"]
-			description: ["This strange sword resonates with the essence of experience within the body, ripping it out as small, marble-sized spheres. A small pain as the price of progress."]
+			description: ["This strange sword resonates with the essence of experience within the body, ripping it out as small, marble-sized spheres. A small pain as the price of progress. It purges your inner experience into dark blue globby orbs. They can be consumed again to regain your levels."]
 			hide_dependency_lines: true
 			id: "5D6BE53739B45840"
 			rewards: [{
@@ -10930,6 +11095,11 @@
 		{
 			dependencies: ["4E774C5B363CBBA8"]
 			id: "2DE29DAA653712BC"
+			rewards: [{
+				id: "0477F7057FE98234"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "094DF5C695BC0973"
@@ -11002,6 +11172,11 @@
 		{
 			dependencies: ["07C4F5356EFBBE09"]
 			id: "464302EAA7B02567"
+			rewards: [{
+				id: "0D992D2A8F6D930B"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "1835B07E9B101DCF"
@@ -11215,7 +11390,18 @@
 		}
 		{
 			dependencies: ["3F86C492412EBA3F"]
+			description: [
+				"The gunsmith table is a worktable for.. gunsmiths. Various firearms can be crafted on this table, from small handguns to assault rifles and even RPGs."
+				""
+				"Most firearms require a substantial amount of aluminium to manufacture, to keep the gun as light and effective as possible."
+			]
 			id: "736444B92EEE2C59"
+			rewards: [{
+				count: 18
+				id: "750AE04754ADA059"
+				item: "tfmg:aluminum_ingot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6AF26A28A43B28CD"
 				item: {
@@ -11229,12 +11415,20 @@
 				}
 				type: "item"
 			}]
+			title: "Gun Smith Table"
 			x: -5.0d
 			y: 23.0d
 		}
 		{
 			dependencies: ["3F86C492412EBA3F"]
+			description: ["The assembly table well into disuse for most engineers of the Tower pathway, as it is more effective to mass produce ammunition."]
 			id: "3E615BD9F6833A17"
+			rewards: [{
+				count: 4
+				id: "500CDD4D3D835AE5"
+				item: "thermal:gunpowder_block"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2BA6EF725500BE0F"
 				item: {
@@ -11251,12 +11445,20 @@
 				}
 				type: "item"
 			}]
+			title: "Ammo Assembly Table"
 			x: -5.0d
 			y: 24.0d
 		}
 		{
 			dependencies: ["3F86C492412EBA3F"]
+			description: ["The attachment table can be used to fit guns with attachments."]
 			id: "42CCA888F4282961"
+			rewards: [{
+				count: 4
+				id: "505619F96E4CCF9B"
+				item: "ae2:quartz_glass"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5860E1CC9E447DFD"
 				item: {
@@ -11273,6 +11475,7 @@
 				}
 				type: "item"
 			}]
+			title: "Attachment Table"
 			x: -5.0d
 			y: 22.0d
 		}
@@ -11324,6 +11527,11 @@
 		{
 			dependencies: ["04DD33AF3AA672CD"]
 			id: "07C4F5356EFBBE09"
+			rewards: [{
+				id: "55CCD62C543858C4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "04F3C6CC6587F22C"
 				item: {
@@ -11343,6 +11551,11 @@
 		{
 			dependencies: ["188786E302DE3681"]
 			id: "4E774C5B363CBBA8"
+			rewards: [{
+				id: "42340BF9AE893BAD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "5D74579C489A3C40"
 				item: {
@@ -11361,7 +11574,17 @@
 		}
 		{
 			dependencies: ["3060CAEE078FE9A0"]
+			description: [
+				"Lunar stone is usually found deep underground in a large cluster filled with water, forming a lunar lake within the earth."
+				""
+				"This stone can be simply smelted to produce lunar scrap."
+			]
 			id: "04DD33AF3AA672CD"
+			rewards: [{
+				id: "4654BAA10939126C"
+				item: "concatenationcore:celestial_calralite"
+				type: "item"
+			}]
 			tasks: [{
 				id: "77FD222FE93D39A2"
 				item: {
@@ -11380,7 +11603,17 @@
 		}
 		{
 			dependencies: ["3060CAEE078FE9A0"]
+			description: [
+				"Solar crystals is usually found in the nether, forming around large glowstone deposits. "
+				""
+				"While this is the most common description I've heard, since solar crystals can be cut into glowstone, I would hypothesize that glowstone might originate, at least in part, from solar crystals."
+			]
 			id: "188786E302DE3681"
+			rewards: [{
+				id: "6DAFC9A95FA43449"
+				item: "concatenationcore:celestial_calralite"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1B0C47A414303768"
 				item: {
@@ -11400,6 +11633,11 @@
 		{
 			dependencies: ["3060CAEE078FE9A0"]
 			id: "05C581711196984B"
+			rewards: [{
+				id: "4C6251D92FD0715D"
+				item: "minecraft:end_crystal"
+				type: "item"
+			}]
 			tasks: [{
 				id: "34E1AC7B49E27A8F"
 				item: {
@@ -11587,7 +11825,7 @@
 				type: "item"
 			}]
 			title: "&4Death"
-			x: 4.6d
+			x: 5.1d
 			y: -10.924999999999999d
 		}
 		{
@@ -12445,6 +12683,7 @@
 		}
 		{
 			dependencies: ["3F86C492412EBA3F"]
+			description: ["The Swords is a minor arcana under the Judgement pathway, specializing into the manufacturing of highly durable military-grade armour, whatever that means."]
 			id: "6CC9A41A95921C52"
 			rewards: [{
 				id: "3ACCED049E01FB49"
@@ -12471,7 +12710,13 @@
 		}
 		{
 			dependencies: ["6CC9A41A95921C52"]
+			description: ["Steel Hadfield Sheets are high-manganese steel plates known for exceptional toughness and resistance to heavy impact and abrasion. They are used in the making of extremely tough armour."]
 			id: "029A616076E8CEAE"
+			rewards: [{
+				id: "284F92C44AB437E0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "17C24A0871FC42C7"
 				item: {
@@ -12599,7 +12844,13 @@
 		}
 		{
 			dependencies: ["3D1C47F3A9B804B4"]
+			description: ["The heavy plate carrier can also be worn under clothing or armour &a(in the body curio slot)&r to stealthily provide extra armour protection. Although, while the light plate carrier can be said to be almost perfectly hidden, this heavier version clearly does not have that feature."]
 			id: "712FD01B1CB5EEF3"
+			rewards: [{
+				id: "16CDE422A75A5E6F"
+				item: "concatenationcore:celestial_calralite"
+				type: "item"
+			}]
 			tasks: [{
 				id: "04AB26AF28993EB0"
 				item: {
@@ -12660,7 +12911,13 @@
 		}
 		{
 			dependencies: ["6CC9A41A95921C52"]
+			description: ["There exists multiple variants of reinforced steel armor, providing greater integral protection to the body."]
 			id: "29C748557EA45B70"
+			rewards: [{
+				id: "2611BEAB8930869B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "6B6CD94704294BCD"
@@ -12838,6 +13095,12 @@
 		{
 			dependencies: ["029A616076E8CEAE"]
 			id: "4EF9BDAC561DFDAF"
+			rewards: [{
+				count: 16
+				id: "3383B3D86206E778"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "0EB221D533EE475D"
@@ -13014,7 +13277,14 @@
 		}
 		{
 			dependencies: ["3D1C47F3A9B804B4"]
+			description: ["Juggernaut armor provides a supreme amount of sheer protective prowess and boasts lifelong durability. However, it lacks special abilities that other specialized armour sets provide."]
 			id: "3A0F056B68D9A24F"
+			rewards: [{
+				count: 8
+				id: "53A0B978E2487FBF"
+				item: "mcore:titanium_ingot"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "2FC107F45FE60E88"
@@ -13191,7 +13461,17 @@
 		}
 		{
 			dependencies: ["029A616076E8CEAE"]
+			description: [
+				"Vultanium is a rare, ultra-durable alloy famed for its incredible strength-to-weight ratio and natural resistance to corrosion, heat, and magical or radiation-based damage, making it prized in modern weaponry."
+				""
+				"Vultanium Sheets are rolled or forged plates of pure Vultanium, offering the same near-indestructible qualities of the base metal in a convenient, workable form for constructing armor plating."
+			]
 			id: "3D1C47F3A9B804B4"
+			rewards: [{
+				id: "4B6958BF47F02D5E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "621EE6EB87B3D18A"
 				item: {
@@ -13210,7 +13490,13 @@
 		}
 		{
 			dependencies: ["736444B92EEE2C59"]
+			description: ["It's easy to run with an AUG. Or at least that's what one of my companions kept telling me. I had a Hermit friend who built his own AUG after weeks of harvesting and processing enough aluminium to make his shiny new weapon."]
 			id: "4105237B1616EEE2"
+			rewards: [{
+				id: "2A8BB75BBB2578AD"
+				item: "farmersdelight:egg_sandwich"
+				type: "item"
+			}]
 			size: 1.1d
 			tasks: [{
 				id: "43CCF0231E5865F5"
@@ -14786,6 +15072,7 @@
 		}
 		{
 			dependencies: ["662F8F7426A07A9D"]
+			hide_until_deps_complete: true
 			id: "137E5079D198BF5C"
 			tasks: [{
 				id: "4439131F8691DB5B"
@@ -15345,6 +15632,7 @@
 			dependency_requirement: "one_completed"
 			hide_dependency_lines: true
 			hide_dependent_lines: true
+			hide_until_deps_complete: true
 			id: "4E4E81226BED0E7C"
 			rewards: [{
 				id: "1BF473F4724D7AFF"
@@ -15373,6 +15661,7 @@
 			]
 			dependency_requirement: "one_completed"
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "0D61335A0B07300D"
 			rewards: [
 				{
@@ -16991,6 +17280,7 @@
 		}
 		{
 			dependencies: ["344B314D434D12C1"]
+			description: ["Refined glowstone is considered a holy material."]
 			id: "648919584EBC4E4D"
 			tasks: [
 				{
@@ -17247,6 +17537,7 @@
 				"2157576FC7005917"
 			]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "679D7B535BE7E8B2"
 			rewards: [{
 				id: "4F1FA52B077C21EB"
@@ -17273,6 +17564,12 @@
 		{
 			dependencies: ["679D7B535BE7E8B2"]
 			id: "4B37E82CEEAACF03"
+			rewards: [{
+				count: 3
+				id: "30DC4F1C0AE7F06A"
+				item: "psi:psimetal"
+				type: "item"
+			}]
 			tasks: [{
 				id: "09F6EDFB83D82D8D"
 				item: {
@@ -17348,6 +17645,11 @@
 				"51D3EFAF0C58197A"
 			]
 			id: "20B05E0586A665F7"
+			rewards: [{
+				id: "3B831CF64780D539"
+				item: "concatenationcore:antimony"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3B84E2040FAC8E12"
 				item: {
@@ -17371,6 +17673,11 @@
 			]
 			hide_dependency_lines: true
 			id: "11821BF8131FC267"
+			rewards: [{
+				id: "38A22299C9495127"
+				item: "concatenationcore:antimony"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5541ED0E27F4EF91"
 				item: {
@@ -17393,6 +17700,11 @@
 				"51CDC5BD509CE535"
 			]
 			id: "24A205A470740B0F"
+			rewards: [{
+				id: "315C481CF50E2D04"
+				item: "concatenationcore:antimony"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7BE88247BDDC7C07"
 				item: {
@@ -17710,7 +18022,12 @@
 				"4551222320CBAE77"
 				"01514A831E1895F9"
 			]
-			dependency_requirement: "one_completed"
+			dependency_requirement: "one_started"
+			description: [
+				"&5The Empress pathway&r delves into agriculture, animal husbandry, aquaculture, every single food endeavour imagineable. "
+				""
+				"Unfortunately, I haven't quite found a person that truly emboed this pathway and thus I haven't been able to learn more than the basics of cooking, much less processed food production."
+			]
 			hide_text_until_complete: false
 			id: "1203CDC5DF26F779"
 			rewards: [
@@ -17747,11 +18064,20 @@
 				type: "item"
 			}]
 			title: "&5The Empress"
-			x: -3.4499999999999997d
+			x: -4.449999999999999d
 			y: -10.924999999999999d
 		}
 		{
 			dependencies: ["524067700E07EB06"]
+			description: [
+				"While the regular furnace is enough for the cooking of most lazy card holders embarked on their journey, there is a certain sense of satisfaction that comes with properly cooking a meal."
+				"{@pagebreak}"
+				"The stove effectively serves as a larger campfire, being able to cook two more items at once."
+				"{@pagebreak}"
+				"The skillet can be used as a portable cooking device or as regular kitchen utensil. You can either place down a skillet on a fire, campfire, or stove to start cooking with it, or hold both raw meat and a skillet in hand while using one of the fire sources noted above to start the cooking process. It also doubles as a weapon with severe knockback."
+				"{@pagebreak}"
+				"The cooking pot is made to prepare more elaborate meal options. Some options such as soup also require a bowl for food to be served."
+			]
 			id: "7363621391F2E8EC"
 			rewards: [{
 				id: "1E979AAB5CD387B0"
@@ -17782,11 +18108,17 @@
 					type: "item"
 				}
 			]
-			x: -3.0d
+			title: "Cooking Instruments"
+			x: -4.0d
 			y: -9.5d
 		}
 		{
 			dependencies: ["524067700E07EB06"]
+			description: [
+				"The cutting board is generally used to cut meat and vegetables for recipes."
+				""
+				"A hammer can also be used with some materials to be flattered more easily on a sturdy surface."
+			]
 			id: "01514A831E1895F9"
 			rewards: [{
 				id: "630AC479BCEAE296"
@@ -17800,17 +18132,25 @@
 				team_reward: false
 				type: "item"
 			}]
+			subtitle: "Not Just for Cutting"
 			tasks: [{
 				id: "61A4D8DD93D54095"
 				item: "farmersdelight:cutting_board"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -5.5d
 			y: -9.5d
 		}
 		{
 			dependencies: ["01514A831E1895F9"]
+			description: ["More than just the regular knives are considered appropriate for cooking. There are also the rarer quartz knives and the sturdy cutting tool made from the blade of a sword. More eccentric is the use of the sacrifical knife unique to cultists."]
 			id: "11F3F832B62CA7D8"
+			rewards: [{
+				count: 16
+				id: "50B3A57E3FD662FB"
+				item: "farmersdelight:minced_beef"
+				type: "item"
+			}]
 			tasks: [{
 				id: "53DF70ADB14D7580"
 				item: {
@@ -17823,11 +18163,17 @@
 				title: "Any Knives"
 				type: "item"
 			}]
-			x: -6.0d
+			title: "Family of Knives"
+			x: -7.0d
 			y: -10.5d
 		}
 		{
 			dependencies: ["524067700E07EB06"]
+			description: [
+				"A wide variety of seeds can be scavenged in the wild. "
+				""
+				"These can be grown for food, as ingredients for more elaborate meals that do a bit more than just satisfy your hunger."
+			]
 			disable_toast: true
 			id: "4551222320CBAE77"
 			rewards: [{
@@ -17841,7 +18187,8 @@
 				id: "5366A60025FA8B55"
 				type: "advancement"
 			}]
-			x: -2.0d
+			title: "Wild Seeds"
+			x: -3.0d
 			y: -10.5d
 		}
 		{
@@ -17897,11 +18244,16 @@
 				type: "item"
 			}]
 			title: "Cutting Berries"
-			x: -6.5d
-			y: -8.5d
+			x: -7.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["1203CDC5DF26F779"]
+			description: [
+				"There are four beneficial drinks that can be concocted, nourishing and granting additional effects."
+				""
+				"Bottling milk can be an easier way to transport and drink milk, clearing effects when drunk. Hot Cocoa only clears harmful effects. Apple Cider grants absorption for a minute while Melon Juice restores some of your health."
+			]
 			id: "65459A4FC403ECCC"
 			rewards: [{
 				id: "7CEC9475FDD885E0"
@@ -17938,11 +18290,13 @@
 				title: "Any Drink"
 				type: "item"
 			}]
-			x: -3.5d
+			title: "Drinks"
+			x: -4.5d
 			y: -13.0d
 		}
 		{
 			dependencies: ["1203CDC5DF26F779"]
+			description: ["Comforting food enables your natural regeneration even when you're still hungry."]
 			id: "6FA676418967B7F8"
 			rewards: [{
 				count: 32
@@ -18004,11 +18358,13 @@
 				title: "Any Comforting Food"
 				type: "item"
 			}]
-			x: -4.5d
+			title: "Comforting Food"
+			x: -5.5d
 			y: -12.5d
 		}
 		{
 			dependencies: ["1203CDC5DF26F779"]
+			description: ["Salads are a great way of turning smaller foods into a more nourishing and healthy meal. So healthy in fact, it will help you regenerate."]
 			id: "6BAF5CA877FE5287"
 			rewards: [{
 				id: "5200D5388D388C76"
@@ -18037,11 +18393,13 @@
 				title: "Any Salad"
 				type: "item"
 			}]
-			x: -5.0d
+			title: "Salads"
+			x: -6.0d
 			y: -11.5d
 		}
 		{
 			dependencies: ["1203CDC5DF26F779"]
+			description: ["Nourishment functions as extra satiation. It will take longer before someone grows hungry from jumping or running."]
 			id: "210A3840AB892F5E"
 			rewards: [{
 				count: 64
@@ -18127,11 +18485,14 @@
 				title: "Any Nourishing Food"
 				type: "item"
 			}]
-			x: -5.5d
+			title: "Nourishing Food"
+			x: -6.5d
 			y: -14.0d
 		}
 		{
 			dependencies: ["11F3F832B62CA7D8"]
+			description: ["Knives can be used to thoroughly extract more meat out of animals, most notably, ham. Ham is flavourful, with a balance of salty richness and subtle sweetness that deepens as it cures, most often smoked."]
+			disable_toast: true
 			id: "654437FC63847DDE"
 			rewards: [{
 				count: 15
@@ -18146,11 +18507,19 @@
 				id: "7007815A6E74E249"
 				type: "advancement"
 			}]
-			x: -7.0d
+			title: "Wild Butcher"
+			x: -8.0d
 			y: -11.5d
 		}
 		{
 			dependencies: ["4551222320CBAE77"]
+			description: [
+				"Regular rice can be planted in shallow water and will grow well in summer and autumn."
+				""
+				"Another variety of rice, precose rice, can be grown outside of water as well. It grows in spring as opposed to the regular kind."
+				"{@pagebreak}"
+				"Rice is commonly turned into cooked rice, eaten in a bowl. It cooks gently in a pot."
+			]
 			disable_toast: true
 			id: "07216B5B04E8B927"
 			rewards: [{
@@ -18165,11 +18534,14 @@
 				id: "4A06BD15D779954F"
 				type: "advancement"
 			}]
-			x: -2.5d
+			title: "Planting Rice"
+			x: -3.5d
 			y: -12.0d
 		}
 		{
 			dependencies: ["07216B5B04E8B927"]
+			description: [""]
+			disable_toast: true
 			id: "38EFD638C974B3E6"
 			rewards: [{
 				count: 64
@@ -18184,11 +18556,17 @@
 				id: "6328D565E6069F84"
 				type: "advancement"
 			}]
-			x: -2.5d
+			title: "Crop Rotation"
+			x: -3.5d
 			y: -13.5d
 		}
 		{
 			dependencies: ["524067700E07EB06"]
+			description: [
+				"Seeds of chaos seem to be the solified core essence of many of the chaotic undead. When defeated, these can be found on their bodies, one of useful parts you can scavenge."
+				""
+				"They are used as ingredients for various tool parts or the elusive chaos component."
+			]
 			id: "1B74A356EED36832"
 			rewards: [{
 				id: "23D0ABA74F3825F0"
@@ -18200,11 +18578,12 @@
 				item: "born_in_chaos_v1:seedof_chaos"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 3.5d
 			y: -10.5d
 		}
 		{
 			dependencies: ["524067700E07EB06"]
+			description: ["Dark metal is chipped from pieces of armor or creatures born from chaos. It once was possible to produce them, although I only have knowledge of one forge manufacturing this dark metal."]
 			disable_toast: true
 			id: "1BC80E0D5599DCCA"
 			rewards: [{
@@ -18219,12 +18598,16 @@
 				type: "advancement"
 			}]
 			title: "Dark Metal"
-			x: 5.5d
+			x: 6.0d
 			y: -9.5d
 		}
 		{
 			dependencies: ["0D70725FEAF0DC7B"]
-			description: ["Dark metal is an alluring substance, but some demiurge has altered reality to require a dull, grey abomination in its stead."]
+			description: [
+				"Dark metal is made after smelting pieces of dark metal most commonly obtained in this age by defeating chaos creatures."
+				""
+				"A dense multi-layered ingot: the dense alloy can be made from dark metal to craft powerful tools and armour. Only parts of the dark alloy are required each time in the crafting process."
+			]
 			id: "369EB408D49E5415"
 			rewards: [{
 				id: "53619EE65BE4FFF4"
@@ -18256,11 +18639,16 @@
 				}
 			]
 			title: "Dark Metal \\& Dense Alloy"
-			x: 5.5d
+			x: 6.0d
 			y: -12.5d
 		}
 		{
 			dependencies: ["369EB408D49E5415"]
+			description: [
+				"The manufacturing process for these smithing templates has been lost to time. They can still be found within some stashes around the world and on the person of fallen chaos knights."
+				""
+				"It is far easier to duplicate this template than to make another one, requiring a netherite smithing template as a base."
+			]
 			id: "6E6759704F7023AB"
 			rewards: [{
 				id: "48AD06576EA0380F"
@@ -18272,11 +18660,12 @@
 				item: "born_in_chaos_v1:dark_upgrade"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 6.5d
 			y: -13.5d
 		}
 		{
 			dependencies: ["6E6759704F7023AB"]
+			description: ["Dark metal armour is exceptionally durable, sports very impressive defensive prowess and provides resistance to withering while also triggering a rampage within the wearer when they are close to death."]
 			id: "074D1EAC06904845"
 			rewards: [{
 				id: "7BD829C5D37D330D"
@@ -18330,16 +18719,23 @@
 				}
 			]
 			title: "Dark Metal Armour"
-			x: 6.5d
+			x: 7.0d
 			y: -14.5d
 		}
 		{
 			dependencies: ["369EB408D49E5415"]
+			description: ["Monstrous hounds and the nightmare stalker naturally posses a durable and protective hide. This may prove to be useful to make armour."]
 			id: "3BDE972F9EB52CF5"
 			rewards: [{
-				id: "7D0BB53B6E2B4882"
-				type: "xp_levels"
-				xp_levels: 1
+				id: "2761D279A08C8335"
+				item: {
+					Count: 1
+					id: "concatenationcore:dense_alloy"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
 			}]
 			tasks: [
 				{
@@ -18354,16 +18750,17 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
+			x: 7.5d
 			y: -12.0d
 		}
 		{
 			dependencies: ["3BDE972F9EB52CF5"]
+			description: ["Nightmare armour sports the abilities of being faster in the dark, as well as increasing the power of nightmare weapons."]
 			id: "5309971BB143C533"
 			rewards: [{
-				id: "6D4EAA683D19E434"
-				type: "xp_levels"
-				xp_levels: 1
+				id: "5CCE3684ED8F8457"
+				item: "reliquary:twilight_cloak"
+				type: "item"
 			}]
 			tasks: [
 				{
@@ -18412,11 +18809,16 @@
 				}
 			]
 			title: "Nightmare Armour"
-			x: 8.0d
+			x: 8.5d
 			y: -13.0d
 		}
 		{
 			dependencies: ["369EB408D49E5415"]
+			description: [
+				"Dark metal weapons feature powerful strikes, impressive durability, and severe damage, but a lack of the more elaborate special abilities compared to nightmare weapons."
+				""
+				"All of these weapons have their strength enhanced when wearing a full dark metal set."
+			]
 			id: "30B2CAB9CBB2CD53"
 			rewards: [{
 				id: "5391AE7C1227682D"
@@ -18458,11 +18860,16 @@
 				type: "item"
 			}]
 			title: "Dark Metal Weapons"
-			x: 5.0d
+			x: 5.5d
 			y: -14.0d
 		}
 		{
 			dependencies: ["3BDE972F9EB52CF5"]
+			description: [
+				"Nightmare weapons feature weaker strikes compared to dark metal weapons but make up for it by being technically considered holy weapons. This status is quite puzzling, one theory that can be thought of being that these weapons are so unholy in nature, that they loop around to being holy. Or rather, they simply have the same property of being more effective on the undead."
+				""
+				"All of these weapons have their strength enhanced when wearing a full nightmare set."
+			]
 			id: "63F2A73E207912AD"
 			rewards: [{
 				id: "6D985542B0CBF2F6"
@@ -18511,18 +18918,39 @@
 				type: "item"
 			}]
 			title: "Nightmare Weapons"
-			x: 8.5d
+			x: 9.0d
 			y: -12.0d
 		}
 		{
 			dependencies: ["0D70725FEAF0DC7B"]
+			description: [
+				"This staff makes use of an orb of summoning to act as a reagent for basic necromancy."
+				""
+				"The bonescaller staff can be used to summon two baby skeletons under the control of its summoner."
+			]
 			hide_dependency_lines: true
 			id: "2235C77100C1C31E"
-			rewards: [{
-				id: "62A4B8B1FBE01019"
-				item: "minecraft:wither_skeleton_skull"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "62A4B8B1FBE01019"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+				{
+					id: "2AF4BF8BC53EE3B5"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:mending"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "04881821449B5553"
 				item: {
@@ -18534,7 +18962,7 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
+			x: 8.5d
 			y: -11.0d
 		}
 		{
@@ -18574,7 +19002,7 @@
 				value: 1L
 			}]
 			title: "The Nightmare Stalker"
-			x: 4.0d
+			x: 4.5d
 			y: -9.5d
 		}
 		{
@@ -18819,7 +19247,7 @@
 				item: "tconstruct:manyullyn_ingot"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -1.5d
 			y: 13.5d
 		}
 		{
@@ -19541,8 +19969,8 @@
 				item: "reliquary:witherless_rose"
 				type: "item"
 			}]
-			x: 34.9d
-			y: 20.849999999999998d
+			x: 35.0d
+			y: 21.0d
 		}
 		{
 			dependencies: ["0CC91D0458ACB827"]
@@ -20849,7 +21277,7 @@
 			dependencies: ["12F6BD166085B3B5"]
 			description: [
 				"Frozen Ice Armour is an elementist's early friend, on par with the protection of Netherite armour, at a much lower cost."
-				"{@pagebreak}"
+				""
 				"Crafted from ice shards, these can be produced after separating the most pure sections of blue ice into a shard. Alternatively, consuming water using water essence or a crude water crystal will also work."
 			]
 			hide_dependency_lines: true
@@ -21173,7 +21601,25 @@
 		}
 		{
 			dependencies: ["71BB28D5234F5991"]
+			description: [
+				"The storage lectern was inspired by the sophisticated digital storage systems that the Hierophant and High Priestess pathways enjoy. While the ledger reports information on stored items in a similar way, the inner workings of this magical storage system works differently."
+				"{@pagebreak}"
+				"Bookwyrms can be tasked with a dominion wand to connect inventories to the lectern. A more efficient way of doing so is using large or connected inventories, such as diamond chests or drawers."
+			]
 			id: "2BAED07EB551782D"
+			rewards: [
+				{
+					id: "18C5151DD24BF9B8"
+					item: "storagedrawers:controller"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4C274810DC8B2C5B"
+					item: "storagedrawers:oak_full_drawers_4"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "48268EDE678A1B3C"
 				item: "ars_nouveau:storage_lectern"
@@ -21211,6 +21657,219 @@
 			title: "Botany Pot"
 			x: 11.5d
 			y: -1.0d
+		}
+		{
+			dependencies: ["3CA659FFA729615D"]
+			description: [
+				"A great supplement to regeneration of a mage's natural mana regeneration will be a change to their diet. Sourceberries are naturally concentrated with mana. "
+				""
+				"While individual berries do not satiate most individuals alone, they can be made into more nourishing rolls or pies by combining them with more ingredients."
+			]
+			id: "6DBEEC5D47C3A61C"
+			rewards: [{
+				count: 8
+				id: "1EC87CDAE1437826"
+				item: "ars_nouveau:source_berry_pie"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1BD76A449112F49E"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ars_nouveau:source_berry_roll"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:source_berry_pie"
+							}
+						]
+					}
+				}
+				title: "Any Sourceberry Food"
+				type: "item"
+			}]
+			title: "Magical Nourishment"
+			x: 8.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["4080496891426ACB"]
+			description: ["A ritual of binding can be used to acquire a familiar. One of these little guys will provide some benefits in exchange for a little mana capacity."]
+			hide_dependency_lines: true
+			id: "5F70F151DBAA85A9"
+			rewards: [{
+				id: "3C19292B0D6532D3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "60E7456AD45A3F72"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ars_nouveau:familiar_amethyst_golem"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:familiar_starbuncle"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:familiar_wixie"
+							}
+							{
+								Count: 1b
+								id: "ars_elemental:firenando_familiar"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:familiar_whirlisprig"
+							}
+							{
+								Count: 1b
+								id: "ars_elemental:siren_familiar"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:familiar_bookwyrm"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:familiar_drygmy"
+							}
+						]
+					}
+				}
+				title: "Any Bound Script"
+				type: "item"
+			}]
+			title: "Familiars"
+			x: 13.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["44240C2BEF40998D"]
+			description: [
+				"The thread of undying cheats death once per day as long as you have slept."
+				""
+				"This is one of the greatest prizes for most mages, infinitely increasing their survivability, as long as they sleep within a reasonable timeframe."
+			]
+			id: "73EDA9BE2F20781E"
+			rewards: [{
+				id: "200A67C18669F6AB"
+				item: "reliquary:phoenix_down"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F1F63FB2AC7D353"
+				item: "ars_nouveau:thread_undying"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 22.5d
+		}
+		{
+			dependencies: ["1E37E99BEE301A2A"]
+			description: [
+				"The focus of necromancy is a corrupted focus of summoning, able to turn summons into withered undead of considerable strength."
+				""
+				"One of the mages I knew was obsessed with producing one of these rumored focuses, only known in legends of long gone lich kings of the past. All of his peers warned him, yet it was not insanity or corruption that brought down the society of magic in Sparkon."
+			]
+			hide_dependency_lines: true
+			id: "0A2CB31B617B9FA2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0F7FA02BE18ADDB8"
+					table_id: 1142461523967912805L
+					type: "choice"
+				}
+				{
+					id: "1C9400127DD223A4"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "1F6D7EDED276C07C"
+				item: "ars_elemental:necrotic_focus"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 24.5d
+		}
+		{
+			dependencies: ["0D70725FEAF0DC7B"]
+			description: [
+				"The Eternal Candy is a fascinating food item, and the only one you would ever need for the rest of your life, as it is everlasting. The lollipop reforms itself as you eat it, granting a different effect with each bite."
+				""
+				"In the obtaining of this flavourful treat, fighting a Lord Pumpkinhead and his minions may be necessary to obtain the various different candies needed."
+			]
+			id: "7F019DF6C3668106"
+			rewards: [{
+				id: "0F2EC103652FA131"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "7A4E8C06B593D379"
+				item: "born_in_chaos_v1:eternal_candy"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -12.5d
+		}
+		{
+			dependencies: [
+				"731126727DDCAC54"
+				"2B825471FE41A521"
+				"524067700E07EB06"
+			]
+			description: [
+				"The World is the final major arcana of the tarot, symbolizing completion. The World arcana is capable of anything, of every starting pathway, and of time dilution around itself."
+				""
+				"The World card is crafted from every single tarot card, excluding itself. The Error card uses the Aeon singularity to fool the world into recognizing The Fool card, numbered 0, as the World, numbered 22, the last of the arcana."
+			]
+			hide_dependency_lines: true
+			id: "0F3237156DE95B07"
+			rewards: [{
+				auto: "enabled"
+				command: "/kill @a"
+				elevate_perms: true
+				icon: {
+					Count: 1
+					id: "tarotcards:the_world"
+					tag: { }
+				}
+				id: "56088B539E3643ED"
+				silent: true
+				team_reward: false
+				title: "The Force of Ten Thousand Years"
+				type: "command"
+			}]
+			size: 1.75d
+			subtitle: "Eternal Aeon"
+			tasks: [{
+				id: "4C8456E59D963D84"
+				item: {
+					Count: 1
+					id: "tarotcards:the_world"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&6The World"
+			x: 0.0d
+			y: -15.75d
 		}
 	]
 	title: "The Journey"

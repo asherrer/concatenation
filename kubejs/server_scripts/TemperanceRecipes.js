@@ -13,7 +13,8 @@ ServerEvents.recipes(event => {
                 'theurgy:distiller',
                 'theurgy:incubator',
                 'reliquary:witherless_rose',
-                'enderstorage:ender_pouch'
+                'enderstorage:ender_pouch',
+                'bloodmagic:sacrificialdagger'
         ]
 
         remove.forEach(item => {
@@ -454,5 +455,18 @@ ServerEvents.recipes(event => {
                         'hexerei:blood_bottle',
                         'minecraft:nether_wart_block'
                 ]
+        )
+        event.shaped(
+                Item.of('bloodmagic:sacrificialdagger'),
+                [
+                        ' AA',
+                        ' BA',
+                        'C  '
+                ],
+                {
+                        B: 'concatenationcore:descran',
+                        C: 'minecraft:diamond',
+                        A: 'concatenationcore:pyrite'
+                }
         )
 });

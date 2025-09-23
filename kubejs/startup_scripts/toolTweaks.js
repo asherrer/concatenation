@@ -118,6 +118,20 @@ ItemEvents.modification(event => {
 		// 400, ["hexerei:witch_chestplate", 3],
 		// 325, ["hexerei:witch_boots", 3],
 
+		// Juggernaut
+		10000,
+		["marbledsarsenal:black_juggernaut_armor_helmet", 10],
+		["marbledsarsenal:olive_juggernaut_armor_helmet", 10],
+		15600,
+		["marbledsarsenal:black_juggernaut_armor_chestplate", 14],
+		["marbledsarsenal:olive_juggernaut_armor_chestplate", 14],
+		13250,
+		["marbledsarsenal:black_juggernaut_armor_leggings", 12],
+		["marbledsarsenal:olive_juggernaut_armor_leggings", 12],
+		11000,
+		["marbledsarsenal:black_juggernaut_armor_boots", 10],
+		["marbledsarsenal:olive_juggernaut_armor_boots", 10],
+
 	].forEach(en => {
 		if (typeof en === "number") return d = en;
 		if (typeof en === "string") return p = en;

@@ -586,19 +586,19 @@ ServerEvents.recipes(event => {
                         D: 'solarflux:sp_3'
                 }
         )
-        event.shaped(
-                Item.of('concatenationcore:primed_calculation_processor'),
-                [
-                        'AB ',
-                        ' C ',
-                        '   '
-                ],
-                {
-                        C: 'mekanism:basic_control_circuit',
-                        A: 'concatenationcore:ironclad_hammer',
-                        B: 'mekanism:ingot_osmium',
-                }
-        )
+        // event.shaped(
+        //         Item.of('concatenationcore:primed_calculation_processor'),
+        //         [
+        //                 'AB ',
+        //                 ' C ',
+        //                 '   '
+        //         ],
+        //         {
+        //                 C: 'mekanism:basic_control_circuit',
+        //                 A: 'concatenationcore:ironclad_hammer',
+        //                 B: 'mekanism:ingot_osmium',
+        //         }
+        // )
         event.shaped(
                 Item.of('rftoolsbase:machine_frame'),
                 [
@@ -965,6 +965,8 @@ ServerEvents.recipes(event => {
         event.recipes.thermal.smelter('concatenationcore:alclad', ['concatenationcore:meteorite_clump', '#forge:dusts/zinc']).energy(2500)
         event.recipes.thermal.smelter(Item.of('mekanism:nugget_osmium', 3), ['mekanism:dust_osmium']).energy(25000)
         event.recipes.thermal.smelter('concatenationcore:celestial_calralite', ['mcore:raw_titanium', 'tconstruct:raw_cobalt', 'createmetallurgy:raw_wolframite']).energy(50000)
+        event.recipes.thermal.smelter('concatenationcore:celestial_calralite', ['tconstruct:cobalt_ingot', 'mcore:titanium_ingot', 'createmetallurgy:tungsten_ingot']).energy(50000)
+        event.recipes.mekanism.enriching('concatenationcore:primed_calculation_processor', 'mekanism:basic_control_circuit')
 
         event.recipes.industrialforegoing.dissolution_chamber(
                 ['rftoolspower:power_core2', 'thermal:energy_cell_frame', 'rftoolspower:power_core2', 'concatenationcore:signalum_coil', 'concatenationcore:signalum_coil', 'rftoolspower:power_core2', 'tconstruct:hepatizon_ingot', 'rftoolspower:power_core2'],

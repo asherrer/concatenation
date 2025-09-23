@@ -24,7 +24,8 @@ ServerEvents.recipes(event => {
                 'mekanismtools:gold_paxel',
                 'mekanismtools:stone_paxel',
                 'mekanismtools:wood_paxel',
-                'mekanismtools:iron_paxel'
+                'mekanismtools:iron_paxel',
+                'createbigcannons:cast_iron_block'
         ]
 
         remove.forEach(item => {
