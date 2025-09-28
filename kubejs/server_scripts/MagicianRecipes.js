@@ -518,7 +518,7 @@ ServerEvents.recipes(event => {
                         'ABA'
                 ],
                 {
-                        B: 'concatenationcore:blood_powder',
+                        B: 'concatenationcore:antimony',
                         C: 'irons_spellbooks:energized_core',
                         D: '#concatenation:magic_cards_t2',
                         A: 'concatenationcore:gold_paper',
@@ -535,7 +535,7 @@ ServerEvents.recipes(event => {
                 {
                         D: '#concatenation:magic_cards_t2',
                         A: 'concatenationcore:gold_paper',
-                        B: 'concatenationcore:bloodstained_steel',
+                        B: 'concatenationcore:antimony',
                         E: 'bloodmagic:cyclingcatalyst',
                         C: 'concatenationcore:alatoris_fiber'
                 }
@@ -552,7 +552,7 @@ ServerEvents.recipes(event => {
                         D: '#concatenation:magic_cards_t2',
                         A: 'concatenationcore:gold_paper',
                         C: 'concatenationcore:alatoris_fiber',
-                        B: 'concatenationcore:ectorite'
+                        B: 'concatenationcore:antimony'
                 }
         ).keepIngredient('#concatenation:magic_cards_t2')
         event.shaped(
@@ -839,4 +839,30 @@ ServerEvents.recipes(event => {
                         'ars_nouveau:arcane_platform'
                 ]
         )
+        event.shaped(
+                Item.of('born_in_chaos_v1:elixirof_wither_resistance'),
+                [
+                        'ABC',
+                        '   ',
+                        '   '
+                ],
+                {
+                        B: 'reliquary:empty_potion_vial',
+                        A: 'reliquary:witherless_rose',
+                        C: 'minecraft:wither_rose'
+                }
+        ).keepIngredient('reliquary:witherless_rose')
+        event.shaped(
+                Item.of('born_in_chaos_v1:elixirof_wither_resistance'),
+                [
+                        'ABC',
+                        '   ',
+                        '   '
+                ],
+                {
+                        C: 'concatenationcore:transplant',
+                        B: 'reliquary:empty_potion_vial',
+                        A: 'reliquary:witherless_rose'
+                }
+        ).keepIngredient('reliquary:witherless_rose')
 });

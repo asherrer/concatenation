@@ -19,13 +19,14 @@ ServerEvents.recipes(event => {
                 'mcore:steel_leggings',
                 'mcore:steel_boots',
                 'psi:cad_assembler',
+                'psi:programmer'
         ]
 
         remove.forEach(item => {
                 event.remove({ output: item })
         })
 
-        const ids = [
+        const taczids = [
                 "casing_12_gauge_recipe",
                 "casing_46x_30_recipe",
                 "casing_50_ae_recipe",
@@ -43,11 +44,24 @@ ServerEvents.recipes(event => {
                 "casing_9mm_recipe"
         ];
 
-        ids.forEach(id => {
+        const celesids = [
+                "aquaflora",
+                "breezebreaker",
+                "crescentia",
+                "frostbound",
+                "keres",
+                "poltergeist",
+                "rainfall_serenity",
+                "solaris"
+        ];
+
+        taczids.forEach(id => {
                 event.remove({ id: `createtaczauto:${id}` });
         });
 
-        event.forEachRecipe({ mod: 'createtaczauto' }, r => console.log('ID ->', r.getId()));
+        celesids.forEach(id => {
+                event.remove({ id: `celestisynth:${id}` });
+        });
 
         event.shaped(
                 Item.of('tarotcards:strength'),
@@ -267,6 +281,19 @@ ServerEvents.recipes(event => {
                         B: 'celestisynth:lunar_scrap',
                         A: 'minecraft:chorus_fruit',
                         C: 'born_in_chaos_v1:dark_metal_nugget'
+                }
+        )
+        event.shaped(
+                Item.of('concatenationcore:celestial_handle'),
+                [
+                        '  C',
+                        ' B ',
+                        'A  '
+                ],
+                {
+                        B: 'celestisynth:celestial_netherite_ingot',
+                        A: 'concatenationcore:lunepse',
+                        C: 'concatenationcore:soleipse'
                 }
         )
 

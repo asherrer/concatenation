@@ -22,6 +22,7 @@ ClientEvents.lang('en_us', event => {
   event.renameItem('thermal:onion', 'Ishikura Onion');
   event.renameItem('thermal:rice', 'Precoce Rice');
   event.renameItem('tconstruct:rose_gold_ingot', 'Cast Rose Gold Ingot');
+  event.renameItem('enderstorage:ender_chest', 'Linked Ender Chest');
   //event.renameItem('farmersdelight:cutting_board', 'Board');
 
   event.rename('fluid.bloodmagic.life_essence', 'Life Essence')

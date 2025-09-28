@@ -21,11 +21,11 @@ ServerEvents.recipes(event => {
                 event.remove({ output: item })
         })
 
-        event.replaceInput(
-                { mod: 'dimdoors' },
-                'minecraft:ender_pearl',
-                'concatenationcore:woven_pearl'
-        )
+        // event.replaceInput(
+        //         { mod: 'dimdoors' },
+        //         'minecraft:ender_pearl',
+        //         'concatenationcore:woven_pearl'
+        // )
         event.replaceInput(
                 { mod: 'botanypots' },
                 'minecraft:flower_pot',
@@ -111,33 +111,33 @@ ServerEvents.recipes(event => {
                         '#concatenation:magic_cards_t2'
                 ]
         ).keepIngredient('#concatenation:magic_cards_t2')
-        event.shaped(
-                Item.of('dimdoors:rift_blade'),
-                [
-                        ' A ',
-                        'BCB',
-                        ' D '
-                ],
-                {
-                        C: 'bloodmagic:daggerofsacrifice',
-                        D: 'concatenationcore:nebulous_handle',
-                        B: 'minecraft:obsidian',
-                        A: 'minecraft:crying_obsidian'
-                }
-        )
-        event.shaped(
-                Item.of('concatenationcore:woven_pearl', 2),
-                [
-                        'AB ',
-                        ' C ',
-                        ' B '
-                ],
-                {
-                        C: 'minecraft:ender_pearl',
-                        A: 'dimdoors:rift_blade',
-                        B: 'minecraft:black_wool'
-                }
-        ).damageIngredient('dimdoors:rift_blade')
+        // event.shaped(
+        //         Item.of('dimdoors:rift_blade'),
+        //         [
+        //                 ' A ',
+        //                 'BCB',
+        //                 ' D '
+        //         ],
+        //         {
+        //                 C: 'bloodmagic:daggerofsacrifice',
+        //                 D: 'concatenationcore:nebulous_handle',
+        //                 B: 'minecraft:obsidian',
+        //                 A: 'minecraft:crying_obsidian'
+        //         }
+        // )
+        // event.shaped(
+        //         Item.of('concatenationcore:woven_pearl', 2),
+        //         [
+        //                 'AB ',
+        //                 ' C ',
+        //                 ' B '
+        //         ],
+        //         {
+        //                 C: 'minecraft:ender_pearl',
+        //                 A: 'dimdoors:rift_blade',
+        //                 B: 'minecraft:black_wool'
+        //         }
+        // ).damageIngredient('dimdoors:rift_blade')
         event.shaped(
                 Item.of('hexerei:witch_helmet'),
                 [
@@ -178,6 +178,18 @@ ServerEvents.recipes(event => {
                         'concatenationcore:descran'
                 ]
         )
+        // event.shaped(
+        //         Item.of('dimdoors:rift_remover'),
+        //         [
+        //                 ' A ',
+        //                 'ABA',
+        //                 ' A '
+        //         ],
+        //         {
+        //                 B: 'reliquary:nebulous_heart',
+        //                 A: 'createmetallurgy:gold_dust'
+        //         }
+        // )
 
         // Lovers
         event.shaped(
@@ -189,7 +201,7 @@ ServerEvents.recipes(event => {
                 ],
                 {
                         C: 'concatenationcore:light_totem',
-                        B: 'concatenationcore:blood_powder',
+                        B: 'concatenationcore:antimony',
                         A: 'concatenationcore:gold_paper',
                         D: '#concatenation:magic_cards_t2',
                         E: 'irons_spellbooks:eldritch_manuscript'
@@ -207,7 +219,7 @@ ServerEvents.recipes(event => {
                         C: 'concatenationcore:alatoris_fiber',
                         A: 'concatenationcore:gold_paper',
                         D: '#concatenation:magic_cards_t2',
-                        B: 'concatenationcore:ectorite'
+                        B: 'concatenationcore:antimony'
                 }
         ).keepIngredient('#concatenation:magic_cards_t2')
         event.shaped(
@@ -221,7 +233,7 @@ ServerEvents.recipes(event => {
                         E: 'ars_elemental:flashpine_pod',
                         C: 'concatenationcore:alatoris_fiber',
                         A: 'concatenationcore:gold_paper',
-                        B: 'concatenationcore:bloodstained_steel',
+                        B: 'concatenationcore:antimony',
                         D: '#concatenation:magic_cards_t2'
                 }
         ).keepIngredient('#concatenation:magic_cards_t2')
@@ -241,35 +253,7 @@ ServerEvents.recipes(event => {
                 ],
                 {
                         C: 'minecraft:stone',
-                        A: 'minecraft:copper_block',
-                        B: 'concatenationcore:ectorite',
-                        D: 'tarotcards:the_lovers'
-                }
-        ).keepIngredient('tarotcards:the_lovers')
-        event.shaped(
-                Item.of('theurgy:pyromantic_brazier'),
-                [
-                        'ABA',
-                        'ADA',
-                        'CCC'
-                ],
-                {
-                        C: 'minecraft:stone',
-                        B: 'concatenationcore:bloodstained_steel',
-                        A: 'minecraft:copper_block',
-                        D: 'tarotcards:the_lovers'
-                }
-        ).keepIngredient('tarotcards:the_lovers')
-        event.shaped(
-                Item.of('theurgy:pyromantic_brazier'),
-                [
-                        'ABA',
-                        'ADA',
-                        'CCC'
-                ],
-                {
-                        C: 'minecraft:stone',
-                        B: 'concatenationcore:blood_powder',
+                        B: 'concatenationcore:antimony',
                         A: 'minecraft:copper_block',
                         D: 'tarotcards:the_lovers'
                 }
@@ -345,35 +329,7 @@ ServerEvents.recipes(event => {
                         D: 'minecraft:stone',
                         C: 'elementalcraft:drenched_iron_block',
                         B: 'minecraft:copper_ingot',
-                        A: 'concatenationcore:ectorite'
-                }
-        )
-        event.shaped(
-                Item.of('theurgy:distiller'),
-                [
-                        ' A ',
-                        'BCB',
-                        'DDD'
-                ],
-                {
-                        D: 'minecraft:stone',
-                        C: 'elementalcraft:drenched_iron_block',
-                        A: 'concatenationcore:bloodstained_steel',
-                        B: 'minecraft:copper_ingot'
-                }
-        )
-        event.shaped(
-                Item.of('theurgy:distiller'),
-                [
-                        ' A ',
-                        'BCB',
-                        'DDD'
-                ],
-                {
-                        D: 'minecraft:stone',
-                        C: 'elementalcraft:drenched_iron_block',
-                        A: 'concatenationcore:blood_powder',
-                        B: 'minecraft:copper_ingot'
+                        A: 'concatenationcore:antimony'
                 }
         )
         event.shaped(
@@ -402,7 +358,7 @@ ServerEvents.recipes(event => {
                         C: 'minecraft:gold_ingot',
                         B: '#minecraft:logs',
                         E: 'minecraft:copper_block',
-                        D: 'concatenationcore:ectorite'
+                        D: 'concatenationcore:antimony'
                 }
         )
 

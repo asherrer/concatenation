@@ -158,6 +158,7 @@ ServerEvents.recipes(event => {
         event.remove({ output: 'mekanism:ingot_osmium', type: 'minecraft:blasting' })
         event.remove({ output: 'tconstruct:rose_gold_ingot', type: 'thermal:smelter' })
         event.remove({ output: 'integrateddynamics:variable', type: 'minecraft:crafting_shaped' })
+        //event.remove({ output: 'mekanism:basic_control_circuit'})
 
         event.shaped(
                 Item.of('tarotcards:the_high_priestess'),
@@ -949,6 +950,49 @@ ServerEvents.recipes(event => {
                         E: 'mekanism:elite_control_circuit'
                 }
         )
+        event.shaped(
+                Item.of('solarflux:sp_8'),
+                [
+                        'AAA',
+                        'BCB',
+                        'DED'
+                ],
+                {
+                        B: 'create:shadow_steel',
+                        A: 'solarflux:photovoltaic_cell_6',
+                        C: 'rftoolspower:cell3',
+                        D: 'solarflux:sp_7',
+                        E: 'mekanism:ultimate_control_circuit'
+                }
+        )
+        event.shaped(
+                Item.of('solarflux:photovoltaic_cell_6'),
+                [
+                        'AAA',
+                        'BCB',
+                        'BDB'
+                ],
+                {
+                        D: 'concatenationcore:daladite',
+                        A: 'thermal:lumium_glass',
+                        C: 'solarflux:photovoltaic_cell_5',
+                        B: 'mekanism:ingot_refined_obsidian'
+                }
+        )
+        event.shaped(
+                Item.of('rftoolspower:cell2'),
+                [
+                        'ACA',
+                        'BDB',
+                        'ACA'
+                ],
+                {
+                        D: 'tarotcards:justice',
+                        A: 'rftoolspower:power_core2',
+                        C: 'rftoolspower:cell1',
+                        B: 'concatenationcore:daladite'
+                }
+        ).keepIngredient('tarotcards:justice')
 
         event.recipes.thermal.press('concatenationcore:signalum_coil', ['thermal:signalum_dust', 'concatenationcore:copper_lead_coil'])
         event.recipes.thermal.press('concatenationcore:meteorite_clump', ['concatenationcore:meteorite', 'concatenationcore:meteorite'])

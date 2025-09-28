@@ -38,6 +38,18 @@ ServerEvents.recipes(event => {
         event.remove({ output: 'thermal:bronze_gear', type: 'minecraft:crafting_shaped' })
         event.remove({ output: 'thermal:tin_gear', type: 'minecraft:crafting_shaped' })
 
+        event.remove({ input: 'minecraft:raw_iron', type: 'tconstruct:foundry' })
+        //event.remove({ input: '#minecraft:iron_ores', type: 'tconstruct:foundry' })
+        event.remove({ input: 'minecraft:raw_iron_block', type: 'tconstruct:foundry' })
+
+        const foundryids = [
+                "aquaflora"
+        ];
+
+        foundryids.forEach(id => {
+                event.remove({ id: `tconstruct:${id}` });
+        });
+
         event.replaceInput(
                 { mod: 'createbigcannons' },
                 'createbigcannons:cast_iron_ingot',
@@ -279,7 +291,7 @@ ServerEvents.recipes(event => {
                         ' A '
                 ],
                 {
-                        B: 'tfmg:lead_glass',
+                        B: '#tconstruct:tanks',
                         A: '#forge:plates/copper'
                 }
         )

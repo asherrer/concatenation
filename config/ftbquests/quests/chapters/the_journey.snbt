@@ -1814,9 +1814,10 @@
 			]
 			id: "48182227AA27C096"
 			rewards: [{
-				id: "4E2FF38FF01B4820"
-				type: "xp_levels"
-				xp_levels: 1
+				count: 16
+				id: "2B85BDFD9AC8CFE5"
+				item: "create:andesite_alloy"
+				type: "item"
 			}]
 			tasks: [{
 				id: "0FC4795A3A2B4869"
@@ -1843,9 +1844,10 @@
 			]
 			id: "65C1B6B2B147028E"
 			rewards: [{
-				id: "05DF8E8C5DB45447"
-				type: "xp_levels"
-				xp_levels: 1
+				count: 8
+				id: "71C3178D3BFC1B82"
+				item: "create:brass_ingot"
+				type: "item"
 			}]
 			tasks: [{
 				id: "66AFA9CB41F49185"
@@ -2585,11 +2587,19 @@
 				"The meteor stone itself is often overlooked, but it's still a robust atmosphere-defying material that is worth collecting for future endeavours."
 			]
 			id: "7DD14D1827FF575E"
-			rewards: [{
-				id: "7698FDC6CF823F85"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "0897A2240DEFAE1F"
+					item: "ae2:certus_quartz_dust"
+					type: "item"
+				}
+				{
+					id: "01039C25B52E22A3"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "3D8A93A0719526F7"
 				item: {
@@ -2817,9 +2827,10 @@
 			]
 			id: "050A151DEB4BAF79"
 			rewards: [{
-				id: "5316E937BFACFE9A"
-				type: "xp_levels"
-				xp_levels: 1
+				count: 4
+				id: "221A609DDE9BDC1F"
+				item: "ae2:fluix_crystal"
+				type: "item"
 			}]
 			tasks: [{
 				id: "279C1883E3442340"
@@ -2896,9 +2907,10 @@
 			]
 			id: "05C3E83BCCEF20A2"
 			rewards: [{
-				id: "42C76942955AFB0F"
-				type: "xp_levels"
-				xp_levels: 1
+				count: 16
+				id: "5C5CCFC4751CD968"
+				item: "minecraft:glass"
+				type: "item"
 			}]
 			tasks: [
 				{
@@ -2966,9 +2978,13 @@
 			]
 			id: "55380CDFDB4EB17C"
 			rewards: [{
-				id: "47848D1E2DC7E15D"
-				type: "xp_levels"
-				xp_levels: 1
+				id: "183ED23281F84CCE"
+				item: {
+					Count: 1
+					id: "ae2:item_storage_cell_16k"
+					tag: { }
+				}
+				type: "item"
 			}]
 			tasks: [
 				{
@@ -3140,9 +3156,10 @@
 			description: ["A regular ingot with a watery texture, exhibiting the element of water, an essential material. They are manufactured through infusing regular iron ingots with water."]
 			id: "57264B7E24823F02"
 			rewards: [{
-				id: "3E9A2597B1AA32C5"
-				type: "xp_levels"
-				xp_levels: 1
+				exclude_from_claim_all: true
+				id: "4CBE8A17B788BC7C"
+				table_id: 6800703616788188502L
+				type: "choice"
 			}]
 			tasks: [{
 				id: "77D3F138DE82CE24"
@@ -3800,7 +3817,7 @@
 			description: [
 				"The solar element synthesizer produces elements with one of the respective lens and access to the sun."
 				""
-				"This is a good artificial source of elements, but it does beat a nearby source."
+				"This is a good artificial source of elements, but it does not beat a nearby source."
 			]
 			id: "62AACEE921B65C83"
 			rewards: [{
@@ -6854,9 +6871,10 @@
 					type: "item"
 				}
 				{
-					id: "76DED46B548EAF01"
-					type: "xp_levels"
-					xp_levels: 1
+					exclude_from_claim_all: true
+					id: "20101401E42FB00F"
+					table_id: 8405090712645604397L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -6880,15 +6898,10 @@
 			description: ["An enhanced fabric woven from strips of leather, dyed and infused with mild spiritual power. You can use it to make the traditional robes of the witches."]
 			id: "08656304775DB207"
 			rewards: [{
-				id: "2FEDB6DF8653253D"
-				item: {
-					Count: 1
-					id: "minecraft:lingering_potion"
-					tag: {
-						Potion: "minecraft:long_fire_resistance"
-					}
-				}
-				type: "item"
+				exclude_from_claim_all: true
+				id: "16E792AF09128A11"
+				table_id: 8405090712645604397L
+				type: "random"
 			}]
 			tasks: [{
 				id: "44FF35C4A6636054"
@@ -6974,11 +6987,19 @@
 			dependencies: ["0CC91D0458ACB827"]
 			description: ["The witch's broom is a classic enchantment, allowing many individual straws to combine and allow a wooden staff to levitate. While the brush eventually wears out, it can be enchanted much in the same way as other tools, making this a long lasting and elegant solution before you can fly purely with personal enchantments or other technologies."]
 			id: "0BBFD1B138A5DA3D"
-			rewards: [{
-				id: "0BCD10AD01925755"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6BA45DFD41718F2A"
+					table_id: 8405090712645604397L
+					type: "random"
+				}
+				{
+					id: "7483E3BA4806CF84"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "739BBA8A10CB24FE"
 				item: {
@@ -7050,14 +7071,22 @@
 		}
 		{
 			dependencies: ["3B8127AF958727B0"]
-			description: ["Blood provided essential spiritual power for ancient witchcraft, but can also provide physical nutrition, should you have enough to spare. Some ancient witches even had a diet entirely comprised of blood, and I did to, fora while. Your stomach learns to accept it, after a while..."]
+			description: ["Blood provided essential spiritual power for ancient witchcraft, but can also provide physical nutrition, should you have enough to spare. Some ancient witches even had a diet entirely comprised of blood, and I did too, for a while. Your stomach learns to accept it, after a while..."]
 			icon: "hexerei:blood_sigil"
 			id: "0CC91D0458ACB827"
-			rewards: [{
-				id: "617057D44A6E2E83"
-				item: "concatenationcore:pyrite"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "617057D44A6E2E83"
+					item: "concatenationcore:pyrite"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "66437F1D65D6181D"
+					table_id: 8405090712645604397L
+					type: "random"
+				}
+			]
 			tasks: [
 				{
 					id: "127CDCEA390AB79C"
@@ -7133,12 +7162,20 @@
 				"You can also open this inside of your inventory."
 			]
 			id: "59BB154080D3A193"
-			rewards: [{
-				count: 3
-				id: "73E5F2AD8811E786"
-				item: "minecraft:gold_ingot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 9
+					id: "73E5F2AD8811E786"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "61EF1B85253AF91D"
+					table_id: 8405090712645604397L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "5477EC9698C3E167"
 				item: {
@@ -7291,9 +7328,10 @@
 			description: ["The standard enchanted broom brush is simple, but imperfect. Fortunately, the Book of Shadows provides us with two improved recipes, one using the natural spiritual power of multiple herbs, and the other using the magic spiritual power formed under the light of the full moon."]
 			id: "2A581A4E957DEF1E"
 			rewards: [{
-				id: "1E6280F9B975DA9F"
-				type: "xp_levels"
-				xp_levels: 1
+				exclude_from_claim_all: true
+				id: "0C49ECBF610F0887"
+				table_id: 8405090712645604397L
+				type: "random"
 			}]
 			tasks: [{
 				id: "26FC587BA70F32C6"
@@ -7337,6 +7375,7 @@
 				title: "Any Enhanced Brush"
 				type: "item"
 			}]
+			title: "Enhanced Brushes"
 			x: 7.5d
 			y: 2.5d
 		}
@@ -7348,11 +7387,19 @@
 			description: ["Magic can do levitation, but a bunch of rockets can do that too! Much less romantic, but much, much faster."]
 			hide_dependency_lines: true
 			id: "3EB756F4DB633C14"
-			rewards: [{
-				id: "769B043AE47C7CF1"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "72037323F070EA56"
+					table_id: 8405090712645604397L
+					type: "choice"
+				}
+				{
+					id: "484EF35593D33B64"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "78BB24A23721AD6B"
 				item: {
@@ -7544,11 +7591,19 @@
 			description: ["Moon dust is a strange spiritual material. It's not &ofrom&r the moon, but the spirituality it contains is. Strange, I know. Either way, ancient witchcraft uses it as its powerful spiritual material of predilection. To acquire it, you need to mix the dusts under the gaze of the full moon. This crystal ball from the Book of Shadows should help you identify the true full moon if the sky is blocked."]
 			hide_dependency_lines: true
 			id: "5C78A0206DEDAC4C"
-			rewards: [{
-				id: "006A183D162B3DA7"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "40634922C7D8B6BD"
+					table_id: 8405090712645604397L
+					type: "random"
+				}
+				{
+					id: "1464A0646B3E1471"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [
 				{
 					id: "40400A8329130C4A"
@@ -7578,9 +7633,10 @@
 			description: ["If I had a crow, I would make this for them. A witchcraft playing with life and death, it will help your crow survive, if it ever is placed in danger."]
 			id: "1117DB453133A102"
 			rewards: [{
-				id: "44CDCB038129C51A"
-				type: "xp_levels"
-				xp_levels: 1
+				exclude_from_claim_all: true
+				id: "2C00C55C07E9B6FE"
+				table_id: 8405090712645604397L
+				type: "random"
 			}]
 			tasks: [{
 				id: "5230ED46D846383B"
@@ -7602,11 +7658,26 @@
 			dependencies: ["3B8127AF958727B0"]
 			description: ["The witches' drawer. Mostly used to store things that are not herbs."]
 			id: "6EB3E5667F8481FC"
-			rewards: [{
-				id: "63E3B2F7351CBAA5"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "79230E5D586493E0"
+					table_id: 8405090712645604397L
+					type: "random"
+				}
+				{
+					count: 3
+					id: "077A4947421F1502"
+					item: "minecraft:nether_wart"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "72AB1FB9DFCF2DDE"
+					item: "minecraft:soul_sand"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "583111F990D92E4D"
 				item: {
@@ -7654,9 +7725,9 @@
 			description: ["Befriend the crows! I never got around to doing that myself, but I'm sure these smart birds can do something for you."]
 			id: "0419D82408E8C7B0"
 			rewards: [{
-				id: "310E266CFD238E29"
-				type: "xp_levels"
-				xp_levels: 1
+				id: "5398968C7123458B"
+				table_id: 8405090712645604397L
+				type: "random"
 			}]
 			tasks: [{
 				id: "57ACAE12E606A63C"
@@ -7737,11 +7808,19 @@
 				"The mandrake plant is strange, in that you can still pick it even if it isn't done growing, which gives you nothing of value. You have to wait for the little half-petals to become full."
 			]
 			id: "6E411BC41B854476"
-			rewards: [{
-				id: "32B6B440B8088BD0"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "46DE1FA4DCF85335"
+					table_id: 8405090712645604397L
+					type: "choice"
+				}
+				{
+					id: "03FCBC50C5402D47"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [
 				{
 					id: "2E98187A71672490"
@@ -7870,11 +7949,19 @@
 			description: ["This dipping rack allows you to soak candles with various potion effects. Ever wanted to spread the aroma of poison in your room? Well, it's very useful for a quick escape..."]
 			hide_dependency_lines: true
 			id: "49375BCA090B1198"
-			rewards: [{
-				id: "4FD480EDA026ED55"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1F2E7A987CDAFA91"
+					table_id: 8405090712645604397L
+					type: "random"
+				}
+				{
+					id: "3F948A7A75E3AD25"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "29B5B4FC8621BF4A"
 				item: {
@@ -7969,6 +8056,12 @@
 			description: ["Many witchcrafts scribed in the Book of Shadows require spiritually-permeable woods, staple herbs, or other organics and inorganics found by witches in swamps. This petty enchantment on a couple of sticks will prove useful for finding these swamps, in which you may even find practising witches. It's with one of these that I found the ancient witch villages and... &oborrowed&r their stuff."]
 			hide_dependency_lines: true
 			id: "22CF2C758DBACEE0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "14CBF60B74627A55"
+				table_id: 6800703616788188502L
+				type: "choice"
+			}]
 			size: 0.8d
 			tasks: [{
 				id: "1233BC9D98BCCB9B"
@@ -7990,6 +8083,19 @@
 			dependencies: ["00E41146BE22270E"]
 			description: ["Compell the lifeforce out of you veins with a little bit of threatening. As opposed to the blood used for witchcraft, this new Art directly manipulates the life essence around your soul. You may want to enlist the help of any friends you have if you can't supply enough blood to the altar."]
 			id: "068DF533DB041F37"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "14888EF83E146AED"
+					table_id: 8405090712645604397L
+					type: "random"
+				}
+				{
+					id: "7B28031F45864DBF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			size: 1.0d
 			tasks: [
 				{
@@ -8090,9 +8196,10 @@
 			description: ["It's a box, what do you want me to say? You can make all sorts of mechanical... machines in this."]
 			id: "13B6EECFB6B3911E"
 			rewards: [{
-				id: "1B7930D86F9B4314"
-				type: "xp_levels"
-				xp_levels: 1
+				count: 16
+				id: "3DDD17044DA6A936"
+				item: "minecraft:oak_log"
+				type: "item"
 			}]
 			tasks: [{
 				id: "08BE7FAAA453C079"
@@ -8115,9 +8222,10 @@
 			description: ["The lack of shafts has forced me to make... 'small cog shafts' a couple of times. It also seems like the trees have been weakened by some force, meaning large cogwheels require sturdier construction."]
 			id: "139E166A1202B454"
 			rewards: [{
-				id: "190DC3C7FEC3C8D2"
-				type: "xp_levels"
-				xp_levels: 1
+				count: 4
+				id: "1AD1FE34309C7888"
+				item: "create:large_cogwheel"
+				type: "item"
 			}]
 			tasks: [
 				{
@@ -8158,11 +8266,18 @@
 			description: ["Change the direction of your rotation. Do you want an anecdote for this too?"]
 			hide_dependency_lines: true
 			id: "335D849D587BCE73"
-			rewards: [{
-				id: "17DB62C012FF42A7"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "6F4E19082329F7EC"
+					item: "create:andesite_casing"
+					type: "item"
+				}
+				{
+					id: "7797B9082CC29FB2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [
 				{
 					id: "0574F7E86F38A143"
@@ -8199,11 +8314,18 @@
 			dependencies: ["335D849D587BCE73"]
 			description: ["With these you can dynamically start and stop rotation through a shaft, and change its direction."]
 			id: "455C0A8247EDCCF6"
-			rewards: [{
-				id: "63A6AFBED030A030"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "3585ABEB23CFD44C"
+					item: "create:andesite_casing"
+					type: "item"
+				}
+				{
+					id: "05148B7109EFD281"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [
 				{
 					id: "5C42A10542A5B4C3"
@@ -8239,6 +8361,18 @@
 			dependencies: ["7948CF780F8B6C0B"]
 			description: ["You can slate a stack's worth of stuff on this. Very good flat surface to bonk stuff on."]
 			id: "6B25C523000F8937"
+			rewards: [
+				{
+					id: "49DE8BAD344D45AB"
+					item: "create:andesite_casing"
+					type: "item"
+				}
+				{
+					id: "6E012F3202EA3F67"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "79D010122225DCA5"
 				item: {
@@ -8259,11 +8393,20 @@
 			dependencies: ["6B25C523000F8937"]
 			description: ["BONK! Pressing and mixing are the base manufacturing methods of Tower engineering."]
 			id: "5ED52058EC7A215C"
-			rewards: [{
-				id: "1EFC37B316D44115"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "27D4849922911A4C"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "67CE771F504D39A1"
+					item: "create:iron_sheet"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "0E528643D212C8F8"
@@ -8301,11 +8444,19 @@
 			dependency_requirement: "one_started"
 			description: ["You can make big barrels of fluids and items with this, which can be quite useful to provide many access surfaces."]
 			id: "39DB90AC7E1BF135"
-			rewards: [{
-				id: "4C928546973755AC"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "18289EDE4C920DF7"
+					item: "tconstruct:seared_fuel_tank"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "3E0DC94A9C143619"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "3E07EDCEE1CC847E"
@@ -8368,9 +8519,10 @@
 			description: ["These are always a pain to make, because of all of the sanding. Fortunately, the mechanical sander exists. You should probably invest in that. Just don't stand on it, or it'll sand your shoes off, and then your feet."]
 			id: "782EDA8D4D2B9CA6"
 			rewards: [{
-				id: "7FB3792C7352087C"
-				type: "xp_levels"
-				xp_levels: 1
+				count: 3
+				id: "7BA4C4E258235C3E"
+				item: "create:rose_quartz"
+				type: "item"
 			}]
 			tasks: [{
 				id: "59D2EDE3200D9C0E"
@@ -8392,9 +8544,10 @@
 			dependencies: ["782EDA8D4D2B9CA6"]
 			id: "57DB683E290787AA"
 			rewards: [{
-				id: "19297176701CE4DE"
-				type: "xp_levels"
-				xp_levels: 1
+				count: 8
+				id: "7DFB67CEDEFBD907"
+				item: "create:brass_ingot"
+				type: "item"
 			}]
 			tasks: [{
 				id: "1E7CC37DD4741D99"
@@ -8417,9 +8570,10 @@
 			description: ["Fine and complex machinery is often made with brass, by virtue of its low friction."]
 			id: "2F7137679E3E480B"
 			rewards: [{
-				id: "0F831C2D2C5B54E0"
-				type: "xp_levels"
-				xp_levels: 1
+				count: 8
+				id: "5F8951107475D5D8"
+				item: "create:brass_ingot"
+				type: "item"
 			}]
 			tasks: [{
 				id: "1C8E181EE3B9F94D"
@@ -8549,9 +8703,9 @@
 			]
 			id: "16C3238AD95BF1F1"
 			rewards: [{
-				id: "664D38B07A5824E6"
-				type: "xp_levels"
-				xp_levels: 1
+				id: "4608023CD5900CD9"
+				item: "create:mechanical_arm"
+				type: "item"
 			}]
 			tasks: [{
 				id: "71EBA6012A22953B"
@@ -8571,12 +8725,14 @@
 		}
 		{
 			dependencies: ["39DB90AC7E1BF135"]
+			dependency_requirement: "one_started"
 			description: ["It makes fluids go. Well, until you start mixing them. Don't do that."]
 			id: "547DFAC1D247643C"
 			rewards: [{
-				id: "4E1DC2022B81464B"
-				type: "xp_levels"
-				xp_levels: 1
+				count: 16
+				id: "34117F20E80156B2"
+				item: "minecraft:copper_ingot"
+				type: "item"
 			}]
 			tasks: [
 				{
@@ -8745,12 +8901,14 @@
 		}
 		{
 			dependencies: ["547DFAC1D247643C"]
+			dependency_requirement: "one_started"
 			description: ["This foundry is surprisingly difficult to use. For its main use, steelmaking, the coke should be inserted into a glass foundry top, then the hatch closed. Dumping the coke right into the side of the basin does not work. Trust me, I tried. For several hours."]
 			id: "5C37D62CC88F677F"
 			rewards: [{
-				id: "7B423058160B4E14"
-				type: "xp_levels"
-				xp_levels: 1
+				count: 16
+				id: "006593AA3C5B641C"
+				item: "createdeco:industrial_iron_ingot"
+				type: "item"
 			}]
 			tasks: [
 				{
@@ -8804,9 +8962,10 @@
 			hide_dependent_lines: true
 			id: "3CC948E467CCC4C6"
 			rewards: [{
-				id: "32171CEEED841A45"
-				type: "xp_levels"
-				xp_levels: 1
+				id: "6BEF4CBB7C5EF3C2"
+				item: "reliquary:holy_hand_grenade"
+				random_bonus: 4
+				type: "item"
 			}]
 			tasks: [{
 				id: "7E773BF5E1360240"
@@ -8878,6 +9037,11 @@
 			dependencies: ["0DBEF77B203B8850"]
 			description: ["Sink a pipe to an oil source, and build a pumpjack above to extract raw petroleum. You can use the Surface Scanner to find a suitable oil well."]
 			id: "549AF60315DC3760"
+			rewards: [{
+				id: "1C9209DBC7EF1FC1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "454F9F9E9868DDD1"
@@ -9030,8 +9194,12 @@
 			description: ["Engines intake a matching fuel and exhaust carbon dioxide."]
 			id: "5A2127E1FA8C7DE3"
 			rewards: [{
-				count: 8
-				id: "7B832C76709F5008"
+				id: "00C45199EE15144B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "13778B014AEE52C2"
 				item: {
 					Count: 1
 					ForgeCaps: {
@@ -9039,38 +9207,10 @@
 							cs.aquaSkin: 0
 						}
 					}
-					id: "tfmg:engine_chamber"
+					id: "tfmg:exhaust"
 				}
 				type: "item"
 			}]
-			tasks: [
-				{
-					id: "71DE4E8C2498CFD7"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "tfmg:engine_base"
-					}
-					type: "item"
-				}
-				{
-					id: "13778B014AEE52C2"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "tfmg:exhaust"
-					}
-					type: "item"
-				}
-			]
 			title: "The Age of Engines"
 			x: -10.5d
 			y: 24.5d
@@ -9103,21 +9243,28 @@
 			dependencies: ["068DF533DB041F37"]
 			description: ["Alchemy is a complex and spiritually-charged process. Now its gates open to you, under the guidance of life essence. "]
 			id: "40EA73BEA023C14A"
-			rewards: [{
-				id: "6B00225D36878DED"
-				item: {
-					Count: 1
-					id: "ftbquests:lootcrate"
-					tag: {
-						display: {
-							Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
-							Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+			rewards: [
+				{
+					id: "6B00225D36878DED"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							display: {
+								Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
+								Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+							}
+							type: "building_kit"
 						}
-						type: "building_kit"
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "142A76BC66035242"
+					item: "bloodmagic:reinforcedslate"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "4AB8BFEBE390B269"
 				item: {
@@ -9138,6 +9285,12 @@
 			dependencies: ["068DF533DB041F37"]
 			description: ["While the alchemy table works with life essence, the hellfire forge works with demonic will. The wold of will manipulation is a relatively complex one, so be prepared if you do decide to embark on it. I, for one, never needed to delve into this art, but you may not have the luxury of alternative technologies."]
 			id: "6CE0DB1AEB597BCE"
+			rewards: [{
+				count: 16
+				id: "1594491139CA6E71"
+				item: "minecraft:lapis_lazuli"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2D0885007F6B27D1"
 				item: {
@@ -9158,6 +9311,11 @@
 			dependencies: ["068DF533DB041F37"]
 			description: ["These large runestones can be further inscribed with enchantments to augment the structure of a blood altar. Each tier of altar will require more to be used, to further allow for more advanced imbuements."]
 			id: "25A618A3B28B8DEE"
+			rewards: [{
+				id: "68D972FD21185F7D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				count: 9L
 				id: "5C720E576BBEE187"
@@ -9179,6 +9337,11 @@
 			dependencies: ["25A618A3B28B8DEE"]
 			description: ["Tired of bloodletting? If you have a steady source of creatures to kill, this dagger will allow you to efficiently rend the life force from their corporeal form. The world I lived in never lacked hostiles, that's for sure."]
 			id: "255F91EE26FB166D"
+			rewards: [{
+				id: "4217EE1A26AFFEEA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "37EA8119BA50E3C4"
 				item: {
@@ -9594,6 +9757,11 @@
 			dependencies: ["068DF533DB041F37"]
 			description: ["An enchanted barbed snare to bootstrap any aspiring sanguimancer into the extraction of willpower from the souls of animated things. Unfortunately, they don't actually impede the movement of creatures that much, so they don't have much use afterwards."]
 			id: "4CD27FD09EF16094"
+			rewards: [{
+				id: "74092527CBEB78C3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "0EE8BA404B791B13"
 				item: {
@@ -9618,6 +9786,11 @@
 				"I once had a sentient sword. I believe it liked the smell of strawberries..."
 			]
 			id: "3E73EAD0A0A295F5"
+			rewards: [{
+				id: "26475380E542593C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "6554577A8F60DB12"
 				item: {
@@ -9645,6 +9818,11 @@
 			dependency_requirement: "one_completed"
 			description: ["The willpower of animated things. It's more sinister than life essence, and I believe it comes from a place deep beyond this world. While life essence, the impetus, maintains the physical form, will is the elusive, emotional 'soul' of things that guides their purpose."]
 			id: "346C594E62FFDB7A"
+			rewards: [{
+				id: "5E5F6B9EA8F02186"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "4ABDAE32F6BC60EC"
 				item: {
@@ -9668,6 +9846,11 @@
 			dependencies: ["3E73EAD0A0A295F5"]
 			description: ["All your tools can be made sentient! Though you may hear whispers, worry not, they probably aren't conspiring against you."]
 			id: "29FA37C27A60B1E0"
+			rewards: [{
+				id: "097DA56D27DE38CB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "6769201CBAE0F607"
@@ -9741,6 +9924,12 @@
 			dependencies: ["068DF533DB041F37"]
 			description: ["Life essence can be infused into various items to grant them special abilities. Stone sheets can be imbued to make them conductive to magic, and precious stones like diamonds can be infused to become blood orbs, which allow you to connect a channel to your life network."]
 			id: "209C0E2550C84C69"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D5B70BC50A43075"
+				table_id: 8405090712645604397L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "535EC0649F7AE316"
@@ -10100,9 +10289,10 @@
 			]
 			id: "59D783372A16F858"
 			rewards: [{
-				id: "42A8A89BE9535657"
-				type: "xp_levels"
-				xp_levels: 1
+				count: 8
+				id: "6DEB9B7DE3C7B4FC"
+				item: "thermal:electrum_ingot"
+				type: "item"
 			}]
 			tasks: [{
 				id: "4BCA7B068017F327"
@@ -10299,13 +10489,16 @@
 			y: 12.599999999999998d
 		}
 		{
-			dependencies: ["2F7137679E3E480B"]
+			dependencies: ["7948CF780F8B6C0B"]
 			description: ["A blaze trapped and forced to act as a sentient fireplace. You can feed it flammable items, or give it a bamboo straw so you can pump liquids into it."]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
 			id: "4BC31DEA551E23FE"
 			rewards: [{
-				id: "59508AAB0E9ADB71"
-				type: "xp_levels"
-				xp_levels: 1
+				count: 2
+				id: "63B20734DED73757"
+				item: "elementalcraft:springaline_shard"
+				type: "item"
 			}]
 			subtitle: "Why is this fella all the way down over here?"
 			tasks: [{
@@ -10402,6 +10595,7 @@
 				"139E166A1202B454"
 				"13B6EECFB6B3911E"
 			]
+			dependency_requirement: "one_started"
 			description: ["With the Tower pathway, you can create many mechanical and kinetic things. If you ever find yourself needing further detail about this or that machine, it seems just pondering their existance for a while and an explanation will get magically projected into your eyes."]
 			id: "7948CF780F8B6C0B"
 			rewards: [
@@ -10449,21 +10643,18 @@
 		{
 			dependencies: ["255F91EE26FB166D"]
 			description: ["An enhancement to the idea of a weapon that slices through the metaphysical, this blade will allow you to make use of the old art of dimensional doors. Beware, though, it seems the alternate plane these doors channel through has suffered some kind of damage since the old days... It's best if you stick to bridging locations outside of the eerie black void, unless you intend to banish people to limbo."]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			id: "3EA4408A8F86B825"
+			invisible: true
+			rewards: [{
+				id: "6F1CC98384BB487D"
+				item: "concatenationcore:woven_pearl"
+				type: "item"
+			}]
 			tasks: [{
-				id: "6E8E8BC2A87E5933"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "dimdoors:rift_blade"
-					tag: {
-						Damage: 0
-					}
-				}
+				id: "0921696421E8B6DA"
+				item: "concatenationcore:woven_pearl"
 				type: "item"
 			}]
 			x: 17.5d
@@ -10473,20 +10664,14 @@
 			dependencies: ["3EA4408A8F86B825"]
 			description: ["Sometimes there are rifts. Sometimes those rifts are undesireable."]
 			id: "2480B881634C80B7"
+			rewards: [{
+				id: "06695F72F8689133"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
-				id: "0E51A9E37759BAB4"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "dimdoors:rift_remover"
-					tag: {
-						Damage: 0
-					}
-				}
+				id: "2F27CCB78C503376"
+				item: "concatenationcore:woven_pearl"
 				type: "item"
 			}]
 			x: 16.0d
@@ -10496,40 +10681,16 @@
 			dependencies: ["3EA4408A8F86B825"]
 			description: ["These tools allow you to bridge two points in space, forming a rift between them, which you can then stabilise into proper channels using dimensional doors. Rift signatures also seem to be affected by enchantments, which may allow you to make them last a little longer."]
 			id: "5C35A413987F2EC6"
-			tasks: [
-				{
-					id: "498E987A6F29781D"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "dimdoors:rift_signature"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "2E80DF8848537ED6"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "dimdoors:stabilized_rift_signature"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "14C22AB40D97F253"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "2DF35B5D800E6DE1"
+				item: "concatenationcore:woven_pearl"
+				type: "item"
+			}]
 			x: 17.5d
 			y: -5.5d
 		}
@@ -10551,11 +10712,38 @@
 				}
 			}
 			id: "6D79D8CC7CDDF1D0"
-			rewards: [{
-				id: "4E8FD61D37898077"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "605F014826D37175"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_pickaxe"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:efficiency"
+									lvl: 5s
+								}
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:fortune"
+									lvl: 3s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "05F016EC746D9E64"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			size: 1.0d
 			tasks: [
 				{
@@ -10696,11 +10884,19 @@
 			]
 			hide_dependency_lines: true
 			id: "14DFB74A4390006D"
-			rewards: [{
-				id: "69CB27DCF3AEB05E"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "69CB27DCF3AEB05E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "11B4D16E02098727"
+					table_id: 8405090712645604397L
+					type: "random"
+				}
+			]
 			size: 1.15d
 			tasks: [{
 				id: "0256B20E000FF08B"
@@ -10786,6 +10982,11 @@
 		{
 			dependencies: ["05C581711196984B"]
 			id: "11AB2172D3EEA227"
+			rewards: [{
+				id: "0C8452C016129260"
+				item: "concatenationcore:celestial_handle"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4ABECACC9AFEE13E"
 				item: {
@@ -10834,16 +11035,9 @@
 			id: "405495BB2F379536"
 			rewards: [
 				{
+					count: 4
 					id: "69631D8A598D88BD"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "industrialforegoing:machine_frame_simple"
-					}
+					item: "industrialforegoing:machine_frame_simple"
 					type: "item"
 				}
 				{
@@ -11073,9 +11267,10 @@
 			dependencies: ["5ED52058EC7A215C"]
 			id: "3A27EA4C48429EA7"
 			rewards: [{
-				id: "4ECE9C3AFE094A3B"
-				type: "xp_levels"
-				xp_levels: 1
+				count: 16
+				id: "315757CAC8942587"
+				item: "minecraft:iron_ingot"
+				type: "item"
 			}]
 			tasks: [{
 				id: "0A30C64BB6E1616F"
@@ -11422,7 +11617,7 @@
 		}
 		{
 			dependencies: ["3F86C492412EBA3F"]
-			description: ["The assembly table well into disuse for most engineers of the Tower pathway, as it is more effective to mass produce ammunition."]
+			description: ["The assembly table fell into disuse for most engineers of the Tower pathway, as it is more effective to mass produce ammunition."]
 			id: "3E615BD9F6833A17"
 			rewards: [{
 				count: 4
@@ -11489,9 +11684,18 @@
 			hide_dependency_lines: true
 			id: "46AF90F7869F29F3"
 			rewards: [{
-				id: "20BED18C9B453BE3"
-				type: "xp_levels"
-				xp_levels: 1
+				id: "2F577E9AFADD53F6"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
 			}]
 			size: 1.15d
 			tasks: [
@@ -11838,11 +12042,20 @@
 				"It is made from alloying 1 part copper and 1 part gold."
 			]
 			id: "33BA0ACE3EA7C44B"
-			rewards: [{
-				id: "21CBEAB74BA7951C"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "1CFB5DFA6E9DDA51"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "296F1673A8E84818"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "2F25BD20E3A91A9C"
 				item: {
@@ -12050,7 +12263,7 @@
 			]
 			id: "4289386C093E7AE9"
 			rewards: [{
-				count: 16
+				count: 32
 				id: "73CE3A6D5930477B"
 				item: "thermal:energy_duct"
 				type: "item"
@@ -12081,7 +12294,7 @@
 		}
 		{
 			dependencies: ["5A609181C445CAAB"]
-			description: ["The Dissolution Chamber is a more advanced crafting machine."]
+			description: ["The Dissolution Chamber is a more advanced crafting machine, making combined used of materials, liquid, and RF power to manufacture complex items."]
 			id: "3AF5EB2526EAD40C"
 			rewards: [{
 				id: "6364A99F088418C1"
@@ -12159,9 +12372,10 @@
 			dependencies: ["4A8A1D4B99AB1DCA"]
 			id: "6BDF163C7FC006CB"
 			rewards: [{
-				id: "738F878FFD8FC53F"
-				type: "xp_levels"
-				xp_levels: 1
+				count: 16
+				id: "7131B519D098DEA7"
+				item: "minecraft:blaze_rod"
+				type: "item"
 			}]
 			tasks: [{
 				id: "1739695A7CE198AF"
@@ -12183,9 +12397,10 @@
 			dependencies: ["6BDF163C7FC006CB"]
 			id: "4A0E8159A5427A76"
 			rewards: [{
-				id: "626ED0A9538A30BB"
-				type: "xp_levels"
-				xp_levels: 1
+				count: 64
+				id: "0CF7A9C5AB59897D"
+				item: "minecraft:ender_pearl"
+				type: "item"
 			}]
 			tasks: [{
 				id: "2BBC5CFD563BF745"
@@ -12209,11 +12424,19 @@
 				"107A1E1AB9252A58"
 			]
 			id: "4A8A1D4B99AB1DCA"
-			rewards: [{
-				id: "34B9065C40F1053C"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "45B160C8E04EBCD6"
+					item: "thermal:machine_frame"
+					type: "item"
+				}
+				{
+					id: "2234A5AB5126944C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			size: 1.2d
 			tasks: [{
 				id: "540DA6F9E7F973B6"
@@ -12440,21 +12663,28 @@
 		{
 			dependencies: ["10A7F0DA56020A8C"]
 			id: "4C8C2AA343360B7D"
-			rewards: [{
-				id: "130BF690D42A79AF"
-				item: {
-					Count: 1
-					id: "ftbquests:lootcrate"
-					tag: {
-						display: {
-							Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
-							Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+			rewards: [
+				{
+					id: "130BF690D42A79AF"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							display: {
+								Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
+								Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+							}
+							type: "building_kit"
 						}
-						type: "building_kit"
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "46B135063B7F7307"
+					item: "industrialforegoing:machine_frame_simple"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "297F1DB9458EBF1E"
@@ -12599,9 +12829,10 @@
 			dependency_requirement: "one_completed"
 			id: "58D41204FAEC60DF"
 			rewards: [{
-				id: "4E27C141D9DF25AB"
-				type: "xp_levels"
-				xp_levels: 1
+				count: 4
+				id: "5CB0F278122BB7EE"
+				item: "integrateddynamics:menril_log"
+				type: "item"
 			}]
 			tasks: [{
 				id: "505FA5BB368AD9CE"
@@ -12622,6 +12853,12 @@
 		{
 			dependencies: ["58D41204FAEC60DF"]
 			id: "56FEA16D484FB227"
+			rewards: [{
+				count: 4
+				id: "1E58109591D283BE"
+				item: "integrateddynamics:crystalized_menril_chunk"
+				type: "item"
+			}]
 			tasks: [{
 				id: "24920A32EBE26222"
 				item: {
@@ -12666,6 +12903,12 @@
 		{
 			dependencies: ["58D41204FAEC60DF"]
 			id: "073D163854FFBC13"
+			rewards: [{
+				count: 8
+				id: "328F6F70034D8399"
+				item: "integrateddynamics:cable"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7630993F0148269F"
 				item: {
@@ -12714,9 +12957,10 @@
 			description: ["Steel Hadfield Sheets are high-manganese steel plates known for exceptional toughness and resistance to heavy impact and abrasion. They are used in the making of extremely tough armour."]
 			id: "029A616076E8CEAE"
 			rewards: [{
-				id: "284F92C44AB437E0"
-				type: "xp_levels"
-				xp_levels: 1
+				count: 4
+				id: "129E6FD20436D2FD"
+				item: "tconstruct:hepatizon_ingot"
+				type: "item"
 			}]
 			tasks: [{
 				id: "17C24A0871FC42C7"
@@ -12737,6 +12981,12 @@
 		{
 			dependencies: ["073D163854FFBC13"]
 			id: "4BB411537A24527C"
+			rewards: [{
+				count: 16
+				id: "62E04B0A010A9E37"
+				item: "integrateddynamics:crystalized_menril_chunk"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "05D206C2254D3EA8"
@@ -12784,6 +13034,11 @@
 		{
 			dependencies: ["58D41204FAEC60DF"]
 			id: "34C946042296AB2B"
+			rewards: [{
+				id: "2B7E3D790CBA7244"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "3E7C68B771CF893D"
 				item: {
@@ -12804,9 +13059,10 @@
 			dependencies: ["4C8C2AA343360B7D"]
 			id: "4E44852EB1DA116A"
 			rewards: [{
-				id: "552CA9AEDA7AB0BB"
-				type: "xp_levels"
-				xp_levels: 1
+				count: 4
+				id: "5703F74EC4E1F362"
+				item: "minecraft:popped_chorus_fruit"
+				type: "item"
 			}]
 			tasks: [{
 				id: "067A5D8A20B01E13"
@@ -12827,6 +13083,11 @@
 		{
 			dependencies: ["4E44852EB1DA116A"]
 			id: "65171074D916C632"
+			rewards: [{
+				id: "14AE564B74FA7188"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "7C3F2EB124B524A5"
 				item: {
@@ -12885,11 +13146,19 @@
 			]
 			hide_dependency_lines: true
 			id: "44CF40523871B36F"
-			rewards: [{
-				id: "20BBE78E1D3D2548"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "60B3BE7B4DB8BE7A"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+				{
+					id: "3F372BDF70304347"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "262E6413A40FDC56"
 				item: {
@@ -13464,14 +13733,15 @@
 			dependencies: ["029A616076E8CEAE"]
 			description: [
 				"Vultanium is a rare, ultra-durable alloy famed for its incredible strength-to-weight ratio and natural resistance to corrosion, heat, and magical or radiation-based damage, making it prized in modern weaponry."
-				""
+				"{@pagebreak}"
 				"Vultanium Sheets are rolled or forged plates of pure Vultanium, offering the same near-indestructible qualities of the base metal in a convenient, workable form for constructing armor plating."
 			]
 			id: "3D1C47F3A9B804B4"
 			rewards: [{
-				id: "4B6958BF47F02D5E"
-				type: "xp_levels"
-				xp_levels: 1
+				count: 4
+				id: "10E290F033A07691"
+				item: "concatenationcore:celestial_calralite"
+				type: "item"
 			}]
 			tasks: [{
 				id: "621EE6EB87B3D18A"
@@ -13525,6 +13795,12 @@
 			dependencies: ["1AFE9864E4F4DFB0"]
 			description: ["A magically-conductive, clay-like essence which can be used to craft various materials and items in sorcery."]
 			id: "37AA006B7ABACDC8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "045D5D7C5690D377"
+				table_id: 8405090712645604397L
+				type: "random"
+			}]
 			tasks: [{
 				id: "3AECB12DA95926FE"
 				item: {
@@ -13548,6 +13824,11 @@
 			]
 			description: ["Demonic ash, seems to be perpetually smoldering. I never used it for proper magic, but it does make for a good hand warmer."]
 			id: "5145276716FB2377"
+			rewards: [{
+				id: "7C3426700E0D1F82"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "12A527D734EF42E0"
 				item: "irons_spellbooks:cinder_essence"
@@ -13560,6 +13841,11 @@
 			dependencies: ["6FC66F464CF54CF4"]
 			description: ["Runestones can be enchanted to craft school-specific garments or the corresponding upgrade orb."]
 			id: "446F8F31B5E96194"
+			rewards: [{
+				id: "0E2834F5769482C3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "7F697C5DFA649E27"
 				item: {
@@ -13583,15 +13869,15 @@
 			]
 			description: ["Each of the scools of scribed sorcery have a traditional garment which help in the power and efficiency of casting the corresponding spells. Have you chosen yours?"]
 			id: "0493EC94E8A9F325"
+			rewards: [{
+				id: "2AEA41090CA64889"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "34EE10B8CFE37528"
 				item: {
 					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -13694,9 +13980,10 @@
 						]
 					}
 				}
+				title: "Any Mage Hood"
 				type: "item"
 			}]
-			title: "Any mage hood"
+			title: "Mage Hoods"
 			x: 19.825000000000003d
 			y: 9.950000000000001d
 		}
@@ -13708,6 +13995,11 @@
 			description: ["The most mundane of the magical inks, it can scribe the weakest of spells."]
 			hide_dependency_lines: true
 			id: "47F1E172DB0819FC"
+			rewards: [{
+				id: "0113FA6026AB6A93"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "5C57A68AC0F43A46"
 				item: {
@@ -13732,6 +14024,12 @@
 			description: ["A magical ink fortified with copper, it is composed of four units of common ink."]
 			hide_dependency_lines: true
 			id: "6FC66F464CF54CF4"
+			rewards: [{
+				count: 4
+				id: "265ED1A1FD55B7CB"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3E78C856D85AC649"
 				item: {
@@ -13753,6 +14051,12 @@
 			description: ["Rare ink is often skipped over, but is the gateway into the strongest strata of spell enscription. Bein four times as concentrated as its prior tier, it is exalted from sixteen common inks."]
 			hide_dependency_lines: true
 			id: "51D3EFAF0C58197A"
+			rewards: [{
+				count: 9
+				id: "1164167A98BA0463"
+				item: "thermal:silver_ingot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1CE804B9EDCAFF56"
 				item: {
@@ -13777,6 +14081,12 @@
 			description: ["Epic ink is something you will most likely want to access in synchronicity with enchanted baubles. The Epic tier will bring you closer to the unstoppable power of mastered magic. Being once again fourfold concentrated from Rare ink, one Epic ink is formed from sixty-four bottles of common ink."]
 			hide_dependency_lines: true
 			id: "2611BFF44437C940"
+			rewards: [{
+				count: 9
+				id: "4B144C367B08ECCE"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "08B2E2ED74A332BE"
 				item: {
@@ -13798,6 +14108,12 @@
 			description: ["Legendary ink is the final, perfected spell-scribing ink, and allows one to break through into the Legendary tier of spells. After this point, enhancing the legendary spells amounts to overscribing them in the Arcane Anvil. This is the final four-fold exaltation of magical ink, and so is formed, at its base, from two-hundred-fifty-six, or four stacks of vials of common ink."]
 			hide_dependency_lines: true
 			id: "63B383DE2EEFE2F3"
+			rewards: [{
+				count: 3
+				id: "6EED6637F1C99D92"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3515320FC31F8182"
 				item: {
@@ -13818,6 +14134,11 @@
 			dependencies: ["63B383DE2EEFE2F3"]
 			description: ["There are ancient spells, legendary and long forgotten, seemingly researched by a society destroyed by their use. It seems like the scribings of these spells are unique, irrepoductible without the forgotten Art. To restore these otherworldly and powerful spells, you will need to restore diagrams from scraps of ancient knowledge and pressed into a core of Echo, which will allow you to accomodate the knowledge and produce one of these spells."]
 			id: "1E133F321CC64E1F"
+			rewards: [{
+				id: "62D3EFEC9FBCB938"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "323E775CA8E61A7B"
@@ -13862,6 +14183,12 @@
 			dependencies: ["2611BFF44437C940"]
 			description: ["An ancient arcane material similar to netherite, it can be found at the bottoms of the world, or synthesized if you have magical knowledge and capabilities of the same level. It's extremely permeable to mana, and so quite useful for crafting various baubles, amulets, etc."]
 			id: "74EA3C5BD8FF2DEB"
+			rewards: [{
+				id: "73AB43A4608ECFAB"
+				item: "irons_spellbooks:arcane_salvage"
+				random_bonus: 3
+				type: "item"
+			}]
 			tasks: [{
 				id: "0A0F536864EFE808"
 				item: {
@@ -13882,15 +14209,16 @@
 			dependencies: ["74EA3C5BD8FF2DEB"]
 			description: ["A mage needs to press every advantage they can get. While you can find some of these rings, amulets, or otherwise, some must be personally crafted."]
 			id: "03184CB5028CCC5B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B4E8EA717CCCF7C"
+				table_id: 8405090712645604397L
+				type: "random"
+			}]
 			tasks: [{
 				id: "7D84FBCE5E883706"
 				item: {
 					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -13987,9 +14315,10 @@
 						]
 					}
 				}
+				title: "Any Arcane Bauble"
 				type: "item"
 			}]
-			title: "Any arcane bauble"
+			title: "Arcane Curios"
 			x: 20.825000000000003d
 			y: 10.950000000000001d
 		}
@@ -13997,15 +14326,15 @@
 			dependencies: ["51D3EFAF0C58197A"]
 			description: ["These spellbooks are the unique craft of masters of a school of sorcery, and are a perfect trophy for a sorcerer of the corresponding school."]
 			id: "70AA51D04E41558B"
+			rewards: [{
+				id: "0E82C0A67F061996"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "67AB5237996693A1"
 				item: {
 					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -14091,9 +14420,10 @@
 						]
 					}
 				}
+				title: "Any Unique Spellbook"
 				type: "item"
 			}]
-			title: "Any unique spellbook"
+			title: "Unique Spellbooks"
 			x: 20.825000000000003d
 			y: 9.950000000000001d
 		}
@@ -14101,15 +14431,15 @@
 			dependencies: ["47F1E172DB0819FC"]
 			description: ["The simplest of spellbooks. I used one to scribble in, once."]
 			id: "4FBF9D1E551B2EC8"
+			rewards: [{
+				id: "19A734DF00D0595B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "259FA62132E6BF38"
 				item: {
 					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -14150,9 +14480,10 @@
 						]
 					}
 				}
+				title: "Any basic spellbook"
 				type: "item"
 			}]
-			title: "Any basic spellbook"
+			title: "Basic Spellbook"
 			x: 19.825000000000003d
 			y: 7.950000000000001d
 		}
@@ -14160,15 +14491,16 @@
 			dependencies: ["4FBF9D1E551B2EC8"]
 			description: ["Now we're talking. These spellbooks will provide helpful boons for the sorcerery apprentice."]
 			id: "7A5E60664DFB06C6"
+			rewards: [{
+				count: 4
+				id: "4B5282B721BA79C9"
+				item: "irons_spellbooks:arcane_essence"
+				type: "item"
+			}]
 			tasks: [{
 				id: "027F8B967911404B"
 				item: {
 					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -14209,9 +14541,10 @@
 						]
 					}
 				}
+				title: "Any apprentice spellbook"
 				type: "item"
 			}]
-			title: "Any apprentice spellbook"
+			title: "Apprentice Spellbooks"
 			x: 20.825000000000003d
 			y: 7.950000000000001d
 		}
@@ -14222,15 +14555,15 @@
 			]
 			description: ["The upgrade orbs allow to infuse a specific quality into armour and scribed spellbooks. Do note, however, that these various items have a limited capability to handle these small magical vessels."]
 			id: "1BB2ECC452AFB4DB"
+			rewards: [{
+				id: "4883B749951D2DAD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "31CAE4BB8CD0F301"
 				item: {
 					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -14336,9 +14669,10 @@
 						]
 					}
 				}
+				title: "Any Upgrade Orb"
 				type: "item"
 			}]
-			title: "Any upgrade orb"
+			title: "Upgrade Orbs"
 			x: 20.825000000000003d
 			y: 11.950000000000001d
 		}
@@ -14346,6 +14680,12 @@
 			dependencies: ["1AFE9864E4F4DFB0"]
 			description: ["The Scroll Forge allows you to scribe your own magic scrolls, provided you have ink containing enough magical essence and the proper foci."]
 			id: "1177AE48181D8F17"
+			rewards: [{
+				count: 2
+				id: "16081B19728357BF"
+				item: "minecraft:amethyst_block"
+				type: "item"
+			}]
 			tasks: [{
 				id: "735762BEB5AE60C0"
 				item: {
@@ -14401,6 +14741,11 @@
 			dependencies: ["1177AE48181D8F17"]
 			description: ["Allows you to smack more ink into scrolls, or orbs into armor. This is the workbench that will allow you to reach the final exaltation of spells."]
 			id: "59468EAF45257207"
+			rewards: [{
+				id: "5A890D6B934BB0A1"
+				item: "thermal:cheese_wheel"
+				type: "item"
+			}]
 			tasks: [{
 				id: "58B84A55A4FEDB69"
 				item: {
@@ -14421,6 +14766,11 @@
 			dependencies: ["1E133F321CC64E1F"]
 			description: ["If one were to restore the entirety of the Cycle of Eldritch Scribings, it is likely it would allow one to develop the true ancient arts of Alchemy and Artifice. I regrettably never managed to find the entirety of the ancient knowledge, but it was of no matter since fully-formed alchemical implements do exist, somewhere in the world..."]
 			id: "301D160C2B3F2B79"
+			rewards: [{
+				id: "4FF61749CEFF7627"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "38C4660608E11F36"
@@ -14599,6 +14949,11 @@
 			dependencies: ["40EA73BEA023C14A"]
 			description: ["These ashes can be used to draw out alchemical arrays, a kind of magic circle. These will allow you to perform certain enchantments and cantrips, particularly for sigils or some small rituals."]
 			id: "2DC6C224BD1881C9"
+			rewards: [{
+				id: "6DD09A24470695AA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "025C057BEBF75AFB"
 				item: {
@@ -14622,6 +14977,11 @@
 			dependencies: ["2DC6C224BD1881C9"]
 			description: ["This sigil is by far one of the most important in sanguimancy, as it allows you to see the numerical quantity of life essence contained within blood altars or your life network."]
 			id: "27BBE74203C33C95"
+			rewards: [{
+				id: "2C0EC6E5CC73A918"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "07D024FC495ECDE4"
 				item: {
@@ -14642,6 +15002,12 @@
 			dependencies: ["40EA73BEA023C14A"]
 			description: ["The alchemical reaction chamber, or ARC, is a useful machine for extra ore processing, recycling, or particular extractions such as separating blood shards out of saturated tau fruit."]
 			id: "51EDC749A53FF0D3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0D0525D709CA556A"
+				table_id: 8405090712645604397L
+				type: "random"
+			}]
 			tasks: [{
 				id: "56E0404A51517B1C"
 				item: {
@@ -14662,6 +15028,11 @@
 			dependencies: ["51EDC749A53FF0D3"]
 			description: ["The weak blood shard is a product of the demonic tau fruit and can be used in the creation of the penultimate instruments of sanguimancy, as well as to unveil the true secrets of alchemy."]
 			id: "51CDC5BD509CE535"
+			rewards: [{
+				id: "168D0B5792967ABC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "3D92F93FDD37245F"
 				item: {
@@ -14685,6 +15056,17 @@
 				"Rituals are complex things with many variations, so you should read up on them in the Science of Blood."
 			]
 			id: "6D27277DA055DFBC"
+			rewards: [{
+				id: "3CCAB2F8B0FFA707"
+				item: {
+					Count: 1
+					id: "hexerei:lava_bottle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0247DD7DDC3F8084"
 				item: {
@@ -14709,6 +15091,12 @@
 				"At this point, you may want to challenge the gateway to what lies beyond: The Hidden Realm."
 			]
 			id: "579E8F816742653C"
+			rewards: [{
+				count: 2
+				id: "37AFD735AF8B53C1"
+				item: "bloodmagic:infusedslate"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "4D024789FABAD882"
@@ -14749,6 +15137,11 @@
 				"I never got far within the demon realm. In fact, a lot of the threats and monsters in there are more powerful than the nightmares on the surface world, and the maze-like geometry of their palace makes them hard to avoid."
 			]
 			id: "29289B6D4610B9D4"
+			rewards: [{
+				id: "32ABBD3833083EF5"
+				item: "bloodmagic:bleedingedge"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7F1FEAB4ACA7A230"
 				item: {
@@ -14770,6 +15163,11 @@
 			dependencies: ["6D27277DA055DFBC"]
 			description: ["This funny-looking wrench thing allows you to interface with activated rituals, allowing you to control their area of effect and other properties."]
 			id: "1AE3C9A1202FE409"
+			rewards: [{
+				id: "03C514B0FB510C00"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "18C1ABBFAC17202C"
 				item: {
@@ -14790,6 +15188,11 @@
 			dependencies: ["639817BED42EBC3A"]
 			description: ["These hell-forged mechanisms from within the mines are made of finely crafted demonite and can provide additional enhancements to the runes empowering your altar, though are usually not necessary. There are many complementary powers and technologies in this world, so you need not only dedicated yourself to one."]
 			id: "32DA8E4E34681D50"
+			rewards: [{
+				id: "74AD5C3F024C7F92"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "4D423D255A09CBD3"
 				item: {
@@ -14810,6 +15213,12 @@
 			dependencies: ["29289B6D4610B9D4"]
 			description: ["This metal native to the demon realm is the highest order material of sanguimancy, and the most permeable to demonic will. Beyond this point, your infrastructure is no longer limited by your knowledge of the art, but rather by how many resources you can dedicate to it."]
 			id: "639817BED42EBC3A"
+			rewards: [{
+				count: 2
+				id: "2992DF020D4CC712"
+				item: "bloodmagic:infusedslate"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5556AD35B00359B8"
 				item: {
@@ -14833,6 +15242,11 @@
 				"These proved quite useful when I did not have access to other forms of logistics in the wilderness, and they have a certain advantage in that they transmit through the air, regardless of line of sight."
 			]
 			id: "234F7C53CB615880"
+			rewards: [{
+				id: "6A7B66590F60CFD9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "469A0DB3F684F4F5"
@@ -14956,6 +15370,12 @@
 		{
 			dependencies: ["6CE0DB1AEB597BCE"]
 			id: "4FA2BB65ED1D6A03"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "446E856F612B8915"
+				table_id: 8405090712645604397L
+				type: "choice"
+			}]
 			tasks: [
 				{
 					id: "59DA2354D9E99CAE"
@@ -15005,6 +15425,12 @@
 			dependencies: ["209C0E2550C84C69"]
 			description: ["A better blood orb. Be careful, though, as a blood orb belonging to you will pull from your own life essence, regardless of who is using it."]
 			id: "3913EED76917339E"
+			rewards: [{
+				count: 4
+				id: "42EA347D9A07D7D8"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
 			tasks: [{
 				id: "01731E058A1CDC1F"
 				item: {
@@ -15023,6 +15449,7 @@
 		}
 		{
 			dependencies: ["2A13540D4E396260"]
+			description: ["The jetpack is an incredible mobility force. Powered by RF energy, the jetpacks allows for a certain ability of flight and high movement for the user."]
 			hide_dependency_lines: true
 			id: "1B09621238805777"
 			rewards: [{
@@ -15068,6 +15495,7 @@
 				title: "Any Iron or Lead Jetpack"
 				type: "item"
 			}]
+			title: "Jetpack"
 			x: -18.0d
 			y: -3.5d
 		}
@@ -15075,6 +15503,12 @@
 			dependencies: ["662F8F7426A07A9D"]
 			hide_until_deps_complete: true
 			id: "137E5079D198BF5C"
+			rewards: [{
+				count: 4
+				id: "7EDDADB7B5CE1076"
+				item: "oreberriesreplanted:osmium_oreberry_bush"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4439131F8691DB5B"
 				item: {
@@ -15143,6 +15577,12 @@
 		{
 			dependencies: ["137E5079D198BF5C"]
 			id: "3900C73EA601F27C"
+			rewards: [{
+				count: 8
+				id: "4B8D872ABC7FEAC1"
+				item: "ae2:silicon"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4C6F89EFB3504D12"
 				item: {
@@ -15161,6 +15601,11 @@
 		}
 		{
 			dependencies: ["33F8735D8322AFE6"]
+			description: [
+				"An upgrade of the solar panel. There exists two variations with the same output in the end: one builds off the existing tier 2 solar panels and compacts them together to produce extra RF power in a smaller space. "
+				""
+				"The other is more expensive but builds on top of a new process to not have to retroactively manufacture all previous tiers of the solar panel."
+			]
 			hide_dependency_lines: true
 			id: "1AB989E044EBCB6D"
 			rewards: [{
@@ -15186,12 +15631,14 @@
 		}
 		{
 			dependencies: ["547DFAC1D247643C"]
+			dependency_requirement: "one_started"
 			description: ["A large oven that can bake the creosote out of coal. It's not perfect, however, and the coke it produces will most often need to get mixed with charcoal."]
 			id: "3A2A8FA6C9D7C1F2"
 			rewards: [{
-				id: "679EF1019B4DBBB8"
-				type: "xp_levels"
-				xp_levels: 1
+				count: 16
+				id: "29F783B3F50D584C"
+				item: "thermal:coal_coke"
+				type: "item"
 			}]
 			tasks: [
 				{
@@ -15229,6 +15676,7 @@
 				"3A2A8FA6C9D7C1F2"
 				"5C37D62CC88F677F"
 			]
+			dependency_requirement: "one_started"
 			description: ["Steel is the material of heavy machinery, the pathway to oil processing and self-contained engines."]
 			id: "54B73403ADB72017"
 			rewards: [{
@@ -15398,6 +15846,12 @@
 		{
 			dependencies: ["3900C73EA601F27C"]
 			id: "1974390B046B7B6A"
+			rewards: [{
+				count: 8
+				id: "633D488CE2FD48CE"
+				item: "mekanism:basic_control_circuit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "612DEA6824CE4179"
 				item: {
@@ -15417,6 +15871,11 @@
 		{
 			dependencies: ["1974390B046B7B6A"]
 			id: "47C95E5CB83C274D"
+			rewards: [{
+				id: "42151A9855FF4D40"
+				item: "ae2:crafting_unit"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "3F0FBB4C963EC6A7"
@@ -15442,6 +15901,7 @@
 						}
 						id: "ae2:1k_crafting_storage"
 					}
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -15450,7 +15910,14 @@
 		}
 		{
 			dependencies: ["344B314D434D12C1"]
+			dependency_requirement: "one_started"
 			id: "293F8BB2AE925A83"
+			rewards: [{
+				count: 4
+				id: "3B1AF3DB463E07AC"
+				item: "concatenationcore:celestial_calralite"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "6B426CFA5EDC57EE"
@@ -15485,6 +15952,23 @@
 		{
 			dependencies: ["2B825471FE41A521"]
 			id: "16425F7B3E364B17"
+			rewards: [{
+				count: 2
+				id: "587391A4975117F8"
+				item: {
+					Count: 1
+					id: "thermal:energy_cell"
+					tag: {
+						BlockEntityTag: {
+							Energy: 0
+							EnergyMax: 1000000
+							EnergyRecv: 1000
+							EnergySend: 1000
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4CD45D31F0E1325C"
 				item: {
@@ -15507,6 +15991,37 @@
 				"2DAE9E3C66B44CC1"
 			]
 			id: "39AE05BD2C306FB0"
+			rewards: [
+				{
+					id: "7A7EFDA44B0CCA92"
+					item: {
+						Count: 1
+						id: "marbledsarsenal:black_plate_carrier_heavy"
+						tag: {
+							CurioAttributeModifiers: [{
+								Amount: 8
+								AttributeName: "generic.armor"
+								Name: "generic.armor"
+								Operation: 0
+								Slot: "body"
+								UUID: [I;
+									-1049641899
+									-1698279708
+									-1222758712
+									1471568110
+								]
+							}]
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "77AA55010B9575C3"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
 			tasks: [
 				{
 					id: "6E77AF1D37826AA8"
@@ -15570,6 +16085,7 @@
 				"26F4EC84DAFCC788"
 				"385412AAA1631FFF"
 			]
+			dependency_requirement: "one_completed"
 			id: "2B825471FE41A521"
 			rewards: [
 				{
@@ -15607,7 +16123,13 @@
 				"0EAA48E8F905201B"
 				"490912716C7BB2C6"
 			]
+			dependency_requirement: "one_started"
 			id: "258CC7EECC8A710B"
+			rewards: [{
+				id: "7FB71ACAC9EA9616"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			tasks: [{
 				id: "32A1D5283EF35B68"
 				item: {
@@ -15706,6 +16228,7 @@
 				"1AB989E044EBCB6D"
 				"3AF5EB2526EAD40C"
 			]
+			description: ["Tier IV solar panels build on top of tier III solar panels, whether they be the compacting model or the new process."]
 			id: "6EA8FF0A2426916D"
 			rewards: [{
 				id: "13184AB1C1A20B9E"
@@ -15844,6 +16367,12 @@
 		{
 			dependencies: ["1974390B046B7B6A"]
 			id: "3B61EAE34CD43049"
+			rewards: [{
+				count: 8
+				id: "06FDC02F49BC5AE8"
+				item: "ae2:wireless_booster"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "34C59970417BC788"
@@ -15878,6 +16407,11 @@
 		{
 			dependencies: ["1974390B046B7B6A"]
 			id: "6388E411C2170378"
+			rewards: [{
+				id: "5EA801FFFFC74DC3"
+				item: "ae2:cell_component_4k"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "10CBE8FF1BE83135"
@@ -15915,6 +16449,7 @@
 				"6388E411C2170378"
 				"27969F43280BFA18"
 			]
+			dependency_requirement: "one_started"
 			id: "4880C58AEB23BEEC"
 			rewards: [{
 				count: 4
@@ -15977,6 +16512,7 @@
 		}
 		{
 			dependencies: ["4880C58AEB23BEEC"]
+			dependency_requirement: "one_started"
 			id: "2BA18EB25877001F"
 			rewards: [{
 				id: "37001723E1AD50C8"
@@ -16039,6 +16575,7 @@
 		}
 		{
 			dependencies: ["2BA18EB25877001F"]
+			dependency_requirement: "one_started"
 			id: "44AED22C9749FFD7"
 			rewards: [{
 				id: "05A4A7134E7FB332"
@@ -16102,6 +16639,12 @@
 		{
 			dependencies: ["47C95E5CB83C274D"]
 			id: "10D5749A4FAE6E9D"
+			rewards: [{
+				count: 4
+				id: "6AB19045E363D09D"
+				item: "thermal:diamond_dust"
+				type: "item"
+			}]
 			tasks: [{
 				id: "26D7D243930DE3A3"
 				item: {
@@ -16120,7 +16663,13 @@
 		}
 		{
 			dependencies: ["47C95E5CB83C274D"]
+			dependency_requirement: "one_started"
 			id: "27969F43280BFA18"
+			rewards: [{
+				id: "3A2320CA2C76A0AA"
+				item: "ae2:crafting_unit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "11B08EC924F7E60D"
 				item: {
@@ -16218,9 +16767,10 @@
 			]
 			id: "25E533314EFCD83A"
 			rewards: [{
-				id: "235E767B34DD9F1D"
-				type: "xp_levels"
-				xp_levels: 1
+				count: 4
+				id: "1AB12F77B8FCE93A"
+				item: "concatenationcore:circuit"
+				type: "item"
 			}]
 			size: 0.8d
 			tasks: [{
@@ -16244,7 +16794,14 @@
 				"5938433F947FABD5"
 				"25E533314EFCD83A"
 			]
+			description: ["You can insert this reinforced component box into a thermal series machine to upgrade all of its base stats by a factor of 3x."]
 			id: "41D8AA5320AF6FE8"
+			rewards: [{
+				count: 4
+				id: "6D802B76850FF45C"
+				item: "thermal:signalum_ingot"
+				type: "item"
+			}]
 			size: 0.8d
 			tasks: [{
 				id: "4999CF6E01894912"
@@ -16268,7 +16825,14 @@
 				"46F756D518053599"
 				"2DFD2B7661869743"
 			]
+			description: ["You can insert this enderium component box into a thermal series machine to upgrade all of its base stats by a factor of 4x."]
 			id: "3A78E41998ACBC84"
+			rewards: [{
+				count: 4
+				id: "07E005D5BE645491"
+				item: "thermal:lumium_ingot"
+				type: "item"
+			}]
 			size: 0.8d
 			tasks: [{
 				id: "741288ACBB1C6025"
@@ -16288,6 +16852,7 @@
 		}
 		{
 			dependencies: ["2EDD432C547674F0"]
+			description: ["The Energetic Infuser is used to charge multiple items at once."]
 			id: "5EF25296893D9C32"
 			rewards: [{
 				id: "1CE08BA52251658A"
@@ -16469,11 +17034,19 @@
 		{
 			dependencies: ["4A8A1D4B99AB1DCA"]
 			id: "64BEF811F139E0CB"
-			rewards: [{
-				id: "44A2590085B60A2D"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "3E74EB9BB59E84D8"
+					item: "industrialforegoing:mob_imprisonment_tool"
+					type: "item"
+				}
+				{
+					id: "602605B3EFBB5463"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [
 				{
 					id: "7DE6AE780CCF6AD2"
@@ -16540,9 +17113,10 @@
 			]
 			id: "19FDA9AB1906E74C"
 			rewards: [{
-				id: "3610CB494E308964"
-				type: "xp_levels"
-				xp_levels: 1
+				count: 3
+				id: "216D95DEBD98E3AF"
+				item: "minecraft:wither_skeleton_skull"
+				type: "item"
 			}]
 			tasks: [{
 				id: "129B8FEAA1D9F21C"
@@ -16591,11 +17165,18 @@
 		{
 			dependencies: ["4A8A1D4B99AB1DCA"]
 			id: "1F63B99669BB1002"
-			rewards: [{
-				id: "311AD2A6574BE448"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "5CC66150446DD7F2"
+					item: "industrialforegoing:machine_frame_advanced"
+					type: "item"
+				}
+				{
+					id: "11D237CFDA3B4DFC"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			size: 1.2d
 			tasks: [
 				{
@@ -16615,11 +17196,6 @@
 					id: "453D553A56314682"
 					item: {
 						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -16644,6 +17220,7 @@
 							]
 						}
 					}
+					title: "Ore or Fluid Laser Base"
 					type: "item"
 				}
 			]
@@ -16787,6 +17364,11 @@
 		{
 			dependencies: ["7223BE78D2D053A8"]
 			id: "61C7344B62E5145E"
+			rewards: [{
+				id: "7932AC1F2F3C5AE6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "6DF03A9D6A6E4776"
 				item: {
@@ -16813,6 +17395,11 @@
 		{
 			dependencies: ["7223BE78D2D053A8"]
 			id: "4EB6D8D8F106BAC4"
+			rewards: [{
+				id: "18C0470CC827BAF0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "6C38FD9CF256A052"
@@ -16867,6 +17454,11 @@
 		{
 			dependencies: ["7223BE78D2D053A8"]
 			id: "54ECFC86850269B4"
+			rewards: [{
+				id: "740ED7A5EF9C1F47"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "50DAF66A2483173C"
@@ -16926,6 +17518,24 @@
 			dependencies: ["7223BE78D2D053A8"]
 			hide_dependency_lines: true
 			id: "4491BEB05F778F6D"
+			rewards: [{
+				id: "0D4DEBCE04804D90"
+				item: {
+					Count: 1
+					id: "industrialforegoing:infinity_nuke"
+					tag: {
+						CanCharge: 1b
+						Energy: 3360000000L
+						Fluid: {
+							Amount: 0
+							FluidName: "biofuel"
+						}
+						Selected: "LEGENDARY"
+						Special: 0b
+					}
+				}
+				type: "item"
+			}]
 			size: 1.2d
 			tasks: [{
 				id: "54AF8CAD2CEC9658"
@@ -16975,7 +17585,14 @@
 		}
 		{
 			dependencies: ["3900C73EA601F27C"]
+			dependency_requirement: "one_started"
 			id: "490912716C7BB2C6"
+			rewards: [{
+				count: 8
+				id: "14A4EA4875830522"
+				item: "thermal:enderium_ingot"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "0418859AE26C0035"
@@ -17029,6 +17646,11 @@
 		{
 			dependencies: ["6B8090BCBDEE94FD"]
 			id: "344B314D434D12C1"
+			rewards: [{
+				id: "687E0BE696B59086"
+				item: "mekanism:block_refined_obsidian"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "46C43326FDDA287F"
@@ -17281,18 +17903,29 @@
 		}
 		{
 			dependencies: ["344B314D434D12C1"]
+			dependency_requirement: "one_started"
 			description: ["Refined glowstone is considered a holy material."]
 			id: "648919584EBC4E4D"
+			rewards: [{
+				count: 4
+				id: "11666440159F7D22"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "7220103E7418CD8C"
 					item: {
 						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -17323,17 +17956,13 @@
 							]
 						}
 					}
+					title: "Refined Obsidian or Glowstone Helmet"
 					type: "item"
 				}
 				{
 					id: "02A82AB80F19CA09"
 					item: {
 						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -17364,17 +17993,13 @@
 							]
 						}
 					}
+					title: "Refined Obsidian or Glowstone Chestplate"
 					type: "item"
 				}
 				{
 					id: "1EAFBFFC687FF714"
 					item: {
 						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -17405,17 +18030,13 @@
 							]
 						}
 					}
+					title: "Refined Obsidian or Glowstone Leggings"
 					type: "item"
 				}
 				{
 					id: "2E2FE93EBF1536A3"
 					item: {
 						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -17446,6 +18067,7 @@
 							]
 						}
 					}
+					title: "Refined Obsidian or Glowstone Boots"
 					type: "item"
 				}
 			]
@@ -17455,7 +18077,13 @@
 		}
 		{
 			dependencies: ["490912716C7BB2C6"]
+			dependency_requirement: "one_started"
 			id: "35AEE847FE74A61B"
+			rewards: [{
+				id: "1A160AAACEB59180"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "4F5629333B561E98"
 				item: {
@@ -17475,6 +18103,11 @@
 		{
 			dependencies: ["35AEE847FE74A61B"]
 			id: "62BC3A7199373305"
+			rewards: [{
+				id: "2242AB31291D3895"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "46C9ED5058905397"
 				item: {
@@ -17537,13 +18170,21 @@
 				"3F86C492412EBA3F"
 				"2157576FC7005917"
 			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&3The Hand of Wands&r is a minor arcana that can be accesed by the &eMagician&r, &6Sun&r, &7Tower&r, and &dHermit&r pathways. It delves into adding together magic and technology by performing spellcasting through the more convenient handgun format. It is an art in its own right."
+				"{@pagebreak}"
+				"While I did not delve into rifled spellcating myself, I have met on my travels a curious wizard by the name of &3Van&r. He left me these notes you can subsequently read. He seems to be one of the co-authors of the &3Encylopaedia Psionica&r. Do not trust his every word. I may have drank from my own blood and performed cultist rituals, but it seems rifled spellcasting is the discipline that truly renders mages mad."
+				"{@pagebreak}"
+				"&3Van&r, take these pills, you must be crazy."
+			]
 			hide_dependency_lines: true
-			hide_until_deps_complete: true
 			id: "679D7B535BE7E8B2"
 			rewards: [{
-				id: "4F1FA52B077C21EB"
-				type: "xp_levels"
-				xp_levels: 3
+				count: 3
+				id: "32D0E5B19EDA1B60"
+				item: "farmersdelight:melon_juice"
+				type: "item"
 			}]
 			size: 1.15d
 			tasks: [{
@@ -17564,11 +18205,12 @@
 		}
 		{
 			dependencies: ["679D7B535BE7E8B2"]
+			description: ["&3By channeling magic through a technological framework, I strive to push the arcane arts further than it's ever gone before. This machine will allow me to create what I call a Casting Assistant Device, or CAD, which should allow me to start taking advantage of Psi Energy.&r"]
 			id: "4B37E82CEEAACF03"
 			rewards: [{
-				count: 3
-				id: "30DC4F1C0AE7F06A"
-				item: "psi:psimetal"
+				count: 16
+				id: "7DB7C9CF81BF5475"
+				item: "minecraft:redstone"
 				type: "item"
 			}]
 			tasks: [{
@@ -17584,12 +18226,18 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
-			y: 25.5d
+			x: 7.0d
+			y: 24.5d
 		}
 		{
 			dependencies: ["490912716C7BB2C6"]
+			dependency_requirement: "one_started"
 			id: "6DFC344CA7197EEF"
+			rewards: [{
+				id: "15CAC539C2F58BD3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "3B577BFDAAE12EF4"
@@ -17624,6 +18272,11 @@
 		{
 			dependencies: ["490912716C7BB2C6"]
 			id: "2DAE9E3C66B44CC1"
+			rewards: [{
+				id: "6713EE5FA1336F33"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "5812201EAA2D2F51"
 				item: {
@@ -17741,9 +18394,10 @@
 			hide_dependency_lines: true
 			id: "6853E3A8E74D815A"
 			rewards: [{
-				id: "15FEE0284C3C75C5"
-				type: "xp_levels"
-				xp_levels: 1
+				exclude_from_claim_all: true
+				id: "3A300A6FC782A488"
+				table_id: 6800703616788188502L
+				type: "choice"
 			}]
 			tasks: [{
 				id: "7F9B690C8A47F47D"
@@ -17789,6 +18443,17 @@
 		{
 			dependencies: ["5D51BC92697C39DD"]
 			id: "26F4EC84DAFCC788"
+			rewards: [{
+				id: "198E8F95EE6DDDDB"
+				item: {
+					Count: 1
+					id: "concatenationcore:calralite_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "622D3C4050677CA1"
 				item: {
@@ -17808,6 +18473,12 @@
 		{
 			dependencies: ["5D51BC92697C39DD"]
 			id: "385412AAA1631FFF"
+			rewards: [{
+				count: 32
+				id: "016BDFDB198D571F"
+				item: "minecraft:glowstone_dust"
+				type: "item"
+			}]
 			tasks: [{
 				id: "266672C157AB2C3F"
 				item: {
@@ -17826,7 +18497,14 @@
 		}
 		{
 			dependencies: ["344B314D434D12C1"]
+			dependency_requirement: "one_started"
 			id: "5D51BC92697C39DD"
+			rewards: [{
+				count: 3
+				id: "56ED505997B5064F"
+				item: "mekanism:salt"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6789C7FFEE3C6D4F"
 				item: {
@@ -17846,6 +18524,11 @@
 		{
 			dependencies: ["16425F7B3E364B17"]
 			id: "33FC7F10A56757CB"
+			rewards: [{
+				id: "2FD48E0D48D2DACB"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
 			size: 1.25d
 			tasks: [{
 				id: "2C0E03375AC95F88"
@@ -17866,6 +18549,12 @@
 		{
 			dependencies: ["2B825471FE41A521"]
 			id: "1221A32C145FCE8B"
+			rewards: [{
+				count: 3
+				id: "1109845A6191FF57"
+				item: "rftoolspower:cell2"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7E8EC1AC142005AF"
 				item: {
@@ -17885,6 +18574,12 @@
 		{
 			dependencies: ["1221A32C145FCE8B"]
 			id: "5A50AE26BCF79069"
+			rewards: [{
+				count: 3
+				id: "5D641A99D9180D7A"
+				item: "rftoolspower:cell3"
+				type: "item"
+			}]
 			tasks: [{
 				id: "419F36F6A3EA8D96"
 				item: {
@@ -18116,7 +18811,7 @@
 		{
 			dependencies: ["524067700E07EB06"]
 			description: [
-				"The cutting board is generally used to cut meat and vegetables for recipes."
+				"The cutting board is generally used to cut meat and vegetables for recipes. High-quality cutting boards can be manufactured by Empress card holders, but you can also find any laying around in the world."
 				""
 				"A hammer can also be used with some materials to be flattered more easily on a sturdy surface."
 			]
@@ -19033,6 +19728,18 @@
 		{
 			dependencies: ["11AB2172D3EEA227"]
 			id: "6A14407DA0272406"
+			rewards: [
+				{
+					id: "39CE4F151B8DD71F"
+					item: "concatenationcore:celestial_handle"
+					type: "item"
+				}
+				{
+					id: "34542AEC14EF26F4"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "5D0FDCD342D02524"
 				item: {
@@ -19051,6 +19758,23 @@
 		{
 			dependencies: ["11AB2172D3EEA227"]
 			id: "438A240BD17163B8"
+			rewards: [
+				{
+					id: "4E449F70E3DEAF5A"
+					item: "minecraft:ghast_tear"
+					type: "item"
+				}
+				{
+					id: "7AC89A0BBB51557A"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+				{
+					id: "3BB8C0E016D7DBA3"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "578A8CB482FCE0FE"
 				item: {
@@ -19069,6 +19793,18 @@
 		{
 			dependencies: ["11AB2172D3EEA227"]
 			id: "31A16BA45E6B3CD2"
+			rewards: [
+				{
+					id: "7742710185407C81"
+					item: "concatenationcore:celestial_handle"
+					type: "item"
+				}
+				{
+					id: "344FC3F6B4AC0538"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "6868EB1BF15BD72E"
 				item: {
@@ -19088,6 +19824,18 @@
 		{
 			dependencies: ["11AB2172D3EEA227"]
 			id: "7F2278AF03FA7D0D"
+			rewards: [
+				{
+					id: "2C765072B71FBB86"
+					item: "concatenationcore:celestial_handle"
+					type: "item"
+				}
+				{
+					id: "314CB18744BE4A5C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "2AC7069F67C73A63"
 				item: {
@@ -19107,6 +19855,23 @@
 		{
 			dependencies: ["11AB2172D3EEA227"]
 			id: "6633713413DCB0E4"
+			rewards: [
+				{
+					id: "57E3F3399C51E3BF"
+					item: "minecraft:ghast_tear"
+					type: "item"
+				}
+				{
+					id: "6CED0BB8EC32148D"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+				{
+					id: "1FA1D650BF0BD46F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "5E6DAED1FB3FC8E6"
 				item: {
@@ -19125,6 +19890,27 @@
 		{
 			dependencies: ["11AB2172D3EEA227"]
 			id: "7DAD92D1352198F1"
+			rewards: [
+				{
+					id: "40758AE6A29C4D34"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "ars_elemental:soulbound"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3541AC30F89CFBCF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "665908C1A6CD9063"
 				item: {
@@ -19146,6 +19932,23 @@
 		{
 			dependencies: ["11AB2172D3EEA227"]
 			id: "584B317770EEC53A"
+			rewards: [
+				{
+					id: "6A0125BD247952F4"
+					item: "minecraft:ghast_tear"
+					type: "item"
+				}
+				{
+					id: "46ECB8BC88CF8BFA"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+				{
+					id: "5FB1C0D6E717EDCA"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "29DD7DDC958989F8"
 				item: {
@@ -19164,6 +19967,19 @@
 		{
 			dependencies: ["11AB2172D3EEA227"]
 			id: "4F9B4BD072704D17"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5255C99BFC9E2909"
+					table_id: 1142461523967912805L
+					type: "choice"
+				}
+				{
+					id: "40DB4EC395C13154"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "2EF5F25626903E71"
 				item: {
@@ -19248,7 +20064,7 @@
 				item: "tconstruct:manyullyn_ingot"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -1.0d
 			y: 13.5d
 		}
 		{
@@ -19722,6 +20538,20 @@
 		{
 			dependencies: ["4E4E81226BED0E7C"]
 			id: "7D281BDB1C2472F1"
+			rewards: [{
+				count: 5
+				id: "1147A90310FA4F58"
+				item: {
+					Count: 1
+					id: "elementalcraft:pure_ore"
+					tag: {
+						elementalcraft: {
+							ore: "forge:redstone"
+						}
+					}
+				}
+				type: "item"
+			}]
 			size: 1.15d
 			tasks: [{
 				id: "69E34EEB7779B8FF"
@@ -19740,6 +20570,12 @@
 		{
 			dependencies: ["4E4E81226BED0E7C"]
 			id: "483A8C4A3EE05C52"
+			rewards: [{
+				count: 9
+				id: "02C8124F0334CFC3"
+				item: "minecraft:glow_berries"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2310CAC195D888F6"
 				item: "reliquary:angelheart_vial"
@@ -19754,6 +20590,12 @@
 				"483A8C4A3EE05C52"
 			]
 			id: "3BC974F6785A43B3"
+			rewards: [{
+				count: 5
+				id: "2DBCA354DB93BF21"
+				item: "reliquary:angelheart_vial"
+				type: "item"
+			}]
 			tasks: [{
 				id: "31FE2C17AA05CDF8"
 				item: "reliquary:phoenix_down"
@@ -19765,6 +20607,11 @@
 		{
 			dependencies: ["4E4E81226BED0E7C"]
 			id: "23F4617A86D5F64E"
+			rewards: [{
+				id: "44A9342C1349C618"
+				item: "minecraft:bat_spawn_egg"
+				type: "item"
+			}]
 			tasks: [{
 				id: "50BA59F871D27A44"
 				item: "reliquary:angelic_feather"
@@ -19776,6 +20623,12 @@
 		{
 			dependencies: ["4E4E81226BED0E7C"]
 			id: "471939DE22B5426B"
+			rewards: [{
+				count: 128
+				id: "1A78708496A8CEF5"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
 			size: 0.9d
 			tasks: [{
 				id: "48BBC7D237937923"
@@ -19788,6 +20641,11 @@
 		{
 			dependencies: ["4E4E81226BED0E7C"]
 			id: "0901394AD3A5FDAB"
+			rewards: [{
+				id: "6124B6F0F9E2A86C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "47A1211F79140D97"
 				item: "reliquary:fortune_coin"
@@ -19799,6 +20657,11 @@
 		{
 			dependencies: ["7D281BDB1C2472F1"]
 			id: "641652D8289A2AF2"
+			rewards: [{
+				id: "09A4993D7B812057"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "7F2EF4CFDB194DD8"
 				item: "reliquary:glacial_staff"
@@ -19810,6 +20673,11 @@
 		{
 			dependencies: ["7D281BDB1C2472F1"]
 			id: "728B9DCC6EEF04E2"
+			rewards: [{
+				id: "4C8DC2D214EA8F61"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "74C6E160ED0AF054"
 				item: "reliquary:pyromancer_staff"
@@ -19821,6 +20689,11 @@
 		{
 			dependencies: ["7D281BDB1C2472F1"]
 			id: "439A7FD241E5D5E4"
+			rewards: [{
+				id: "63645AD02ADD8D07"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "21D8996224D0CFE4"
 				item: {
@@ -19846,6 +20719,11 @@
 		{
 			dependencies: ["7D281BDB1C2472F1"]
 			id: "1CB0C2CD353BA642"
+			rewards: [{
+				id: "3EEE0193BE713118"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "2EC02C31B187FF3F"
 				item: {
@@ -19863,6 +20741,12 @@
 		{
 			dependencies: ["7D281BDB1C2472F1"]
 			id: "6FE18A64BEAF0A08"
+			rewards: [{
+				count: 64
+				id: "78C6E77E77448199"
+				item: "minecraft:torch"
+				type: "item"
+			}]
 			tasks: [{
 				id: "09C668F3104EE04D"
 				item: "reliquary:sojourner_staff"
@@ -19874,6 +20758,11 @@
 		{
 			dependencies: ["4E4E81226BED0E7C"]
 			id: "6D9C35A4B03D6421"
+			rewards: [{
+				id: "344A6F9058768822"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "6B8DE248E560EF11"
 				item: {
@@ -19899,6 +20788,11 @@
 		{
 			dependencies: ["6FE18A64BEAF0A08"]
 			id: "2A6F7A84B94F1B7F"
+			rewards: [{
+				id: "63F4FEE0FBE7BA37"
+				item: "torchmaster:megatorch"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3AE1B123A7E8BF18"
 				item: "reliquary:lantern_of_paranoia"
@@ -19913,6 +20807,11 @@
 				"2A6F7A84B94F1B7F"
 			]
 			id: "5AAC92BF084F5CC7"
+			rewards: [{
+				id: "77E5463FB9E4F664"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "5BC9A7DEF890290A"
 				item: "reliquary:salamander_eye"
@@ -19924,6 +20823,11 @@
 		{
 			dependencies: ["471939DE22B5426B"]
 			id: "4FB2DA70942ECABD"
+			rewards: [{
+				id: "5DF2AFD74B5E9557"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [{
 				id: "12558DDB5323CCDB"
 				item: "reliquary:handgun"
@@ -19935,6 +20839,12 @@
 		{
 			dependencies: ["2A6F7A84B94F1B7F"]
 			id: "66DB777A17822FE0"
+			rewards: [{
+				count: 16
+				id: "3753D444E55F6C18"
+				item: "reliquary:interdiction_torch"
+				type: "item"
+			}]
 			tasks: [{
 				id: "16A8899AB02C7516"
 				item: "reliquary:interdiction_torch"
@@ -19946,6 +20856,11 @@
 		{
 			dependencies: ["4E4E81226BED0E7C"]
 			id: "081070F7CBF61207"
+			rewards: [{
+				id: "665662B978FE23C2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "290562D519F4C6F2"
 				item: {
@@ -19965,6 +20880,12 @@
 		{
 			dependencies: ["7D281BDB1C2472F1"]
 			id: "34DB9EBB5C296D71"
+			rewards: [{
+				count: 3
+				id: "5242E9C718036F5D"
+				item: "born_in_chaos_v1:elixirof_wither_resistance"
+				type: "item"
+			}]
 			tasks: [{
 				id: "02DA134DDB14AA28"
 				item: "reliquary:witherless_rose"
@@ -19979,6 +20900,7 @@
 			rewards: [{
 				id: "2ADC4CA9F0E9CEF7"
 				item: "minecraft:redstone_block"
+				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
@@ -19992,6 +20914,19 @@
 		{
 			dependencies: ["4E4E81226BED0E7C"]
 			id: "21E6CA24E283AF68"
+			rewards: [
+				{
+					count: 32
+					id: "395BB7E17E5F9EF0"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+				{
+					id: "6EF68BA5469C4DFB"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "4AEE0CC94FA9E76E"
 				item: {
@@ -20010,6 +20945,11 @@
 			dependencies: ["21E6CA24E283AF68"]
 			hide_dependency_lines: true
 			id: "50F5D21769C1B356"
+			rewards: [{
+				id: "42361E30C508BC7E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			size: 1.15d
 			tasks: [{
 				id: "1051A989BB0B075A"
@@ -20029,6 +20969,11 @@
 			dependencies: ["7D281BDB1C2472F1"]
 			hide_dependency_lines: true
 			id: "4556ED8E14FEA0D9"
+			rewards: [{
+				id: "56F9ED2E74C246E7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "3DF268B58CB91994"
 				item: {
@@ -20058,6 +21003,17 @@
 			dependencies: ["7D281BDB1C2472F1"]
 			hide_dependency_lines: true
 			id: "7EA2E0871C6D568C"
+			rewards: [{
+				id: "78556DFB107D88E6"
+				item: {
+					Count: 1
+					id: "concatenationcore:shrike"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6995D2EB47EB369A"
 				item: "reliquary:hero_medallion"
@@ -20069,6 +21025,12 @@
 		{
 			dependencies: ["0D61335A0B07300D"]
 			id: "3763D07C9E3EBB04"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "68E09164E05ED2BF"
+				table_id: 8405090712645604397L
+				type: "choice"
+			}]
 			tasks: [
 				{
 					id: "2537423E24072297"
@@ -20087,6 +21049,12 @@
 		{
 			dependencies: ["0D61335A0B07300D"]
 			id: "18842926F8B1C64D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "78ADC72E6F81C7CE"
+				table_id: 8405090712645604397L
+				type: "choice"
+			}]
 			tasks: [{
 				id: "4FC77E708F208A01"
 				item: "theurgy:pyromantic_brazier"
@@ -20098,6 +21066,11 @@
 		{
 			dependencies: ["18842926F8B1C64D"]
 			id: "196E58EC65B8C401"
+			rewards: [{
+				id: "0EF92EE3258D753B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "479A1ACA4A073A6E"
 				item: "theurgy:liquefaction_cauldron"
@@ -20109,6 +21082,11 @@
 		{
 			dependencies: ["18842926F8B1C64D"]
 			id: "082867418C58A3F7"
+			rewards: [{
+				id: "29BFDA873AFBE123"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "748C6D3C05A5F941"
 				item: "theurgy:distiller"
@@ -20120,6 +21098,11 @@
 		{
 			dependencies: ["18842926F8B1C64D"]
 			id: "0BFFCDA557C3AC9C"
+			rewards: [{
+				id: "7512A513F71F0A5C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "7C811554DCA8D4ED"
 				item: "theurgy:calcination_oven"
@@ -20131,6 +21114,11 @@
 		{
 			dependencies: ["0BFFCDA557C3AC9C"]
 			id: "55CA3D58EE9C883B"
+			rewards: [{
+				id: "1D8A873E0D816FE1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "176615EC9A7CFE23"
 				item: {
@@ -20156,12 +21144,18 @@
 				title: "Any Salt"
 				type: "item"
 			}]
+			title: "Salt"
 			x: 32.4d
 			y: 11.85d
 		}
 		{
 			dependencies: ["082867418C58A3F7"]
 			id: "73BE1AB671E9C173"
+			rewards: [{
+				id: "77EB15E47A34A83A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "447A944E03165CA1"
 				item: "theurgy:mercury_shard"
@@ -20173,6 +21167,11 @@
 		{
 			dependencies: ["18842926F8B1C64D"]
 			id: "16E1267D485886E8"
+			rewards: [{
+				id: "4460464332398FE5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "3AA51F0094B178FD"
 				item: "theurgy:incubator"
@@ -20184,6 +21183,18 @@
 		{
 			dependencies: ["5432F56480D8CCC3"]
 			id: "4CC297E5C35D87F8"
+			rewards: [{
+				count: 5
+				id: "7EBA38FCE9849699"
+				item: {
+					Count: 1
+					id: "theurgy:alchemical_sulfur_diamond"
+					tag: {
+						"theurgy:sulfur.source.id": "#forge:gems/diamond"
+					}
+				}
+				type: "item"
+			}]
 			size: 1.15d
 			tasks: [
 				{
@@ -20202,12 +21213,18 @@
 					type: "item"
 				}
 			]
+			title: "Reformation"
 			x: 35.9d
 			y: 14.999999999999998d
 		}
 		{
 			dependencies: ["73BE1AB671E9C173"]
 			id: "0EC44F3645ABD596"
+			rewards: [{
+				id: "316EF980F407C72A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "0742019A80BB618E"
@@ -20226,6 +21243,12 @@
 		{
 			dependencies: ["5432F56480D8CCC3"]
 			id: "29AB1C13F14D1962"
+			rewards: [{
+				count: 64
+				id: "67210948DB89AF42"
+				item: "theurgy:purified_gold"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "33687531D74C0F67"
@@ -20250,6 +21273,18 @@
 				"1275C0782A86ABA7"
 			]
 			id: "57D021A05869800D"
+			rewards: [
+				{
+					id: "6442D1B2895B1ADF"
+					item: "reliquary:witherless_rose"
+					type: "item"
+				}
+				{
+					id: "795CA52CE077EF96"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			tasks: [{
 				id: "2A1B9C2AF3D861F9"
 				item: {
@@ -20292,6 +21327,11 @@
 			dependencies: ["29AB1C13F14D1962"]
 			hide_dependency_lines: true
 			id: "5FDE312C630BCFBF"
+			rewards: [{
+				id: "7E8D3693FE38B52C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "3D6ED7E6698D1248"
 				item: "projecte:low_covalence_dust"
@@ -20304,6 +21344,11 @@
 			dependencies: ["73BE1AB671E9C173"]
 			hide_dependency_lines: true
 			id: "09811FE8990DC377"
+			rewards: [{
+				id: "50C43A9F99BCE3E1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "4B5844752EA07A97"
 				item: "projecte:medium_covalence_dust"
@@ -20316,6 +21361,11 @@
 			dependencies: ["55CA3D58EE9C883B"]
 			hide_dependency_lines: true
 			id: "329502500A01AB87"
+			rewards: [{
+				id: "6FFDA42E9EFE7D6C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "01BF45C144280062"
 				item: "projecte:high_covalence_dust"
@@ -20327,6 +21377,11 @@
 		{
 			dependencies: ["4CC297E5C35D87F8"]
 			id: "1275C0782A86ABA7"
+			rewards: [{
+				id: "1292C003B61D03C9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "02F9FF4B609FE663"
 				item: "theurgy:alchemical_sulfur_metals_precious"
@@ -20338,6 +21393,18 @@
 		{
 			dependencies: ["16E1267D485886E8"]
 			id: "5432F56480D8CCC3"
+			rewards: [{
+				count: 9
+				id: "55C364B5511CDF51"
+				item: {
+					Count: 1
+					id: "theurgy:alchemical_sulfur_silver"
+					tag: {
+						"theurgy:sulfur.source.id": "#forge:ingots/silver"
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "45A79F07BF525DF5"
 				item: {
@@ -20347,15 +21414,28 @@
 						value: "theurgy:alchemical_sulfurs"
 					}
 				}
-				title: "Any #theurgy:alchemical_sulfurs"
+				title: "Any Alchemical Sulfur"
 				type: "item"
 			}]
+			title: "Alchemical Sulfur"
 			x: 34.4d
 			y: 14.35d
 		}
 		{
 			dependencies: ["731126727DDCAC54"]
 			id: "015124A9D4A821AF"
+			rewards: [{
+				count: 4
+				id: "106BA61CA9B6D95B"
+				item: {
+					Count: 1
+					id: "elementalcraft:elemental_firefuel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "1AF83911FC155D2D"
@@ -20380,6 +21460,11 @@
 			dependencies: ["015124A9D4A821AF"]
 			dependency_requirement: "one_started"
 			id: "5CFB446EC47CB53D"
+			rewards: [{
+				id: "1DD311F71C19F7C6"
+				item: "minecraft:diamond_block"
+				type: "item"
+			}]
 			tasks: [{
 				id: "54DBE632E56256D2"
 				item: "projecte:dark_matter"
@@ -20391,6 +21476,11 @@
 		{
 			dependencies: ["5CFB446EC47CB53D"]
 			id: "5B29FE8F9F7C91F2"
+			rewards: [{
+				id: "4045DBAEA23614B6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "5E43E434D15E3997"
 				item: "projecte:red_matter"
@@ -20402,6 +21492,11 @@
 		{
 			dependencies: ["5CFB446EC47CB53D"]
 			id: "652B290897F2DE42"
+			rewards: [{
+				id: "223E1023F3E3C811"
+				item: "minecraft:diamond_block"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "05CB8F220BE936A5"
@@ -20424,12 +21519,18 @@
 					type: "item"
 				}
 			]
+			title: "Dark Matter Armour"
 			x: 43.25d
 			y: 19.4d
 		}
 		{
 			dependencies: ["5CFB446EC47CB53D"]
 			id: "3C4322DE0D3F5600"
+			rewards: [{
+				id: "32FF5957CFAD5165"
+				item: "minecraft:diamond_block"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "2519AE1017F64530"
@@ -20480,12 +21581,18 @@
 					type: "item"
 				}
 			]
+			title: "Dark Matter Tools"
 			x: 44.25d
 			y: 19.4d
 		}
 		{
 			dependencies: ["5B29FE8F9F7C91F2"]
 			id: "0404DD4A0D87F8E3"
+			rewards: [{
+				id: "79035AECCD07636B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "79799441056DC844"
@@ -20508,12 +21615,18 @@
 					type: "item"
 				}
 			]
+			title: "Red Matter Armour"
 			x: 47.25d
 			y: 21.9d
 		}
 		{
 			dependencies: ["5B29FE8F9F7C91F2"]
 			id: "64E7F4D741319837"
+			rewards: [{
+				id: "60FB461EF4C3F372"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "419A4610247BC8D2"
@@ -20552,12 +21665,18 @@
 					type: "item"
 				}
 			]
+			title: "Red Matter Tools"
 			x: 45.75d
 			y: 19.9d
 		}
 		{
 			dependencies: ["5B29FE8F9F7C91F2"]
 			id: "2C9A823433809050"
+			rewards: [{
+				id: "13D32631A25F70D3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "60883705487A76BD"
@@ -20608,12 +21727,19 @@
 					type: "item"
 				}
 			]
+			title: "Red Matter Weapons"
 			x: 46.75d
 			y: 20.4d
 		}
 		{
 			dependencies: ["731126727DDCAC54"]
 			id: "52AD18AF6F36C7DB"
+			rewards: [{
+				count: 4
+				id: "00E4019BB8E5959E"
+				item: "concatenationcore:protean_glass"
+				type: "item"
+			}]
 			tasks: [{
 				id: "04061397D6215E52"
 				item: "projecte:condenser_mk1"
@@ -20628,6 +21754,12 @@
 				"52AD18AF6F36C7DB"
 			]
 			id: "225E44D2CE6D6309"
+			rewards: [{
+				count: 4
+				id: "384D7B0664F492A6"
+				item: "bloodmagic:sacrificerune2"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "73332F9699136AB2"
@@ -20640,6 +21772,7 @@
 					type: "item"
 				}
 			]
+			title: "Power Flower"
 			x: 41.75d
 			y: 21.9d
 		}
@@ -20649,6 +21782,12 @@
 				"5CFB446EC47CB53D"
 			]
 			id: "695A4630322F9D35"
+			rewards: [{
+				count: 2
+				id: "7545848C51BBF163"
+				item: "concatenationcore:glowing_gold"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "4964D6F4FB46AF67"
@@ -20661,6 +21800,7 @@
 					type: "item"
 				}
 			]
+			title: "MK2 Power"
 			x: 43.75d
 			y: 22.9d
 		}
@@ -20670,6 +21810,11 @@
 				"5B29FE8F9F7C91F2"
 			]
 			id: "3DEB1BAED09B87EB"
+			rewards: [{
+				id: "7CE8B043DCA68DB4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "13B2F06D927714C8"
@@ -20687,12 +21832,18 @@
 					type: "item"
 				}
 			]
+			title: "MK3 Power"
 			x: 45.25d
 			y: 23.4d
 		}
 		{
 			dependencies: ["5CFB446EC47CB53D"]
 			id: "15E087C520CD6950"
+			rewards: [{
+				id: "05D66D387863E99E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "1783501E02AABDF0"
 				item: "projecte:transmutation_tablet"
@@ -20704,6 +21855,12 @@
 		{
 			dependencies: ["731126727DDCAC54"]
 			id: "04B76C415BE9F974"
+			rewards: [{
+				count: 4
+				id: "42FFC4A3BB2CF174"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1F910B49BA17AADE"
 				item: "projecte:transmutation_table"
@@ -20716,6 +21873,11 @@
 			dependencies: ["015124A9D4A821AF"]
 			hide_dependency_lines: true
 			id: "772D16E67AD29556"
+			rewards: [{
+				id: "2CF6904C79E8A2C3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "7B8ED676F9927AF9"
@@ -20773,6 +21935,7 @@
 					type: "item"
 				}
 			]
+			title: "Klein Stars"
 			x: 46.75d
 			y: 23.9d
 		}
@@ -20782,6 +21945,11 @@
 				"0404DD4A0D87F8E3"
 			]
 			id: "47BE5EBEB47FA870"
+			rewards: [{
+				id: "4E28C37BBA00CE1F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			size: 1.15d
 			tasks: [
 				{
@@ -20805,6 +21973,7 @@
 					type: "item"
 				}
 			]
+			title: "Gem Armour"
 			x: 48.75d
 			y: 23.4d
 		}
@@ -20814,7 +21983,13 @@
 				"64E7F4D741319837"
 			]
 			dependency_requirement: "one_started"
+			description: [""]
 			id: "76CE9FC7D06D6CE8"
+			rewards: [{
+				id: "1A02C32BCB39789C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "4BE95068929E96A9"
@@ -20841,12 +22016,25 @@
 					type: "item"
 				}
 			]
+			title: "The Katar and Morningstar"
 			x: 46.75d
 			y: 19.4d
 		}
 		{
 			dependencies: ["5CFB446EC47CB53D"]
 			id: "31817C54C3FFDA2D"
+			rewards: [{
+				id: "1C00B265C60C0EFB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:watch_of_flowing_time"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1B30584B8FE0C920"
 				item: "projecte:dm_pedestal"
@@ -20861,6 +22049,12 @@
 				"09811FE8990DC377"
 			]
 			id: "03C07C1AE7AC4E1A"
+			rewards: [{
+				count: 4
+				id: "57D50E65AC08521C"
+				item: "projecte:medium_covalence_dust"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2AFD44BEC7DC9058"
 				item: "projecte:interdiction_torch"
@@ -20872,6 +22066,18 @@
 		{
 			dependencies: ["33FC7F10A56757CB"]
 			id: "24A31DEF16754429"
+			rewards: [{
+				id: "77816866D07D14B8"
+				item: {
+					Count: 1
+					id: "ae2:dense_energy_cell"
+					tag: {
+						internalCurrentPower: 1600000.0d
+						internalMaxPower: 1600000.0d
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "527CC298DD7E76A2"
 				item: "rftoolsbuilder:shape_card_quarry"
@@ -20941,6 +22147,11 @@
 		{
 			dependencies: ["16425F7B3E364B17"]
 			id: "514AA39464185B58"
+			rewards: [{
+				id: "148F983492991F24"
+				item: "rftoolsbase:machine_frame"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6BD890C0BD54A880"
 				item: "rftoolsbuilder:shield_block1"
@@ -20963,6 +22174,20 @@
 		{
 			dependencies: ["16425F7B3E364B17"]
 			id: "46214166DD4261B9"
+			rewards: [
+				{
+					count: 2
+					id: "56C4AA3ECBBCE2B9"
+					item: "rftoolsutility:matter_receiver"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0C88BD5BBBD30DAA"
+					item: "rftoolsutility:matter_transmitter"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "3E08D9229916034C"
@@ -21079,9 +22304,10 @@
 			]
 			id: "1E680462C41F3BB5"
 			rewards: [{
-				id: "4A043E6232333093"
-				type: "xp_levels"
-				xp_levels: 1
+				exclude_from_claim_all: true
+				id: "149440307811181F"
+				table_id: 6800703616788188502L
+				type: "choice"
 			}]
 			tasks: [
 				{
@@ -21151,38 +22377,31 @@
 		}
 		{
 			dependencies: ["2DFD2B7661869743"]
+			description: ["Linked Ender Chests are a version of enderchests better suited for industrial use. Automation can be more efficient by directly linking parts of various contraptions across dimensions by sending items or liquid with the Ender Tank."]
 			id: "1AD20894C1E7AFA7"
 			rewards: [{
 				id: "28F7BF6D7976BB2A"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			tasks: [{
-				id: "0BED60CCD37C92F3"
-				item: "enderstorage:ender_chest"
-				type: "item"
-			}]
-			x: -25.5d
+			tasks: [
+				{
+					id: "0BED60CCD37C92F3"
+					item: "enderstorage:ender_chest"
+					type: "item"
+				}
+				{
+					id: "729635A1447A9C01"
+					item: "enderstorage:ender_tank"
+					type: "item"
+				}
+			]
+			x: -25.0d
 			y: 2.5d
 		}
 		{
-			dependencies: ["2DFD2B7661869743"]
-			id: "3FBBA09E3A0249F2"
-			rewards: [{
-				id: "08E540D8DA2F4083"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			tasks: [{
-				id: "2C0D1878111FE483"
-				item: "enderstorage:ender_tank"
-				type: "item"
-			}]
-			x: -24.5d
-			y: 3.0d
-		}
-		{
 			dependencies: ["7E1C64AA0AA235C2"]
+			description: ["Linked Ender Chests are a version of enderchests better suited for industrial use. Automation can be more efficient by directly linking parts of various contraptions across dimensions by sending items or liquid with the Ender Tank."]
 			id: "29886789989F6CE9"
 			rewards: [{
 				count: 4
@@ -21381,11 +22600,18 @@
 				"Compacting drawers can be used for storing ores and ingots, which can be withdrawn in nugget, ingot, or block form."
 			]
 			id: "47F28365AC7EE987"
-			rewards: [{
-				id: "2EC646FE7FB8E297"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "295896F611E18162"
+					item: "ironchest:crystal_chest"
+					type: "item"
+				}
+				{
+					id: "5504CD916F60B662"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			size: 0.9d
 			tasks: [
 				{
@@ -21532,6 +22758,7 @@
 			y: -6.0d
 		}
 		{
+			dependencies: ["524067700E07EB06"]
 			description: [
 				"The seasons change, and so does the availability of crops. Some crops can only grow in the summer, or spring, or autumn."
 				""
@@ -21555,6 +22782,7 @@
 		}
 		{
 			dependencies: ["33F8735D8322AFE6"]
+			description: ["The Calralite Hammer is a symbol of power. Its composition provides unmatched resilience, allowing it to endure prolonged use without losing its edge or structural integrity, even when subjected to intense heat or heavy impact."]
 			hide_dependency_lines: true
 			id: "0C234E08F2DA20B1"
 			rewards: [{
@@ -21632,6 +22860,11 @@
 		{
 			dependencies: ["5A50AE26BCF79069"]
 			id: "7B8FFE3C70CD7BC7"
+			rewards: [{
+				id: "6AD2A5985E18C0F4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "2936A42F71271CF0"
 				item: "solarflux:sp_8"
@@ -21871,6 +23104,633 @@
 			title: "&6The World"
 			x: 0.0d
 			y: -15.75d
+		}
+		{
+			dependencies: ["679D7B535BE7E8B2"]
+			description: ["&3I finally got my hands on a Psidust sample. If I use a basic CAD made of just an assembly and nothing else, I can channel Psi Energy into redstone dust and create Psidust. It’s... interesting. I can’t quite explain the reaction when I mixed redstone dust with Psi Energy, but the results are undeniable. I’ve used it to create unique tools and spell components.&r"]
+			id: "56209781BEA94B72"
+			rewards: [{
+				count: 16
+				id: "4135156968CDB616"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2DF8B10201AA7B2F"
+				item: "psi:psidust"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["4B37E82CEEAACF03"]
+			description: ["&3This one’s a bit tricky. After months of tweaking and soldering, I managed to create a usable CAD core. It’s simple compared to what I want, but it’s a start. Without a socket to put spell bullets in, without a battery to power the whole thing, I’m just spitting into the void. But I’ve figured out one thing: Psi Energy doesn’t care about mana. It’s untethered, wild, and as long as my CAD can handle it, I can cast.&r"]
+			id: "0C1EF43A36DDC399"
+			rewards: [{
+				count: 8
+				id: "263A4E206D008A8D"
+				item: "psi:psidust"
+				type: "item"
+			}]
+			tasks: [{
+				id: "61A28C850A7D6437"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [{
+							Count: 1b
+							ForgeCaps: {
+								Parent: {
+									Battery: 0
+									Memory: [ ]
+									Time: 115
+								}
+							}
+							id: "psi:cad"
+							tag: {
+								CapabilityData: {
+									Battery: 0
+									Memory: [ ]
+									Time: 114
+								}
+								componentASSEMBLY: {
+									Count: 1b
+									id: "psi:cad_assembly_iron"
+								}
+							}
+						}]
+					}
+				}
+				title: "Any CAD"
+				type: "item"
+			}]
+			title: "Casting Assistant Device"
+			x: 6.0d
+			y: 25.5d
+		}
+		{
+			dependencies: ["56209781BEA94B72"]
+			description: ["&3With a Spell Programmer I can create my spells, and save them inside of Spell Bullets to put inside of my CAD in order to start spellslinging. That is, as long as my CAD is able to handle it. The logic was a little tricky to get my head around at first, but it got more intuitive as I went along. I've written down guides in the Encyclopaedia Psionica for future reference.&r"]
+			icon: "psi:programmer"
+			id: "73A155D280F7D78D"
+			rewards: [{
+				count: 8
+				id: "78648027A2F979FF"
+				item: "psi:psidust"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7CBAF35508EB74A4"
+					item: "psi:programmer"
+					type: "item"
+				}
+				{
+					id: "5E8FFD2FE943CF99"
+					item: {
+						Count: 1
+						id: "psi:spell_bullet"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["56209781BEA94B72"]
+			description: ["&3I’ve even managed to add a little flair to my spells: colors! It's not strictly necessary, but... What's spellcasting without a little flair? Adding another component to the CAD to make sure my spells come out in a pretty colour is absolutely a good use of my time.&r"]
+			id: "57223394F396BEA0"
+			rewards: [{
+				id: "3472AC3126D4A15D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "3BE59C45C520EE3E"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "psi:cad_colorizer_white"
+							}
+							{
+								Count: 1b
+								id: "psi:cad_colorizer_orange"
+							}
+							{
+								Count: 1b
+								id: "psi:cad_colorizer_magenta"
+							}
+							{
+								Count: 1b
+								id: "psi:cad_colorizer_light_blue"
+							}
+							{
+								Count: 1b
+								id: "psi:cad_colorizer_yellow"
+							}
+							{
+								Count: 1b
+								id: "psi:cad_colorizer_lime"
+							}
+							{
+								Count: 1b
+								id: "psi:cad_colorizer_pink"
+							}
+							{
+								Count: 1b
+								id: "psi:cad_colorizer_gray"
+							}
+							{
+								Count: 1b
+								id: "psi:cad_colorizer_light_gray"
+							}
+							{
+								Count: 1b
+								id: "psi:cad_colorizer_cyan"
+							}
+							{
+								Count: 1b
+								id: "psi:cad_colorizer_purple"
+							}
+							{
+								Count: 1b
+								id: "psi:cad_colorizer_brown"
+							}
+							{
+								Count: 1b
+								id: "psi:cad_colorizer_green"
+							}
+							{
+								Count: 1b
+								id: "psi:cad_colorizer_red"
+							}
+							{
+								Count: 1b
+								id: "psi:cad_colorizer_black"
+							}
+							{
+								Count: 1b
+								id: "psi:cad_colorizer_rainbow"
+							}
+							{
+								Count: 1b
+								id: "psi:cad_colorizer_psi"
+							}
+							{
+								Count: 1b
+								id: "psi:cad_colorizer_empty"
+							}
+						]
+					}
+				}
+				title: "Any Colorizer"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 26.5d
+		}
+		{
+			dependencies: [
+				"73A155D280F7D78D"
+				"0C1EF43A36DDC399"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&3I’ve managed to create something truly terrifying with the Psimetal I extracted from an ancient ruin. I was able to replicate some with my usual infusion process. It’s alive, pulsing with a power that defies comprehension. I don’t even know how to control it, but I can feel its potential. With this, I could bend reality itself, reshape the world in my image.&r"
+				"{@pagebreak}"
+				"&3But I’m scared. This power isn’t just a tool, it’s a curse. If anyone finds out what I’ve done, they’ll come for me. They’ll lock me up, experiment on me, turn me into something less than human. But I can’t stop. The CAD calls to me, whispers in my mind, promising greatness beyond my wildest imagination.&r"
+			]
+			id: "19A4CACDAF0086ED"
+			rewards: [{
+				count: 8
+				id: "16304F152B455EFF"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "073C5011807BFA83"
+				item: "psi:psimetal"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 27.0d
+		}
+		{
+			dependencies: ["19A4CACDAF0086ED"]
+			description: ["&3I took my pills. Today is a good day. A more powerful CAD means more powerful infusions. With the Greater Infusion trick I can create Psigems out of diamonds, opening up a lot more options for the use of Psi Energy outside of just making CAD components.&r"]
+			id: "449B017FEE0378C4"
+			rewards: [{
+				count: 8
+				id: "2C6FE2EA9A04D290"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3C1F44F139F083F5"
+					item: "psi:psigem"
+					type: "item"
+				}
+				{
+					id: "27D8B699B2EE5400"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Battery: 0
+								Memory: [ ]
+								Time: 0
+							}
+						}
+						id: "psi:cad"
+						tag: {
+							CapabilityData: {
+								Battery: 0
+								Memory: [ ]
+								Time: 0
+							}
+							componentASSEMBLY: {
+								Count: 1b
+								id: "psi:cad_assembly_psimetal"
+							}
+							componentBATTERY: {
+								Count: 1b
+								id: "psi:cad_battery_extended"
+							}
+							componentCORE: {
+								Count: 1b
+								id: "psi:cad_core_overclocked"
+							}
+							componentSOCKET: {
+								Count: 1b
+								id: "psi:cad_socket_signaling"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 27.5d
+		}
+		{
+			dependencies: ["449B017FEE0378C4"]
+			description: ["&3By making tools out of Psi-infused materials, I can slot in spell bullets and automatically cast spells whenever I use them.&r"]
+			id: "143903A4CBF5AFB2"
+			rewards: [
+				{
+					count: 4
+					id: "6AC95A2CF4601E83"
+					item: "psi:psigem"
+					type: "item"
+				}
+				{
+					id: "12ACCFFCFE635E0B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "100DCCE463A46676"
+					item: {
+						Count: 1
+						id: "psi:psimetal_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3F0DFFB9A25A3AB0"
+					item: {
+						Count: 1
+						id: "psi:psimetal_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E2A30DFBCFAE1F8"
+					item: {
+						Count: 1
+						id: "psi:psimetal_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "559267F836111F5D"
+					item: {
+						Count: 1
+						id: "psi:psimetal_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 26.5d
+		}
+		{
+			dependencies: ["449B017FEE0378C4"]
+			description: ["&3By making armour out of Psi-infused materials, I can slot in spell bullets and automatically cast spells when certain conditions are met. Crafting sensors to put in the exosuit will help with detecting when spells need to be cast.&r"]
+			id: "52D8E97D4CA4346C"
+			rewards: [
+				{
+					count: 4
+					id: "45EF2ABA8F2B62DB"
+					item: "psi:psigem"
+					type: "item"
+				}
+				{
+					id: "588CEB98754A5651"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "5C70645FE0740642"
+					item: {
+						Count: 1
+						id: "psi:psimetal_exosuit_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "18BE33B15453A0FE"
+					item: {
+						Count: 1
+						id: "psi:psimetal_exosuit_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "64AD988D14672BDA"
+					item: {
+						Count: 1
+						id: "psi:psimetal_exosuit_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5D979D5B3ECE2A07"
+					item: {
+						Count: 1
+						id: "psi:psimetal_exosuit_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["449B017FEE0378C4"]
+			description: [
+				"&3I’ve finally managed to integrate the Ebony and Ivory fragments into the CAD. It’s like having a supercharged version of Psi Energy, one that thrives on chaos and destruction. I don’t even know what it’s capable of, but I don’t want to find out. This power is dangerous, unpredictable, and if I use it wrong, it could consume me.&r"
+				"{@pagebreak}"
+				"&3But I can’t stop. The CAD demands more, craves more, and I’m only too happy to oblige. With this, I’ve unlocked a whole new level of spellcasting, one that defies logic and common sense. The world is a canvas, and I’m the brush. Let the madness begin.&r"
+			]
+			id: "3660FD519AD9E251"
+			rewards: [{
+				id: "33AC092573E7D3BE"
+				item: "born_in_chaos_v1:chaos_icon"
+				type: "item"
+			}]
+			tasks: [{
+				id: "103BD53D7403E48A"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "psi:ebony_substance"
+							}
+							{
+								Count: 1b
+								id: "psi:ivory_substance"
+							}
+						]
+					}
+				}
+				title: "Ebony or Ivory Substance"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 28.5d
+		}
+		{
+			dependencies: ["3660FD519AD9E251"]
+			description: ["&3I’ve done it. I’ve created a feedback loop, a cycle of power that sustains itself. With the Ebony fragment at my side, I’ve managed to create something that feels almost alive. The Psi Energy flows through the CAD, amplifying every spell, every command. It’s like having a permanent spellbook, one that never wears out.&r"]
+			id: "3B10FF9B870238A4"
+			rewards: [
+				{
+					count: 64
+					id: "7389919210508286"
+					item: "psi:psidust"
+					type: "item"
+				}
+				{
+					id: "5670E6BF114804B9"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "365C6D02948F2BF1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Battery: 264
+							Memory: [ ]
+							Time: 22
+						}
+					}
+					id: "psi:cad"
+					tag: {
+						CapabilityData: {
+							Battery: 264
+							Memory: [ ]
+							Time: 22
+						}
+						componentASSEMBLY: {
+							Count: 1b
+							id: "psi:cad_assembly_ebony_psimetal"
+						}
+						componentBATTERY: {
+							Count: 1b
+							id: "psi:cad_battery_ultradense"
+						}
+						componentCORE: {
+							Count: 1b
+							id: "psi:cad_core_hyperclocked"
+						}
+						componentSOCKET: {
+							Count: 1b
+							id: "psi:cad_socket_transmissive"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Ebony CAD"
+			x: 4.5d
+			y: 29.5d
+		}
+		{
+			dependencies: ["3660FD519AD9E251"]
+			description: ["&3Unfortunately I can't have everything in one CAD. I have to make tradeoffs for each component, but it should serve me well enough. I'm now free to experiment with the Spell Programming System as much as I please, with as few restrictions as possible.&r"]
+			id: "6BE0B478621DC602"
+			rewards: [
+				{
+					count: 64
+					id: "36C9E63774D1E41D"
+					item: "psi:psidust"
+					type: "item"
+				}
+				{
+					id: "011D9F362B272310"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "4A1337843046DCFB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Battery: 0
+							Memory: [ ]
+							Time: 0
+						}
+					}
+					id: "psi:cad"
+					tag: {
+						CapabilityData: {
+							Battery: 0
+							Memory: [ ]
+							Time: 0
+						}
+						componentASSEMBLY: {
+							Count: 1b
+							id: "psi:cad_assembly_ivory_psimetal"
+						}
+						componentBATTERY: {
+							Count: 1b
+							id: "psi:cad_battery_ultradense"
+						}
+						componentCORE: {
+							Count: 1b
+							id: "psi:cad_core_hyperclocked"
+						}
+						componentSOCKET: {
+							Count: 1b
+							id: "psi:cad_socket_transmissive"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Ivory CAD"
+			x: 3.5d
+			y: 29.5d
+		}
+		{
+			dependencies: ["0964BD6C4413A9C9"]
+			description: [
+				"Found some ancient blueprints from my nether adventures and saved them for later. I've borrowed an interesting book in a dwarven library with a note on the cover:"
+				""
+				"&oIn practice, it is rather good at resource processing, being able to make materials the regular smeltery cannot. But the foundry cannot alloy molten metals together for some strange reason&r"
+			]
+			hide_dependency_lines: true
+			id: "45869F0B994655D8"
+			rewards: [
+				{
+					id: "06C1F3591536E536"
+					item: "tconstruct:fantastic_foundry"
+					type: "item"
+				}
+				{
+					id: "0F3BF332AFBA502C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "3507E1E26124F2F5"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [{
+							Count: 1b
+							id: "tconstruct:foundry_controller"
+							tag: {
+								texture: "tconstruct:scorched_stone"
+							}
+						}]
+					}
+				}
+				title: "Any Foundry Controller"
+				type: "item"
+			}]
+			title: "The Fantastic Foundry"
+			x: -2.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["3AF5EB2526EAD40C"]
+			description: ["The Integral Workbench is a specialized assembly table for the making of quarry-related components."]
+			id: "7A4DEEAD97A49B3F"
+			rewards: [{
+				count: 2
+				id: "2A1EF35C9959E0FD"
+				item: "concatenationcore:galvanized_iron"
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "52923FDD4379853A"
+				item: "quarryplus:workbench"
+				type: "item"
+			}]
+			x: -24.375d
+			y: 6.0d
 		}
 	]
 	title: "The Journey"

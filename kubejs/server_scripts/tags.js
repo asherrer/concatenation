@@ -81,37 +81,136 @@ ServerEvents.tags('item', event => {
         //'create_dd:gilded_rose_sword'
     ]);
 
+    const helmets = [
+        'born_in_chaos_v1:dark_metal_armor_helmet',
+        'celestisynth:solar_crystal_helmet',
+        'celestisynth:lunar_stone_helmet',
+        'thermal:beekeeper_helmet',
+        'psi:psimetal_exosuit_helmet',
+        'hexerei:witch_helmet',
+        'ars_technica:technomancer_helmet',
+        'born_in_chaos_v1:nightmare_mantleofthe_night_helmet',
+        //'dimdoors:world_thread_helmet',
+        //'dimdoors:garment_of_reality_helmet',
+        'create:cardboard_helmet',
+        'bloodmagic:livinghelmet',
+        'tfmg:steel_helmet',
+        'born_in_chaos_v1:spiny_shell_armor_helmet',
+        'minecolonies:plate_armor_helmet',
+        'thermal:diving_helmet',
+        'thermal:hazmat_helmet'
+    ];
+
+    const chestplates = [
+        'born_in_chaos_v1:dark_metal_armor_chestplate',
+        'celestisynth:solar_crystal_chestplate',
+        'celestisynth:lunar_stone_chestplate',
+        'thermal:beekeeper_chestplate',
+        'psi:psimetal_exosuit_chestplate',
+        'hexerei:witch_chestplate',
+        'ars_technica:technomancer_chestplate',
+        'born_in_chaos_v1:nightmare_mantleofthe_night_chestplate',
+        //'dimdoors:world_thread_chestplate',
+        //'dimdoors:garment_of_reality_chestplate',
+        'create:cardboard_chestplate',
+        'bloodmagic:livingplate',
+        'tfmg:steel_chestplate',
+        'born_in_chaos_v1:spiny_shell_armor_chestplate',
+        'minecolonies:plate_armor_chest',
+        'thermal:diving_chestplate',
+        'thermal:hazmat_chestplate',
+        'simplyjetpacks:flux_chestplate'
+    ];
+
+    const leggings = [
+        'born_in_chaos_v1:dark_metal_armor_leggings',
+        'celestisynth:solar_crystal_leggings',
+        'celestisynth:lunar_stone_leggings',
+        'thermal:beekeeper_leggings',
+        'psi:psimetal_exosuit_leggings',
+        'hexerei:witch_leggings',
+        'ars_technica:technomancer_leggings',
+        'born_in_chaos_v1:nightmare_mantleofthe_night_leggings',
+        //'dimdoors:world_thread_leggings',
+        //'dimdoors:garment_of_reality_leggings',
+        'create:cardboard_leggings',
+        'bloodmagic:livingleggings',
+        'tfmg:steel_leggings',
+        'born_in_chaos_v1:spiny_shell_armor_leggings',
+        'minecolonies:plate_armor_legs',
+        'thermal:diving_leggings',
+        'thermal:hazmat_leggings'
+    ];
+
+    const boots = [
+        'born_in_chaos_v1:dark_metal_armor_boots',
+        'celestisynth:solar_crystal_boots',
+        'celestisynth:lunar_stone_boots',
+        'thermal:beekeeper_boots',
+        'psi:psimetal_exosuit_boots',
+        'hexerei:witch_boots',
+        'ars_technica:technomancer_boots',
+        'born_in_chaos_v1:nightmare_mantleofthe_night_boots',
+        //'dimdoors:world_thread_boots',
+        //'dimdoors:garment_of_reality_boots',
+        'create:cardboard_boots',
+        'bloodmagic:livingboots',
+        'tfmg:steel_boots',
+        'born_in_chaos_v1:spiny_shell_armor_boots',
+        'minecolonies:plate_armor_boots',
+        'thermal:diving_boots',
+        'thermal:hazmat_boots'
+    ];
+
     const cultist = [
         'concatenationcore:cultist_armor_helmet',
         'concatenationcore:cultist_armor_chestplate',
         'concatenationcore:cultist_armor_leggings',
         'concatenationcore:cultist_armor_boots'
     ];
+
     const ice = [
         'concatenationcore:condensed_ice_armor_helmet',
         'concatenationcore:condensed_ice_armor_chestplate',
         'concatenationcore:condensed_ice_armor_leggings',
         'concatenationcore:condensed_ice_armor_boots'
     ];
-    add('elementalcraft:infusable/helmets', [
-        cultist[0], ice[0]
-    ]);
-    add('elementalcraft:infusable/chestplates', [
-        cultist[1], ice[1]
-    ]);
-    add('elementalcraft:infusable/leggings', [
-        cultist[2], ice[2]
-    ]);
-    add('elementalcraft:infusable/boots', [
-        cultist[3], ice[3]
-    ]);
-    add('forge:armors', cultist.concat(ice));
+
+    helmets.push(cultist[0], ice[0]);
+    chestplates.push(cultist[1], ice[1]);
+    leggings.push(cultist[2], ice[2]);
+    boots.push(cultist[3], ice[3]);
+
+    event.add('elementalcraft:infusable/helmets', helmets);
+    event.add('elementalcraft:infusable/chestplates', chestplates);
+    event.add('elementalcraft:infusable/leggings', leggings);
+    event.add('elementalcraft:infusable/boots', boots);
+
+    event.add('forge:armors', []
+        .concat(helmets, chestplates, leggings, boots)
+    );
+
+    event.add('elementalcraft:infusable/axe', 'psi:psimetal_axe');
+    event.add('forge:tools/axes', 'psi:psimetal_axe');
+    event.add('minecraft:axes', 'psi:psimetal_axe');
+
+    event.add('elementalcraft:infusable/pickaxe', 'psi:psimetal_pickaxe');
+    event.add('forge:tools/pickaxes', 'psi:psimetal_pickaxe');
+    event.add('minecraft:pickaxes', 'psi:psimetal_pickaxe');
+
+    event.add('elementalcraft:infusable/shovel', 'psi:psimetal_shovel');
+    event.add('forge:tools/shovels', 'psi:psimetal_shovel');
+    event.add('minecraft:shovels', 'psi:psimetal_shovel');
+
+    event.add('elementalcraft:infusable/sword', 'psi:psimetal_sword');
+    event.add('forge:tools/swords', 'psi:psimetal_sword');
+    event.add('minecraft:swords', 'psi:psimetal_sword');
 
     add('tarotcards:golden', [
         'asr:golden_giant_sword',
         'mekanismtools:gold_paxel',
         'farmersdelight:golden_knife',
-        'dimdoors:rift_blade',
+        //'dimdoors:rift_blade',
         'concatenationcore:shrike',
         'concatenationcore:kestrel',
         'concatenationcore:kestrel_r',
