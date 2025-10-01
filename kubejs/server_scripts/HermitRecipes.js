@@ -37,23 +37,26 @@ ServerEvents.recipes(event => {
         event.remove({ output: 'thermal:electrum_ingot', type: 'minecraft:crafting_shapeless' })
         event.remove({ output: 'thermal:bronze_gear', type: 'minecraft:crafting_shaped' })
         event.remove({ output: 'thermal:tin_gear', type: 'minecraft:crafting_shaped' })
+        event.remove({ output: 'create_connected:fluid_vessel', type: 'minecraft:crafting_shaped' })
 
         event.remove({ input: 'minecraft:raw_iron', type: 'tconstruct:foundry' })
         //event.remove({ input: '#minecraft:iron_ores', type: 'tconstruct:foundry' })
         event.remove({ input: 'minecraft:raw_iron_block', type: 'tconstruct:foundry' })
 
-        const foundryids = [
-                "aquaflora"
-        ];
-
-        foundryids.forEach(id => {
-                event.remove({ id: `tconstruct:${id}` });
-        });
-
         event.replaceInput(
                 { mod: 'createbigcannons' },
                 'createbigcannons:cast_iron_ingot',
                 'tfmg:cast_iron_ingot'
+        )
+        event.replaceInput(
+                { mod: 'create_radar' },
+                'minecraft:copper_ingot',
+                'concatenationcore:inductor'
+        )
+        event.replaceInput(
+                { mod: 'create_radar' },
+                'create:precision_mechanism',
+                'concatenationcore:calculation_piece'
         )
         event.replaceInput(
                 { input: 'createdeco:zinc_sheet' },
@@ -530,5 +533,34 @@ ServerEvents.recipes(event => {
                         '#concatenation:hammers',
                         'create:andesite_alloy_block'
                 ]
+        )
+
+        event.shaped(
+                Item.of('concatenationcore:calculation_piece'),
+                [
+                        'BAB',
+                        'CED',
+                        'BAB'
+                ],
+                {
+                        A: 'thermal:lumium_ingot',
+                        B: 'thermal:electrum_ingot',
+                        E: 'concatenationcore:primed_calculation_processor',
+                        C: 'minecraft:compass',
+                        D: 'minecraft:clock'
+                }
+        )
+        event.shaped(
+                Item.of('concatenationcore:inductor'),
+                [
+                        ' B ',
+                        'ACA',
+                        ' B '
+                ],
+                {
+                        A: 'createmetallurgy:steel_ingot',
+                        B: 'thermal:invar_ingot',
+                        C: 'createaddition:copper_spool'
+                }
         )
 });

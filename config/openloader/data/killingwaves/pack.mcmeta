@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "description": "Kills stale waves to save performance",
+    "pack_format": 15
+  }
+}

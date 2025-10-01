@@ -4,7 +4,7 @@
     { "item": "tfmg:silicon_ingot" }
   ],
   "tool": {
-    "tag": "concatenation:cutting_tool"
+    "item": "concatenation:cutting_tool"
   },
   "result": [
     {

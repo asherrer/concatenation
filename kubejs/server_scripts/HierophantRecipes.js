@@ -66,21 +66,21 @@ ServerEvents.recipes(event => {
                         D: 'concatenationcore:quarry_brain'
                 }
         )
-        event.shaped(
-                Item.of('concatenationcore:quarry_brain'),
-                [
-                        'ABA',
-                        'CDC',
-                        'AEA'
-                ],
-                {
-                        E: 'minecraft:repeater',
-                        C: 'thermal:tin_gear',
-                        A: 'concatenationcore:galvanized_iron',
-                        B: 'minecraft:powered_rail',
-                        D: 'minecraft:copper_block'
-                }
-        )
+        // event.shaped(
+        //         Item.of('concatenationcore:quarry_brain'),
+        //         [
+        //                 'ABA',
+        //                 'CDC',
+        //                 'AEA'
+        //         ],
+        //         {
+        //                 E: 'minecraft:repeater',
+        //                 C: 'thermal:tin_gear',
+        //                 A: 'concatenationcore:galvanized_iron',
+        //                 B: 'minecraft:powered_rail',
+        //                 D: 'minecraft:copper_block'
+        //         }
+        // )
         event.shaped(
                 Item.of('concatenationcore:quarry_brain'),
                 [
@@ -908,7 +908,7 @@ ServerEvents.recipes(event => {
                 }
         )
         event.shaped(
-                Item.of('concatenationcore:crushed_iron', 3),
+                Item.of('concatenationcore:crushed_iron', 2),
                 [
                         'AB ',
                         '   ',
@@ -920,7 +920,7 @@ ServerEvents.recipes(event => {
                 }
         ).damageIngredient('concatenationcore:breaking_tool')
         event.shaped(
-                Item.of('concatenationcore:crushed_zinc', 3),
+                Item.of('concatenationcore:crushed_zinc', 2),
                 [
                         'AB ',
                         '   ',

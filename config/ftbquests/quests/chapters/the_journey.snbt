@@ -245,24 +245,17 @@
 				}
 				{
 					auto: "invisible"
-					command: "/curios set curio Mitemi 4"
+					command: "/curios set curio @s 4"
 					elevate_perms: true
 					icon: {
 						Count: 1
-						ForgeCaps: {
-							Parent: {
-								EyeInventory: {
-									Items: [ ]
-									Size: 2
-								}
-							}
-						}
 						id: "projecte:mercurial_eye"
 						tag: { }
 					}
 					id: "7173247262F8CEC8"
 					ignore_reward_blocking: true
 					silent: true
+					team_reward: false
 					title: "+4 Curio Slots"
 					type: "command"
 				}
@@ -700,6 +693,7 @@
 			y: -1.0d
 		}
 		{
+			can_repeat: true
 			dependencies: [
 				"36F8661C6E0C53D8"
 				"0BD5BADADC18CC3D"
@@ -728,9 +722,9 @@
 			}]
 			tasks: [{
 				id: "11F94F872F0CD45C"
-				points: false
+				points: true
 				type: "xp"
-				value: 30L
+				value: 1500L
 			}]
 			title: "&eWheel of Fortune"
 			x: 0.0d
@@ -7150,7 +7144,7 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["0CC91D0458ACB827"]
+			dependencies: ["2DFD356016750828"]
 			description: [
 				"A small on the outside, spacious on the inside little coffer which you can open on the go or set on your desk. It may not be a giant backpack, but it surely is ornate and aesthetically pleasing."
 				""
@@ -7194,8 +7188,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.5d
-			y: -2.5d
+			x: 11.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["0BBFD1B138A5DA3D"]
@@ -7315,6 +7309,7 @@
 				title: "Any Drying Rack"
 				type: "item"
 			}]
+			title: "Drying Rack"
 			x: 7.5d
 			y: 1.0d
 		}
@@ -7754,11 +7749,6 @@
 				id: "161EEAC175C35EEE"
 				item: {
 					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -7789,6 +7779,7 @@
 						]
 					}
 				}
+				title: "Any Broom Tip"
 				type: "item"
 			}]
 			title: "Broom Tips"
@@ -8043,6 +8034,7 @@
 					type: "item"
 				}
 			]
+			title: "Courier Depot"
 			x: 12.0d
 			y: 3.5d
 		}
@@ -10947,7 +10939,11 @@
 				"59D783372A16F858"
 				"4FA1B8DD76B592DD"
 			]
-			description: ["The &6Strength Pathway&r is a mighty fusion of the &eMagician&r and &dHermit&r pathways, with the ability to produce some of the most powerful weapon in the land, along with decent but not specialized armour sets."]
+			description: [
+				"The &6Strength Pathway&r is a mighty fusion of the &eMagician&r and &dHermit&r pathways, with the ability to produce some of the most powerful weapon in the land, along with decent but not specialized armour sets."
+				"{@pagebreak}"
+				"I have not partaken in the forging of celestial weapons myself, so I will have to delegate the following journal entries to notes I've found from a celestial smith named &6Fala&r. I had met her in a smithing mountain town, compiling together an encyclopedia on everything related to a forge, regular and celestial. The following notes are from that unfinished enclyclopedia"
+			]
 			hide_dependency_lines: true
 			id: "3060CAEE078FE9A0"
 			rewards: [{
@@ -10976,6 +10972,11 @@
 		}
 		{
 			dependencies: ["05C581711196984B"]
+			description: [
+				"&6The Starlight Factory is a celestial machining facility designed to harness the power of starlight energy for crafting advanced weapons and armor. Its core function revolves around the use of celestial fuel sources, such as amethyst crystals, to fuel its operations. The factory's machinery is built from celestial netherite, making it resistant to most terrestrial and celestial elemental forces.&r"
+				"{@pagebreak}"
+				"&6The factory requires complex aluminum alloys and redstone cables to function properly, along with a solid obsidian base to stabilize the structure. Once operational, it can produce powerful celestial weapons imbued with starlight energy. The process involves aligning the amethyst crystals with a celestially refined ore, creating a stable energy source that powers the machinery.&r"
+			]
 			id: "11AB2172D3EEA227"
 			rewards: [{
 				id: "0C8452C016129260"
@@ -11726,6 +11727,11 @@
 		}
 		{
 			dependencies: ["04DD33AF3AA672CD"]
+			description: [
+				"&6Lunepse crystals are known for their resistance to celestial elemental forces, while Solepse crystals enhance durability against otherworldly entities. When combined, they create a harmonious balance of light and dark energies, making them ideal for creating armor that can withstand both terrestrial and celestial threats.&r"
+				"{@pagebreak}"
+				"&6The Lunepse and Solepse crystals are used in the crafting of celestial armor sets, enhancing their wearers' abilities to combat both light and dark entities. Each piece of armor infused with these crystals becomes a beacon of balance, protecting the wearer from all manner of celestial and shadowy threats. &r"
+			]
 			id: "07C4F5356EFBBE09"
 			rewards: [{
 				id: "55CCD62C543858C4"
@@ -11750,6 +11756,11 @@
 		}
 		{
 			dependencies: ["188786E302DE3681"]
+			description: [
+				"&6The Lunepse and Solepse crystals are rare celestial minerals formed from solar and lunar crystals respectively. These crystals are highly sought after for their unique ability to channel both solar and lunar energies, making them invaluable in crafting powerful celestial armor sets.&r"
+				"{@pagebreak}"
+				"&6The Lunepse and Solepse crystals are used in the crafting of celestial armor sets, enhancing their wearers' abilities to combat both light and dark entities. Each piece of armor infused with these crystals becomes a beacon of balance, protecting the wearer from all manner of celestial and shadowy threats. &r"
+			]
 			id: "4E774C5B363CBBA8"
 			rewards: [{
 				id: "42340BF9AE893BAD"
@@ -11832,6 +11843,7 @@
 		}
 		{
 			dependencies: ["3060CAEE078FE9A0"]
+			description: ["&6The Supernal Netherite Ingot represents an advanced refinement of netherite metal, imbued with celestial or ghastly energies. This ingot is considered a supercharged variant, offering exceptional durability and unique elemental resistance.&r"]
 			id: "05C581711196984B"
 			rewards: [{
 				id: "4C6251D92FD0715D"
@@ -12365,6 +12377,7 @@
 		}
 		{
 			dependencies: ["4A8A1D4B99AB1DCA"]
+			description: ["The Blazing Generator generates substantial power from blaze rods. These have to be agitated with RF power first before they are suitable for power generation, serving to multiply power. The Blazing Generator can output up to 20k RF per side."]
 			id: "6BDF163C7FC006CB"
 			rewards: [{
 				count: 16
@@ -12372,19 +12385,26 @@
 				item: "minecraft:blaze_rod"
 				type: "item"
 			}]
-			tasks: [{
-				id: "1739695A7CE198AF"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
+			tasks: [
+				{
+					id: "1739695A7CE198AF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
 						}
+						id: "rftoolspower:blazing_generator"
 					}
-					id: "rftoolspower:blazing_generator"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "424BAAE3C46CAAB3"
+					item: "rftoolspower:blazing_agitator"
+					type: "item"
+				}
+			]
 			x: -27.0d
 			y: 7.0d
 		}
@@ -12418,6 +12438,7 @@
 				"3AF5EB2526EAD40C"
 				"107A1E1AB9252A58"
 			]
+			description: ["An even more advanced machine frame template for more complex machinery.They feature a hybrid design that combines the resilience of enderium or netherite with the flexibility of plastic and the luxurious durability of rose gold plates. Pink slime, a unique material with little documented properties, is integral to the frame's structural integrity and energy efficiency."]
 			id: "4A8A1D4B99AB1DCA"
 			rewards: [
 				{
@@ -12589,6 +12610,7 @@
 		}
 		{
 			dependencies: ["4A8A1D4B99AB1DCA"]
+			description: ["The &5Minor Arcana of Pentacles&r is a branch under the High Priestess pathway, delving more intensively into high-tech mechanisms, automation, refinement, and power armor."]
 			id: "5F12CF1071CE8A45"
 			rewards: [{
 				id: "1C9B5E2B85F1CF38"
@@ -12615,7 +12637,7 @@
 		}
 		{
 			dependencies: ["4D66CC58CC466767"]
-			description: ["The Minor Arcana of the Cup is a branch under the High Priestess pathway, delving more intensively into logistics through cables."]
+			description: ["The &9Minor Arcana of the Cup&r is a branch under the High Priestess pathway, delving more intensively into logistics through cables."]
 			id: "10A7F0DA56020A8C"
 			rewards: [
 				{
@@ -15840,6 +15862,10 @@
 		}
 		{
 			dependencies: ["3900C73EA601F27C"]
+			description: [
+				""
+				"{image:ftbquests:block/barrier width:100 height:100 align:center}"
+			]
 			id: "1974390B046B7B6A"
 			rewards: [{
 				count: 8
@@ -16223,7 +16249,7 @@
 				"1AB989E044EBCB6D"
 				"3AF5EB2526EAD40C"
 			]
-			description: ["Tier IV solar panels build on top of tier III solar panels, whether they be the compacting model or the new process."]
+			description: ["Building upon the success of Tier III Solar Panels, which marked a significant leap in efficiency and technology, Tier IV Solar Panels represent the pinnacle of advancements in celestial energy harnessing. These panels integrate either compacting models or the newly developed process from Tier III,"]
 			id: "6EA8FF0A2426916D"
 			rewards: [{
 				id: "13184AB1C1A20B9E"
@@ -16683,6 +16709,7 @@
 		}
 		{
 			dependencies: ["6EA8FF0A2426916D"]
+			description: ["Tier V solar panels represent a significant evolution in renewable energy technology, building on the advancements of their predecessor while introducing new materials and mechanisms. These panels utilize lumium gears, known for their lightweight yet durable properties, combined with high-performance plastic composites that enhance their structural integrity and longevity."]
 			id: "3C2CD34C769A34FC"
 			rewards: [{
 				id: "63A84E02009BCD8B"
@@ -16707,6 +16734,7 @@
 		}
 		{
 			dependencies: ["3C2CD34C769A34FC"]
+			description: ["Tier VI takes this a step further by incorporating enderium, a material renowned for its exceptional strength and flexibility, along with advanced circuitry that enables unprecedented energy efficiency and adaptability."]
 			id: "5C1996BF7424D743"
 			rewards: [{
 				id: "01727C60C0662169"
@@ -16731,6 +16759,7 @@
 		}
 		{
 			dependencies: ["5C1996BF7424D743"]
+			description: ["Finally, Tier VII solar panels reach new heights of innovation, utilizing netherite for unparalleled durability and resistance to extreme environmental conditions, paired with elite circuits that ensure optimal performance under even the most challenging circumstances."]
 			id: "5A9344E85F427B47"
 			rewards: [{
 				id: "6EFC4CC7C43C5F73"
@@ -17028,6 +17057,11 @@
 		}
 		{
 			dependencies: ["4A8A1D4B99AB1DCA"]
+			description: [
+				"The Mob Duplicator uses essence and RF power to reproduce mobs captured in an imprisonment tool. Essence is most commonly obtained via the mob crusher."
+				""
+				"This can be put to great use to create mob farms, or turn the essence of lower value mob farms into better mobs."
+			]
 			id: "64BEF811F139E0CB"
 			rewards: [
 				{
@@ -17106,6 +17140,11 @@
 				"64BEF811F139E0CB"
 				"1F63B99669BB1002"
 			]
+			description: [
+				"The Wither Builder automates the process of creating Withers with RF power. It still requires wither skeleton skulls and soulsand, although this can be acquired more easily with the mob duplicator. This is a useful tool in the process of making an elaborate Wither farm, although this alone does not kill the Wither."
+				""
+				"Nether stars are an important future component, especially to make shadow steel. Ether gas is obtained through Withers as well."
+			]
 			id: "19FDA9AB1906E74C"
 			rewards: [{
 				count: 3
@@ -17159,6 +17198,7 @@
 		}
 		{
 			dependencies: ["4A8A1D4B99AB1DCA"]
+			description: ["The Laser Drill uses either an ore or a fluid laser base to produce quantities of resources, depending on the biome."]
 			id: "1F63B99669BB1002"
 			rewards: [
 				{
@@ -17248,6 +17288,11 @@
 		}
 		{
 			dependencies: ["4A8A1D4B99AB1DCA"]
+			description: [
+				"Some addons are available for the Industrial Foregoing generation of machines. They range from increasing efficiency, speed, to range. "
+				""
+				"Addons are crafted in the dissolution chamber."
+			]
 			id: "27D7FB2FA68A3BC4"
 			rewards: [{
 				id: "5B9A7D991F436CF8"
@@ -17334,6 +17379,7 @@
 		}
 		{
 			dependencies: ["4A8A1D4B99AB1DCA"]
+			description: ["The Infinity Charger is made to charge the various infinity-grade items. These tools and weapons can supercharge their performance with RF power, scaling with the amount they have stored and thus can release."]
 			id: "7223BE78D2D053A8"
 			rewards: [{
 				id: "3C6377705B03CB92"
@@ -17358,11 +17404,16 @@
 		}
 		{
 			dependencies: ["7223BE78D2D053A8"]
+			description: [
+				"The Infinity Backpack can store superstacks inside of itself, making use of black hole units to store absurd amounts inside of itself. The amount it can store per slot is proportional to the amount of RF power inside. "
+				""
+				"The backpack also has other tricks, such as auto-feeding with liquid meat, or a magnet mode."
+			]
 			id: "61C7344B62E5145E"
 			rewards: [{
-				id: "7932AC1F2F3C5AE6"
-				type: "xp_levels"
-				xp_levels: 1
+				id: "259DDAE5D56FB3F1"
+				item: "industrialforegoing:common_black_hole_unit"
+				type: "item"
 			}]
 			tasks: [{
 				id: "6DF03A9D6A6E4776"
@@ -17383,12 +17434,18 @@
 					}
 				}
 				type: "item"
+				weak_nbt_match: true
 			}]
 			x: -22.125d
 			y: 10.625d
 		}
 		{
 			dependencies: ["7223BE78D2D053A8"]
+			description: [
+				"The Infinity Drill mines a larger area proportional to its stored RF."
+				""
+				"The Infinity Saw works similarly, for the purpose of breaking large trees."
+			]
 			id: "4EB6D8D8F106BAC4"
 			rewards: [{
 				id: "18C0470CC827BAF0"
@@ -17418,6 +17475,7 @@
 						}
 					}
 					type: "item"
+					weak_nbt_match: true
 				}
 				{
 					id: "0925CF1663600C75"
@@ -17441,18 +17499,25 @@
 						}
 					}
 					type: "item"
+					weak_nbt_match: true
 				}
 			]
+			title: "Infinity Tools"
 			x: -21.125d
 			y: 10.125d
 		}
 		{
 			dependencies: ["7223BE78D2D053A8"]
+			description: [
+				"The Infinity Hammer is not made for crafting or mining, but rather for combat. It can target a larger area of attack based on its stored RF power. It has an ability to slam the ground, and can behead mobs easier, similar to the Cleaver that Hermit tinkerers have access to."
+				"{@pagebreak}"
+				"The Infinity Trident works similarly, growing more powerful with more RF power stored, but as a throwable weapon. This high-tech weapon synthesizes the typical trident enchantments with RF power. The artificial riptide of this tool does not require rain. This can make for a powerful transporation tool."
+			]
 			id: "54ECFC86850269B4"
 			rewards: [{
-				id: "740ED7A5EF9C1F47"
-				type: "xp_levels"
-				xp_levels: 1
+				id: "7C8F9514D1234538"
+				item: "reliquary:angelic_feather"
+				type: "item"
 			}]
 			tasks: [
 				{
@@ -17478,6 +17543,7 @@
 						}
 					}
 					type: "item"
+					weak_nbt_match: true
 				}
 				{
 					id: "3419782F51A3FFBF"
@@ -17504,13 +17570,16 @@
 						}
 					}
 					type: "item"
+					weak_nbt_match: true
 				}
 			]
+			title: "Infinity Weapons"
 			x: -21.125d
 			y: 9.125d
 		}
 		{
 			dependencies: ["7223BE78D2D053A8"]
+			description: ["The Infinity Nuke projects explosive and destructive power to a wide area, even flattening an entire city or a small country with the right amount of RF power."]
 			hide_dependency_lines: true
 			id: "4491BEB05F778F6D"
 			rewards: [{
@@ -17554,6 +17623,7 @@
 					}
 				}
 				type: "item"
+				weak_nbt_match: true
 			}]
 			x: -20.125d
 			y: 10.925d
@@ -17870,9 +17940,9 @@
 		{
 			dependencies: ["5F12CF1071CE8A45"]
 			description: [
-				"There are multiple ways to process osmium. The simplest is to smelt the raw ore block into an induction smelter."
+				"There are multiple ways to process osmium. The simplest is to smelt the raw ore block into an induction smelter. The most common way lies in grinding raw osmium to dust, smelt the dust to nuggets in the induction smelter and then assemble an osmium ingot."
 				""
-				"The most common way lies in grinding raw osmium to dust, smelt the dust to nuggets in the induction smelter and then assemble an osmium ingot."
+				"Osmium is an essential component in high-tech mechanisms."
 			]
 			id: "662F8F7426A07A9D"
 			rewards: [{
@@ -17899,7 +17969,11 @@
 		{
 			dependencies: ["344B314D434D12C1"]
 			dependency_requirement: "one_started"
-			description: ["Refined glowstone is considered a holy material."]
+			description: [
+				"Refined Obsidian armour and Refined Glowstone armour are two equally impressive sets of protective equipment. While Refined Obsidian provides more protection and durability, Refined Glowstone has the same properties as holy materials such as gold or silver, dealing more damage towards the undead. "
+				"{@pagebreak}"
+				"Some prefer to use full refined obsidian sets, while others use a combination of the two with refined glowstone tools. However, by this point, most people have high-tech tools and weaponry such as the infinite tools series or even more cutting edge technology such as the atomic disassembler."
+			]
 			id: "648919584EBC4E4D"
 			rewards: [{
 				count: 4
@@ -18437,6 +18511,10 @@
 		}
 		{
 			dependencies: ["5D51BC92697C39DD"]
+			description: [
+				""
+				"{image:ftbquests:block/barrier width:100 height:100 align:center}"
+			]
 			id: "26F4EC84DAFCC788"
 			rewards: [{
 				id: "198E8F95EE6DDDDB"
@@ -18467,6 +18545,10 @@
 		}
 		{
 			dependencies: ["5D51BC92697C39DD"]
+			description: [
+				""
+				"{image:ftbquests:block/barrier width:100 height:100 align:center}"
+			]
 			id: "385412AAA1631FFF"
 			rewards: [{
 				count: 32
@@ -18493,6 +18575,10 @@
 		{
 			dependencies: ["344B314D434D12C1"]
 			dependency_requirement: "one_started"
+			description: [
+				""
+				"{image:ftbquests:block/barrier width:100 height:100 align:center}"
+			]
 			id: "5D51BC92697C39DD"
 			rewards: [{
 				count: 3
@@ -20890,7 +20976,12 @@
 			y: 21.0d
 		}
 		{
-			dependencies: ["0CC91D0458ACB827"]
+			dependencies: ["2DFD356016750828"]
+			description: [
+				"The Altar of Light grows glowstone out of redstone. Through this altar, it's possible to turn netherwart into glowstone. "
+				""
+				"You can grow netherwart, harvest some and turn it into a wart block, mix it with some blood and leave it to dry. This will turn into some sort of synthethic redstone. Then, you can feed redstone to this altar."
+			]
 			id: "527DC00929B54279"
 			rewards: [{
 				id: "2ADC4CA9F0E9CEF7"
@@ -22817,7 +22908,13 @@
 			}]
 			tasks: [{
 				id: "7250ADDE2F87C37E"
-				item: "concatenationcore:occult_calling"
+				item: {
+					Count: 1
+					id: "concatenationcore:occult_calling"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
 			x: 5.5d
@@ -22870,6 +22967,11 @@
 		}
 		{
 			dependencies: ["6EB3E5667F8481FC"]
+			description: [
+				"The botany pot is a special plant-growing vessel. It can grow most plants faster in a smaller tailored environment, ignoring the tricky seasonal requirements most crops have. Ingenious witches have automated this process by fusing the pot with a hopper."
+				""
+				"It is unclear whether the botany pot actually possesses magical power. "
+			]
 			id: "5DC19F5250D0CF9D"
 			rewards: [{
 				id: "409D74CA46DCE953"
@@ -22877,11 +22979,9 @@
 				type: "item"
 			}]
 			tasks: [{
-				advancement: "botanypots:husbandry/get_basic_pot"
-				criterion: ""
-				disable_toast: true
-				id: "5C4A751FB184393F"
-				type: "advancement"
+				id: "798538A8AF3E49FD"
+				item: "botanypots:terracotta_botany_pot"
+				type: "item"
 			}]
 			title: "Botany Pot"
 			x: 11.5d
@@ -23726,6 +23826,53 @@
 			}]
 			x: -24.375d
 			y: 6.0d
+		}
+		{
+			dependencies: ["0CC91D0458ACB827"]
+			description: [
+				"Pyrite is no gold, despite its shiny, yellowy surface. But Witch's Gold is no pyrite either. It is a magical alloy of gold and iron, mixed with lava and probably a stray spirit."
+				"{@pagebreak}"
+				"Some insane wizards have theorized that it would be possible to turn this pyrite into a gold purer than its natural form. Some following the path of rifled spellcasting may have succeeded, but we see little of these specimen."
+			]
+			id: "2DFD356016750828"
+			rewards: [{
+				id: "5713F1387A45A4A3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "39FA06F11EEAB063"
+				item: "concatenationcore:pyrite"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5F12CF1071CE8A45"]
+			description: ["The Supreme Machine Frame is a marvel of engineering, serving as the base for most high-tech machinery. It contains a strong electronical base and can withstand most chemical processes with Ether gas reinforcement, reversing the properties of the Wither to dissolve most materials on touch."]
+			id: "6FF7A0577DDC2F2D"
+			rewards: [
+				{
+					count: 5
+					id: "18150F85F9C81FDF"
+					item: "industrialforegoing:machine_frame_advanced"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3E6782695899BFC0"
+					item: "industrialforegoing:machine_frame_supreme"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6B60EBDE33691C5C"
+				item: "industrialforegoing:machine_frame_supreme"
+				type: "item"
+			}]
+			x: -28.0d
+			y: 10.0d
 		}
 	]
 	title: "The Journey"

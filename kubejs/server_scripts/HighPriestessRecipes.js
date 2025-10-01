@@ -52,7 +52,8 @@ ServerEvents.recipes(event => {
                 'rftoolsbuilder:shape_card_quarry',
                 'thermal:upgrade_augment_1',
                 'enderstorage:ender_chest',
-                'enderstorage:ender_tank'
+                'enderstorage:ender_tank',
+                'rftoolspower:blazing_agitator'
         ]
 
         remove.forEach(item => {
@@ -80,7 +81,7 @@ ServerEvents.recipes(event => {
         event.replaceInput(
                 { input: 'mekanism:steel_casing' },
                 'mekanism:steel_casing',
-                'industrialforegoing:machine_frame_advanced'
+                'industrialforegoing:machine_frame_supreme'
         );
         event.replaceInput(
                 { input: 'rftoolsutility:crafter1' },
@@ -993,6 +994,20 @@ ServerEvents.recipes(event => {
                         B: 'concatenationcore:daladite'
                 }
         ).keepIngredient('tarotcards:justice')
+        event.shaped(
+                Item.of('rftoolspower:blazing_agitator'),
+                [
+                        'ABA',
+                        'CDC',
+                        'ABA'
+                ],
+                {
+                        C: 'minecraft:glass',
+                        B: 'minecraft:blaze_rod',
+                        D: 'thermal:lumium_ingot',
+                        A: 'thermal:steel_plate'
+                }
+        )
 
         event.recipes.thermal.press('concatenationcore:signalum_coil', ['thermal:signalum_dust', 'concatenationcore:copper_lead_coil'])
         event.recipes.thermal.press('concatenationcore:meteorite_clump', ['concatenationcore:meteorite', 'concatenationcore:meteorite'])

@@ -14,7 +14,8 @@ ServerEvents.recipes(event => {
                 'theurgy:incubator',
                 'reliquary:witherless_rose',
                 'enderstorage:ender_pouch',
-                'bloodmagic:sacrificialdagger'
+                'bloodmagic:sacrificialdagger',
+                'reliquary:alkahestry_altar'
         ]
 
         remove.forEach(item => {
@@ -423,6 +424,36 @@ ServerEvents.recipes(event => {
                         B: 'concatenationcore:descran',
                         C: 'minecraft:diamond',
                         A: 'concatenationcore:pyrite'
+                }
+        )
+        event.shaped(
+                Item.of('concatenationcore:mysterious_tablet'),
+                [
+                        ' A ',
+                        'BCD',
+                        ' E '
+                ],
+                {
+                        B: 'thermal:blizz_powder',
+                        D: 'irons_spellbooks:arcane_essence',
+                        E: 'hexerei:belladonna_flowers',
+                        C: 'concatenationcore:occult_calling',
+                        A: 'hexerei:book_of_shadows'
+                }
+        )
+        event.shaped(
+                Item.of('reliquary:alkahestry_altar'),
+                [
+                        'ABA',
+                        'CDE',
+                        'ABA'
+                ],
+                {
+                        E: 'reliquary:catalyzing_gland',
+                        B: 'concatenationcore:pyrite',
+                        C: 'reliquary:nebulous_heart',
+                        A: 'minecraft:obsidian',
+                        D: 'minecraft:redstone_lamp'
                 }
         )
 });

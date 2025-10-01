@@ -1,0 +1,13 @@
+{
+    "type": "lychee:block_interacting",
+    "comment": "Right click with shrike and more than 1 level on yourself to purge experience from your body into orbs.",
+    "ghost": true,
+    "item_in": {
+        "item": "concatenationcore:mysterious_tablet"
+    },
+    "block_in": "minecraft:air",
+    "post": {
+        "type": "drop_item",
+        "item": "hexerei:book_of_shadows"
+    }
+}
