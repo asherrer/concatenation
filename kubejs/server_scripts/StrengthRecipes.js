@@ -19,7 +19,12 @@ ServerEvents.recipes(event => {
                 'mcore:steel_leggings',
                 'mcore:steel_boots',
                 'psi:cad_assembler',
-                'psi:programmer'
+                'psi:programmer',
+                'psi:cad_assembly_iron',
+                'psi:cad_assembly_gold',
+                'psi:cad_assembly_psimetal',
+                'psi:cad_assembly_ebony_psimetal',
+                'psi:cad_assembly_ivory_psimetal'
         ]
 
         remove.forEach(item => {
@@ -543,4 +548,64 @@ ServerEvents.recipes(event => {
                         D: 'elementalcraft:springaline_shard'
                 }
         ).keepIngredient('concatenationcore:full_wands')
+        event.shaped(
+                Item.of('psi:cad_assembly_iron'),
+                [
+                        'AAA',
+                        'AA ',
+                        'B  '
+                ],
+                {
+                        B: '#concatenation:assembly_stock',
+                        A: 'minecraft:iron_ingot'
+                }
+        )
+        event.shaped(
+                Item.of('psi:cad_assembly_gold'),
+                [
+                        'AAA',
+                        'AA ',
+                        'B  '
+                ],
+                {
+                        B: '#concatenation:assembly_stock',
+                        A: 'minecraft:gold_ingot'
+                }
+        )
+        event.shaped(
+                Item.of('psi:cad_assembly_psimetal'),
+                [
+                        'AAA',
+                        'AA ',
+                        'B  '
+                ],
+                {
+                        B: '#concatenation:assembly_stock',
+                        A: 'psi:psimetal'
+                }
+        )
+        event.shaped(
+                Item.of('psi:cad_assembly_ivory_psimetal'),
+                [
+                        'AAA',
+                        'AA ',
+                        'B  '
+                ],
+                {
+                        B: '#concatenation:assembly_stock',
+                        A: 'psi:ivory_psimetal'
+                }
+        )
+        event.shaped(
+                Item.of('psi:cad_assembly_ebony_psimetal'),
+                [
+                        'AAA',
+                        'AA ',
+                        'B  '
+                ],
+                {
+                        B: '#concatenation:assembly_stock',
+                        A: 'psi:ebony_psimetal'
+                }
+        )
 });

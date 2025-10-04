@@ -1,6 +1,6 @@
 {
     "type": "lychee:block_interacting",
-    "comment": "Right click with shrike and more than 1 level on yourself to purge experience from your body into orbs.",
+    "comment": "Right click to reveal the contents of the mysterious tablet.",
     "ghost": true,
     "item_in": {
         "item": "concatenationcore:mysterious_tablet"

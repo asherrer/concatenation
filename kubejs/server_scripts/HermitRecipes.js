@@ -563,4 +563,18 @@ ServerEvents.recipes(event => {
                         C: 'createaddition:copper_spool'
                 }
         )
+        event.shapeless(
+                Item.of('tfmg:lead_sheet'),
+                [
+                        'thermal:lead_plate',
+                        'concatenationcore:hammer'
+                ]
+        )
+        event.shapeless(
+                Item.of('tfmg:nickel_sheet'),
+                [
+                        'thermal:nickel_plate',
+                        'concatenationcore:hammer'
+                ]
+        )
 });

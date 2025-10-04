@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = welcomescreen_welcome
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1758846076421
+  last_edited_time = 1759545300396
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:eb7fcb5a-8a50-4984-a130-6d01f619b72e-1758846056442] = [groups:][instances:]
+  [loading_requirement_container_meta:478f3249-f8d5-432e-9129-ea47bba23a1d-1759545221265] = [groups:][instances:]
 }
 
 menu_background {
@@ -81,7 +81,7 @@ element {
   sticky_anchor = false
   anchor_point = bottom-centered
   x = -39
-  y = -43
+  y = -28
   width = 76
   height = 15
   stretch_x = false
@@ -167,7 +167,7 @@ element {
   nine_slice_border_x = 5
   nine_slice_border_y = 5
   description = FAQ & Performance Tips
-  label = Java Args
+  label = Wiki
   navigatable = true
   widget_active_state_requirement_container_identifier = 343a47e8-00b7-409b-bb14-862e6ff431d5-1758844819991
   [loading_requirement_container_meta:343a47e8-00b7-409b-bb14-862e6ff431d5-1758844819991] = [groups:][instances:]
@@ -286,7 +286,7 @@ element {
 
 element {
   interactable = true
-  source = ^^^%n%%#FF6200%%n%Performance Warning!%n%%#% %n%To avoid performance issues, please use the recommended Java Arguments for the modpack.%n%^^^
+  source = ^^^%n%%#FF6200%%n%Performance Warning!%n%%#% %n%If you'd like some performance tips, you can check the Wiki or Discord. You can also check Concatenation lite.%n%%n%If you are playing on a LAN or Essentials world and not a server, only the host gets the starting pathway screen. You must do the /sk choose or /sk give command to give other players their pathway.%n%^^^
   source_mode = direct
   shadow = true
   scale = 0.85
@@ -332,10 +332,10 @@ element {
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 44ad7374-b400-4bed-9437-963364924622-1758845556893
-  x = -75
-  y = 82
+  x = -77
+  y = 68
   width = 298
-  height = 64
+  height = 108
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -373,7 +373,7 @@ element {
   sticky_anchor = false
   anchor_point = top-centered
   x = -73
-  y = 26
+  y = 16
   width = 147
   height = 31
   stretch_x = false

@@ -356,4 +356,11 @@ ServerEvents.tags('item', event => {
     add('forge:coins/gold', [
         'createdeco:gold_coin'
     ]);
+
+    add('concatenation:assembly_stock', [
+        'tfmg:aluminum_ingot',
+        'elementalcraft:swift_alloy_ingot',
+        'industrialforegoing:plastic',
+        'concatenationcore:pyrite'
+    ])
 });

@@ -141,7 +141,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/decstages add @a Temperance_Pathway"
+					command: "/decstages add @p Temperance_Pathway"
 					elevate_perms: true
 					icon: {
 						Count: 1
@@ -153,6 +153,7 @@
 					id: "60AC080C82AF6055"
 					silent: true
 					team_reward: false
+					title: "Occult Knowledge"
 					type: "command"
 				}
 			]
@@ -11562,7 +11563,11 @@
 		}
 		{
 			dependencies: ["5F92E8FC88D86566"]
-			description: ["The marker and its way more useful upgrade - the flexible marker, can be used to increase the mining range of the quarry. Beware that selecting very large areas can be detrimental."]
+			description: [
+				"The marker and its way more useful upgrade - the flexible marker, can be used to increase the mining range of the quarry. Beware that selecting very large areas can be detrimental."
+				""
+				"To use a marker, first place it down and set its range, then place a quarry next to it."
+			]
 			id: "4AB01062358D98BD"
 			rewards: [{
 				id: "16677D503E0AB232"
@@ -23878,6 +23883,40 @@
 			}]
 			x: -28.0d
 			y: 10.0d
+		}
+		{
+			dependencies: ["0F3237156DE95B07"]
+			id: "6DDF28A484792887"
+			tasks: [{
+				id: "66B8EA5A1FED0F0F"
+				item: "concatenationcore:world_devourer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["2970C1ADE44898FF"]
+			hide_dependency_lines: true
+			id: "47DF6B172E0C500B"
+			rewards: [{
+				id: "239563DDA08C2453"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "1D2CAF06BE694B1D"
+				item: {
+					Count: 1
+					id: "concatenationcore:kestrel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: -7.5d
 		}
 	]
 	title: "The Journey"
