@@ -749,10 +749,6 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"name": "foolsendeavour:chests/devoured_world"
-				},
-				{
-					"type": "minecraft:loot_table",
 					"name": "irons_spellbooks:chests/evoker_fort/guard_tower"
 				},
 				{
@@ -1273,10 +1269,6 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"name": "foolsendeavour:chests/exalted_world_devourer_container"
-				},
-				{
-					"type": "minecraft:loot_table",
 					"name": "irons_spellbooks:chests/pyromancer_tower/fire_ale_trove"
 				},
 				{
@@ -1558,10 +1550,6 @@
 				{
 					"type": "minecraft:loot_table",
 					"name": "reliquary:inject/chests/village/village_weaponsmith"
-				},
-				{
-					"type": "minecraft:loot_table",
-					"name": "foolsendeavour:chests/exalted_devoured_world"
 				},
 				{
 					"type": "minecraft:loot_table",
@@ -2634,10 +2622,6 @@
 				{
 					"type": "minecraft:loot_table",
 					"name": "born_in_chaos_v1:entities/zombie_lumberjack"
-				},
-				{
-					"type": "minecraft:loot_table",
-					"name": "foolsendeavour:chests/world_devourer_container"
 				},
 				{
 					"type": "minecraft:loot_table",

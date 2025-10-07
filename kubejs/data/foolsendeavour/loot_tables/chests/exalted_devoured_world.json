@@ -5517,10 +5517,6 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"name": "foolsendeavour:chests/devoured_world"
-				},
-				{
-					"type": "minecraft:loot_table",
 					"name": "oreberriesreplanted:blocks/nickel_oreberry_bush"
 				},
 				{
@@ -9661,10 +9657,6 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"name": "foolsendeavour:chests/exalted_world_devourer_container"
-				},
-				{
-					"type": "minecraft:loot_table",
 					"name": "createdeco:blocks/industrial_iron_window"
 				},
 				{
@@ -11602,10 +11594,6 @@
 				{
 					"type": "minecraft:loot_table",
 					"name": "minecraft:blocks/polished_deepslate_stairs"
-				},
-				{
-					"type": "minecraft:loot_table",
-					"name": "foolsendeavour:chests/exalted_devoured_world"
 				},
 				{
 					"type": "minecraft:loot_table",
@@ -20130,10 +20118,6 @@
 				{
 					"type": "minecraft:loot_table",
 					"name": "minecraft:blocks/dead_tube_coral_fan"
-				},
-				{
-					"type": "minecraft:loot_table",
-					"name": "foolsendeavour:chests/world_devourer_container"
 				},
 				{
 					"type": "minecraft:loot_table",
