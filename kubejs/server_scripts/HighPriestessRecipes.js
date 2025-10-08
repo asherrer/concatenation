@@ -55,7 +55,15 @@ ServerEvents.recipes(event => {
                 'enderstorage:ender_tank',
                 'rftoolspower:blazing_agitator',
                 'mekanism:enriched_iron',
-                'mekanism:enriched_redstone'
+                'mekanism:enriched_redstone',
+                'simplyjetpacks:jetpack_vanilla1_armored',
+                'simplyjetpacks:jetpack_vanilla2_armored',
+                'simplyjetpacks:jetpack_vanilla3_armored',
+                'simplyjetpacks:jetpack_vanilla4_armored',
+                'simplyjetpacks:jetpack_te1_armored',
+                'simplyjetpacks:jetpack_te2_armored',
+                'simplyjetpacks:jetpack_te3_armored',
+                'simplyjetpacks:jetpack_te4_armored'
         ]
 
         remove.forEach(item => {
@@ -1036,6 +1044,104 @@ ServerEvents.recipes(event => {
                         C: 'industrialforegoing:machine_frame_advanced'
                 }
         )
+        event.shaped(
+                Item.of('simplyjetpacks:armorplating_te4'),
+                [
+                        'ABA',
+                        'BAB',
+                        'ABA'
+                ],
+                {
+                        B: 'mcore:steel_sheet',
+                        A: 'thermal:enderium_ingot'
+                }
+        )
+        event.shaped(
+                Item.of('simplyjetpacks:armorplating_te2'),
+                [
+                        'ABA',
+                        'BAB',
+                        'ABA'
+                ],
+                {
+                        A: 'thermal:bronze_plate',
+                        B: 'mcore:steel_sheet'
+                }
+        )
+        event.shaped(
+                Item.of('simplyjetpacks:armorplating_te3'),
+                [
+                        'ABA',
+                        'BAB',
+                        'ABA'
+                ],
+                {
+                        A: 'thermal:invar_plate',
+                        B: 'mcore:steel_sheet'
+                }
+        )
+        event.shaped(
+                Item.of('simplyjetpacks:armorplating_ie3'),
+                [
+                        'ABA',
+                        'BAB',
+                        'ABA'
+                ],
+                {
+                        B: 'mcore:steel_sheet',
+                        A: 'thermal:steel_plate'
+                }
+        )
+
+        event.shapeless(
+                Item.of('simplyjetpacks:jetpack_vanilla1_armored',
+                        '{CurioAttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:4,Operation:0,UUID:[I;1479280589,-341142443,48424546,-100515324],Slot:"jetpack"}]}'),
+                ['simplyjetpacks:jetpack_vanilla1', 'minecraft:iron_chestplate']
+        )
+
+        event.shapeless(
+                Item.of('simplyjetpacks:jetpack_vanilla2_armored',
+                        '{CurioAttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:4,Operation:0,UUID:[I;1752831507,20129910,-936999309,1098670713],Slot:"jetpack"}]}'),
+                ['simplyjetpacks:jetpack_vanilla2', 'minecraft:golden_chestplate']
+        )
+
+        event.shapeless(
+                Item.of('simplyjetpacks:jetpack_vanilla3_armored',
+                        '{CurioAttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:4,Operation:0,UUID:[I;1727289611,-815409959,987119867,790204970],Slot:"jetpack"}]}'),
+                ['simplyjetpacks:jetpack_vanilla3', 'minecraft:diamond_chestplate']
+        )
+
+        event.shapeless(
+                Item.of('simplyjetpacks:jetpack_vanilla4_armored',
+                        '{CurioAttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:4,Operation:0,UUID:[I;-1714975244,-282729822,1773868988,-98742266],Slot:"jetpack"}]}'),
+                ['simplyjetpacks:jetpack_vanilla4', 'minecraft:netherite_chestplate']
+        )
+
+        event.shapeless(
+                Item.of('simplyjetpacks:jetpack_te1_armored',
+                        '{CurioAttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:4,Operation:0,UUID:[I;-1028677693,-2087175000,1578841898,1591161832],Slot:"jetpack"}]}'),
+                ['simplyjetpacks:jetpack_te1', 'simplyjetpacks:armorplating_te1']
+        )
+
+        event.shapeless(
+                Item.of('simplyjetpacks:jetpack_te2_armored',
+                        '{CurioAttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:4,Operation:0,UUID:[I;289956431,2008070098,-223468988,1859007115],Slot:"jetpack"}]}'),
+                ['simplyjetpacks:jetpack_te2', 'simplyjetpacks:armorplating_te2']
+        )
+
+        event.shapeless(
+                Item.of('simplyjetpacks:jetpack_te3_armored',
+                        '{CurioAttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:4,Operation:0,UUID:[I;-1679083759,220191159,887174525,203757162],Slot:"jetpack"}]}'),
+                ['simplyjetpacks:jetpack_te3', 'simplyjetpacks:armorplating_te3']
+        )
+
+        event.shapeless(
+                Item.of('simplyjetpacks:jetpack_te4_armored',
+                        '{CurioAttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:4,Operation:0,UUID:[I;173016769,376312439,-236270331,-494345819],Slot:"jetpack"}]}'),
+                ['simplyjetpacks:jetpack_te4', 'simplyjetpacks:armorplating_te4']
+        )
+
+
 
         event.recipes.thermal.press('concatenationcore:signalum_coil', ['thermal:signalum_dust', 'concatenationcore:copper_lead_coil'])
         event.recipes.thermal.press('concatenationcore:meteorite_clump', ['concatenationcore:meteorite', 'concatenationcore:meteorite'])
