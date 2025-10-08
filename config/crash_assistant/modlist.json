@@ -332,6 +332,11 @@
     "modId": "cosmeticcorpsecompat",
     "version": "1.0.0"
   },
+  "craftingrecipeexporter-1.20.1-Forge-1.0.2.jar": {
+    "jarName": "craftingrecipeexporter-1.20.1-Forge-1.0.2.jar",
+    "modId": "craftingrecipeexporter",
+    "version": "1.0.2"
+  },
   "craftingtweaks-forge-1.20.1-18.2.5.jar": {
     "jarName": "craftingtweaks-forge-1.20.1-18.2.5.jar",
     "modId": "craftingtweaks",
@@ -1388,10 +1393,10 @@
     "modId": "usefulbackpacks",
     "version": "2.0.1.124"
   },
-  "via_romana-2.0.1+1.20.1-forge.jar": {
-    "jarName": "via_romana-2.0.1+1.20.1-forge.jar",
+  "via_romana-forge-1.4.1.jar": {
+    "jarName": "via_romana-forge-1.4.1.jar",
     "modId": "via_romana",
-    "version": "2.0.1+1.20.1-forge"
+    "version": "1.4.1"
   },
   "VisualWorkbench-v8.0.1-1.20.1-Forge.jar": {
     "jarName": "VisualWorkbench-v8.0.1-1.20.1-Forge.jar",

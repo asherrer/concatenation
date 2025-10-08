@@ -221,7 +221,8 @@ ServerEvents.tags('item', event => {
         'asr:gilded_iron_shield',
         'asr:gilded_netherquartz_shield',
         'asr:gilded_ender_shield',
-        'asr:gilded_diamond_shield'
+        'asr:gilded_diamond_shield',
+        'minecolonies:assistanthammer_gold'
     ]);
 
     const sublime = [
