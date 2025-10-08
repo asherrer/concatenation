@@ -91,6 +91,10 @@
     {
       "item": "concatenationcore:galvanized_iron",
       "emc": 2064
+    },
+    {
+      "item": "tarotcards:tarot_deck",
+      "emc": 0
     }
   ]
 }

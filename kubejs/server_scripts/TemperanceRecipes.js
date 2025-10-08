@@ -456,4 +456,37 @@ ServerEvents.recipes(event => {
                         D: 'minecraft:redstone_lamp'
                 }
         )
+
+        // Botany Pots
+        event.recipes.botanypots.crop(
+                'hexerei:mandrake_plant',
+                ['dirt'],
+                { block: 'hexerei:mandrake_plant' },
+                [
+                        Item.of('hexerei:mandrake_flowers')
+                                .withChance(100)
+                                .withRolls(1, 1),
+                        Item.of('hexerei:mandrake_root')
+                                .withChance(100)
+                                .withRolls(0, 1)
+                ],
+                10,
+                1
+        )
+
+        event.recipes.botanypots.crop(
+                'hexerei:belladonna_plant',
+                ['dirt'],
+                { block: 'hexerei:belladonna_plant' },
+                [
+                        Item.of('hexerei:belladonna_flowers')
+                                .withChance(100)
+                                .withRolls(1, 1),
+                        Item.of('hexerei:belladonna_berries')
+                                .withChance(100)
+                                .withRolls(0, 1)
+                ],
+                10,
+                1
+        )
 });

@@ -19,7 +19,12 @@ ServerEvents.recipes(event => {
                 'quarryplus:adv_pump',
                 'quarryplus:fuel_module_normal',
                 'quarryplus:repeat_tick_module',
-                'quarryplus:filter_module'
+                'quarryplus:filter_module',
+                'hammerlib:gears/copper',
+                'hammerlib:gears/iron',
+                'hammerlib:gears/gold',
+                'hammerlib:gears/diamond',
+                'hammerlib:gears/netherite'
 
         ]
 
