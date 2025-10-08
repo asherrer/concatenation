@@ -10,13 +10,13 @@ waveSearchDistance = 14
 waveSpawnDistance = 0.0
 #Additional amount of waves to spawn.
 #Range: 0.0 ~ 1.7976931348623157E308
-waveSpawnAmount = 0.8
+waveSpawnAmount = 0.6
 #Time in ticks between each spawn sequence of waves. Set to 0 to disable waves.
 #Range: > 0
-waveSpawnFrequency = 30
+waveSpawnFrequency = 60
 #Maximum spawn distance from shore.
 #Range: 0.0 ~ 1.7976931348623157E308
-waveSpawnDistanceFromShoreMax = 48.0
+waveSpawnDistanceFromShoreMax = 36.0
 #Minimum spawn distance from shore.
 #Range: 0.0 ~ 1.7976931348623157E308
 waveSpawnDistanceFromShoreMin = 4.0

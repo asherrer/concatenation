@@ -694,7 +694,6 @@
 			y: -1.0d
 		}
 		{
-			can_repeat: true
 			dependencies: [
 				"36F8661C6E0C53D8"
 				"0BD5BADADC18CC3D"
@@ -7973,13 +7972,23 @@
 		}
 		{
 			dependencies: ["2970C1ADE44898FF"]
-			description: ["Owls are observant and smart birds, and by providing them a comfortable depot, you can get them to transport packages to other witches. However, I never had anyone to send packages to, so I never cared to learn how to address these packages."]
+			description: [
+				"Owls are observant and smart birds, and by providing them a comfortable depot, you can get them to transport packages to other witches. However, I never had anyone to send packages to, so I never cared to learn how to address these packages."
+				""
+				"The Owl Stick can be made to gather owls to your location."
+			]
 			hide_dependency_lines: true
 			id: "448610C2D1BD5805"
 			rewards: [{
-				id: "35925CC88DE3661C"
-				type: "xp_levels"
-				xp_levels: 1
+				id: "05DFA1D9DAB2C970"
+				item: {
+					Count: 1
+					id: "concatenationcore:owl_stick"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
 			}]
 			tasks: [
 				{
@@ -11288,6 +11297,15 @@
 		}
 		{
 			dependencies: ["4E774C5B363CBBA8"]
+			description: [
+				"&6Solar Crystal Armor is made from solepse crystals and soulsteel, a spiritually powered version of calralite.&r"
+				""
+				"&6This combination creates a powerful synergy. This results in an armor that not only protects but also empowers its wearer, making it a favorite among those who value both defense and offensive capabilities.&r"
+				"{@pagebreak}"
+				"&6It posseses various special abilities such as substantial defensive prowess, knockback resistance, additional mana, magic resistance and of course: increasing the potency of celestial-grade weapons.&r"
+				""
+				"&6The uniqueness of Solar Crystal Armor is that it protects its wearer by casting a burst of flames when attacked.&r"
+			]
 			id: "2DE29DAA653712BC"
 			rewards: [{
 				id: "0477F7057FE98234"
@@ -11360,11 +11378,21 @@
 					type: "item"
 				}
 			]
+			title: "Solar Crystal Armor"
 			x: 2.0d
 			y: 22.5d
 		}
 		{
 			dependencies: ["07C4F5356EFBBE09"]
+			description: [
+				"&6Lunar Stone Armor is made from lunepse crystals and soulsteel, a spiritually powered version of calralite.&r"
+				""
+				"&6This combination creates a powerful synergy. This results in an armor that not only protects but also empowers its wearer, making it a favorite among those who value both defense and offensive capabilities.&r"
+				"{@pagebreak}"
+				"&6It posseses various special abilities such as substantial defensive prowess, knockback resistance, additional mana, magic resistance and of course: increasing the potency of celestial-grade weapons.&r"
+				""
+				"&6The uniqueness of Lunar Stone Armor is that it has a 1 in 5 chance to almost nullify incoming damage.&r"
+			]
 			id: "464302EAA7B02567"
 			rewards: [{
 				id: "0D992D2A8F6D930B"
@@ -11437,6 +11465,7 @@
 					type: "item"
 				}
 			]
+			title: "Lunar Stone Armor"
 			x: -1.0d
 			y: 22.5d
 		}
@@ -15536,7 +15565,6 @@
 		}
 		{
 			dependencies: ["662F8F7426A07A9D"]
-			hide_until_deps_complete: true
 			id: "137E5079D198BF5C"
 			rewards: [{
 				count: 4
@@ -15611,6 +15639,11 @@
 		}
 		{
 			dependencies: ["137E5079D198BF5C"]
+			description: [
+				"The Basic Control Circuit is an industrial version of the regular circuit, used in standardized mechanisms. "
+				""
+				"It is made from silicon in a metallurgic infuser, serving as a finer base than meteorite or rose gold and iron."
+			]
 			id: "3900C73EA601F27C"
 			rewards: [{
 				count: 8
@@ -15880,10 +15913,7 @@
 		}
 		{
 			dependencies: ["3900C73EA601F27C"]
-			description: [
-				""
-				"{image:ftbquests:block/barrier width:100 height:100 align:center}"
-			]
+			description: ["The Primed Calculation Circuit is used in the refinement of applied digital storage systems, allowing for autocrafting and the coordination of remote storage communication."]
 			id: "1974390B046B7B6A"
 			rewards: [{
 				count: 8
@@ -15990,6 +16020,7 @@
 		}
 		{
 			dependencies: ["2B825471FE41A521"]
+			hide_until_deps_complete: true
 			id: "16425F7B3E364B17"
 			rewards: [{
 				count: 2
@@ -16405,6 +16436,11 @@
 		}
 		{
 			dependencies: ["1974390B046B7B6A"]
+			description: [
+				"A wireless access point can be coupled with a wireless terminal tablet to remotely access a digital storage system within a large radius."
+				""
+				"This range can be increased with wireless boosters, at the cost of greater RF power usage."
+			]
 			id: "3B61EAE34CD43049"
 			rewards: [{
 				count: 8
@@ -17669,6 +17705,7 @@
 		{
 			dependencies: ["3900C73EA601F27C"]
 			dependency_requirement: "one_started"
+			hide_until_deps_complete: true
 			id: "490912716C7BB2C6"
 			rewards: [{
 				count: 8
@@ -18213,6 +18250,7 @@
 		}
 		{
 			dependencies: ["344B314D434D12C1"]
+			hide_until_deps_complete: true
 			id: "2CBF35812250C02D"
 			tasks: [{
 				id: "3E19E063AE068FB7"
@@ -18647,6 +18685,7 @@
 		}
 		{
 			dependencies: ["2B825471FE41A521"]
+			hide_until_deps_complete: true
 			id: "1221A32C145FCE8B"
 			rewards: [{
 				count: 3
@@ -23188,21 +23227,33 @@
 			]
 			hide_dependency_lines: true
 			id: "0F3237156DE95B07"
-			rewards: [{
-				auto: "enabled"
-				command: "/kill @a"
-				elevate_perms: true
-				icon: {
-					Count: 1
-					id: "tarotcards:the_world"
-					tag: { }
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/kill @a"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "tarotcards:the_world"
+						tag: { }
+					}
+					id: "56088B539E3643ED"
+					silent: true
+					team_reward: false
+					title: "The Force of Ten Thousand Years"
+					type: "command"
 				}
-				id: "56088B539E3643ED"
-				silent: true
-				team_reward: false
-				title: "The Force of Ten Thousand Years"
-				type: "command"
-			}]
+				{
+					auto: "no_toast"
+					command: "/tellraw @a {\"text\":\"An Eternal Aeon is born!\",\"bold\":true,\"italic\":true,\"color\":\"gold\"}"
+					elevate_perms: true
+					icon: "concatenationcore:aeon"
+					id: "10754A5E539447E9"
+					silent: true
+					title: "Birth of an Aeon"
+					type: "command"
+				}
+			]
 			size: 1.75d
 			subtitle: "Eternal Aeon"
 			tasks: [{
@@ -23894,6 +23945,7 @@
 		}
 		{
 			dependencies: ["0F3237156DE95B07"]
+			hide_until_deps_complete: true
 			id: "6DDF28A484792887"
 			tasks: [{
 				id: "66B8EA5A1FED0F0F"
@@ -23945,6 +23997,17 @@
 			title: "&ePathway Progression"
 			x: 0.7d
 			y: 0.35d
+		}
+		{
+			dependencies: ["6DDF28A484792887"]
+			id: "1A53753CE273B8EB"
+			tasks: [{
+				id: "2C95485AED56EF1E"
+				item: "concatenationcore:exalted_world_devourer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -18.5d
 		}
 	]
 	title: "The Journey"

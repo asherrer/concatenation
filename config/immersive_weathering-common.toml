@@ -15,7 +15,7 @@
 	#Range: 0.0 ~ 1.0
 	patchiness = 0.5
 	#Range: 0.0 ~ 1.0
-	immune_chance = 0.6
+	immune_chance = 0.8
 	needs_air = true
 	enabled = true
 
@@ -26,7 +26,7 @@
 	#Range: 0.0 ~ 1.0
 	patchiness = 0.4
 	#Range: 0.0 ~ 1.0
-	immune_chance = 0.6
+	immune_chance = 0.8
 	needs_air = true
 	enabled = true
 
