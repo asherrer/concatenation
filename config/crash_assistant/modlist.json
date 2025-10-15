@@ -24,10 +24,10 @@
     "modId": "aiimprovements",
     "version": "0.5.2"
   },
-  "alltheleaks-1.0.7+1.20.1-forge.jar": {
-    "jarName": "alltheleaks-1.0.7+1.20.1-forge.jar",
+  "alltheleaks-1.0.8+1.20.1-forge.jar": {
+    "jarName": "alltheleaks-1.0.8+1.20.1-forge.jar",
     "modId": "alltheleaks",
-    "version": "1.0.7+1.20.1-forge"
+    "version": "1.0.8+1.20.1-forge"
   },
   "almanac-1.20.x-forge-1.0.2.jar": {
     "jarName": "almanac-1.20.x-forge-1.0.2.jar",
@@ -259,10 +259,10 @@
     "modId": "commoncapabilities",
     "version": "2.9.9"
   },
-  "concatenationcore-1.1.6-forge-1.20.1.jar": {
-    "jarName": "concatenationcore-1.1.6-forge-1.20.1.jar",
+  "concatenationcore-1.1.6.1-forge-1.20.1.jar": {
+    "jarName": "concatenationcore-1.1.6.1-forge-1.20.1.jar",
     "modId": "concatenationcore",
-    "version": "1.1.6"
+    "version": "1.1.6.1"
   },
   "configured-forge-1.20.1-2.2.3.jar": {
     "jarName": "configured-forge-1.20.1-2.2.3.jar",
@@ -436,6 +436,11 @@
     "jarName": "decursio_stages-1.20.1-0.1.0b.jar",
     "modId": "decursio_stages",
     "version": "1.20.1-0.1.0b"
+  },
+  "defaultoptions-forge-1.20.1-18.0.4.jar": {
+    "jarName": "defaultoptions-forge-1.20.1-18.0.4.jar",
+    "modId": "defaultoptions",
+    "version": "18.0.4"
   },
   "DistantHorizons-fabric-forge-2.3.2-b-1.20.1.jar": {
     "jarName": "DistantHorizons-fabric-forge-2.3.2-b-1.20.1.jar",
