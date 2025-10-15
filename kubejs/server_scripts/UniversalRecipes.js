@@ -12,7 +12,9 @@ ServerEvents.recipes(event => {
                 'born_in_chaos_v1:dark_grid',
                 'farmersdelight:cutting_board',
                 'concatenationcore:gold_paper',
-                'travelerscompass:travelerscompass'
+                'travelerscompass:travelerscompass',
+                'explorerscompass:explorerscompass',
+                'naturescompass:naturescompass'
         ]
 
         remove.forEach(item => {
@@ -105,7 +107,7 @@ ServerEvents.recipes(event => {
         event.shaped(
                 Item.of(
                         "concatenationcore:full_cups",
-                        '{CurioAttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:2,Operation:0,UUID:[I;-1049641899,-1698279708,-1222758712,1471568110],Slot:"curio"}]}'
+                        '{CurioAttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:2,Operation:0,UUID:[I;1432871981,202948320,-1124753125,99443156],Slot:"curio"}]}'
                 ),
                 [
                         'ABA',
@@ -120,9 +122,11 @@ ServerEvents.recipes(event => {
                         D: 'tarotcards:the_chariot'
                 }
         ).keepIngredient('tarotcards:the_chariot')
+
         event.shaped(
-                Item.of('concatenationcore:full_wands',
-                        '{CurioAttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:2,Operation:0,UUID:[I;-1049641899,-1698279708,-1222758712,1471568110],Slot:"curio"}]}'
+                Item.of(
+                        'concatenationcore:full_wands',
+                        '{CurioAttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:2,Operation:0,UUID:[I;-1204986711,1002462118,-1782657419,420111003],Slot:"curio"}]}'
                 ),
                 [
                         'ABA',
@@ -137,10 +141,11 @@ ServerEvents.recipes(event => {
                         B: 'ars_nouveau:source_gem'
                 }
         ).keepIngredient('#concatenation:middle_cards')
+
         event.shaped(
                 Item.of(
                         "concatenationcore:full_wands",
-                        '{CurioAttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:2,Operation:0,UUID:[I;-1049641899,-1698279708,-1222758712,1471568110],Slot:"curio"}]}'
+                        '{CurioAttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:2,Operation:0,UUID:[I;1705130042,-1877268193,55341167,-1314486008],Slot:"curio"}]}'
                 ),
                 [
                         'ABA',
@@ -153,9 +158,11 @@ ServerEvents.recipes(event => {
                         A: '#forge:coins/gold'
                 }
         ).keepIngredient('mekanism:meka_tool')
+
         event.shaped(
-                Item.of('concatenationcore:full_wands',
-                        '{CurioAttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:2,Operation:0,UUID:[I;-1049641899,-1698279708,-1222758712,1471568110],Slot:"curio"}]}'
+                Item.of(
+                        'concatenationcore:full_wands',
+                        '{CurioAttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:2,Operation:0,UUID:[I;-553839471,214497367,-777692245,-1901218643],Slot:"curio"}]}'
                 ),
                 [
                         'ABA',
@@ -171,10 +178,11 @@ ServerEvents.recipes(event => {
                         B: 'ars_nouveau:air_essence'
                 }
         ).keepIngredient('tarotcards:the_magician').keepIngredient('tarotcards:judgement')
+
         event.shaped(
                 Item.of(
                         "concatenationcore:full_swords",
-                        '{CurioAttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:2,Operation:0,UUID:[I;-1049641899,-1698279708,-1222758712,1471568110],Slot:"curio"}]}'
+                        '{CurioAttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:2,Operation:0,UUID:[I;-1987685943,640028002,1337522698,-174613559],Slot:"curio"}]}'
                 ),
                 [
                         'ABA',
@@ -190,10 +198,11 @@ ServerEvents.recipes(event => {
                         E: 'createmetallurgy:tungsten_ingot'
                 }
         ).keepIngredient('tarotcards:judgement')
+
         event.shaped(
                 Item.of(
                         "concatenationcore:full_pentacles",
-                        '{CurioAttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:2,Operation:0,UUID:[I;-1049641899,-1698279708,-1222758712,1471568110],Slot:"curio"}]}'
+                        '{CurioAttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:2,Operation:0,UUID:[I;640975409,-1649242158,2093438149,1748160931],Slot:"curio"}]}'
                 ),
                 [
                         'ABA',
@@ -208,6 +217,7 @@ ServerEvents.recipes(event => {
                         E: 'thermal:energy_cell'
                 }
         ).keepIngredient('tarotcards:the_high_priestess')
+
 
         event.shapeless(
                 Item.of('minecraft:water_bucket'),
@@ -339,7 +349,7 @@ ServerEvents.recipes(event => {
                         'ACA'
                 ],
                 {
-                        B: 'concatenationcore:descran',
+                        B: 'concatenationcore:light_totem',
                         D: 'tarotcards:temperance',
                         C: 'concatenationcore:experience_orb',
                         A: 'concatenationcore:silver_paper'
@@ -803,28 +813,74 @@ ServerEvents.recipes(event => {
                         B: '#concatenation:high_compasses'
                 }
         )
-        event.shaped(
+        event.shapeless(
                 Item.of('concatenationcore:fortune_fragment'),
                 [
-                        'ABB',
-                        'BB ',
-                        '   '
+                        'concatenationcore:cutting_tool',
+                        'ars_nouveau:caster_tome',
+                        'ars_nouveau:caster_tome',
+                        'ars_nouveau:caster_tome',
+                        'ars_nouveau:caster_tome'
+                ]
+        )
+        event.shapeless(
+                Item.of('concatenationcore:fortune_fragment'),
+                [
+                        'concatenationcore:cutting_tool',
+                        'immersive_weathering:enchanted_golden_moss_clump',
+                        'immersive_weathering:enchanted_golden_moss_clump',
+                        'immersive_weathering:enchanted_golden_moss_clump',
+                        'immersive_weathering:enchanted_golden_moss_clump'
+                ]
+        )
+        event.shapeless(
+                Item.of('concatenationcore:fortune_fragment'),
+                [
+                        'concatenationcore:cutting_tool',
+                        'immersive_weathering:enchanted_golden_moss_clump',
+                        'immersive_weathering:enchanted_golden_moss_clump',
+                        'immersive_weathering:enchanted_golden_moss_clump'
+                ]
+        )
+        event.shaped(
+                Item.of('explorerscompass:explorerscompass'),
+                [
+                        'ABA',
+                        'CDC',
+                        'AEA'
                 ],
                 {
-                        A: 'concatenationcore:cutting_tool',
-                        B: 'ars_nouveau:caster_tome'
+                        D: 'travelerscompass:travelerscompass',
+                        E: 'concatenationcore:fortune_fragment',
+                        C: 'minecraft:end_crystal',
+                        A: 'minecraft:cobweb',
+                        B: 'immersive_weathering:enchanted_golden_moss_clump'
                 }
         )
         event.shaped(
-                Item.of('concatenationcore:fortune_fragment'),
+                Item.of('naturescompass:naturescompass'),
                 [
-                        'ABB',
-                        'BB ',
+                        'ABA',
+                        'CDC',
+                        'AEA'
+                ],
+                {
+                        D: 'travelerscompass:travelerscompass',
+                        C: 'minecraft:amethyst_cluster',
+                        E: 'concatenationcore:fortune_fragment',
+                        A: 'minecraft:vine',
+                        B: 'immersive_weathering:enchanted_golden_moss_clump'
+                }
+        )
+        event.shaped(
+                Item.of('minecraft:stone', 2),
+                [
+                        'A  ',
+                        '   ',
                         '   '
                 ],
                 {
-                        B: '#irons_spellbooks:salvageable_curio',
-                        A: 'concatenationcore:cutting_tool'
+                        A: 'perdition:marmor_exaltatus'
                 }
         )
 });
