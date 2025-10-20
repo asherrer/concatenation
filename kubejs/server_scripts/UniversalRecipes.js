@@ -14,7 +14,8 @@ ServerEvents.recipes(event => {
                 'concatenationcore:gold_paper',
                 'travelerscompass:travelerscompass',
                 'explorerscompass:explorerscompass',
-                'naturescompass:naturescompass'
+                'naturescompass:naturescompass',
+                'born_in_chaos_v1:eternal_candy'
         ]
 
         remove.forEach(item => {
@@ -495,6 +496,25 @@ ServerEvents.recipes(event => {
                         F: 'born_in_chaos_v1:bone_heart'
                 }
         ).keepIngredient('tarotcards:wheel_of_fortune')
+        event.shaped(
+                Item.of('born_in_chaos_v1:eternal_candy'),
+                [
+                        'ABC',
+                        'DEF',
+                        'GHI'
+                ],
+                {
+                        B: 'born_in_chaos_v1:chocolate_heart',
+                        F: 'born_in_chaos_v1:coffee_candy',
+                        G: 'tarotcards:the_empress',
+                        D: 'born_in_chaos_v1:mint_ice_cream',
+                        E: 'born_in_chaos_v1:transmuting_elixir',
+                        A: 'born_in_chaos_v1:caramel_pepper',
+                        H: 'minecraft:stick',
+                        C: 'born_in_chaos_v1:gummy_vampire_teeth',
+                        I: 'tarotcards:death'
+                }
+        ).keepIngredient('tarotcards:the_empress').keepIngredient('tarotcards:death')
 
         event.shaped(
                 Item.of('born_in_chaos_v1:dark_upgrade', 3),
@@ -892,7 +912,7 @@ ServerEvents.recipes(event => {
                 [
                         'concatenationcore:full_pentacles'
                 ]
-        ).keepIngredient('concatenationcore:full_pentacles')
+        )
         event.shapeless(
                 Item.of(
                         "concatenationcore:full_swords",
@@ -901,7 +921,7 @@ ServerEvents.recipes(event => {
                 [
                         'concatenationcore:full_swords'
                 ]
-        ).keepIngredient('concatenationcore:full_swords')
+        )
         event.shapeless(
                 Item.of(
                         'concatenationcore:full_wands',
@@ -910,7 +930,7 @@ ServerEvents.recipes(event => {
                 [
                         'concatenationcore:full_wands'
                 ]
-        ).keepIngredient('concatenationcore:full_wands')
+        )
         event.shapeless(
                 Item.of(
                         "concatenationcore:full_cups",
@@ -919,5 +939,5 @@ ServerEvents.recipes(event => {
                 [
                         'concatenationcore:full_cups'
                 ]
-        ).keepIngredient('concatenationcore:full_cups')
+        )
 });
