@@ -1384,7 +1384,9 @@ event.shapeless(
 
 
         event.recipes.thermal.press('concatenationcore:signalum_coil', ['thermal:signalum_dust', 'concatenationcore:copper_lead_coil'])
-        event.recipes.thermal.press('concatenationcore:meteorite_clump', ['concatenationcore:meteorite', 'concatenationcore:meteorite'])
+        event.recipes.thermal.press('concatenationcore:meteorite_clump', ['2x concatenationcore:meteorite', 'thermal:press_packing_2x2_die'])
+        event.recipes.thermal.press('concatenationcore:compressed_sky_stone', ['9x ae2:sky_stone_block', 'thermal:press_packing_3x3_die'])
+        event.recipes.thermal.press('concatenationcore:galvanized_iron', ['9x concatenationcore:galvanized_iron_nugget', 'thermal:press_packing_3x3_die'])
         event.recipes.thermal.pulverizer(Item.of('thermal:signalum_dust').withChance(0.5), 'thermal:signalum_plate')
         event.recipes.thermal.pulverizer(Item.of('create:crushed_raw_lead').withChance(1.25), '#tfmg:stone_types/galena')
         event.recipes.thermal.pulverizer(Item.of('create:crushed_raw_aluminum').withChance(1.25), '#tfmg:stone_types/bauxite')

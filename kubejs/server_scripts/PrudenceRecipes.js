@@ -1,0 +1,192 @@
+ServerEvents.recipes(event => {
+
+    [
+        'strangematter:resonite_ingot',
+        'strangematter:resonant_circuit',
+        'strangematter:resonant_coil',
+        'strangematter:research_tablet',
+        'perdition:halcyon'
+    ].forEach(item => event.remove({ output: item }));
+
+    event.replaceInput(
+        { output: 'strangematter:field_scanner' },
+        'minecraft:redstone',
+        'concatenationcore:sticky_redstone'
+    );
+
+
+    // Prudence
+    event.shaped(
+        Item.of(
+            "concatenationcore:prudence",
+            '{display:{Name:\'{"text":"Tarot : Prudence","color":"yellow","italic":false}\'},CurioAttributeModifiers:[{AttributeName:"generic.armor_toughness",Name:"generic.armor_toughness",Amount:2,Operation:0,UUID:[I;-1943734245,557076157,-1664112441,-338651852],Slot:"curio"}]}'
+        ),
+        [
+            'ABA',
+            'BCB',
+            'ABA'
+        ],
+        {
+            C: '#concatenation:top_cards',
+            A: 'concatenationcore:glowing_gold_block',
+            B: 'strangematter:resonite_ingot'
+        }
+    ).keepIngredient('#concatenation:top_cards')
+    event.shaped(
+        Item.of('strangematter:raw_resonite', 6),
+        [
+            ' A ',
+            'ABA',
+            ' A '
+        ],
+        {
+            B: 'hexerei:selenite_shard',
+            A: 'hexerei:blood_bottle'
+        }
+    )
+    event.shaped(
+        Item.of('strangematter:resonant_coil'),
+        [
+            ' A ',
+            'BCB',
+            ' A '
+        ],
+        {
+            C: 'concatenationcore:copper_lead_coil',
+            B: 'strangematter:resonite_nugget',
+            A: 'strangematter:resonite_ingot'
+        }
+    )
+    event.shaped(
+        Item.of('strangematter:resonant_circuit'),
+        [
+            'ABA',
+            'BCB',
+            'ABA'
+        ],
+        {
+            C: 'strangematter:energetic_shard',
+            A: 'concatenationcore:stickyredstone',
+            B: 'strangematter:resonite_ingot'
+        }
+    )
+    event.shapeless(
+        Item.of('strangematter:resonant_circuit'),
+        [
+            '#concatenation:circuits',
+            'strangematter:energetic_shard',
+            'strangematter:resonite_ingot'
+        ]
+    )
+    event.shaped(
+        Item.of('perdition:halcyon'),
+        [
+            '  A',
+            'BC ',
+            'DB '
+        ],
+        {
+            B: 'strangematter:resonite_nugget',
+            C: 'strangematter:resonite_ingot',
+            A: 'thermal:silver_ingot',
+            D: 'strangematter:spatial_shard'
+        }
+    )
+    event.shaped(
+        Item.of('perdition:halcyon'),
+        [
+            ' AB',
+            'CBA',
+            'DC '
+        ],
+        {
+            C: 'waystones:attuned_shard',
+            D: 'waystones:warp_stone',
+            A: 'elementalcraft:springaline_shard',
+            B: 'thermal:silver_ingot'
+        }
+    )
+    event.shaped(
+        Item.of('perdition:halcyon'),
+        [
+            '  A',
+            ' B ',
+            'C  '
+        ],
+        {
+            A: 'psi:ivory_psimetal',
+            B: 'psi:ebony_psimetal',
+            C: 'strangematter:spatial_shard'
+        }
+    )
+    event.shapeless(
+        Item.of('strangematter:research_tablet'),
+        [
+            'concatenationcore:prudence',
+            'minecraft:glass_pane',
+            'strangematter:resonant_circuit'
+        ]
+    ).keepIngredient('concatenationcore:prudence')
+    // event.shaped(
+    //     Item.of('strangematter:raw_resonite', 1),
+    //     [
+    //         ' A ',
+    //         'ABA',
+    //         ' A '
+    //     ],
+    //     {
+    //         B: 'minecraft:amethyst_shard',
+    //         A: 'elementalcraft:powerful_earth_shard'
+    //     }
+    // )
+    // event.shaped(
+    //     Item.of('strangematter:raw_resonite', 4),
+    //     [
+    //         'ABA',
+    //         'BCB',
+    //         'ABA'
+    //     ],
+    //     {
+    //         B: 'elementalcraft:whiterock',
+    //         C: 'minecraft:amethyst_shard',
+    //         A: 'minecraft:obsidian'
+    //     }
+    // )
+    // event.shaped(
+    //     Item.of('strangematter:raw_resonite', 12),
+    //     [
+    //         ' A ',
+    //         'ABA',
+    //         ' A '
+    //     ],
+    //     {
+    //         A: 'elementalcraft:elemental_firefuel',
+    //         B: 'minecraft:amethyst_shard'
+    //     }
+    // )
+    event.shaped(
+        Item.of('strangematter:raw_resonite', 4),
+        [
+            ' A ',
+            'ABA',
+            ' A '
+        ],
+        {
+            B: 'perdition:corruptite',
+            A: 'minecraft:obsidian'
+        }
+    )
+    event.shaped(
+        Item.of('strangematter:raw_resonite'),
+        [
+            ' A ',
+            'ABA',
+            ' A '
+        ],
+        {
+            A: 'perdition:limbo_bush',
+            B: 'perdition:corruptite'
+        }
+    )
+
+});

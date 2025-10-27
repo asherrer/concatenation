@@ -24,6 +24,10 @@ ServerEvents.tags('item', event => {
         'tarotcards:the_moon',
         'tarotcards:the_star'
     ]);
+    add('concatenation:top_cards', [
+        'tarotcards:the_hierophant',
+        'tarotcards:temperance'
+    ]);
 
     add('concatenation:hammers', [
         'concatenationcore:hammer',
@@ -267,6 +271,7 @@ ServerEvents.tags('item', event => {
 
     const fullSets = [
         'concatenationcore:the_error',
+        'concatenationcore:prudence',
         'concatenationcore:full_cups',
         'concatenationcore:full_wands',
         'concatenationcore:full_pentacles',
@@ -439,5 +444,27 @@ ServerEvents.tags('item', event => {
         'oreberriesreplanted:gold_oreberry_bush',
         'oreberriesreplanted:iron_oreberry_bush',
         'oreberriesreplanted:essence_berry_bush'
+    ]);
+
+    add('concatenation:oreberry', [
+        'oreberriesreplanted:tin_oreberry',
+        'oreberriesreplanted:aluminum_oreberry',
+        'oreberriesreplanted:nickel_oreberry',
+        'oreberriesreplanted:lead_oreberry',
+        'oreberriesreplanted:uranium_oreberry',
+        'oreberriesreplanted:osmium_oreberry',
+        'oreberriesreplanted:zinc_oreberry',
+        'oreberriesreplanted:silver_oreberry',
+        'oreberriesreplanted:copper_oreberry',
+        'oreberriesreplanted:gold_oreberry',
+        'oreberriesreplanted:iron_oreberry',
+        'oreberriesreplanted:essence_berry'
+    ]);
+
+    add('concatenation:perditio_shards', [
+        'strangematter:spatial_shard',
+        'strangematter:shade_shard',
+        'elementalcraft:fine_air_gem',
+        'elementalcraft:pristine_air_gem'
     ]);
 });

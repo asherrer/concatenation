@@ -1,5 +1,5 @@
 {
-	autofocus_id: "524067700E07EB06"
+	autofocus_id: "2CEDBC536409D424"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "the_journey"
@@ -247,7 +247,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/curios set curio @s 4"
+					command: "/curios set curio @s 5"
 					elevate_perms: true
 					icon: {
 						Count: 1
@@ -8085,8 +8085,8 @@
 					type: "item"
 				}
 			]
-			x: 18.0d
-			y: 1.0d
+			x: 19.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["54D2E4556B238BE4"]
@@ -8133,8 +8133,8 @@
 				type: "item"
 			}]
 			title: "&4The Moon"
-			x: 16.474999999999998d
-			y: 0.6750000000000007d
+			x: 16.099999999999998d
+			y: 0.0d
 		}
 		{
 			dependencies: ["48182227AA27C096"]
@@ -9248,8 +9248,8 @@
 				}
 				type: "item"
 			}]
-			x: 21.0d
-			y: 2.0d
+			x: 22.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["068DF533DB041F37"]
@@ -9274,8 +9274,8 @@
 				}
 				type: "item"
 			}]
-			x: 21.0d
-			y: 0.5d
+			x: 22.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["068DF533DB041F37"]
@@ -9300,8 +9300,8 @@
 				}
 				type: "item"
 			}]
-			x: 17.5d
-			y: -1.0d
+			x: 18.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["25A618A3B28B8DEE"]
@@ -9325,8 +9325,8 @@
 				}
 				type: "item"
 			}]
-			x: 17.5d
-			y: -2.5d
+			x: 18.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["06A4BEEE42830A85"]
@@ -9720,8 +9720,8 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: 21.5d
-			y: -1.0d
+			x: 22.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["068DF533DB041F37"]
@@ -9745,8 +9745,8 @@
 				}
 				type: "item"
 			}]
-			x: 20.0d
-			y: -1.0d
+			x: 21.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["0D2E04D30E54E6C8"]
@@ -9777,8 +9777,8 @@
 				}
 				type: "item"
 			}]
-			x: 22.0d
-			y: -2.5d
+			x: 23.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -9809,8 +9809,8 @@
 				}
 				type: "item"
 			}]
-			x: 20.5d
-			y: -2.5d
+			x: 21.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["3E73EAD0A0A295F5"]
@@ -9929,8 +9929,8 @@
 				}
 			]
 			title: "Basic Blood Crafting"
-			x: 18.5d
-			y: -1.0d
+			x: 19.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["06A4BEEE42830A85"]
@@ -10605,55 +10605,6 @@
 			title: "The Tower"
 			x: -6.324999999999999d
 			y: 16.099999999999998d
-		}
-		{
-			dependencies: ["255F91EE26FB166D"]
-			description: ["An enhancement to the idea of a weapon that slices through the metaphysical, this blade will allow you to make use of the old art of dimensional doors. Beware, though, it seems the alternate plane these doors channel through has suffered some kind of damage since the old days... It's best if you stick to bridging locations outside of the eerie black void, unless you intend to banish people to limbo."]
-			hide_until_deps_complete: true
-			hide_until_deps_visible: true
-			id: "3EA4408A8F86B825"
-			invisible: true
-			tasks: [{
-				id: "0921696421E8B6DA"
-				item: "concatenationcore:woven_pearl"
-				type: "item"
-			}]
-			x: 17.5d
-			y: -4.0d
-		}
-		{
-			dependencies: ["3EA4408A8F86B825"]
-			description: ["Sometimes there are rifts. Sometimes those rifts are undesireable."]
-			id: "2480B881634C80B7"
-			rewards: [{
-				id: "06695F72F8689133"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			tasks: [{
-				id: "2F27CCB78C503376"
-				item: "concatenationcore:woven_pearl"
-				type: "item"
-			}]
-			x: 16.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["3EA4408A8F86B825"]
-			description: ["These tools allow you to bridge two points in space, forming a rift between them, which you can then stabilise into proper channels using dimensional doors. Rift signatures also seem to be affected by enchantments, which may allow you to make them last a little longer."]
-			id: "5C35A413987F2EC6"
-			rewards: [{
-				id: "14C22AB40D97F253"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			tasks: [{
-				id: "2DF35B5D800E6DE1"
-				item: "concatenationcore:woven_pearl"
-				type: "item"
-			}]
-			x: 17.5d
-			y: -5.5d
 		}
 		{
 			dependencies: [
@@ -15017,8 +14968,8 @@
 				}
 				type: "item"
 			}]
-			x: 22.5d
-			y: 2.5d
+			x: 23.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["2DC6C224BD1881C9"]
@@ -15042,8 +14993,8 @@
 				}
 				type: "item"
 			}]
-			x: 24.0d
-			y: 3.0d
+			x: 24.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["40EA73BEA023C14A"]
@@ -15068,8 +15019,8 @@
 				}
 				type: "item"
 			}]
-			x: 22.5d
-			y: 1.0d
+			x: 23.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["51EDC749A53FF0D3"]
@@ -15093,8 +15044,8 @@
 				}
 				type: "item"
 			}]
-			x: 24.5d
-			y: 0.5d
+			x: 25.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["3913EED76917339E"]
@@ -15127,8 +15078,8 @@
 				}
 				type: "item"
 			}]
-			x: 19.5d
-			y: -3.5d
+			x: 20.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["6D27277DA055DFBC"]
@@ -15173,8 +15124,8 @@
 					type: "item"
 				}
 			]
-			x: 19.5d
-			y: -4.5d
+			x: 20.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["579E8F816742653C"]
@@ -15203,8 +15154,8 @@
 				}
 				type: "item"
 			}]
-			x: 20.0d
-			y: -5.5d
+			x: 21.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["6D27277DA055DFBC"]
@@ -15253,8 +15204,8 @@
 				}
 				type: "item"
 			}]
-			x: 21.0d
-			y: -7.5d
+			x: 22.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["29289B6D4610B9D4"]
@@ -15279,8 +15230,8 @@
 				}
 				type: "item"
 			}]
-			x: 20.5d
-			y: -6.5d
+			x: 21.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["40EA73BEA023C14A"]
@@ -15411,8 +15362,8 @@
 				}
 			]
 			title: "Blood Logistics"
-			x: 22.0d
-			y: 4.0d
+			x: 23.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["6CE0DB1AEB597BCE"]
@@ -15465,8 +15416,8 @@
 				}
 			]
 			title: "Aura Farming"
-			x: 23.0d
-			y: -0.5d
+			x: 24.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["209C0E2550C84C69"]
@@ -15491,8 +15442,8 @@
 				}
 				type: "item"
 			}]
-			x: 19.0d
-			y: -2.5d
+			x: 20.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["2A13540D4E396260"]
@@ -16245,7 +16196,6 @@
 			dependency_requirement: "one_completed"
 			hide_dependency_lines: true
 			hide_dependent_lines: true
-			hide_until_deps_complete: true
 			id: "0D61335A0B07300D"
 			rewards: [
 				{
@@ -21178,8 +21128,8 @@
 				item: "reliquary:alkahestry_altar"
 				type: "item"
 			}]
-			x: 12.5d
-			y: -2.5d
+			x: 13.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["0901394AD3A5FDAB"]
@@ -21589,7 +21539,6 @@
 		{
 			dependencies: ["57D021A05869800D"]
 			hide_dependency_lines: true
-			hide_until_deps_complete: true
 			id: "731126727DDCAC54"
 			rewards: [{
 				id: "0B0CA4411EA0108E"
@@ -24071,8 +24020,8 @@
 				}
 				type: "item"
 			}]
-			x: 13.5d
-			y: -7.5d
+			x: 14.0d
+			y: -6.5d
 		}
 		{
 			description: ["{image:concatenationcore:textures/pathway.png width:170 height:120 align:center}"]
@@ -25738,6 +25687,7 @@
 			y: -17.5d
 		}
 		{
+			dependencies: ["0D61335A0B07300D"]
 			hide_dependent_lines: true
 			id: "4E62B2BDC912CCA1"
 			rewards: [{
@@ -25746,6 +25696,7 @@
 				item: "the_deep_void:rotten_bone"
 				type: "item"
 			}]
+			size: 1.1d
 			tasks: [{
 				dimension: "the_deep_void:deep_void"
 				icon: "the_deep_void:block_of_bone_pile"
@@ -25758,6 +25709,7 @@
 		}
 		{
 			dependencies: ["4E62B2BDC912CCA1"]
+			hide_until_deps_complete: true
 			hide_until_deps_visible: false
 			id: "13E34EDD951B61F9"
 			rewards: [{
@@ -25812,6 +25764,7 @@
 		}
 		{
 			dependencies: ["4E62B2BDC912CCA1"]
+			hide_until_deps_complete: true
 			id: "5645C4B5F7C63262"
 			rewards: [{
 				id: "62615F309762F74A"
@@ -25865,6 +25818,7 @@
 		}
 		{
 			dependencies: ["4E62B2BDC912CCA1"]
+			hide_until_deps_complete: true
 			id: "10348477C6AD7322"
 			rewards: [{
 				count: 2
@@ -25882,6 +25836,7 @@
 		}
 		{
 			dependencies: ["5645C4B5F7C63262"]
+			hide_until_deps_complete: true
 			id: "037DC2CEAEB2F5CB"
 			rewards: [{
 				id: "60554570A41412DB"
@@ -25898,7 +25853,7 @@
 		}
 		{
 			dependencies: ["1D1398D93B1EED36"]
-			hide_dependent_lines: true
+			hide_until_deps_complete: true
 			id: "1DD98931BFA84784"
 			rewards: [{
 				id: "2F3DBDE3144D8D53"
@@ -25919,8 +25874,8 @@
 				}
 			]
 			title: "Grim Gem \\& Desolate Soil"
-			x: 32.5d
-			y: 5.0d
+			x: 33.5d
+			y: 6.5d
 		}
 		{
 			dependencies: [
@@ -25944,6 +25899,7 @@
 		}
 		{
 			dependencies: ["4E62B2BDC912CCA1"]
+			hide_until_deps_complete: true
 			id: "6B96137C28502D97"
 			rewards: [{
 				id: "24D41E2B33AE241C"
@@ -26013,11 +25969,11 @@
 		}
 		{
 			dependencies: [
-				"1DD98931BFA84784"
 				"6B96137C28502D97"
 				"13E34EDD951B61F9"
 				"0D61335A0B07300D"
 			]
+			hide_until_deps_complete: true
 			id: "7BB92B0F64862D0C"
 			rewards: [{
 				count: 3
@@ -26054,6 +26010,7 @@
 		}
 		{
 			dependencies: ["7CFABDA77781489E"]
+			hide_until_deps_complete: true
 			id: "1472186B0F51F01B"
 			rewards: [
 				{
@@ -26097,6 +26054,7 @@
 		}
 		{
 			dependencies: ["4E62B2BDC912CCA1"]
+			hide_until_deps_complete: true
 			id: "0A48C85C5B513BA6"
 			rewards: [{
 				id: "20BEB69FAC4DD6D6"
@@ -26127,6 +26085,7 @@
 		}
 		{
 			dependencies: ["0A48C85C5B513BA6"]
+			hide_until_deps_complete: true
 			id: "152DC73801813764"
 			rewards: [
 				{
@@ -26196,6 +26155,8 @@
 				"0D61335A0B07300D"
 			]
 			dependency_requirement: "one_completed"
+			description: ["{image:the_deep_void:block/big_yellow_eye_animated width:100 height:100 align:center}"]
+			hide_until_deps_complete: true
 			id: "55895AB2924ABAFC"
 			rewards: [
 				{
@@ -26224,6 +26185,7 @@
 				"55895AB2924ABAFC"
 				"3EA067C20E4ED59E"
 			]
+			hide_until_deps_complete: true
 			id: "0F8C0FC726A93C13"
 			rewards: [
 				{
@@ -26379,6 +26341,7 @@
 		{
 			dependencies: ["4E62B2BDC912CCA1"]
 			description: ["The most important thing to remember in the Deep Void is that you're always being watched. Always. The most dangerous of these observers is something I've dubbed \"The Stalker\". If you're away from light for too long, it'll see you as vulnerable and attack you. It's one of the more powerful entities down here, so I'd recommend avoiding it at all costs. It's afraid of light, but it'll still try to attack you if its committed to the act already. In this scenario, I've found a makeshift bait consisting of rotted flesh and bones to be somewhat effective in luring it away."]
+			hide_until_deps_complete: true
 			icon: "the_deep_void:watching_stalker_spawn_egg"
 			id: "245B905EE8E73588"
 			rewards: [{
@@ -26401,6 +26364,7 @@
 				"245B905EE8E73588"
 				"3EA067C20E4ED59E"
 			]
+			hide_until_deps_complete: true
 			id: "65CB9CD3F0B5D8F1"
 			rewards: [{
 				count: 2
@@ -26493,6 +26457,7 @@
 				"4CD0892FB0841A42"
 				"3EA067C20E4ED59E"
 			]
+			hide_until_deps_complete: true
 			id: "666D367401134D05"
 			rewards: [{
 				count: 4
@@ -26598,6 +26563,7 @@
 		}
 		{
 			dependencies: ["7CFABDA77781489E"]
+			hide_until_deps_complete: true
 			id: "591730D31542CF21"
 			rewards: [{
 				count: 32
@@ -26816,6 +26782,7 @@
 				"1472186B0F51F01B"
 				"4CD0892FB0841A42"
 			]
+			hide_until_deps_complete: true
 			id: "6C7C01AE978AB479"
 			rewards: [{
 				count: 6
@@ -27469,8 +27436,8 @@
 				item: "the_deep_void:void_core"
 				type: "item"
 			}]
-			x: 35.5d
-			y: -4.0d
+			x: 36.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["4E2F07927BA41118"]
@@ -27614,6 +27581,7 @@
 		}
 		{
 			dependencies: ["1D1398D93B1EED36"]
+			hide_until_deps_complete: true
 			id: "59AAF970EE1F397B"
 			rewards: [{
 				count: 4
@@ -27818,6 +27786,7 @@
 		}
 		{
 			dependencies: ["7CFABDA77781489E"]
+			hide_until_deps_complete: true
 			id: "560BA5EF2B92EC13"
 			tasks: [{
 				id: "3F1051BF22D97A2A"
@@ -27826,6 +27795,235 @@
 			}]
 			x: 39.0d
 			y: 8.0d
+		}
+		{
+			dependencies: ["2DFD356016750828"]
+			id: "2734FE4FF54DCB2D"
+			rewards: [{
+				id: "0978E789D297CC1D"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D97E79109D91EC1"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "theurgy:divination_rod_t1"
+								tag: {
+									Damage: 0
+									"theurgy:divination.setting.allow_attuning": 1b
+									"theurgy:divination.setting.allowed_blocks_tag": "theurgy:divination_rod_t1_allowed_blocks"
+									"theurgy:divination.setting.disallowed_blocks_tag": "theurgy:divination_rod_t1_disallowed_blocks"
+									"theurgy:divination.setting.duration": 40
+									"theurgy:divination.setting.max_damage": 8
+									"theurgy:divination.setting.range": 96
+									"theurgy:divination.setting.tier": "minecraft:stone"
+								}
+							}
+							{
+								Count: 1b
+								id: "theurgy:divination_rod_t2"
+								tag: {
+									Damage: 0
+									"theurgy:divination.setting.allow_attuning": 1b
+									"theurgy:divination.setting.allowed_blocks_tag": "theurgy:divination_rod_t2_allowed_blocks"
+									"theurgy:divination.setting.disallowed_blocks_tag": "theurgy:divination_rod_t2_disallowed_blocks"
+									"theurgy:divination.setting.duration": 40
+									"theurgy:divination.setting.max_damage": 16
+									"theurgy:divination.setting.range": 96
+									"theurgy:divination.setting.tier": "minecraft:iron"
+								}
+							}
+							{
+								Count: 1b
+								id: "theurgy:divination_rod_t3"
+								tag: {
+									Damage: 0
+									"theurgy:divination.setting.allow_attuning": 1b
+									"theurgy:divination.setting.allowed_blocks_tag": "theurgy:divination_rod_t3_allowed_blocks"
+									"theurgy:divination.setting.disallowed_blocks_tag": "theurgy:divination_rod_t3_disallowed_blocks"
+									"theurgy:divination.setting.duration": 40
+									"theurgy:divination.setting.max_damage": 32
+									"theurgy:divination.setting.range": 96
+									"theurgy:divination.setting.tier": "minecraft:diamond"
+								}
+							}
+							{
+								Count: 1b
+								id: "theurgy:divination_rod_t4"
+								tag: {
+									Damage: 0
+									"theurgy:divination.setting.allow_attuning": 1b
+									"theurgy:divination.setting.allowed_blocks_tag": "theurgy:divination_rod_t4_allowed_blocks"
+									"theurgy:divination.setting.disallowed_blocks_tag": "theurgy:divination_rod_t4_disallowed_blocks"
+									"theurgy:divination.setting.duration": 40
+									"theurgy:divination.setting.max_damage": 128
+									"theurgy:divination.setting.range": 96
+									"theurgy:divination.setting.tier": "minecraft:netherite"
+								}
+							}
+							{
+								Count: 1b
+								id: "theurgy:sulfur_attuned_divination_rod_abundant"
+								tag: {
+									Damage: 0
+									"theurgy:divination.setting.allow_attuning": 0b
+									"theurgy:divination.setting.allowed_blocks_tag": "theurgy:divination_rod_t1_allowed_blocks"
+									"theurgy:divination.setting.disallowed_blocks_tag": "theurgy:divination_rod_t1_disallowed_blocks"
+									"theurgy:divination.setting.duration": 40
+									"theurgy:divination.setting.max_damage": 16
+									"theurgy:divination.setting.range": 96
+									"theurgy:divination.setting.tier": "minecraft:stone"
+								}
+							}
+							{
+								Count: 1b
+								id: "theurgy:sulfur_attuned_divination_rod_common"
+								tag: {
+									Damage: 0
+									"theurgy:divination.setting.allow_attuning": 0b
+									"theurgy:divination.setting.allowed_blocks_tag": "theurgy:divination_rod_t1_allowed_blocks"
+									"theurgy:divination.setting.disallowed_blocks_tag": "theurgy:divination_rod_t1_disallowed_blocks"
+									"theurgy:divination.setting.duration": 40
+									"theurgy:divination.setting.max_damage": 16
+									"theurgy:divination.setting.range": 96
+									"theurgy:divination.setting.tier": "minecraft:stone"
+								}
+							}
+							{
+								Count: 1b
+								id: "theurgy:sulfur_attuned_divination_rod_rare"
+								tag: {
+									Damage: 0
+									"theurgy:divination.setting.allow_attuning": 0b
+									"theurgy:divination.setting.allowed_blocks_tag": "theurgy:divination_rod_t2_allowed_blocks"
+									"theurgy:divination.setting.disallowed_blocks_tag": "theurgy:divination_rod_t2_disallowed_blocks"
+									"theurgy:divination.setting.duration": 40
+									"theurgy:divination.setting.max_damage": 32
+									"theurgy:divination.setting.range": 96
+									"theurgy:divination.setting.tier": "minecraft:stone"
+								}
+							}
+							{
+								Count: 1b
+								id: "theurgy:sulfur_attuned_divination_rod_precious"
+								tag: {
+									Damage: 0
+									"theurgy:divination.setting.allow_attuning": 0b
+									"theurgy:divination.setting.allowed_blocks_tag": "theurgy:divination_rod_t3_allowed_blocks"
+									"theurgy:divination.setting.disallowed_blocks_tag": "theurgy:divination_rod_t3_disallowed_blocks"
+									"theurgy:divination.setting.duration": 40
+									"theurgy:divination.setting.max_damage": 32
+									"theurgy:divination.setting.range": 96
+									"theurgy:divination.setting.tier": "minecraft:stone"
+								}
+							}
+							{
+								Count: 1b
+								id: "theurgy:amethyst_divination_rod"
+								tag: {
+									Damage: 0
+									"theurgy:divination.setting.allow_attuning": 0b
+									"theurgy:divination.setting.allowed_blocks_tag": "theurgy:divination_rod_t1_allowed_blocks"
+									"theurgy:divination.setting.disallowed_blocks_tag": "theurgy:divination_rod_t1_disallowed_blocks"
+									"theurgy:divination.setting.duration": 40
+									"theurgy:divination.setting.max_damage": 16
+									"theurgy:divination.setting.range": 96
+									"theurgy:divination.setting.tier": "minecraft:stone"
+								}
+							}
+						]
+					}
+				}
+				title: "Any Divination Rod"
+				type: "item"
+			}]
+			title: "Divination Rods"
+			x: 13.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0F3237156DE95B07"]
+			description: [
+				"Gate to Perdition is a pack-wide event with limited time rewards. Delve into a unique secondary questline sending you on a journey to investigate the disappearance of dimensional doors from the world and how we may reopen the door to limbo!"
+				""
+				"Send your own theories on the pack's Discord server in #gate-to-perdition (link available on the title screen). Perhaps this will help the community figure out how to enter limbo? &lThe most elaborate and ludicrous theory weaver will get a unique custom item added to the pack!&r"
+				"{@pagebreak}"
+				"All of the quests are hidden at the start and you must complete them to unlock the subsequent quest."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "concatenationcore:experienced_paper"
+			id: "42F701FC987C6C99"
+			size: 0.75d
+			subtitle: "Event Over"
+			tasks: [{
+				id: "0817051F0190E4D5"
+				title: "Event Details"
+				type: "checkmark"
+			}]
+			title: "GtP Event Details"
+			x: 0.75d
+			y: -24.375d
+		}
+		{
+			icon: "concatenationcore:prudence"
+			id: "23E0F8A24E47D241"
+			size: 1.15d
+			tasks: [{
+				id: "30F1678F442B7B9C"
+				title: "Prudence"
+				type: "checkmark"
+			}]
+			x: -13.224999999999998d
+			y: -9.774999999999999d
+		}
+		{
+			icon: "concatenationcore:prudence"
+			id: "020469FF6E8BFBD8"
+			size: 1.15d
+			tasks: [{
+				id: "6245C4CFD9A3A133"
+				title: "Prudence"
+				type: "checkmark"
+			}]
+			x: 14.2d
+			y: -9.774999999999999d
+		}
+		{
+			dependencies: [
+				"7E1C64AA0AA235C2"
+				"5C78A0206DEDAC4C"
+			]
+			dependency_requirement: "one_started"
+			id: "3D75596C95BC3EAB"
+			tasks: [{
+				id: "17F62EFFD1213206"
+				item: {
+					Count: 1
+					id: "perdition:halcyon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 5.1d
 		}
 	]
 	title: "The Journey"

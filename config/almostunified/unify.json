@@ -7,7 +7,9 @@
     "createmetallurgy",
     "thermal",
     "mekanism",
-    "createdeco"
+    "createdeco",
+    "concatenationcore",
+    "perdition"
   ],
   "stoneStrata": [
     "stone",
@@ -71,6 +73,7 @@
     "peridot",
     "platinum",
     "potassium_nitrate",
+    "pyrite",
     "ruby",
     "sapphire",
     "signalum",

@@ -3,9 +3,20 @@
 	default_quest_shape: ""
 	filename: "halloween_2025"
 	group: "4AEECD5B848DA3A1"
+	icon: "chipped:nether_carved_pumpkin"
 	id: "3CCC0B7FE48E71BD"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "283ECA512AD79F99"
+		tasks: [{
+			id: "18AA0484CA5A42B7"
+			item: "minecraft:carved_pumpkin"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	subtitle: ["Seasonal Event"]
 	title: "Halloween 2025"
 }
