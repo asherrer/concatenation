@@ -37,6 +37,18 @@
 		#Thoughtwell spawn rarity (1/N chance per chunk)
 		#Range: 1 ~ 100000
 		thoughtwellRarity = 1000
+		#Dimensions where Gravity Anomalies can spawn (empty list = all dimensions)
+		gravityAnomalyDimensions = ["minecraft:overworld"]
+		#Dimensions where Temporal Blooms can spawn (empty list = all dimensions)
+		temporalBloomDimensions = ["minecraft:overworld"]
+		#Dimensions where Warp Gates can spawn (empty list = all dimensions)
+		warpGateDimensions = ["minecraft:overworld"]
+		#Dimensions where Energetic Rifts can spawn (empty list = all dimensions)
+		energeticRiftDimensions = ["minecraft:overworld"]
+		#Dimensions where Echoing Shadows can spawn (empty list = all dimensions)
+		echoingShadowDimensions = ["minecraft:overworld"]
+		#Dimensions where Thoughtwells can spawn (empty list = all dimensions)
+		thoughtwellDimensions = ["minecraft:overworld"]
 
 	#Ore Generation Configuration
 	[worldgen.ores]
@@ -74,7 +86,7 @@
 
 	#Gravity Anomaly Effect Settings
 	[anomaly_effects.gravity_anomaly]
-		#Enable Gravity Anomaly effects (levitation)
+		#Enable all Gravity Anomaly effects (master toggle)
 		enableEffects = true
 		#Levitation effect radius in blocks
 		#Range: 1.0 ~ 32.0
@@ -85,10 +97,12 @@
 		#Research points granted when scanned
 		#Range: 1 ~ 1000
 		researchPoints = 10
+		#Enable levitation effect on nearby entities
+		enableLevitation = true
 
 	#Temporal Bloom Effect Settings
 	[anomaly_effects.temporal_bloom]
-		#Enable Temporal Bloom effects (crop growth/mob transformation)
+		#Enable all Temporal Bloom effects (master toggle)
 		enableEffects = true
 		#Effect radius in blocks
 		#Range: 1.0 ~ 32.0
@@ -105,10 +119,14 @@
 		#Research points granted when scanned
 		#Range: 1 ~ 1000
 		researchPoints = 10
+		#Enable crop growth/regression effects
+		enableCropGrowth = true
+		#Enable mob transformation (baby/adult) effects
+		enableMobTransform = true
 
 	#Energetic Rift Effect Settings
 	[anomaly_effects.energetic_rift]
-		#Enable Energetic Rift effects (lightning/zapping)
+		#Enable all Energetic Rift effects (master toggle)
 		enableEffects = true
 		#Entity zap radius in blocks
 		#Range: 1.0 ~ 32.0
@@ -128,10 +146,14 @@
 		#Research points granted when scanned
 		#Range: 1 ~ 1000
 		researchPoints = 10
+		#Enable entity zapping effect
+		enableZap = true
+		#Enable lightning rod striking effect
+		enableLightning = true
 
 	#Warp Gate Effect Settings
 	[anomaly_effects.warp_gate]
-		#Enable Warp Gate effects (teleportation)
+		#Enable all Warp Gate effects (master toggle)
 		enableEffects = true
 		#Teleport activation radius in blocks
 		#Range: 0.5 ~ 16.0
@@ -142,10 +164,12 @@
 		#Research points granted when scanned
 		#Range: 1 ~ 1000
 		researchPoints = 10
+		#Enable teleportation effect
+		enableTeleport = true
 
 	#Echoing Shadow Effect Settings
 	[anomaly_effects.echoing_shadow]
-		#Enable Echoing Shadow effects (light absorption/mob spawning)
+		#Enable all Echoing Shadow effects (master toggle)
 		enableEffects = true
 		#Effect radius in blocks
 		#Range: 1.0 ~ 32.0
@@ -159,10 +183,14 @@
 		#Research points granted when scanned
 		#Range: 1 ~ 1000
 		researchPoints = 10
+		#Enable light absorption effect
+		enableLightAbsorption = true
+		#Enable mob spawn rate boost effect
+		enableMobSpawnBoost = true
 
 	#Thoughtwell Effect Settings
 	[anomaly_effects.thoughtwell]
-		#Enable Thoughtwell effects (confusion)
+		#Enable all Thoughtwell effects (master toggle)
 		enableEffects = true
 		#Effect radius in blocks
 		#Range: 1.0 ~ 32.0
@@ -173,6 +201,10 @@
 		#Research points granted when scanned
 		#Range: 1 ~ 1000
 		researchPoints = 10
+		#Enable nausea/confusion effect on nearby players
+		enableNausea = true
+		#Enable mob disguise effect on nearby mobs
+		enableMobDisguise = true
 
 #Energy System Configuration
 #Control energy generation, consumption, and storage for machines
@@ -252,6 +284,11 @@
 	#Global multiplier for all research node costs (1.0 = default, 0.5 = half cost, 2.0 = double cost)
 	#Range: 0.0 ~ 10.0
 	costMultiplier = 1.0
+	#Hide Strange Matter recipes in JEI/REI/EMI recipe viewers
+	#When enabled, recipes will only be visible in the Research Tablet.
+	#This encourages players to use the research system to discover recipes.
+	#Defaults to false (recipes visible in recipe viewers)
+	hideRecipesInRecipeViewers = true
 
 	#Individual Research Node Costs
 	#Override costs for specific research nodes. Set to -1 to use default values.

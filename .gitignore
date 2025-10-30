@@ -46,6 +46,7 @@ debug
 user-prefs.json
 /mods/.connector
 essential
+ESM
 
 # why no work?
 /config/oculus.properties
