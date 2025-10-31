@@ -3,8 +3,7 @@ ServerEvents.recipes(event => {
     [
         'strangematter:resonant_circuit',
         'strangematter:resonant_coil',
-        'strangematter:research_tablet',
-        'perdition:halcyon'
+        'strangematter:research_tablet'
     ].forEach(item => event.remove({ output: item }));
 
     event.replaceInput(
@@ -137,6 +136,86 @@ ServerEvents.recipes(event => {
             A: 'perdition:halcyon'
         }
     )
+    event.shaped(
+        Item.of('rftoolsbase:dimensionalshard', 8),
+        [
+            ' AB',
+            'CDE',
+            'FG '
+        ],
+        {
+            B: 'strangematter:gravitic_shard',
+            C: 'strangematter:shade_shard',
+            D: 'minecraft:prismarine_crystals',
+            E: 'strangematter:energetic_shard',
+            A: 'strangematter:chrono_shard',
+            G: 'strangematter:insight_shard',
+            F: 'strangematter:spatial_shard'
+        }
+    )
+    event.shaped(
+        Item.of('elementalcraft:crude_fire_gem'),
+        [
+            ' A ',
+            'ABA',
+            ' A '
+        ],
+        {
+            B: 'strangematter:gravitic_shard',
+            A: 'strangematter:raw_resonite'
+        }
+    )
+    event.shaped(
+        Item.of('elementalcraft:crude_water_gem'),
+        [
+            ' A ',
+            'ABA',
+            ' A '
+        ],
+        {
+            A: 'strangematter:raw_resonite',
+            B: 'strangematter:spatial_shard'
+        }
+    )
+    event.shaped(
+        Item.of('elementalcraft:crude_earth_gem'),
+        [
+            ' A ',
+            'ABA',
+            ' A '
+        ],
+        {
+            A: 'strangematter:raw_resonite',
+            B: 'strangematter:insight_shard'
+        }
+    )
+    event.shaped(
+        Item.of('elementalcraft:crude_air_gem'),
+        [
+            ' A ',
+            'ABA',
+            ' A '
+        ],
+        {
+            A: 'strangematter:raw_resonite',
+            B: 'strangematter:chrono_shard'
+        }
+    )
+    event.shapeless(
+        Item.of('psi:psigem'),
+        [
+            'strangematter:shade_shard',
+            'rftoolsbase:infused_diamond',
+            'strangematter:energetic_shard'
+        ]
+    )
+    event.shapeless(
+        Item.of('concatenationcore:meteorite', 12),
+        [
+            'perdition:rough_compound',
+            'strangematter:resonite_block'
+        ]
+    )
     // event.shaped(
     //     Item.of('strangematter:raw_resonite', 1),
     //     [
@@ -198,14 +277,78 @@ ServerEvents.recipes(event => {
             B: 'perdition:corruptite'
         }
     )
+    event.shaped(
+        Item.of('hexerei:moon_dust'),
+        [
+            ' A ',
+            'ABA',
+            ' A '
+        ],
+        {
+            B: 'concatenationcore:woven_pearl',
+            A: 'perdition:scintillating_dust'
+        }
+    )
+    event.shaped(
+        Item.of('bloodmagic:demonitegravel'),
+        [
+            'ABB',
+            'BCB',
+            'BBB'
+        ],
+        {
+            B: 'perdition:ochra_inhumana',
+            A: 'concatenationcore:mixing_tool',
+            C: 'hexerei:moon_dust'
+        }
+    )
+    event.shaped(
+        Item.of('elementalcraft:swift_alloy_nugget', 5),
+        [
+            '   ',
+            'ABA',
+            '   '
+        ],
+        {
+            B: 'strangematter:chrono_shard',
+            A: 'concatenationcore:pyrite'
+        }
+    )
+    event.shaped(
+        Item.of('elementalcraft:inert_crystal'),
+        [
+            'ABB',
+            'B  ',
+            '   '
+        ],
+        {
+            B: 'perdition:limbo_berries',
+            A: 'concatenationcore:cutting_tool'
+        }
+    )
 
     event.recipes.minecraft.smelting(
-        'strangematter:resonite_ingot',
-        'strangematter:raw_resonite'
+        'strangematter:raw_resonite',
+        'strangematter:resonite_ore'
     ).xp(0.1).cookingTime(100);
     event.recipes.minecraft.blasting(
-        'strangematter:resonite_ingot',
-        'strangematter:raw_resonite'
+        'strangematter:raw_resonite',
+        'strangematter:resonite_ore'
     ).xp(0.1).cookingTime(50);
+
+    // Should be in compats
+    event.shaped(
+        Item.of('strangematter:resonant_coil', 2),
+        [
+            ' A ',
+            'BCB',
+            ' A '
+        ],
+        {
+            C: 'perdition:petrified_stake',
+            B: 'strangematter:resonite_nugget',
+            A: 'strangematter:resonite_ingot'
+        }
+    )
 
 });

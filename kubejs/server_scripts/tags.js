@@ -485,4 +485,12 @@ ServerEvents.tags('item', event => {
         'hexerei:mandrake_root',
         'hexerei:mugwort_flowers'
     ]);
+
+    add('forge:ingots/pyrite', [
+        'concatenationcore:pyrite'
+    ]);
+
+    add('perdition:limbo_bush_growable', [
+        'elementalcraft:pure_rock'
+    ]);
 });

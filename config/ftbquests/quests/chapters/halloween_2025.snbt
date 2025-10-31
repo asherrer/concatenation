@@ -9,6 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["2CEDBC536409D424"]
 			description: [
 				"It's the season of pumpkins and scares! "
 				""
@@ -36,7 +37,7 @@
 				"40D76EF46649BDA5"
 			]
 			dependency_requirement: "one_completed"
-			description: ["Lord Pumpkinhead's origins stem from another world."]
+			description: ["Lord Pumpkinhead's origins stem from another world. A sinister lord that is fully battle-ready when summoned and poses a serious threat."]
 			id: "24E489456D23186C"
 			rewards: [{
 				id: "494F7D52544EEBAB"
@@ -50,11 +51,10 @@
 				type: "item"
 			}]
 			tasks: [{
-				entity: "born_in_chaos_v1:lord_pumpkinhead"
-				icon: "born_in_chaos_v1:lord_pumpkinhead_icon"
-				id: "05942D328C087976"
-				type: "kill"
-				value: 1L
+				advancement: "born_in_chaos_v1:pumpkin_lord"
+				criterion: ""
+				id: "09AAA08986DF9F7C"
+				type: "advancement"
 			}]
 			title: "Lord Pumpkinhead"
 			x: 3.0d
@@ -432,6 +432,7 @@
 		}
 		{
 			dependencies: ["48A3A1D7F2CF80C0"]
+			description: ["All of these graves around the world are making me think about my own mortality. I can only dream of something that would delay the inevitable."]
 			id: "02568A35AD9181E7"
 			rewards: [{
 				id: "583823BBCCCE3148"
@@ -621,11 +622,10 @@
 				xp_levels: 5
 			}]
 			tasks: [{
-				entity: "born_in_chaos_v1:sir_pumpkinhead"
-				icon: "born_in_chaos_v1:pumpkinhead_icon"
-				id: "62E8ED72B4B0EB31"
-				type: "kill"
-				value: 1L
+				advancement: "born_in_chaos_v1:pumpkin_sir"
+				criterion: ""
+				id: "10A4A7A6B2DDB058"
+				type: "advancement"
 			}]
 			title: "Sir Pumpkinhead"
 			x: 1.0d

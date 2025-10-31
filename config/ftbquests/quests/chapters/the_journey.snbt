@@ -9888,7 +9888,7 @@
 				}
 			]
 			x: 23.5d
-			y: -2.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["068DF533DB041F37"]
@@ -15179,8 +15179,8 @@
 				}
 				type: "item"
 			}]
-			x: 20.5d
-			y: -4.0d
+			x: 21.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["639817BED42EBC3A"]
@@ -20853,6 +20853,13 @@
 		}
 		{
 			dependencies: ["7D281BDB1C2472F1"]
+			description: [
+				"&c\"I use this one on a daily basis, so you could probably tell that I'm particularly fond of this relic. The Rending Gale has 3 modes of function: flight, push, and pull. When in flight mode, the staff will (rather violently) pull you in the direction you're looking at extreme speeds! Incredible for getting anywhere fast, but it can be a bit dizzying the first forty or so uses. When in push mode, it expels a strong gust around you, preventing anything from getting anywhere close! Very good for taking a breather. When in pull mode, it creates a vortex of wind that sucks in everything in a chosen direction towards you. With all of these incredible use cases, I'm honestly more surprised it isn't more popular!\""
+				"{@pagebreak}"
+				"\"Isn't it rather expensive to gather the materials to make it? Obviously it wouldn't be a common commodity if the average person couldn't get it.\""
+				""
+				"&c\"Yeah, but I never see any of my fellow magic users have one either! It's weird. I'd make a business around them if I wasn't so busy adventuring all the time.\"&r"
+			]
 			id: "439A7FD241E5D5E4"
 			rewards: [{
 				id: "63645AD02ADD8D07"
@@ -20883,6 +20890,7 @@
 		}
 		{
 			dependencies: ["7D281BDB1C2472F1"]
+			description: ["&c\"Now this is one of my most powerful artifacts! One cast of the Serpent Staff can easily turn a dicey combat encounter into a cakewalk. Upon being hit by the Kraken's spit expelled by this weapon, your enemies will find themselves completely unable to attack you for a time! Now, this comes with a couple caveats, those being that the staff is exceptionally fragile and that the pacification isn't foolproof. An enemy with a strong will can fight against it, but 9 times out of 10 you have a free kill.\"&r"]
 			id: "1CB0C2CD353BA642"
 			rewards: [{
 				id: "3EEE0193BE713118"
@@ -21543,6 +21551,7 @@
 					type: "item"
 				}
 			]
+			title: "Digestion"
 			x: 35.5d
 			y: 11.5d
 		}
@@ -28004,6 +28013,11 @@
 		}
 		{
 			dependencies: ["2DFD356016750828"]
+			description: [
+				"Divination rods are a witch's great friend, providing them with a reliable way to find resources."
+				""
+				"Divination rods can be made to point to resources provided you already have some of it, which then will make the sample lead to more of itself."
+			]
 			id: "2734FE4FF54DCB2D"
 			rewards: [{
 				id: "0978E789D297CC1D"
@@ -28187,6 +28201,9 @@
 			y: -24.375d
 		}
 		{
+			dependencies: ["2104737FF0D2E4E7"]
+			description: ["&a(The Prudence Pathway, a culmination of Temperance and Hierophant can be accessed in the Gate to Perdition quest page.)&r"]
+			hide_dependency_lines: true
 			icon: "concatenationcore:prudence"
 			id: "23E0F8A24E47D241"
 			size: 1.15d
@@ -28199,6 +28216,9 @@
 			y: -9.774999999999999d
 		}
 		{
+			dependencies: ["0CC91D0458ACB827"]
+			description: ["&a(The Prudence Pathway, a culmination of Temperance and Hierophant can be accessed in the Gate to Perdition quest page.)&r"]
+			hide_dependency_lines: true
 			icon: "concatenationcore:prudence"
 			id: "020469FF6E8BFBD8"
 			size: 1.15d
@@ -28216,7 +28236,21 @@
 				"5C78A0206DEDAC4C"
 			]
 			dependency_requirement: "one_started"
+			description: [
+				"&o&7A note is posted over the journal entry on waystones&r&r"
+				""
+				"&2A strange sword that remains one of the few to open a dimensional rift to another dimension that ressembles some depictions of limbo in more religious descriptions.&r"
+				"{@pagebreak}"
+				"&2Purgatory is a strange place, and seems devoid of life at times. It does contain some materials useful to elementists.&r"
+				""
+				"&a(Right click the sword to teleport to Purgatory)&r"
+			]
 			id: "3D75596C95BC3EAB"
+			rewards: [{
+				id: "0BB74C62BC4FADF6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "17F62EFFD1213206"
 				item: {
@@ -28233,20 +28267,55 @@
 		}
 		{
 			dependencies: ["3D75596C95BC3EAB"]
+			description: [
+				"&2Limbo Berries contain elemental purities within them, the plant crystalizing them into their fruit. These berries can thus be turned into inert crystal, providing a renewable source.&r"
+				""
+				"&2However, limbo berries can only be grown in Purgatory, reacting violently with incompatibility when grown in other dimensions. Perhaps someone could find a way to grow them back home...&r"
+			]
+			icon: "perdition:limbo_berries"
 			id: "07D743EBC4DDD625"
 			size: 0.9d
-			tasks: [{
-				id: "368253639C744605"
-				item: "perdition:limbo_berries"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "368253639C744605"
+					item: "perdition:limbo_berries"
+					type: "item"
+				}
+				{
+					id: "2E541594D79738D8"
+					item: "elementalcraft:inert_crystal"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6EE280C53442B931"
+					item: "elementalcraft:purerock"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 9.6d
 			y: 6.3d
 		}
 		{
 			dependencies: ["3B8127AF958727B0"]
+			description: [
+				"&o&7A note is posted over the journal entry on potions&r"
+				""
+				"&2Cultists desperate to reopen dimensional gates have begun studying various methods and the one to yield the most success has been in potions. They have managed to create a potion to teleport to the other world, filled with untold magical ingredients that make great substitutes.&r"
+				"{@pagebreak}"
+				"&2After spending time in that other realm, I have even managed to base myself on the properties innate to that purgatory world and create a sword that will allow me to bridge the gap between the two dimensions, opening a rift once again.&r"
+				""
+				"&2Nevertheless, the potion is the basis of that.&r"
+				"&o&2If only I could understand what the murmurs are saying… I wish to die in the know, and not be buried clueless…&r&r"
+			]
 			hide_dependency_lines: true
 			id: "2E25CC35003C7E0E"
+			rewards: [{
+				id: "161DBD911CFD8C66"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 1.15d
 			tasks: [{
 				id: "1ABF72EC883339F0"
@@ -28292,6 +28361,39 @@
 			}]
 			x: 36.5d
 			y: 12.5d
+		}
+		{
+			dependencies: ["12F6BD166085B3B5"]
+			description: [
+				"&o&7A note is posted over the journal entry on infusion&r"
+				""
+				"&2Ever since we had opened the gates to that other world once again, strange anomalies have begun appearing in our own. These anomalies seem to be quite pure in elemental power, providing ingredients of great power. Of these, anomalous grass has traces of earth crystals that can be extracted.&r"
+			]
+			hide_dependency_lines: true
+			id: "260A42706F064401"
+			rewards: [{
+				count: 4
+				id: "3A4F6F5A409D9FE6"
+				item: "strangematter:anomalous_grass"
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [
+				{
+					id: "774B0B115C315499"
+					item: "strangematter:anomalous_grass"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "6768F0C937676999"
+					item: "elementalcraft:earthcrystal"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 6.375d
+			y: 6.375d
 		}
 	]
 	title: "The Journey"

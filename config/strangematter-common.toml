@@ -38,17 +38,17 @@
 		#Range: 1 ~ 100000
 		thoughtwellRarity = 1000
 		#Dimensions where Gravity Anomalies can spawn (empty list = all dimensions)
-		gravityAnomalyDimensions = ["minecraft:overworld"]
+		gravityAnomalyDimensions = ["minecraft:overworld", "perdition:purgatory"]
 		#Dimensions where Temporal Blooms can spawn (empty list = all dimensions)
-		temporalBloomDimensions = ["minecraft:overworld"]
+		temporalBloomDimensions = ["minecraft:overworld", "perdition:purgatory"]
 		#Dimensions where Warp Gates can spawn (empty list = all dimensions)
-		warpGateDimensions = ["minecraft:overworld"]
+		warpGateDimensions = ["minecraft:overworld", "perdition:purgatory"]
 		#Dimensions where Energetic Rifts can spawn (empty list = all dimensions)
-		energeticRiftDimensions = ["minecraft:overworld"]
+		energeticRiftDimensions = ["minecraft:overworld", "perdition:purgatory"]
 		#Dimensions where Echoing Shadows can spawn (empty list = all dimensions)
-		echoingShadowDimensions = ["minecraft:overworld"]
+		echoingShadowDimensions = ["minecraft:overworld", "perdition:purgatory"]
 		#Dimensions where Thoughtwells can spawn (empty list = all dimensions)
-		thoughtwellDimensions = ["minecraft:overworld"]
+		thoughtwellDimensions = ["minecraft:overworld", "perdition:purgatory"]
 
 	#Ore Generation Configuration
 	[worldgen.ores]
