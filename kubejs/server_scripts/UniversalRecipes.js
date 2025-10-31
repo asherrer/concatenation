@@ -280,16 +280,16 @@ ServerEvents.recipes(event => {
                         D: 'concatenationcore:soleipse'
                 }
         )
-        event.shapeless(
-                Item.of(
-                        "concatenationcore:the_error",
-                        '{display:{Name:\'{"text":"Tarot : The Error","color":"yellow","italic":false}\'},CurioAttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Amount:0.5,Operation:1,UUID:[I;-1049641899,-1698279708,-1222758712,1471568110],Slot:"curio"}]}'
-                ),
-                [
-                        'tarotcards:the_lovers',
-                        'concatenationcore:concatenator'
-                ]
-        ).keepIngredient('concatenationcore:concatenator')
+        // event.shapeless(
+        //         Item.of(
+        //                 "concatenationcore:the_error",
+        //                 '{display:{Name:\'{"text":"Tarot : The Error","color":"yellow","italic":false}\'},CurioAttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Amount:0.5,Operation:1,UUID:[I;-1049641899,-1698279708,-1222758712,1471568110],Slot:"curio"}]}'
+        //         ),
+        //         [
+        //                 'tarotcards:the_lovers',
+        //                 'concatenationcore:concatenator'
+        //         ]
+        // ).keepIngredient('concatenationcore:concatenator')
 
         event.shaped(
                 Item.of('tarotcards:the_hierophant'),
@@ -420,6 +420,12 @@ ServerEvents.recipes(event => {
         event.shapeless(
                 Item.of('farmersdelight:rice'),
                 [
+                        'thermal:rice'
+                ]
+        )
+        event.shapeless(
+                Item.of('farmersdelight:rice'),
+                [
                         'thermal:rice_seeds'
                 ]
         )
@@ -442,6 +448,253 @@ ServerEvents.recipes(event => {
                         B: '#minecraft:planks'
                 }
         ).keepIngredient('tarotcards:the_empress')
+        event.shapeless(
+                Item.of('concatenationcore:sugarbase'),
+                [
+                        '#concatenation:knives',
+                        'tarotcards:the_empress',
+                        'farmersdelight:wheat_dough',
+                        'minecraft:sugar',
+                        'minecraft:sugar',
+                        'minecraft:sugar',
+                        'minecraft:sugar',
+                        'minecraft:sugar',
+                        'minecraft:sugar'
+                ]
+        ).keepIngredient('tarotcards:the_empress').damageIngredient('#concatenation:knives')
+        event.shapeless(
+                Item.of('concatenationcore:sugarbase', 2),
+                [
+                        'concatenationcore:sugarbase',
+                        'farmersdelight:wheat_dough',
+                        'minecraft:sugar',
+                        'minecraft:sugar',
+                        'minecraft:sugar',
+                        'minecraft:sugar',
+                        'minecraft:sugar',
+                        'minecraft:sugar',
+                        'minecraft:sugar'
+                ]
+        )
+        event.shaped(
+                Item.of('concatenationcore:spicy_drop', 4),
+                [
+                        'ABC',
+                        'DD ',
+                        '   '
+                ],
+                {
+                        D: 'minecraft:sugar',
+                        B: 'concatenationcore:sugarbase',
+                        A: '#concatenation:knives',
+                        C: 'born_in_chaos_v1:caramel_pepper'
+                }
+        ).damageIngredient('#concatenation:knives')
+        event.shaped(
+                Item.of('concatenationcore:spicy_drop'),
+                [
+                        'ABC',
+                        'DDD',
+                        'DD '
+                ],
+                {
+                        D: 'minecraft:sugar',
+                        B: 'concatenationcore:sugarbase',
+                        A: '#concatenation:knives',
+                        C: 'thermal:redstone_mushroom_spores'
+                }
+        ).damageIngredient('#concatenation:knives')
+        event.shaped(
+                Item.of('concatenationcore:spicy_drop'),
+                [
+                        'ABC',
+                        'DDE',
+                        '   '
+                ],
+                {
+                        D: 'minecraft:sugar',
+                        B: 'concatenationcore:sugarbase',
+                        E: 'farmersdelight:wheat_dough',
+                        C: 'hexerei:blood_bottle',
+                        A: '#concatenation:knives'
+                }
+        ).damageIngredient('#concatenation:knives')
+        event.shaped(
+                Item.of('concatenationcore:spicy_drop', 2),
+                [
+                        'ABC',
+                        'DD ',
+                        '   '
+                ],
+                {
+                        D: 'minecraft:sugar',
+                        B: 'concatenationcore:sugarbase',
+                        C: 'minecolonies:nether_pepper',
+                        A: '#concatenation:knives'
+                }
+        ).damageIngredient('#concatenation:knives')
+        event.shaped(
+                Item.of('concatenationcore:caramel_square', 4),
+                [
+                        'ABC',
+                        'D  ',
+                        '   '
+                ],
+                {
+                        D: 'minecraft:sugar',
+                        B: 'concatenationcore:sugarbase',
+                        A: '#concatenation:knives',
+                        C: 'born_in_chaos_v1:caramel_pepper'
+                }
+        ).damageIngredient('#concatenation:knives')
+        event.shaped(
+                Item.of('concatenationcore:shiny_eclair', 2),
+                [
+                        'ABC',
+                        'CDD',
+                        'E  '
+                ],
+                {
+                        E: 'minecraft:sugar',
+                        B: 'concatenationcore:sugarbase',
+                        D: 'farmersdelight:wheat_dough',
+                        A: '#concatenation:knives',
+                        C: 'minecraft:cocoa_beans'
+                }
+        ).damageIngredient('#concatenation:knives')
+        event.shaped(
+                Item.of('concatenationcore:mint_apple', 4),
+                [
+                        'ABC',
+                        'D  ',
+                        '   '
+                ],
+                {
+                        B: 'concatenationcore:sugarbase',
+                        A: '#concatenation:knives',
+                        D: 'create:honeyed_apple',
+                        C: 'born_in_chaos_v1:river_mint'
+                }
+        ).damageIngredient('#concatenation:knives')
+        event.shaped(
+                Item.of('concatenationcore:mint_apple', 2),
+                [
+                        'ABC',
+                        'DEE',
+                        'EEE'
+                ],
+                {
+                        B: 'concatenationcore:sugarbase',
+                        D: 'minecraft:apple',
+                        A: '#concatenation:knives',
+                        E: 'minecraft:honey_bottle',
+                        C: 'born_in_chaos_v1:river_mint'
+                }
+        ).damageIngredient('#concatenation:knives')
+        event.shaped(
+                Item.of('concatenationcore:yumpearls'),
+                [
+                        'ABC',
+                        'DEF',
+                        '   '
+                ],
+                {
+                        F: 'concatenationcore:mint_apple',
+                        B: 'concatenationcore:sugarbase',
+                        E: 'concatenationcore:caramel_square',
+                        A: '#concatenation:knives',
+                        C: 'concatenationcore:shiny_eclair',
+                        D: 'concatenationcore:spicy_drop'
+                }
+        ).damageIngredient('#concatenation:knives')
+        event.shaped(
+                Item.of('concatenationcore:allcandy'),
+                [
+                        'ABC',
+                        'DEF',
+                        'GHI'
+                ],
+                {
+                        D: 'born_in_chaos_v1:chocolate_heart',
+                        C: 'born_in_chaos_v1:coffee_candy',
+                        I: 'born_in_chaos_v1:mint_ice_cream',
+                        A: 'born_in_chaos_v1:holiday_candy',
+                        G: 'born_in_chaos_v1:caramel_pepper',
+                        F: 'born_in_chaos_v1:gummy_vampire_teeth',
+                        E: 'concatenationcore:yumpearls',
+                        H: 'born_in_chaos_v1:river_mint',
+                        B: 'born_in_chaos_v1:mint_candy'
+                }
+        )
+        event.shapeless(
+                Item.of('born_in_chaos_v1:holiday_candy', 4),
+                [
+                        '#concatenation:knives',
+                        'concatenationcore:sugarbase',
+                        'minecraft:sugar',
+                        'farmersdelight:pumpkin_slice',
+                        'minecraft:honey_bottle'
+                ]
+        ).damageIngredient('#concatenation:knives')
+        event.shaped(
+                Item.of('born_in_chaos_v1:coffee_candy', 2),
+                [
+                        'ABC',
+                        'CDD',
+                        '   '
+                ],
+                {
+                        D: 'minecraft:sugar',
+                        B: 'concatenationcore:sugarbase',
+                        A: '#concatenation:knives',
+                        C: 'minecraft:cocoa_beans'
+                }
+        ).damageIngredient('#concatenation:knives')
+        event.shaped(
+                Item.of('born_in_chaos_v1:river_mint'),
+                [
+                        'ABB',
+                        'C  ',
+                        '   '
+                ],
+                {
+                        C: 'concatenationcore:sugarbase',
+                        A: '#concatenation:knives',
+                        B: 'minecolonies:mint'
+                }
+        ).damageIngredient('#concatenation:knives')
+        event.shaped(
+                Item.of('born_in_chaos_v1:chocolate_heart'),
+                [
+                        'ABC',
+                        'DDE',
+                        'EE '
+                ],
+                {
+                        E: 'minecraft:red_dye',
+                        C: 'concatenationcore:sugarbase',
+                        B: 'born_in_chaos_v1:coffee_candy',
+                        A: '#concatenation:knives',
+                        D: 'minecraft:cocoa_beans'
+                }
+        ).damageIngredient('#concatenation:knives')
+        event.shapeless(
+                Item.of('born_in_chaos_v1:chocolate_heart', 2),
+                [
+                        'born_in_chaos_v1:coffee_candy',
+                        'hexerei:blood_bottle',
+                        '#concatenation:knives'
+                ]
+        ).damageIngredient('#concatenation:knives')
+        event.shapeless(
+                Item.of('born_in_chaos_v1:chocolate_heart', 3),
+                [
+                        '#concatenation:knives',
+                        'born_in_chaos_v1:coffee_candy',
+                        'hexerei:blood_bottle',
+                        'born_in_chaos_v1:holiday_candy'
+                ]
+        ).damageIngredient('#concatenation:knives')
 
         // Death
         event.shaped(
@@ -468,7 +721,7 @@ ServerEvents.recipes(event => {
                         'GHI'
                 ],
                 {
-                        B: 'born_in_chaos_v1:chocolate_heart',
+                        B: 'concatenationcore:allcandy',
                         F: 'born_in_chaos_v1:coffee_candy',
                         G: 'tarotcards:the_empress',
                         D: 'born_in_chaos_v1:mint_ice_cream',
