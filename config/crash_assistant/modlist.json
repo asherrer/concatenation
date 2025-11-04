@@ -14,10 +14,10 @@
     "modId": "quarryplus",
     "version": "1201.1.136"
   },
-  "ae2ct-1.20.1-1.1.0.jar": {
-    "jarName": "ae2ct-1.20.1-1.1.0.jar",
+  "ae2ct-1.20.1-1.1.1.jar": {
+    "jarName": "ae2ct-1.20.1-1.1.1.jar",
     "modId": "ae2ct",
-    "version": "1.20.1-1.1.0"
+    "version": "1.20.1-1.1.1"
   },
   "ae2wtlib-15.3.1-forge.jar": {
     "jarName": "ae2wtlib-15.3.1-forge.jar",
@@ -284,15 +284,20 @@
     "modId": "comforts",
     "version": "6.4.0+1.20.1"
   },
+  "common-networking-forge-1.0.5-1.20.1.jar": {
+    "jarName": "common-networking-forge-1.0.5-1.20.1.jar",
+    "modId": "commonnetworking",
+    "version": "1.0.5-1.20.1"
+  },
   "CommonCapabilities-1.20.1-2.9.9.jar": {
     "jarName": "CommonCapabilities-1.20.1-2.9.9.jar",
     "modId": "commoncapabilities",
     "version": "2.9.9"
   },
-  "concatenationcore-1.1.9-forge-1.20.1.jar": {
-    "jarName": "concatenationcore-1.1.9-forge-1.20.1.jar",
+  "concatenationcore-1.2.0-1-forge-1.20.1.jar": {
+    "jarName": "concatenationcore-1.2.0-1-forge-1.20.1.jar",
     "modId": "concatenationcore",
-    "version": "1.1.9"
+    "version": "1.2.0"
   },
   "configured-forge-1.20.1-2.2.3.jar": {
     "jarName": "configured-forge-1.20.1-2.2.3.jar",
@@ -462,6 +467,11 @@
     "modId": "cyclopscore",
     "version": "1.20.1"
   },
+  "Data_Anchor-forge-1.20.1-1.0.0.19.jar": {
+    "jarName": "Data_Anchor-forge-1.20.1-1.0.0.19.jar",
+    "modId": "dataanchor",
+    "version": "1.0.0.19"
+  },
   "decursio_stages-1.20.1-0.1.0b.jar": {
     "jarName": "decursio_stages-1.20.1-0.1.0b.jar",
     "modId": "decursio_stages",
@@ -482,10 +492,10 @@
     "modId": "does_it_tick",
     "version": "1.1.4"
   },
-  "domum_ornamentum-1.20.1-1.0.291-snapshot-universal.jar": {
-    "jarName": "domum_ornamentum-1.20.1-1.0.291-snapshot-universal.jar",
+  "domum_ornamentum-1.20.1-1.0.292-snapshot-universal.jar": {
+    "jarName": "domum_ornamentum-1.20.1-1.0.292-snapshot-universal.jar",
     "modId": "domum_ornamentum",
-    "version": "1.20.1-1.0.291-snapshot"
+    "version": "1.20.1-1.0.292-snapshot"
   },
   "dpanvil-1.20.1-5.0.1.jar": {
     "jarName": "dpanvil-1.20.1-5.0.1.jar",
@@ -985,20 +995,20 @@
     "modId": "midnightlib",
     "version": "1.4.2"
   },
-  "minecolonies-1.20.1-1.1.1083-snapshot.jar": {
-    "jarName": "minecolonies-1.20.1-1.1.1083-snapshot.jar",
+  "minecolonies-1.20.1-1.1.1098-snapshot.jar": {
+    "jarName": "minecolonies-1.20.1-1.1.1098-snapshot.jar",
     "modId": "minecolonies",
-    "version": "1.20.1-1.1.1083-snapshot"
+    "version": "1.20.1-1.1.1098-snapshot"
   },
-  "MineColonies_Compatibility-1.20.1-2.94.jar": {
-    "jarName": "MineColonies_Compatibility-1.20.1-2.94.jar",
+  "MineColonies_Compatibility-1.20.1-2.95.jar": {
+    "jarName": "MineColonies_Compatibility-1.20.1-2.95.jar",
     "modId": "minecolonies_compatibility",
-    "version": "2.94"
+    "version": "2.95"
   },
-  "MineColonies_Tweaks-1.20.1-2.82-all.jar": {
-    "jarName": "MineColonies_Tweaks-1.20.1-2.82-all.jar",
+  "MineColonies_Tweaks-1.20.1-2.83-all.jar": {
+    "jarName": "MineColonies_Tweaks-1.20.1-2.83-all.jar",
     "modId": "minecolonies_tweaks",
-    "version": "2.82"
+    "version": "2.83"
   },
   "mobtimizations-forge-1.20.1-1.0.0.jar": {
     "jarName": "mobtimizations-forge-1.20.1-1.0.0.jar",
@@ -1115,10 +1125,10 @@
     "modId": "patchouli",
     "version": "1.20.1-84.1-FORGE"
   },
-  "perdition-1.0.4-forge-1.20.1.jar": {
-    "jarName": "perdition-1.0.4-forge-1.20.1.jar",
+  "perdition-1.1.0-forge-1.20.1.jar": {
+    "jarName": "perdition-1.1.0-forge-1.20.1.jar",
     "modId": "perdition",
-    "version": "1.0.4"
+    "version": "1.1.0"
   },
   "Placebo-1.20.1-8.6.3.jar": {
     "jarName": "Placebo-1.20.1-8.6.3.jar",
@@ -1343,10 +1353,10 @@
     "modId": "storagedrawers",
     "version": "12.14.3"
   },
-  "strangematter-1.20.1-0.2.6.jar": {
-    "jarName": "strangematter-1.20.1-0.2.6.jar",
+  "strangematter-1.20.1-0.2.7.jar": {
+    "jarName": "strangematter-1.20.1-0.2.7.jar",
     "modId": "strangematter",
-    "version": "0.2.6"
+    "version": "0.2.7"
   },
   "structure_layout_optimizer-forge-1.0.11.jar": {
     "jarName": "structure_layout_optimizer-forge-1.0.11.jar",
@@ -1538,10 +1548,10 @@
     "modId": "veinmining",
     "version": "1.5.0+1.20.1"
   },
-  "via_romana-forge-1.4.1.jar": {
-    "jarName": "via_romana-forge-1.4.1.jar",
+  "via_romana-2.1.1+1.20.1-forge.jar": {
+    "jarName": "via_romana-2.1.1+1.20.1-forge.jar",
     "modId": "via_romana",
-    "version": "1.4.1"
+    "version": "2.1.1+1.20.1-forge"
   },
   "visuality-forge-2.0.2.jar": {
     "jarName": "visuality-forge-2.0.2.jar",

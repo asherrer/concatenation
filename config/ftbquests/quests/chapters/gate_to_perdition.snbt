@@ -748,6 +748,12 @@
 			]
 			hide_dependency_lines: true
 			id: "08A77DC76CA4CD87"
+			rewards: [{
+				count: 16
+				id: "08557D662F0818C8"
+				item: "minecraft:torch"
+				type: "item"
+			}]
 			tasks: [{
 				dimension: "the_deep_void:deep_void"
 				icon: "the_deep_void:block_of_bone_pile"

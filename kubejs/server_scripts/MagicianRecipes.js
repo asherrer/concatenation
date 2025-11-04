@@ -1072,4 +1072,17 @@ ServerEvents.recipes(event => {
                         'ars_nouveau:air_essence'
                 ]
         )
+
+        event.shaped(
+                Item.of('mcore:titanium_ingot', 8),
+                [
+                        'AAA',
+                        'ABA',
+                        'AAA'
+                ],
+                {
+                        A: Item.of('elementalcraft:pure_ore', '{elementalcraft:{ore:"mcore:titanium"}}'),
+                        B: 'minecraft:diamond'
+                }
+        )
 });

@@ -75,9 +75,11 @@ ItemEvents.modification(event => {
 
 		// deep void weapons
 		2456, 
+		["the_deep_void:hard_flesh_sword", 11],
 		["the_deep_void:claw_blade", 8],
 		["the_deep_void:animosity", 10],
-		["the_deep_void:the_harvest", 13],
+		["the_deep_void:the_harvest", 16],
+		["the_deep_void:tombstone", 30],
 		3461,
 		["the_deep_void:voidrium_sword", 9],
 		["the_deep_void:lavendite_voidrium_sword", 8],

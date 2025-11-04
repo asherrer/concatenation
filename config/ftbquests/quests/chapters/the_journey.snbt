@@ -6636,18 +6636,43 @@
 			]
 			size: 1.15d
 			tasks: [{
-				id: "20A4244FEDD769DE"
+				id: "1368197CA7EFC48E"
 				item: {
 					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "waystones:waystone"
+							}
+							{
+								Count: 1b
+								id: "waystones:mossy_waystone"
+							}
+							{
+								Count: 1b
+								id: "waystones:sandy_waystone"
+							}
+							{
+								Count: 1b
+								id: "waystones:deepslate_waystone"
+							}
+							{
+								Count: 1b
+								id: "waystones:blackstone_waystone"
+							}
+							{
+								Count: 1b
+								id: "waystones:end_stone_waystone"
+							}
+						]
 					}
-					id: "waystones:waystone"
 				}
+				title: "Any Waystone"
 				type: "item"
 			}]
+			title: "Waystone"
 			x: 8.475d
 			y: 6.1d
 		}
@@ -6656,34 +6681,21 @@
 			description: [
 				"Anyone of any path can create man-made paths, whether they be path blocks made through a shovel interaction with the dirt, wood, stone, bricks, etc. "
 				""
-				"You have to place a sign anywhere within a man-made path and place a second one anywhere else. To link the two, you have to sneak punch the first and then sneak punch the second sign. Then, whenever you punch the sign, you will fast travel to the other end."
+				"&mYou have to place a sign anywhere within a man-made path and place a second one anywhere else. To link the two, you have to sneak punch the first and then sneak punch the second sign. Then, whenever you punch the sign, you will fast travel to the other end.&r"
 			]
 			hide_dependency_lines: true
 			icon: "minecraft:oak_hanging_sign"
 			id: "5B1114E8AD48A9D4"
-			rewards: [
-				{
-					id: "5EE1045CF5A195EC"
-					item: "minecolonies:supplychestdeployer"
-					type: "item"
-				}
-				{
-					id: "4C0B630D366DB73D"
-					item: {
-						Count: 1
-						id: "patchouli:guide_book"
-						tag: {
-							"patchouli:book": "via_romana:guide"
-						}
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "5EE1045CF5A195EC"
+				item: "minecolonies:supplychestdeployer"
+				type: "item"
+			}]
 			subtitle: "Fast Travel Anywhere"
 			tasks: [{
-				id: "248EFACDC86C287B"
-				title: "Via Romana"
-				type: "checkmark"
+				id: "13AFB0DC1A961548"
+				item: "via_romana:charting_map"
+				type: "item"
 			}]
 			x: 1.5d
 			y: -6.8d
@@ -17267,16 +17279,8 @@
 				xp_levels: 1
 			}]
 			tasks: [{
-				id: "6E00F3AC1976CC75"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "thermal:laser_diode"
-				}
+				id: "43D60004899D90D0"
+				item: "concatenationcore:laser_diode"
 				type: "item"
 			}]
 			x: -27.799999999999997d
@@ -21125,6 +21129,7 @@
 				""
 				"You can grow netherwart, harvest some and turn it into a wart block, mix it with some blood and leave it to dry. This will turn into some sort of synthethic redstone. Then, you can feed redstone to this altar."
 			]
+			icon: "reliquary:alkahestry_altar"
 			id: "527DC00929B54279"
 			rewards: [{
 				id: "2ADC4CA9F0E9CEF7"
@@ -21132,11 +21137,19 @@
 				random_bonus: 3
 				type: "item"
 			}]
-			tasks: [{
-				id: "41030BFA692C2825"
-				item: "reliquary:alkahestry_altar"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "41030BFA692C2825"
+					item: "reliquary:alkahestry_altar"
+					type: "item"
+				}
+				{
+					id: "3C432AFD9200FAA4"
+					item: "tconstruct:blood_slime_leaves"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 13.0d
 			y: -3.0d
 		}
@@ -24405,6 +24418,7 @@
 				""
 				"They house important end portals to enter the End. Be warned that the guardian dragon of the End is not friendly to outsiders and especially dangerous."
 			]
+			hide_dependency_lines: true
 			id: "407BC866E1868568"
 			rewards: [{
 				id: "4C4FAEA9EC26E73D"
@@ -25024,24 +25038,6 @@
 			}]
 			x: -0.5d
 			y: -16.5d
-		}
-		{
-			dependencies: ["407BC866E1868568"]
-			description: [""]
-			hide_until_deps_complete: true
-			id: "01A3746532D27C66"
-			rewards: [{
-				id: "0C2E45E86E8FE736"
-				item: "concatenationcore:fortune_fragment"
-				type: "item"
-			}]
-			tasks: [{
-				id: "728F91C4BFEFCFDE"
-				item: "minecraft:dragon_egg"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -11.5d
 		}
 		{
 			dependencies: ["7EB335BB570C5F7F"]
@@ -25937,6 +25933,8 @@
 				"&7“Recently, I came across a mockery of a forest down here. All of its trees were petrified and creaking, with their inhabitants clearly observing my every move. As I made my way through the undergrowth, I was ambushed by plant-like creatures I have dubbed the &8Rooted&7.\""
 				"{@pagebreak}"
 				"&7\"They are capable of blinding their prey and creating illusions of themselves in order to avoid attacks. Even after I had killed them all, I could feel their judgemental stares through their inanimate roots.”"
+				"{@pagebreak}"
+				"&b\"The Disturbing Roots could be recreated from similar materials when catalyzed by mercury.\""
 			]
 			hide_until_deps_complete: true
 			id: "10348477C6AD7322"
@@ -25980,6 +25978,9 @@
 				"&b“...So what, I just speak here?” "
 				"&7“Yeah, say what you said just now again.”"
 				"&b“...Desolate Soil is drenched in the residual energy of the void, allowing for alchemical reactions that can produce certain gems. The more common reaction is Grim Shards, which can be combined with Cinnabar to create a Grim Gem, which is useful for a number of things.”"
+				"{@pagebreak}"
+				"&b\"Grim Shards are a rather potent material, but they can be a little tricky to find for the first time. In fact, my first exposure to the material wasn't from digging the desolate caves, but from some regurgitated matter within the Crawler Nests.\""
+				"&7\"Ew.\""
 			]
 			hide_until_deps_complete: true
 			id: "1DD98931BFA84784"
@@ -26002,8 +26003,8 @@
 				}
 			]
 			title: "Grim Gem \\& Desolate Soil"
-			x: 33.5d
-			y: 6.5d
+			x: 34.5d
+			y: 5.5d
 		}
 		{
 			dependencies: [
@@ -26141,7 +26142,11 @@
 		}
 		{
 			dependencies: ["4E62B2BDC912CCA1"]
-			description: ["&7“Of course. No dimension full of terrible monsters and amalgamations and undead would be complete without a nest full of creepy crawlies. &4!%^*. #@^*@! &7I don’t like it here. Every third step aggravates some Bone Crawler that was hiding beneath the ground, which disturbs the eggs around them, which hatch into more Bone Crawlers, and overall it’s just terrible. The air smells of somehow even worse rot than everywhere else and the ground is made out of bug goop. If I ever come here again, with a large emphasis on the IF, I'll bring a way to fly. Hell no to this entire place.”"]
+			description: [
+				"&7“Of course. No dimension full of terrible monsters and amalgamations and undead would be complete without a nest full of creepy crawlies. &4!%^*. #@^*@! &7I don’t like it here. Every third step aggravates some Bone Crawler that was hiding beneath the ground, which disturbs the eggs around them, which hatch into more Bone Crawlers, and overall it’s just terrible. "
+				"{@pagebreak}"
+				"&7\"The air smells of somehow even worse rot than everywhere else and the ground is made out of bug goop. If I ever come here again, with a large emphasis on the &oIF&r&7, I'll bring a way to fly. Hell no to this entire place.”"
+			]
 			id: "7CFABDA77781489E"
 			rewards: [{
 				id: "1DDABEBB2D18C89B"
@@ -26341,7 +26346,7 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"&b“The pathway of the "
+				"&b“The pathway of the  "
 				"{\"text\":\"eidolisteidolisteidolisteidolist\",\"obfuscated\":true,\"color\":\"yellow\"}"
 				"&b, which I will call the path of the Eidolist, signifies mastery over the eldritch. These unspeakable magics are your tools, these horrific creatures your allies. Nothing scares you, you are the terror.”"
 				"{@pagebreak}"
@@ -26404,13 +26409,13 @@
 				}
 				type: "item"
 			}]
-			x: 43.0d
+			x: 42.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["55895AB2924ABAFC"]
 			description: [
-				"&7“...This guy, huh?” "
+				"&7“...This guy, huh? Must be real pretentious to live in a castle like this.” "
 				"&b“Yes. He’s the leader of the &6Cult of Catastrophe&b and is the sole holder of Sacred Cinnabar, which we need in order to manipulate Voidrium in any meaningful way.” "
 				"&7“...Even without that, I would’ve liked to beat this guy’s head in at some point. He’s the wretch that helped that other wretch kidnap Koby. Let’s get him.”"
 			]
@@ -26425,6 +26430,11 @@
 					id: "73488DBAF6F12985"
 					item: "the_deep_void:hexed_doll"
 					type: "item"
+				}
+				{
+					id: "324B33B4A1348EF7"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			tasks: [{
@@ -26455,6 +26465,11 @@
 					id: "43013418975C4461"
 					item: "the_deep_void:hexed_doll"
 					type: "item"
+				}
+				{
+					id: "59B23B756C39820C"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			tasks: [{
@@ -26569,6 +26584,11 @@
 				"245B905EE8E73588"
 				"3EA067C20E4ED59E"
 			]
+			description: [
+				"&b\"Today, I managed to create something to specifically counter the Stalker. The Rotten Flare Gun is relatively cheap to create for its effects. It can either ward off the Stalker by shooting it near the creature or weaken it substantially with a direct hit."
+				"{@pagebreak}"
+				"&b\"It's rather flimsy, but it should serve me well in a pinch.\""
+			]
 			hide_until_deps_complete: true
 			id: "65CB9CD3F0B5D8F1"
 			rewards: [{
@@ -26593,6 +26613,17 @@
 		}
 		{
 			dependencies: ["65CB9CD3F0B5D8F1"]
+			description: [
+				"&7\"Hah! We finally got the bastard. Great job, Nyxil!\""
+				"&b\"We both did rather well. Still can't believe that thing could actually die.\""
+				"&7\"Well, after you nailed him with the flare gun, he didn't hurt nearly as bad.\""
+				"{@pagebreak}"
+				"&b\"I don't think it's that he didn't hurt, that ridiculous armor of yours was doing a lot of the heavy lifting.\""
+				"&7\"Well, while I was tanking his claws, you were able to get a ton of free shots in since you were flying.\""
+				"&b\"Hehe. True, Eyegor helped me stay out of harm's way.\""
+				"{@pagebreak}"
+				"&7\"Regardless, this claw of his seems like a really nasty weapon. A valiant trophy!\""
+			]
 			hide_dependent_lines: true
 			id: "1BF61381E548269C"
 			rewards: [
@@ -26619,18 +26650,26 @@
 				type: "item"
 			}]
 			title: "Dealing with The Stalker"
-			x: 44.5d
-			y: 9.5d
+			x: 45.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["13E34EDD951B61F9"]
+			description: ["&7\"I found a light source that wasn't being destroyed by the Damned. The lantern emits a soft enough glow that the eyes ignore it. However, this also means that the Stalker can ignore the light. I'd advise against using this as a primary light source.\""]
 			id: "193F6528069D5771"
-			rewards: [{
-				count: 15
-				id: "3372E69BF55DFFEF"
-				item: "the_deep_void:ferryman_lantern"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 15
+					id: "3372E69BF55DFFEF"
+					item: "the_deep_void:ferryman_lantern"
+					type: "item"
+				}
+				{
+					id: "6BDEA738C6FB6A63"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "53C5CE26BD66427E"
 				item: "the_deep_void:ferryman_lantern"
@@ -26641,6 +26680,11 @@
 		}
 		{
 			dependencies: ["0A48C85C5B513BA6"]
+			description: [
+				"&7\"While mining in the Gloomy Deathgrounds, I was attacked by a Licker hiding in the ceiling. After we killed it, Nyxil salvaged its tongue and fashioned it into a surprisingly effective grappling hook.\""
+				"{@pagebreak}"
+				"&b\"Whipping it around can be a bit awkward, but I think I've gotten the hang of it! It's actually rather fun to swing around with it.\""
+			]
 			id: "0F5CCEE2D5E2401F"
 			rewards: [{
 				count: 2
@@ -26662,6 +26706,11 @@
 				"4CD0892FB0841A42"
 				"3EA067C20E4ED59E"
 			]
+			description: [
+				"&b\"By augmenting the Licker Hook with a Grim Gem, I was able to give it a bit more sentience and overall strength. Now, if it latches to an enemy, it attacks the target of its own volition.\""
+				"{@pagebreak}"
+				"&b\"It still has its applications outside of combat, but I've gained the habit of throwing out the hook at what I'm attacking before going in myself to sap it of its lifeforce.\""
+			]
 			hide_until_deps_complete: true
 			id: "666D367401134D05"
 			rewards: [{
@@ -26675,14 +26724,15 @@
 				item: "the_deep_void:grim_licker_hook"
 				type: "item"
 			}]
-			x: 37.0d
-			y: 4.0d
+			x: 37.5d
+			y: 4.5d
 		}
 		{
 			dependencies: [
 				"666D367401134D05"
 				"30BA63BCE8DAD0DE"
 			]
+			description: ["&b\"I haven't really been using my Licker Hook to move around recently, so I decided to just empower its combat capabilities. When whatever it's attached to dies, it immediately leaps to another nearby enemy. This is on top of hexing everything it's adjacent to.\""]
 			id: "655F9A90ABEB10D7"
 			rewards: [{
 				id: "2AFB207A72F408A9"
@@ -26699,6 +26749,7 @@
 		}
 		{
 			dependencies: ["76D7A6B494BCAABC"]
+			description: ["&7\"The bone piles don't correspond to any particular tool, so I created a specialized shovel that breaks down the marrow a lot easier.\""]
 			id: "3DCD55C7193F6D98"
 			rewards: [{
 				id: "55A2FC91E0E42ED4"
@@ -26727,6 +26778,7 @@
 		}
 		{
 			dependencies: ["76D7A6B494BCAABC"]
+			description: ["&7\"Lavendite is a very light material, so applying it to a sword can make it swing faster. This comes at the cost of reducing the damage per swing, but overall I think it's a positive.\""]
 			id: "5D09B87AB03E158A"
 			rewards: [{
 				id: "1C5A44F7776E1F64"
@@ -26744,12 +26796,20 @@
 		}
 		{
 			dependencies: ["13E34EDD951B61F9"]
+			description: ["&b\"Previously, I saw another cultist tame a Death Vulture by beating it into submission then muzzling it. They're still violent in this state, but they can't hit you while you're on their back.\""]
 			id: "1ABE9FAFB4F4EE1A"
-			rewards: [{
-				id: "22AEE022E5A2326C"
-				item: "the_deep_void:death_vulture_spawn_egg"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "22AEE022E5A2326C"
+					item: "the_deep_void:death_vulture_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "517A10C0B39E32C9"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [
 				{
 					id: "1DC5836BACAAFAB4"
@@ -26768,25 +26828,95 @@
 		}
 		{
 			dependencies: ["7CFABDA77781489E"]
+			description: [
+				"&b\"According to this rotten ledger I found, apparently you can actually tame Bone Crawlers! You just need to use this Hatching Enzyme on the egg before they hatch, then you'll have the opportunity to feed it to gain its trust.\""
+				"{@pagebreak}"
+				"&b\"Hmmm... Let's see... to get it to mature, you have to feed it bones. After that... you can either feed it rotten bones or goo balls to make it grow into an Alpha or Mother respectively... alright!\""
+				"&7\"What are you doing?\""
+				"{@pagebreak}"
+				"&b\"This is my new pet!\""
+				"&7\"Please keep it away from me.\""
+				"&b\"While growing, it actually molted enough to make a new armor as well. Want to try it on?\""
+				"&7\"Please don't.\""
+			]
 			hide_until_deps_complete: true
+			icon: "the_deep_void:hatching_enzyme"
 			id: "591730D31542CF21"
-			rewards: [{
-				count: 32
-				id: "47429D4E8491086B"
-				item: "minecraft:bone"
-				type: "item"
-			}]
-			tasks: [{
-				id: "44F392E13823DC47"
-				item: "the_deep_void:hatching_enzyme"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 32
+					id: "47429D4E8491086B"
+					item: "minecraft:bone"
+					type: "item"
+				}
+				{
+					id: "78E750F846D116AA"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "44F392E13823DC47"
+					item: "the_deep_void:hatching_enzyme"
+					type: "item"
+				}
+				{
+					id: "25AE80710E1F0930"
+					item: {
+						Count: 1
+						id: "the_deep_void:crawler_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5D9528DFAD58892F"
+					item: {
+						Count: 1
+						id: "the_deep_void:crawler_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1307B8584FB6323F"
+					item: {
+						Count: 1
+						id: "the_deep_void:crawler_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3AAE5CCDFD67AF1B"
+					item: {
+						Count: 1
+						id: "the_deep_void:crawler_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
 			title: "Hatching a Bone Crawler"
-			x: 39.0d
-			y: 9.0d
+			x: 38.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["76D7A6B494BCAABC"]
+			description: ["&7\"Using the Refined Onyx, I was able to successfully upgrade my armor to Onyx. It's got solid defense, and whenever I'm in the dark I'm able to see clearly and follow up my attacks a lot faster. Very good!\""]
 			hide_dependent_lines: true
 			id: "4894336464C21319"
 			rewards: [{
@@ -26846,6 +26976,7 @@
 		}
 		{
 			dependencies: ["76D7A6B494BCAABC"]
+			description: ["&b\"It's actually not very difficult to inflict Rot. You can apply a Rot Upgrade to some basic swords to do it, but unless you're resistant to it, you'll begin withering away as well.\""]
 			id: "0A133081436C4565"
 			rewards: [{
 				id: "4F8D381ECDA6B13D"
@@ -26863,6 +26994,7 @@
 		}
 		{
 			dependencies: ["76D7A6B494BCAABC"]
+			description: ["&7\"After killing the Masked Hunter, I had gotten pelts that I couldn't really make anything with. When combining it with Refined Onyx, however, I was able to construct an armor out of it. It makes me a bit uncomfortable when I wear the whole set though...\""]
 			id: "0E8E4A69675A9BD1"
 			rewards: [{
 				id: "4DCCC89501194A92"
@@ -26921,28 +27053,44 @@
 		}
 		{
 			dependencies: ["2F507B7274D8E006"]
+			description: [
+				"&7\"After defeating the Nightmare, Nyxil was able to fashion a few pieces of equipment that have unique properties and will be useful for our future endeavors.\""
+				"{@pagebreak}"
+				"&b\"The Cruel Stiletto isn't a very high damage sword, but it flings whatever it hits far away and grants the wielder a burst of speed. Definitely solid for repositioning in a tough situation.\""
+				"{@pagebreak}"
+				"&b\"The Void Cloak is a very unique piece of clothing. While wearing it, a person could phase through walls at will! I don't need to say more than that.\""
+				"{@pagebreak}"
+				"&b\"The Shadestorm is a bow that synthesizes Grim Arrows to pelt enemies with. After they're sufficiently hit enough times, the bow can release a larger arrow that deals higher damage based on the accumulated shots.\""
+			]
 			id: "7880266B7CA4F2BE"
-			rewards: [{
-				id: "53F5C741F7A0753A"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:scroll"
-					tag: {
-						ISB_Spells: {
-							data: [{
-								id: "irons_spellbooks:black_hole"
-								index: 0
-								level: 3
-								locked: 1b
-							}]
-							maxSpells: 1
-							mustEquip: 0b
-							spellWheel: 0b
+			rewards: [
+				{
+					id: "53F5C741F7A0753A"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:black_hole"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "342D34F9BA8C6C40"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [
 				{
 					id: "1507F7BF0235EDDD"
@@ -26987,14 +27135,28 @@
 				"1472186B0F51F01B"
 				"4CD0892FB0841A42"
 			]
+			description: [
+				"&b\"Using the primordial chitin, I was able to upgrade my Bone Crawler armor even further! While wearing the entire set, I felt like I had inherited all the qualities of the queen.\""
+				"{@pagebreak}"
+				"&b\"I'm able to swiftly travel on bone piles, to the point where I could swim through them if I chose to and be entirely undetectable! In addition to that, the armor granted me immunity to Rot and inflicting it on hit with my weapons.\""
+				"{@pagebreak}"
+				"&b\"...One thing I don't appreciate, however, is the urge I have to eat Bone Mush. I tried it, and even though it tastes marginally better, it still gives me nausea.\""
+			]
 			hide_until_deps_complete: true
 			id: "6C7C01AE978AB479"
-			rewards: [{
-				count: 6
-				id: "27F96D9E8A3E8D16"
-				item: "the_deep_void:hatching_enzyme"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 6
+					id: "27F96D9E8A3E8D16"
+					item: "the_deep_void:hatching_enzyme"
+					type: "item"
+				}
+				{
+					id: "3C42CA4ECF573D2F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [
 				{
 					id: "5BD92BA275F5F147"
@@ -27042,11 +27204,15 @@
 				}
 			]
 			title: "Crawler Royalty Armor"
-			x: 36.5d
-			y: 7.0d
+			x: 37.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["037DC2CEAEB2F5CB"]
+			description: [
+				"&7\"I was able to refine some Bismuth early on in my travels, but I didn't find much use for it until we got Voidrium.\""
+				"&b\"Yeah, it resonates with the inherent power of Voidrium and draws it out for wielders to use. It's also rather vibrant, which is a rarity down here.\""
+			]
 			hide_dependency_lines: true
 			id: "61522FEF5D8B8203"
 			rewards: [{
@@ -27069,6 +27235,10 @@
 				"152DC73801813764"
 				"43593B9FF0498E58"
 			]
+			description: [
+				"&7\"In order to shape Ancient Flesh into a more durable material, we had to coax it into 'infecting' an ingot of Refined Onyx.\""
+				"&b\"It's an expensive process, but the Hard Flesh Ingot is significantly more useful than the flesh alone.\""
+			]
 			id: "04FB6C65AF290FFC"
 			rewards: [{
 				id: "6F20B29C9DBD031C"
@@ -27085,12 +27255,33 @@
 		}
 		{
 			dependencies: ["04FB6C65AF290FFC"]
+			description: [
+				"&b\"Using the Hard Flesh Ingot, I was able to create a variety of weapons with different uses and unique abilities!\""
+				"&7\"Do note that items made from Hard Flesh is sentient. They are also very hungry.\""
+				"{@pagebreak}"
+				"&b\"The Hard Flesh Sword drinks the flesh of what it hits. Some of this life force is returned to the wielder, but the sword is rather greedy and keeps most of it to itself.\""
+				"{@pagebreak}"
+				"&7\"From my suggestion, Nyxil tried making a chainsaw out of the hard flesh. It's rather fervent in eating both flesh and trees and bites deep into both.\""
+				"{@pagebreak}"
+				"&b\"By binding the flesh to a book, I created the Necronomicon. It summons flesh fangs to clamp targets in place, and if it manages to succesfully consume anything it creates a friendly Devourer in its place.\""
+				"{@pagebreak}"
+				"&b\"...I tried my hand at making another sword, and this one seems to hate sentients other than the wielder. It's constantly trying to coax me into killing"
+				"{\"text\":\"Bernard\",\"obfuscated\":true}"
+				"&band is proficient in deception. I'm not going to use this one that much.\""
+			]
 			id: "36C2236494B0E680"
-			rewards: [{
-				id: "795B97258F184FAD"
-				item: "the_deep_void:chasms_music_disc"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "795B97258F184FAD"
+					item: "the_deep_void:chasms_music_disc"
+					type: "item"
+				}
+				{
+					id: "301FD362D9D5E2C4"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [
 				{
 					id: "143835F60113570F"
@@ -27137,6 +27328,10 @@
 		}
 		{
 			dependencies: ["152DC73801813764"]
+			description: [
+				"&b\"Using my knowledge of flesh manipulation, I was able to build my own Eyekin that's loyal to me! He flies and attacks mobs that hit me. I'm naming him Eyegor!\""
+				"&7\"...Does he have to look so freaky? Hah, what am I saying, you think this is normal, don't you.\""
+			]
 			id: "4E07CE357CD33060"
 			rewards: [{
 				id: "0EDE3216ADC0235D"
@@ -27156,6 +27351,11 @@
 				"4E2F07927BA41118"
 				"61522FEF5D8B8203"
 				"4894336464C21319"
+			]
+			description: [
+				"&7\"Using the Onyx Armor as a base, Nyxil was able to create armor that takes advantage of Voidrium's latent power. It inherits the effects of Onyx that only occur within darkness, but it also gained a lot of other strong bonuses! "
+				"{@pagebreak}"
+				"&7\"The most notable is the damage reflection, which reciprocates attacks for their full value. Overall a very strong set that I'll be using from this point onward.\""
 			]
 			id: "4D1B42691B5299A0"
 			rewards: [{
@@ -27215,6 +27415,13 @@
 		}
 		{
 			dependencies: ["4E2F07927BA41118"]
+			description: [
+				"&b\"Within the Overlooking Citadel, I found some blueprints that modeled a set of armor that was attributed to the Soul Weaver's creation. After creating it for myself, I can see why he would wear something like this.\""
+				"{@pagebreak}"
+				"&b\"I feel like I could manipulate the flow of battle just by being there. My built Overseers became significantly stronger, and whenever I kill something I reap their soul, adding their life essence to mine. That effect seems to wear off whenever I take of the mask specifically.\""
+				"{@pagebreak}"
+				"&b\"The mask isn't the only piece that has a unique effect. The rest of the set allowed me to heal, teleport, wither enemies, ignore gravity, and dodge attacks. Combined, it makes me an even more formidable opponent than before.\""
+			]
 			id: "1C5018478399258F"
 			rewards: [
 				{
@@ -27280,6 +27487,18 @@
 		}
 		{
 			dependencies: ["4E2F07927BA41118"]
+			description: [
+				"&b\"Using the Sacred Cinnabar with the Voidrium Gems, I was able to assemble a decent variety of weaponry. They all have unique effects that are good in their own right.\""
+				"{@pagebreak}"
+				"&b\"The Soul Weaver is able to tie another entity's life to your own, transferring all damage dealt to you to the target. Very good for mitigating incoming attacks, but requires a bit of sacrificed health in order to work. It scales off of the strength of the target.\""
+				"{@pagebreak}"
+				"&b\"Judgement has the ability to sever the life of whatever it hits, provided that they're weakened by a substantial enough amount. Very good for finishing off enemies.\""
+				"{@pagebreak}"
+				"&b\"The Voidrium Sword deals double damage on every third swing, which makes it very good for constant damage. It can be upgraded further with a Lavendite upgrade in order to attack quicker to get that third swing more often in exchange for a little bit of the base damage.\""
+				"{@pagebreak}"
+				"&b\"The Voidrium Bulwark is a really sturdy shield, but it also has reflective capabilities that damage the attacker. If it's used to parry, it empowers the user for a brief period for a potent counterattack.\""
+				"&7\"I think I'll take this one, personally. Sounds perfect for a defensive fighting style!\""
+			]
 			id: "40DE00C16BC62FF4"
 			rewards: [{
 				id: "2396DD605B702322"
@@ -27341,6 +27560,7 @@
 				"6516D88B029F38F1"
 				"1BF61381E548269C"
 			]
+			description: ["&b\"If I want to work on his soul, I will need to reap other souls in order to proceed. This scythe is proficient at harvesting those.\""]
 			id: "3D80AEF0244B0032"
 			rewards: [
 				{
@@ -27377,6 +27597,11 @@
 		}
 		{
 			dependencies: ["6516D88B029F38F1"]
+			description: [
+				"&b\"He told me that on the surface, the dead were buried and remembered through a rock that had their name inscribed. It was a form of respect to the dead and a way to remember them.\""
+				"{@pagebreak}"
+				"&b\"This is not an act of respect. I intend to bury my enemies with this Tombstone and not look back.\""
+			]
 			id: "34FC8FB5298EF4AE"
 			rewards: [{
 				id: "11CD76EA6B46AD37"
@@ -27402,6 +27627,7 @@
 				"4D1B42691B5299A0"
 				"6516D88B029F38F1"
 			]
+			description: ["&b\"I was able to further empower the Voidrium Armor by imbuing it with Soul Ingots. I don't know why I did this, since nobody's going to be wearing this for a while.\""]
 			id: "339AA31E7ADE6E60"
 			rewards: [{
 				id: "0D190F4612DC9D67"
@@ -27463,6 +27689,7 @@
 				"1C5018478399258F"
 				"6516D88B029F38F1"
 			]
+			description: ["&b\"I no longer felt like wearing the mask of the monster that stole &ohis&r&b soul anymore, so I made my own mask. Instead of siphoning the souls of my enemies, it turns them into lethal projectiles that could cascade into a chain reaction of death.\""]
 			id: "0A0A755E23C5569B"
 			rewards: [{
 				id: "05116AAAD54BBB42"
@@ -27485,6 +27712,11 @@
 		}
 		{
 			dependencies: ["6516D88B029F38F1"]
+			description: [
+				"&b\"I could now fly under my own power. I lost Eyegor during the fight with the Apostle, so this is a good thing.\""
+				"{@pagebreak}"
+				"&b\"Somehow, I don't feel the joy that I thought I would.\""
+			]
 			id: "451D6A41D0695AF9"
 			rewards: [{
 				id: "5A5BBD73D392BD8E"
@@ -27501,6 +27733,7 @@
 		}
 		{
 			dependencies: ["6516D88B029F38F1"]
+			description: ["&b\"I was tired of having my area of operations defaced by the denizens of the Deep Void, so I created the Voidrium Glass. When combined with a powerful enough source of light, it would revoke the right to alter the landscape to those who aren't allowed.\""]
 			id: "36E1BA9A10678554"
 			rewards: [
 				{
@@ -27528,6 +27761,7 @@
 				"4E2F07927BA41118"
 				"61522FEF5D8B8203"
 			]
+			description: ["&7\"These voidrium tools are really quite fast. The pickaxe isn't quite as strong ass the Shatterbone Pickaxe, but the rest are top notch! Can't wait to bring these to the Overworld.\""]
 			id: "1F51A3A5B52E797C"
 			rewards: [{
 				id: "5D1B7C24EB36DAC3"
@@ -27586,6 +27820,7 @@
 		}
 		{
 			dependencies: ["1DD98931BFA84784"]
+			description: ["&7\"If I wanted to upgrade my gear with Grim Gems, I'd first need a template to implement it with. I made it out of ancient deepslate, desolate soil, and an onyx. Not bad, but not incredible either.\""]
 			id: "4CD0892FB0841A42"
 			rewards: [{
 				id: "1163EC598CC76964"
@@ -27598,11 +27833,17 @@
 				type: "item"
 			}]
 			title: "Grim Upgrade"
-			x: 35.0d
-			y: 7.5d
+			x: 35.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["152DC73801813764"]
+			description: [
+				"&b\"By constructing a chestpiece out of the Fleshy Bones of the hivemind, I'm able to traverse the flesh infection freely! When wearing it, I'm seen as a Fleshkin and not attacked. The terrain is noticably less hostile too, with the teeth retracting when I walk over them and the pus sacks not exploding.\""
+				"{@pagebreak}"
+				"&7\"...May I have one?\""
+				"&b\"Sure, you helped me, so I don't mind!\""
+			]
 			id: "0DC391823089161D"
 			rewards: [{
 				id: "3533F1DD05F47FD8"
@@ -27625,6 +27866,7 @@
 		}
 		{
 			dependencies: ["7BB92B0F64862D0C"]
+			description: ["&7\"Using the Void Pendant with this block allows for a rudimentary form of teleportation. It's not as effective as other methods I've observed in the past, but it's a decent bit cheaper.\""]
 			id: "1A328744FCF2A6E1"
 			rewards: [{
 				id: "0CD424559BA93B5C"
@@ -27642,11 +27884,15 @@
 				item: "the_deep_void:void_core"
 				type: "item"
 			}]
-			x: 36.0d
-			y: -5.5d
+			x: 36.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["4E2F07927BA41118"]
+			description: [
+				"&b\"I was able to create a quiver of infinite arrows with just the Voidrium Gem, but I fear I need stronger materials in order to make more than this.\""
+				"&7\"That's alright. I'm sure we'll get our hands on them sooner rather than later.\""
+			]
 			id: "4886ADAECCD988A0"
 			rewards: [{
 				id: "5B60981C296253A3"
@@ -27679,6 +27925,10 @@
 		}
 		{
 			dependencies: ["19E4A89845D3BF5D"]
+			description: [
+				"&7\"An experimental weapon produced by the Apostle himself. It's like a normal rifle, except it has teeth that bite you and shoot your flesh as ammo. Which sets what it hits on fire.\""
+				"&b\"...I feel like that's a little bit different from a normal gun.\""
+			]
 			id: "1AEE8AF4DEFF8B68"
 			rewards: [{
 				id: "74BF074E761EBC8A"
@@ -27695,6 +27945,11 @@
 		}
 		{
 			dependencies: ["19E4A89845D3BF5D"]
+			description: [
+				"&b\"The Apostle's gloves seem to be imbued with an enchantment that allows it to produce infinite knives. Even without its master, the weapon functions flawlessly.\" "
+				"{@pagebreak}"
+				"&b\"It's also apparently how he was able to act so acrobatically? I have the urge to do backflips while wearing it.\""
+			]
 			id: "07C2A42D2B5A9DD7"
 			rewards: [{
 				id: "2C87AEC016432ECC"
@@ -27717,6 +27972,11 @@
 		}
 		{
 			dependencies: ["1472186B0F51F01B"]
+			description: [
+				"&b\"The sword that I fashioned out of the Primordial Bone Crawler's own claws has a couple of unique properties. Whenever it digs into an already rotting target, it exacerbates the rot, making it more effective. Also, when attacking a poisoned target, it seemed to spread the effect to everything around the hit enemy.\""
+				"{@pagebreak}"
+				"&b\"It pairs really well with the Crawler Royalty armor, which makes all of your attacks inflict Rot.\""
+			]
 			id: "6F1751E8462B0DD1"
 			rewards: [{
 				id: "6D3B7C9DA2904251"
@@ -27740,18 +28000,26 @@
 				}
 				type: "item"
 			}]
-			x: 38.5d
-			y: 5.5d
+			x: 37.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["6B96137C28502D97"]
+			description: ["&7\"The Attractor is rather self explanatory. When powered by a redstone signal, it pulls all items on the ground towards it. A very cost efficient and compact method of gathering drops!\""]
 			id: "3BD3CD4C08226DEB"
-			rewards: [{
-				count: 8
-				id: "3CE2F31912F834DF"
-				item: "littlelogistics:rapid_hopper"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "3CE2F31912F834DF"
+					item: "littlelogistics:rapid_hopper"
+					type: "item"
+				}
+				{
+					id: "2F944E45953462A3"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "56DC0B2410885DC0"
 				item: "the_deep_void:attractor"
@@ -27765,6 +28033,7 @@
 				"7BB92B0F64862D0C"
 				"2F507B7274D8E006"
 			]
+			description: ["&b\"I tried writing in a book with Liquid Void, and in doing so I created the Forbidden Tome. It creates knives of shadow that heal the caster when they successfully attack a target.\""]
 			id: "33DA4DA060345DC6"
 			rewards: [{
 				id: "158623BF1DD48CF6"
@@ -27787,6 +28056,13 @@
 		}
 		{
 			dependencies: ["1D1398D93B1EED36"]
+			description: [
+				"&7\"Using some of the cooking skills I had previously, I managed to cook up a pie out of the Grimberries that grow in the Desolate Caves. It's really rather invigorating!\""
+				"&b\"Yeah, it's one of the best things I've ever eaten down here. Apparently, eating an entire pie gives you 'Sugar Rush', which I hadn't experienced previously.\""
+				"{@pagebreak}"
+				"&7\"Ah, I really do pity you. I'm glad you enjoy it, but too much sugar will rot your teeth!\""
+				"&b\"I deal with rot all the time. A little more won't hurt...\""
+			]
 			hide_until_deps_complete: true
 			id: "59AAF970EE1F397B"
 			rewards: [{
@@ -27800,13 +28076,18 @@
 				item: "the_deep_void:grimberry_pie"
 				type: "item"
 			}]
-			x: 33.5d
-			y: 5.5d
+			x: 31.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
 				"4E2F07927BA41118"
 				"30BA63BCE8DAD0DE"
+			]
+			description: [
+				"&b\"After upgrading my equipment from the first fight, I decided to ressurect the Weaver and destroy him again in order to get more Soul Shards. With the raw shards, I was able to create an effigy that effectively prevents the Stalker from approaching it at all.\""
+				"{@pagebreak}"
+				"&b\"I had no other reason to kill him again. It was entirely a strategic move. The only motive I have is progress.\""
 			]
 			id: "19A78469CE01B2BE"
 			rewards: [{
@@ -27824,6 +28105,7 @@
 		}
 		{
 			dependencies: ["10348477C6AD7322"]
+			description: ["&b\"Using some of the leftover Disturbing Roots, I created another tome. This one roots living creatures all around the caster, leaving them vulnerable to attack.\""]
 			id: "57A7B8C6DF37C7EB"
 			rewards: [{
 				id: "29E8DDD16606A26B"
@@ -27862,6 +28144,7 @@
 		}
 		{
 			dependencies: ["76D7A6B494BCAABC"]
+			description: ["&7\"There are a number of unique materials down here, so I experimented a bit and turned them into various shields! I've tried all of them, but I don't really have a favorite. I'll record the recipes though.\""]
 			id: "7EC3331E715D12E8"
 			rewards: [{
 				id: "57172B13A62ADF4C"
@@ -27943,6 +28226,7 @@
 		}
 		{
 			dependencies: ["04FB6C65AF290FFC"]
+			description: ["&7\"The Hard Flesh armor set is incredibly good at defense. Whenever it gets hit, it progressively hardens up in order to better mitigate damage hit. The only issue is that this makes it very, very hard to move...\""]
 			id: "5CEBC12ED782F3A7"
 			rewards: [{
 				id: "5AC4F8FF7F2C3129"
@@ -28001,15 +28285,33 @@
 		}
 		{
 			dependencies: ["7CFABDA77781489E"]
+			description: [
+				"&7\"...That looks disgusting.\""
+				"&b\"It's really nutritious! I can't really speak on the flavor, but it'll fill you up completely.\""
+				"&7\"I'm not eating that.\""
+			]
 			hide_until_deps_complete: true
 			id: "560BA5EF2B92EC13"
+			rewards: [
+				{
+					count: 64
+					id: "5DFA3A2838139E8E"
+					item: "the_deep_void:bone_marrow"
+					type: "item"
+				}
+				{
+					id: "75E9E6E35B03A2AA"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "3F1051BF22D97A2A"
 				item: "the_deep_void:crawler_omelette"
 				type: "item"
 			}]
 			x: 39.0d
-			y: 8.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["2DFD356016750828"]
@@ -28319,7 +28621,13 @@
 			size: 1.15d
 			tasks: [{
 				id: "1ABF72EC883339F0"
-				item: "perdition:planeswalker_potion"
+				item: {
+					Count: 1
+					id: "perdition:planeswalker_potion"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
 			x: 13.5d
@@ -28329,15 +28637,37 @@
 			dependencies: ["0A48C85C5B513BA6"]
 			description: [
 				"&7“Within the Flesh Infection, one could find certain aberrations of flesh that are entirely immobile. When stripping this wavy flesh from the ground, you can find pockets of crystalized flesh that can be utilized in a variety of ways.”"
+				"{@pagebreak}"
 				"&b“...It makes a good snack in a pinch.”"
 				"&7“I’m going to pretend I didn’t hear that. If you really want to consume it, crafting it into an Ambrosia is entirely safe and, in fact, recommended! It tastes really good considering where it comes from and has restorative properties.”"
 			]
+			icon: "the_deep_void:flesh_chunk"
 			id: "43593B9FF0498E58"
-			tasks: [{
-				id: "4D92913C3968F5F3"
-				item: "the_deep_void:flesh_chunk"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7ECE81ECF747B2E2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "615D10C5D8617E98"
+					item: "the_deep_void:block_of_ancient_flesh"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4D92913C3968F5F3"
+					item: "the_deep_void:flesh_chunk"
+					type: "item"
+				}
+				{
+					id: "4531DFFF940BDC4D"
+					item: "the_deep_void:ambrosia"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 33.5d
 			y: 2.0d
 		}
@@ -28394,6 +28724,88 @@
 			]
 			x: 6.375d
 			y: 6.375d
+		}
+		{
+			dependencies: ["407BC866E1868568"]
+			id: "45AE33EDAF0EEB9C"
+			rewards: [{
+				id: "6677175C32F6F418"
+				item: "concatenationcore:fortune_fragment"
+				type: "item"
+			}]
+			tasks: [{
+				id: "45B2C7EB7519EAAA"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["55895AB2924ABAFC"]
+			description: ["&b\"Apparently, this tool can resuscitate beings with powerful enough souls. Don't think we'll get much use out of it though, as one has to absorb &oa lot&r &bof spirits in order to reach that point.\""]
+			id: "0F9265AD637B7FD7"
+			rewards: [{
+				id: "17F181384E993617"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "19A62D868494E108"
+				item: "the_deep_void:hexed_doll"
+				type: "item"
+			}]
+			x: 41.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4E62B2BDC912CCA1"]
+			description: ["&7\"I came across a peculiar looking shrine today. It made a peculiar noise when I touched it, but I couldn't tell if anything changed.\""]
+			id: "349E92916577CF96"
+			rewards: [
+				{
+					id: "7BE78ED5B5D363EF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "15B7682FF8D7C196"
+					item: "minecraft:respawn_anchor"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6EDCB1CC4587A86E"
+				item: "the_deep_void:lurker_shrine"
+				type: "item"
+			}]
+			x: 42.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["55895AB2924ABAFC"]
+			description: [
+				"&b\"Hm. I know that in times past, this block was the cornerstone of life here, but knowledge of it was lost to time.\""
+				"&7\"...Well, what does it do?\""
+				"&b\"It eats.\""
+				"{@pagebreak}"
+				"&7\"Does it do anything else?\""
+				"&b\"Depending on what you feed it, it creates materials from the nutrients. For example, if you feed it Desolate Soil, it can create Ancient Onyx, among other things.\""
+				"&7\"That's quite good.\""
+			]
+			id: "0E5526F10E7198B2"
+			rewards: [{
+				id: "2A36C04E1E97465F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "4FD6796981012244"
+				item: "the_deep_void:glutton_block"
+				type: "item"
+			}]
+			x: 43.0d
+			y: 6.0d
 		}
 	]
 	title: "The Journey"

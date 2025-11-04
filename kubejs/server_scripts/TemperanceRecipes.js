@@ -419,7 +419,7 @@ ServerEvents.recipes(event => {
                 }
         )
         event.shapeless(
-                Item.of('tconstruct:blood_slime_leaves', 4),
+                Item.of('tconstruct:blood_slime_leaves', 16),
                 [
                         'hexerei:blood_bottle',
                         'minecraft:nether_wart_block'
@@ -669,7 +669,7 @@ ServerEvents.recipes(event => {
                                 .withChance(100)
                                 .withRolls(0, 1)
                 ],
-                10,
+                100,
                 1
         )
 
@@ -685,7 +685,26 @@ ServerEvents.recipes(event => {
                                 .withChance(100)
                                 .withRolls(0, 1)
                 ],
-                10,
+                100,
+                1
+        )
+
+        event.recipes.botanypots.soil('the_deep_void:grim_soil', { block: 'the_deep_void:grim_soil' }, ['grimsoil'], 1, 1.5);
+        event.recipes.botanypots.soil('the_deep_void:desolate_soil', { block: 'the_deep_void:grim_soil' }, ['grimsoil'], 1, 1.25);
+        event.recipes.botanypots.soil('perdition:terra_purgata', { block: 'perdition:terra_purgata' }, ['grimsoil'], 1, 1.0);
+        event.recipes.botanypots.crop(
+                'the_deep_void:grimberry',
+                ['grimsoil'],
+                { block: 'perdition:limbo_bush' },
+                [
+                        Item.of('the_deep_void:grimberry')
+                                .withChance(100)
+                                .withRolls(1, 1),
+                        Item.of('the_deep_void:grimberry')
+                                .withChance(100)
+                                .withRolls(0, 1)
+                ],
+                7000,
                 1
         )
 });

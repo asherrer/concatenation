@@ -27,8 +27,8 @@ ServerEvents.recipes(event => {
                 {
                         D: 'concatenationcore:the_error',
                         C: 'the_deep_void:block_of_ancient_flesh',
-                        B: 'projecte:dark_matter_block',
-                        A: 'the_deep_void:soul_fused_ingot'
+                        B: 'the_deep_void:ash_block',
+                        A: 'the_deep_void:refined_onyx'
                 }
         ).keepIngredient('concatenationcore:the_error')
     event.shaped(
@@ -78,6 +78,34 @@ ServerEvents.recipes(event => {
                     A: 'theurgy:alchemical_sulfur_gems_precious'
                 }
         )
+    event.shaped(
+                Item.of('the_deep_void:hatching_enzyme'),
+                [
+                        'BCB',
+                        'CAC',
+                        'DCD'
+                ],
+                {
+                    D: 'the_deep_void:bone_mush',
+                    C: 'the_deep_void:goo_ball',    
+                    B: 'the_deep_void:rotten_bone',
+                    A: 'minecolonies:mint_jelly'
+                }
+        )
+    event.recipes.thermal.pulverizer(Item.of('the_deep_void:disturbing_root').withChance(0.02), 'infested_rotten_log').energy(100)
+//  event.shaped(
+//                 Item.of('the_deep_void:disturbing_root'),
+//                 [
+//                         'BCB',
+//                         'CAC',
+//                         'BCB'
+//                 ],
+//                 {
+//                     C: 'the_deep_void:void_roots',    
+//                     B: 'the_deep_void:peeping_roots',
+//                     A: 'theurgy:mercury_shard'
+//                 }
+//         )
     // event.custom({
     //     "type": "theurgy:digestion",
     //     "category": "misc",

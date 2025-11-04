@@ -30,7 +30,7 @@ ServerEvents.recipes(event => {
         }
     ).keepIngredient('#concatenation:top_cards')
     event.shaped(
-        Item.of('strangematter:raw_resonite', 6),
+        Item.of('strangematter:raw_resonite', 8),
         [
             ' A ',
             'ABA',
@@ -38,6 +38,18 @@ ServerEvents.recipes(event => {
         ],
         {
             B: 'hexerei:selenite_shard',
+            A: 'hexerei:blood_bottle'
+        }
+    )
+    event.shaped(
+        Item.of('strangematter:raw_resonite', 6),
+        [
+            ' A ',
+            'ABA',
+            ' A '
+        ],
+        {
+            B: 'concatenationcore:descran',
             A: 'hexerei:blood_bottle'
         }
     )
@@ -326,6 +338,18 @@ ServerEvents.recipes(event => {
             A: 'concatenationcore:cutting_tool'
         }
     )
+    event.shaped(
+        Item.of('hexerei:selenite_shard', 1),
+        [
+            ' A ',
+            'ABA',
+            ' A '
+        ],
+        {
+            B: 'perdition:corruptite',
+            A: 'perdition:scintillating_dust'
+        }
+    )
 
     event.recipes.minecraft.smelting(
         'strangematter:raw_resonite',
@@ -338,7 +362,7 @@ ServerEvents.recipes(event => {
 
     // Should be in compats
     event.shaped(
-        Item.of('strangematter:resonant_coil', 2),
+        Item.of('strangematter:resonant_coil', 1),
         [
             ' A ',
             'BCB',

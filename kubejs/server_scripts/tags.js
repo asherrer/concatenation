@@ -493,4 +493,46 @@ ServerEvents.tags('item', event => {
     add('perdition:limbo_bush_growable', [
         'elementalcraft:pure_rock'
     ]);
+
+    add('forge:plates', [
+        'createdeco:netherite_sheet'
+    ]);
+    add('forge:plates/netherite', [
+        'createdeco:netherite_sheet'
+    ]);
+
+    add('theurgy:divination_rod_t4_allowed_blocks', [
+        'the_deep_void:onyx_ore',
+        'the_deep_void:lavendite_ore',
+        'the_deep_void:sulfur_ore',
+        'the_deep_void:cinnabar_ore',
+        'the_deep_void:grim_soil',
+        'the_deep_void:fossilized_flesh',
+        'the_deep_void:regurgitated_matter',
+        'the_deep_void:bismuth_ore',
+        'the_deep_void:voidrium_ore'
+    ])
+
+    add('theurgy:divination_rod_t3_allowed_blocks', [
+        'the_deep_void:onyx_ore',
+        'the_deep_void:lavendite_ore',
+        'the_deep_void:sulfur_ore',
+        'the_deep_void:cinnabar_ore',
+        'the_deep_void:grim_soil',
+        'the_deep_void:fossilized_flesh',
+        'the_deep_void:regurgitated_matter',
+        'the_deep_void:bismuth_ore',
+    ])
+
+    add('theurgy:divination_rod_t2_allowed_blocks', [
+        'the_deep_void:onyx_ore',
+        'the_deep_void:lavendite_ore',
+        'the_deep_void:sulfur_ore',
+        'the_deep_void:cinnabar_ore',
+    ])
+
+    add('theurgy:divination_rod_t1_allowed_blocks', [
+        'the_deep_void:onyx_ore',
+        'the_deep_void:lavendite_ore',
+    ])
 });
