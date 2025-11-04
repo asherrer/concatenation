@@ -69,6 +69,14 @@ key_keybind.simplyjetpacks.jetpack_ehover:key.keyboard.unknown:NONE
 key_keybind.simplyjetpacks.jetpack_charger:key.keyboard.unknown:NONE
 key_keybind.simplyjetpacks.jetpack_throttle_increase:key.keyboard.period:NONE
 key_keybind.simplyjetpacks.jetpack_throttle_decrease:key.keyboard.comma:NONE
+key_key.the_deep_void.armor_ability:key.keyboard.unknown:NONE
+key_key.the_deep_void.armor_toggle:key.keyboard.unknown:NONE
+key_key.the_deep_void.mother_call_out:key.keyboard.unknown:NONE
+key_key.the_deep_void.weaver_boots_no_gravity:key.keyboard.left.shift:NONE
+key_key.the_deep_void.mount_fly:key.keyboard.space:NONE
+key_key.the_deep_void.mount_up:key.keyboard.unknown:NONE
+key_key.the_deep_void.mount_down:key.keyboard.unknown:NONE
+key_key.the_deep_void.mount_dash:key.keyboard.unknown:NONE
 key_key.push_to_talk:key.keyboard.semicolon:NONE
 key_key.whisper:key.keyboard.unknown:NONE
 key_key.mute_microphone:key.keyboard.unknown:NONE
@@ -90,6 +98,7 @@ key_key.structurize.rotate_cw:key.keyboard.right:SHIFT
 key_key.structurize.rotate_ccw:key.keyboard.left:SHIFT
 key_key.structurize.mirror:key.keyboard.m:NONE
 key_key.structurize.place:key.keyboard.enter:NONE
+key_key.open_muffler_gui:key.keyboard.unknown:NONE
 key_cos.key.opencosarmorinventory:key.keyboard.unknown:NONE
 key_key.craftingtweaks.rotate:key.keyboard.unknown:NONE
 key_key.craftingtweaks.rotate_counter_clockwise:key.keyboard.unknown:NONE
@@ -281,6 +290,7 @@ key_key.ae2.wireless_pattern_access_terminal:key.keyboard.unknown:NONE
 key_key.ae2.ae2wtlib_restock:key.keyboard.unknown:NONE
 key_key.ae2.ae2wtlib_magnet:key.keyboard.unknown:NONE
 key_key.ae2.portable_item_cell:key.keyboard.unknown:NONE
+key_key.ae2.ae2wtlib_stow:key.keyboard.unknown:NONE
 key_key.ae2.portable_fluid_cell:key.keyboard.unknown:NONE
 key_key.ae2.wireless_pattern_encoding_terminal:key.keyboard.unknown:NONE
 key_key.ae2.wireless_terminal:key.keyboard.unknown:NONE

@@ -35,7 +35,10 @@ ServerEvents.recipes(event => {
                 'reliquary:rod_of_lyssa',
                 'reliquary:void_tear',
                 'reliquary:salamander_eye',
-                'reliquary:hero_medallion'
+                'reliquary:hero_medallion',
+                'torchmaster:feral_flare_lantern',
+                'torchmaster:frozen_pearl',
+                'reliquary:shears_of_winter'
         ]
 
         remove.forEach(item => {
@@ -928,6 +931,158 @@ ServerEvents.recipes(event => {
                         D: 'torchmaster:frozen_pearl',
                         A: 'concatenationcore:sourcesilver',
                         B: 'reliquary:salamander_eye'
+                }
+        )
+        event.shaped(
+                Item.of('torchmaster:frozen_pearl'),
+                [
+                        'ABA',
+                        'BCB',
+                        'ABA'
+                ],
+                {
+                        B: 'minecraft:blue_ice',
+                        C: 'minecraft:ender_pearl',
+                        A: 'elementalcraft:springaline_shard'
+                }
+        )
+        event.shaped(
+                Item.of('torchmaster:feral_flare_lantern'),
+                [
+                        'ABA',
+                        'CDC',
+                        'ABA'
+                ],
+                {
+                        A: 'minecraft:iron_ingot',
+                        C: 'elementalcraft:swift_alloy_ingot',
+                        B: 'minecraft:glowstone',
+                        D: 'elementalcraft:springaline_lantern'
+                }
+        )
+        event.shaped(
+                Item.of('reliquary:shears_of_winter'),
+                [
+                        'ABA',
+                        'BCB',
+                        'ABA'
+                ],
+                {
+                        B: 'ars_nouveau:water_essence',
+                        A: 'elementalcraft:springaline_shard',
+                        C: 'minecraft:shears'
+                }
+        )
+        event.shapeless(
+                Item.of('elementalcraft:fine_fire_gem', 4),
+                [
+                        'elementalcraft:crude_fire_gem',
+                        'elementalcraft:crude_fire_gem',
+                        'elementalcraft:purerock',
+                        'elementalcraft:crude_fire_gem',
+                        'elementalcraft:crude_fire_gem'
+                ]
+        )
+        event.shapeless(
+                Item.of('elementalcraft:pristine_fire_gem'),
+                [
+                        'ars_nouveau:fire_essence',
+                        'elementalcraft:fine_fire_gem',
+                        'ars_nouveau:fire_essence',
+                        'elementalcraft:fine_fire_gem',
+                        'elementalcraft:purerock',
+                        'elementalcraft:fine_fire_gem',
+                        'ars_nouveau:fire_essence',
+                        'elementalcraft:fine_fire_gem',
+                        'ars_nouveau:fire_essence'
+                ]
+        )
+
+        event.shapeless(
+                Item.of('elementalcraft:fine_earth_gem', 4),
+                [
+                        'elementalcraft:crude_earth_gem',
+                        'elementalcraft:crude_earth_gem',
+                        'elementalcraft:purerock',
+                        'elementalcraft:crude_earth_gem',
+                        'elementalcraft:crude_earth_gem'
+                ]
+        )
+        event.shapeless(
+                Item.of('elementalcraft:pristine_earth_gem'),
+                [
+                        'ars_nouveau:earth_essence',
+                        'elementalcraft:fine_earth_gem',
+                        'ars_nouveau:earth_essence',
+                        'elementalcraft:fine_earth_gem',
+                        'elementalcraft:purerock',
+                        'elementalcraft:fine_earth_gem',
+                        'ars_nouveau:earth_essence',
+                        'elementalcraft:fine_earth_gem',
+                        'ars_nouveau:earth_essence'
+                ]
+        )
+
+        event.shapeless(
+                Item.of('elementalcraft:fine_water_gem', 4),
+                [
+                        'elementalcraft:crude_water_gem',
+                        'elementalcraft:crude_water_gem',
+                        'elementalcraft:purerock',
+                        'elementalcraft:crude_water_gem',
+                        'elementalcraft:crude_water_gem'
+                ]
+        )
+        event.shapeless(
+                Item.of('elementalcraft:pristine_water_gem'),
+                [
+                        'ars_nouveau:water_essence',
+                        'elementalcraft:fine_water_gem',
+                        'ars_nouveau:water_essence',
+                        'elementalcraft:fine_water_gem',
+                        'elementalcraft:purerock',
+                        'elementalcraft:fine_water_gem',
+                        'ars_nouveau:water_essence',
+                        'elementalcraft:fine_water_gem',
+                        'ars_nouveau:water_essence'
+                ]
+        )
+
+        event.shapeless(
+                Item.of('elementalcraft:fine_air_gem', 4),
+                [
+                        'elementalcraft:crude_air_gem',
+                        'elementalcraft:crude_air_gem',
+                        'elementalcraft:purerock',
+                        'elementalcraft:crude_air_gem',
+                        'elementalcraft:crude_air_gem'
+                ]
+        )
+        event.shapeless(
+                Item.of('elementalcraft:pristine_air_gem'),
+                [
+                        'ars_nouveau:air_essence',
+                        'elementalcraft:fine_air_gem',
+                        'ars_nouveau:air_essence',
+                        'elementalcraft:fine_air_gem',
+                        'elementalcraft:purerock',
+                        'elementalcraft:fine_air_gem',
+                        'ars_nouveau:air_essence',
+                        'elementalcraft:fine_air_gem',
+                        'ars_nouveau:air_essence'
+                ]
+        )
+
+        event.shaped(
+                Item.of('mcore:titanium_ingot', 8),
+                [
+                        'AAA',
+                        'ABA',
+                        'AAA'
+                ],
+                {
+                        A: Item.of('elementalcraft:pure_ore', '{elementalcraft:{ore:"mcore:titanium"}}'),
+                        B: 'minecraft:diamond'
                 }
         )
 });

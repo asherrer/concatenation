@@ -65,7 +65,10 @@ ServerEvents.recipes(event => {
                 'simplyjetpacks:jetpack_te3_armored',
                 'simplyjetpacks:jetpack_te4_armored',
                 'rftoolspower:cell2',
-                'hammerlib:gears'
+                'hammerlib:gears',
+                'travelanchors:travel_staff',
+                'travelanchors:travel_anchor',
+                'thermal:enderium_gear'
         ]
 
         remove.forEach(item => {
@@ -105,7 +108,7 @@ ServerEvents.recipes(event => {
         event.replaceOutput(
                 { output: 'mekanism:digital_miner' },
                 'mekanism:steel_casing',
-                'thermal:laser_diode'
+                'concatenationcore:laser_diode'
         );
         event.replaceInput(
                 { mod: 'mekanism' },
@@ -178,6 +181,7 @@ ServerEvents.recipes(event => {
         event.remove({ output: 'mekanism:ingot_osmium', type: 'minecraft:blasting' })
         event.remove({ output: 'tconstruct:rose_gold_ingot', type: 'thermal:smelter' })
         event.remove({ output: 'integrateddynamics:variable', type: 'minecraft:crafting_shaped' })
+        event.remove({ output: 'createmetallurgy:iron_dust', type: 'mekanism:crusher' })
         //event.remove({ output: 'mekanism:basic_control_circuit'})
 
         event.shaped(
@@ -629,7 +633,7 @@ ServerEvents.recipes(event => {
                 ],
                 {
                         D: 'tarotcards:justice',
-                        C: 'create:shadow_steel',
+                        C: 'concatenationcore:erhantahir_alloy',
                         E: 'thermal:energy_cell',
                         B: 'mekanism:ultimate_control_circuit',
                         A: 'concatenationcore:daladite'
@@ -666,7 +670,7 @@ ServerEvents.recipes(event => {
                 }
         )
         event.shaped(
-                Item.of('thermal:laser_diode'),
+                Item.of('concatenationcore:laser_diode'),
                 [
                         'ABA',
                         'CDE',
@@ -692,7 +696,7 @@ ServerEvents.recipes(event => {
                 {
                         A: 'mekanism:alloy_atomic',
                         C: 'mekanism:logistical_sorter',
-                        F: 'thermal:laser_diode',
+                        F: 'concatenationcore:laser_diode',
                         D: 'mekanism:robit',
                         E: 'mekanism:teleportation_core',
                         B: 'mekanism:elite_control_circuit'
@@ -771,7 +775,7 @@ ServerEvents.recipes(event => {
                 }
         ).keepIngredient('concatenationcore:full_pentacles')
         event.shapeless(
-                Item.of('thermal:laser_diode'),
+                Item.of('concatenationcore:laser_diode'),
                 [
                         'concatenationcore:breaking_tool',
                         'mekanism:digital_miner'
@@ -787,7 +791,7 @@ ServerEvents.recipes(event => {
                         'rftoolsbuilder:shape_card_def',
                         'minecraft:nether_star',
                         'concatenationcore:daladite',
-                        'thermal:laser_diode',
+                        'concatenationcore:laser_diode',
                         'concatenationcore:daladite'
                 ]
         )
@@ -978,7 +982,7 @@ ServerEvents.recipes(event => {
                         'DED'
                 ],
                 {
-                        B: 'create:shadow_steel',
+                        B: 'concatenationcore:erhantahir_alloy',
                         A: 'solarflux:photovoltaic_cell_6',
                         C: 'rftoolspower:cell3',
                         D: 'solarflux:sp_7',
@@ -1294,7 +1298,7 @@ ServerEvents.recipes(event => {
         )
 
         event.shaped(
-                Item.of('thermal:laser_diode', 2),
+                Item.of('concatenationcore:laser_diode', 2),
                 [
                         'ABA',
                         'ACA',
@@ -1302,7 +1306,7 @@ ServerEvents.recipes(event => {
                 ],
                 {
                         A: 'thermal:steel_gear',
-                        C: 'thermal:laser_diode',
+                        C: 'concatenationcore:laser_diode',
                         B: 'thermal:diamond_gear',
                         D: 'thermal:rf_coil'
                 }
@@ -1316,7 +1320,7 @@ ServerEvents.recipes(event => {
                 ],
                 {
                         A: 'industrialforegoing:plastic',
-                        B: 'thermal:laser_diode',
+                        B: 'concatenationcore:laser_diode',
                         D: 'createmetallurgy:steel_block',
                         C: 'thermal:diamond_gear',
                         E: 'thermal:rf_coil'
@@ -1331,17 +1335,96 @@ ServerEvents.recipes(event => {
                 ],
                 {
                         A: 'industrialforegoing:plastic',
-                        B: 'thermal:laser_diode',
+                        B: 'concatenationcore:laser_diode',
                         D: 'createmetallurgy:steel_block',
                         E: 'concatenationcore:signalum_coil',
                         C: 'thermal:diamond_gear'
                 }
         )
-
-
+        event.shaped(
+                Item.of('travelanchors:travel_anchor'),
+                [
+                        'ABA',
+                        'CDC',
+                        'ABA'
+                ],
+                {
+                        A: 'industrialforegoing:plastic',
+                        D: 'thermal:enderium_gear',
+                        C: 'thermal:upgrade_augment_3',
+                        B: 'thermal:steel_plate'
+                }
+        )
+        event.shaped(
+                Item.of('travelanchors:travel_staff'),
+                [
+                        ' AB',
+                        'CDA',
+                        'DC '
+                ],
+                {
+                        C: 'industrialforegoing:plastic',
+                        D: 'createmetallurgy:steel_ingot',
+                        A: 'thermal:enderium_plate',
+                        B: 'mekanism:ingot_uranium'
+                }
+        )
+        event.shapeless(
+                Item.of('simplyjetpacks:jetpack_vanilla1'),
+                [
+                        'simplyjetpacks:jetpack_vanilla1_armored'
+                ]
+        )
+        event.shapeless(
+                Item.of('simplyjetpacks:jetpack_te1'),
+                [
+                        'simplyjetpacks:jetpack_te1_armored'
+                ]
+        )
+        event.shaped(
+                Item.of('concatenationcore:hierophant_die'),
+                [
+                        'ABA',
+                        'BCB',
+                        'ABA'
+                ],
+                {
+                        A: 'thermal:invar_plate',
+                        B: 'thermal:constantan_plate',
+                        C: 'tarotcards:the_hierophant'
+                }
+        ).keepIngredient('tarotcards:the_hierophant')
+        event.shaped(
+                Item.of('concatenationcore:erhantahir_alloy'),
+                [
+                        'ABA',
+                        'BCB',
+                        'ABA'
+                ],
+                {
+                        B: 'perdition:corruptite',
+                        A: 'perdition:scintillating_dust',
+                        C: 'create:shadow_steel'
+                }
+        )
+        event.shaped(
+                Item.of('concatenationcore:laser_diode'),
+                [
+                        'AB ',
+                        'BCB',
+                        ' B '
+                ],
+                {
+                        C: 'thermal:laser_diode',
+                        A: 'create:electron_tube',
+                        B: 'thermal:electrum_plate'
+                }
+        )
 
         event.recipes.thermal.press('concatenationcore:signalum_coil', ['thermal:signalum_dust', 'concatenationcore:copper_lead_coil'])
-        event.recipes.thermal.press('concatenationcore:meteorite_clump', ['concatenationcore:meteorite', 'concatenationcore:meteorite'])
+        event.recipes.thermal.press('concatenationcore:meteorite_clump', ['2x concatenationcore:meteorite', 'thermal:press_packing_2x2_die'])
+        event.recipes.thermal.press('concatenationcore:compressed_sky_stone', ['9x ae2:sky_stone_block', 'concatenationcore:hierophant_die'])
+        event.recipes.thermal.press('concatenationcore:galvanized_iron', ['9x concatenationcore:galvanized_iron_nugget', 'concatenationcore:hierophant_die'])
         event.recipes.thermal.pulverizer(Item.of('thermal:signalum_dust').withChance(0.5), 'thermal:signalum_plate')
         event.recipes.thermal.pulverizer(Item.of('create:crushed_raw_lead').withChance(1.25), '#tfmg:stone_types/galena')
         event.recipes.thermal.pulverizer(Item.of('create:crushed_raw_aluminum').withChance(1.25), '#tfmg:stone_types/bauxite')
@@ -1355,15 +1438,19 @@ ServerEvents.recipes(event => {
         event.recipes.thermal.chiller(Item.of('thermal:emerald_gear'), [Fluid.of('integrateddynamics:menril_resin', 1000), 'thermal:emerald_dust'])
         event.recipes.thermal.chiller(Item.of('thermal:quartz_gear'), [Fluid.of('integrateddynamics:menril_resin', 1000), 'mekanism:dust_quartz'])
         event.recipes.thermal.chiller(Item.of('thermal:diamond_gear'), [Fluid.of('integrateddynamics:menril_resin', 1000), 'thermal:diamond_dust'])
+        event.recipes.thermal.chiller(Item.of('thermal:enderium_gear', 2), [Fluid.of('integrateddynamics:menril_resin', 1000), 'thermal:enderium_block'])
         event.recipes.thermal.smelter('concatenationcore:galvanized_iron_nugget', ['create:zinc_nugget', 'concatenationcore:double_nugget']).energy(8000)
         event.recipes.thermal.smelter('concatenationcore:daladite', ['concatenationcore:celestial_calralite', 'rftoolsbase:infused_diamond', 'mekanism:ingot_refined_obsidian']).energy(55000)
-        event.recipes.thermal.smelter('create:shadow_steel', ['rftoolsbase:infused_diamond', 'minecraft:nether_star', 'concatenationcore:daladite']).energy(1000000)
+        event.recipes.thermal.smelter('concatenationcore:erhantahir_alloy', ['rftoolsbase:infused_diamond', 'minecraft:nether_star', 'concatenationcore:daladite']).energy(1000000)
         event.recipes.thermal.smelter('concatenationcore:alclad', ['concatenationcore:meteorite_clump', '#forge:dusts/zinc']).energy(2500)
-        event.recipes.thermal.smelter(Item.of('mekanism:nugget_osmium', 3), ['mekanism:dust_osmium']).energy(25000)
+        event.recipes.thermal.smelter(Item.of('mekanism:nugget_osmium', 3), ['mekanism:dust_osmium']).energy(50000)
         event.recipes.thermal.smelter('concatenationcore:celestial_calralite', ['mcore:raw_titanium', 'tconstruct:raw_cobalt', 'createmetallurgy:raw_wolframite']).energy(50000)
         event.recipes.thermal.smelter('concatenationcore:celestial_calralite', ['tconstruct:cobalt_ingot', 'mcore:titanium_ingot', 'createmetallurgy:tungsten_ingot']).energy(50000)
-        event.recipes.mekanism.enriching('mekanism:enriched_iron', 'minecraft:iron_ingot')
-        event.recipes.mekanism.enriching('mekanism:enriched_redstone', 'minecraft:redstone')
+        event.recipes.thermal.crucible(Fluid.of('integrateddynamics:menril_resin', 900), 'integrateddynamics:crystalized_menril_block').energy(9000)
+        event.recipes.thermal.crucible(Fluid.of('integrateddynamics:menril_resin', 100), 'integrateddynamics:crystalized_menril_chunk').energy(3000)
+        event.recipes.mekanism.enriching('mekanism:enriched_iron', 'createmetallurgy:iron_dust')
+        event.recipes.mekanism.enriching('mekanism:enriched_redstone', 'concatenationcore:stickyredstone')
+        event.recipes.mekanism.crushing('createmetallurgy:iron_dust', 'minecraft:iron_ingot')
 
         const oreberries = [
                 { berry: 'tin', result: 'thermal:tin_nugget', ore: 'thermal:tin_ore', deepslate: 'thermal:deepslate_tin_ore' },
@@ -1390,14 +1477,14 @@ ServerEvents.recipes(event => {
                 event.recipes.thermal.furnace(resultItem, berryItem).xp(0.1);
         });
 
-        const oreberryChance = 1;
+        const oreberryChance = 0.8;
         const oreberryMinRoll = 0;
         const oreberryMaxRoll = 3;
         const ticks = 1;
-        const ticksRequiredT1 = 200;
-        const ticksRequiredT2 = 400;
+        const ticksRequiredT1 = 5000;
+        const ticksRequiredT2 = 10000;
         const soilModifier = 1;
-        const deepslateSoilModifier = 1.25;
+        const deepslateSoilModifier = 1.35;
 
         event.recipes.botanypots.soil('tfmg:bauxite', { block: 'tfmg:bauxite' }, ['ba'], ticks, 0.8);
         event.recipes.botanypots.soil('tfmg:aluminum_block', { block: 'tfmg:aluminum_block' }, ['ba'], ticks, 1.0);
@@ -1437,15 +1524,15 @@ ServerEvents.recipes(event => {
 
         event.recipes.botanypots.soil('minecraft:gold_ore', { block: 'minecraft:gold_ore' }, ['go'], ticks, soilModifier);
         event.recipes.botanypots.soil('minecraft:deepslate_gold_ore', { block: 'minecraft:deepslate_gold_ore' }, ['go'], ticks, deepslateSoilModifier);
-        event.recipes.botanypots.crop("oreberriesreplanted:gold_oreberry_bush", ["go"], { block: "oreberriesreplanted:gold_oreberry_bush" }, [Item.of("oreberriesreplanted:gold_oreberry").withChance(oreberryChance).withRolls(oreberryMinRoll, oreberryMaxRoll)], ticksRequiredT1, 1);
+        event.recipes.botanypots.crop("oreberriesreplanted:gold_oreberry_bush", ["gold_ore"], { block: "oreberriesreplanted:gold_oreberry_bush" }, [Item.of("oreberriesreplanted:gold_oreberry").withChance(oreberryChance).withRolls(oreberryMinRoll, oreberryMaxRoll)], ticksRequiredT1, 1);
 
         event.recipes.botanypots.soil('minecraft:iron_ore', { block: 'minecraft:iron_ore' }, ['ir'], ticks, soilModifier);
         event.recipes.botanypots.soil('minecraft:deepslate_iron_ore', { block: 'minecraft:deepslate_iron_ore' }, ['ir'], ticks, deepslateSoilModifier);
-        event.recipes.botanypots.crop("oreberriesreplanted:iron_oreberry_bush", ["ir"], { block: "oreberriesreplanted:iron_oreberry_bush" }, [Item.of("oreberriesreplanted:iron_oreberry").withChance(oreberryChance).withRolls(oreberryMinRoll, oreberryMaxRoll)], ticksRequiredT1, 1);
+        event.recipes.botanypots.crop("oreberriesreplanted:iron_oreberry_bush", ["iron_ore"], { block: "oreberriesreplanted:iron_oreberry_bush" }, [Item.of("oreberriesreplanted:iron_oreberry").withChance(oreberryChance).withRolls(oreberryMinRoll, oreberryMaxRoll)], ticksRequiredT1, 1);
 
         event.recipes.botanypots.soil('minecraft:emerald_ore', { block: 'minecraft:emerald_ore' }, ['em'], ticks, soilModifier);
         event.recipes.botanypots.soil('minecraft:deepslate_emerald_ore', { block: 'minecraft:deepslate_emerald_ore' }, ['em'], ticks, deepslateSoilModifier);
-        event.recipes.botanypots.crop("oreberriesreplanted:essence_berry_bush", ["em"], { block: "oreberriesreplanted:essence_berry_bush" }, [Item.of("oreberriesreplanted:essence_berry").withChance(oreberryChance).withRolls(oreberryMinRoll, oreberryMaxRoll)], ticksRequiredT1, 1);
+        event.recipes.botanypots.crop("oreberriesreplanted:essence_berry_bush", ["emerald_ore"], { block: "oreberriesreplanted:essence_berry_bush" }, [Item.of("oreberriesreplanted:essence_berry").withChance(oreberryChance).withRolls(oreberryMinRoll, oreberryMaxRoll)], ticksRequiredT1, 1);
 
 
         // event.recipes.minecraft.smelting(
