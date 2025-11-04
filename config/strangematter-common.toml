@@ -49,6 +49,30 @@
 		echoingShadowDimensions = ["minecraft:overworld", "perdition:purgatory"]
 		#Dimensions where Thoughtwells can spawn (empty list = all dimensions)
 		thoughtwellDimensions = ["minecraft:overworld", "perdition:purgatory"]
+		#Per-dimension rarity overrides for Gravity Anomalies (format: namespace:dimension=rarity)
+		#Rarity overrides set the 1/N chance separately per dimension.
+		#Use a value <= 0 to disable spawning in that dimension.
+		gravityAnomalyDimensionRarityOverrides = ["perdition:purgatory=500"]
+		#Per-dimension rarity overrides for Temporal Blooms (format: namespace:dimension=rarity)
+		#Rarity overrides set the 1/N chance separately per dimension.
+		#Use a value <= 0 to disable spawning in that dimension.
+		temporalBloomDimensionRarityOverrides = ["perdition:purgatory=500"]
+		#Per-dimension rarity overrides for Warp Gates (format: namespace:dimension=rarity)
+		#Rarity overrides set the 1/N chance separately per dimension.
+		#Use a value <= 0 to disable spawning in that dimension.
+		warpGateDimensionRarityOverrides = ["perdition:purgatory=500"]
+		#Per-dimension rarity overrides for Energetic Rifts (format: namespace:dimension=rarity)
+		#Rarity overrides set the 1/N chance separately per dimension.
+		#Use a value <= 0 to disable spawning in that dimension.
+		energeticRiftDimensionRarityOverrides = ["perdition:purgatory=500"]
+		#Per-dimension rarity overrides for Echoing Shadows (format: namespace:dimension=rarity)
+		#Rarity overrides set the 1/N chance separately per dimension.
+		#Use a value <= 0 to disable spawning in that dimension.
+		echoingShadowDimensionRarityOverrides = ["perdition:purgatory=500"]
+		#Per-dimension rarity overrides for Thoughtwells (format: namespace:dimension=rarity)
+		#Rarity overrides set the 1/N chance separately per dimension.
+		#Use a value <= 0 to disable spawning in that dimension.
+		thoughtwellDimensionRarityOverrides = ["perdition:purgatory=500"]
 
 	#Ore Generation Configuration
 	[worldgen.ores]
@@ -69,6 +93,9 @@
 		#Chance (0.0-1.0) for Anomaly Shard Ore to spawn near anomalies
 		#Range: 0.0 ~ 1.0
 		shardOreSpawnChanceNearAnomaly = 0.01
+		#Blocks that anomaly shard ore can replace during terrain modification.
+		#Entries must be block IDs like 'minecraft:stone'.
+		anomalyOreReplacementBlocks = ["minecraft:stone", "minecraft:deepslate", "minecraft:andesite", "minecraft:granite", "minecraft:diorite", "minecraft:sandstone", "minecraft:red_sandstone", "minecraft:terracotta", "minecraft:white_terracotta", "minecraft:orange_terracotta", "minecraft:magenta_terracotta", "minecraft:light_blue_terracotta", "minecraft:yellow_terracotta", "minecraft:lime_terracotta", "minecraft:pink_terracotta", "minecraft:gray_terracotta", "minecraft:light_gray_terracotta", "minecraft:cyan_terracotta", "minecraft:purple_terracotta", "minecraft:blue_terracotta", "minecraft:brown_terracotta", "minecraft:green_terracotta", "minecraft:red_terracotta", "minecraft:black_terracotta", "perdition:terra_purgata", "perdition:ochra_inhumana", "perdition:ochra_demipurgata", "perdition:dolomita_demiurgicus"]
 
 	#Villager Structure Configuration
 	#Control the generation of custom villager structures
@@ -389,7 +416,7 @@
 		#Actual rate = baseRate / number_of_active_minigames
 		#More active minigames = slower increase = more time to stabilize
 		#Range: 1.0E-4 ~ 0.1
-		baseIncreaseRate = 0.005
+		baseIncreaseRate = 0.001
 
 	#Energy Minigame Settings (Wave Alignment)
 	[minigames.energy]

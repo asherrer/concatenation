@@ -1,0 +1,36 @@
+{
+	id: "55B1A38403C6078C"
+	loot_size: 1
+	order_index: 16
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "tarotcards:the_hierophant"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tarotcards:the_hermit"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tarotcards:the_magician"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tarotcards:temperance"
+				tag: { }
+			}
+		}
+	]
+	title: "Choose your Pathway"
+}
