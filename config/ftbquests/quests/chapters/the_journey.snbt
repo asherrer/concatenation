@@ -6636,18 +6636,43 @@
 			]
 			size: 1.15d
 			tasks: [{
-				id: "20A4244FEDD769DE"
+				id: "1368197CA7EFC48E"
 				item: {
 					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "waystones:waystone"
+							}
+							{
+								Count: 1b
+								id: "waystones:mossy_waystone"
+							}
+							{
+								Count: 1b
+								id: "waystones:sandy_waystone"
+							}
+							{
+								Count: 1b
+								id: "waystones:deepslate_waystone"
+							}
+							{
+								Count: 1b
+								id: "waystones:blackstone_waystone"
+							}
+							{
+								Count: 1b
+								id: "waystones:end_stone_waystone"
+							}
+						]
 					}
-					id: "waystones:waystone"
 				}
+				title: "Any Waystone"
 				type: "item"
 			}]
+			title: "Waystone"
 			x: 8.475d
 			y: 6.1d
 		}
@@ -6656,34 +6681,21 @@
 			description: [
 				"Anyone of any path can create man-made paths, whether they be path blocks made through a shovel interaction with the dirt, wood, stone, bricks, etc. "
 				""
-				"You have to place a sign anywhere within a man-made path and place a second one anywhere else. To link the two, you have to sneak punch the first and then sneak punch the second sign. Then, whenever you punch the sign, you will fast travel to the other end."
+				"&mYou have to place a sign anywhere within a man-made path and place a second one anywhere else. To link the two, you have to sneak punch the first and then sneak punch the second sign. Then, whenever you punch the sign, you will fast travel to the other end.&r"
 			]
 			hide_dependency_lines: true
 			icon: "minecraft:oak_hanging_sign"
 			id: "5B1114E8AD48A9D4"
-			rewards: [
-				{
-					id: "5EE1045CF5A195EC"
-					item: "minecolonies:supplychestdeployer"
-					type: "item"
-				}
-				{
-					id: "4C0B630D366DB73D"
-					item: {
-						Count: 1
-						id: "patchouli:guide_book"
-						tag: {
-							"patchouli:book": "via_romana:guide"
-						}
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "5EE1045CF5A195EC"
+				item: "minecolonies:supplychestdeployer"
+				type: "item"
+			}]
 			subtitle: "Fast Travel Anywhere"
 			tasks: [{
-				id: "248EFACDC86C287B"
-				title: "Via Romana"
-				type: "checkmark"
+				id: "13AFB0DC1A961548"
+				item: "via_romana:charting_map"
+				type: "item"
 			}]
 			x: 1.5d
 			y: -6.8d
@@ -17267,16 +17279,8 @@
 				xp_levels: 1
 			}]
 			tasks: [{
-				id: "6E00F3AC1976CC75"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "thermal:laser_diode"
-				}
+				id: "43D60004899D90D0"
+				item: "concatenationcore:laser_diode"
 				type: "item"
 			}]
 			x: -27.799999999999997d
@@ -21125,6 +21129,7 @@
 				""
 				"You can grow netherwart, harvest some and turn it into a wart block, mix it with some blood and leave it to dry. This will turn into some sort of synthethic redstone. Then, you can feed redstone to this altar."
 			]
+			icon: "reliquary:alkahestry_altar"
 			id: "527DC00929B54279"
 			rewards: [{
 				id: "2ADC4CA9F0E9CEF7"
@@ -21132,11 +21137,19 @@
 				random_bonus: 3
 				type: "item"
 			}]
-			tasks: [{
-				id: "41030BFA692C2825"
-				item: "reliquary:alkahestry_altar"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "41030BFA692C2825"
+					item: "reliquary:alkahestry_altar"
+					type: "item"
+				}
+				{
+					id: "3C432AFD9200FAA4"
+					item: "tconstruct:blood_slime_leaves"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 13.0d
 			y: -3.0d
 		}
@@ -24405,6 +24418,7 @@
 				""
 				"They house important end portals to enter the End. Be warned that the guardian dragon of the End is not friendly to outsiders and especially dangerous."
 			]
+			hide_dependency_lines: true
 			id: "407BC866E1868568"
 			rewards: [{
 				id: "4C4FAEA9EC26E73D"
@@ -25024,24 +25038,6 @@
 			}]
 			x: -0.5d
 			y: -16.5d
-		}
-		{
-			dependencies: ["407BC866E1868568"]
-			description: [""]
-			hide_until_deps_complete: true
-			id: "01A3746532D27C66"
-			rewards: [{
-				id: "0C2E45E86E8FE736"
-				item: "concatenationcore:fortune_fragment"
-				type: "item"
-			}]
-			tasks: [{
-				id: "728F91C4BFEFCFDE"
-				item: "minecraft:dragon_egg"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -11.5d
 		}
 		{
 			dependencies: ["7EB335BB570C5F7F"]
@@ -28623,7 +28619,13 @@
 			size: 1.15d
 			tasks: [{
 				id: "1ABF72EC883339F0"
-				item: "perdition:planeswalker_potion"
+				item: {
+					Count: 1
+					id: "perdition:planeswalker_potion"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
 			x: 13.5d
@@ -28720,6 +28722,22 @@
 			]
 			x: 6.375d
 			y: 6.375d
+		}
+		{
+			dependencies: ["407BC866E1868568"]
+			id: "45AE33EDAF0EEB9C"
+			rewards: [{
+				id: "6677175C32F6F418"
+				item: "concatenationcore:fortune_fragment"
+				type: "item"
+			}]
+			tasks: [{
+				id: "45B2C7EB7519EAAA"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -11.5d
 		}
 		{
 			dependencies: ["55895AB2924ABAFC"]
