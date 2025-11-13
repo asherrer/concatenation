@@ -1,13 +1,544 @@
 {
+	autofocus_id: "4C2E22EDFE23E329"
+	consume_items: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
+	default_repeatable_quest: true
 	filename: "the_economy_fools"
 	group: "4AEECD5B848DA3A1"
+	hide_quest_until_deps_complete: true
 	icon: "thermal:enderium_coin"
 	id: "482D038EC4A5B53B"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			can_repeat: false
+			icon: "minecraft:diamond"
+			id: "4C2E22EDFE23E329"
+			max_completable_dependents: 2
+			tasks: [
+				{
+					id: "0C20A146940FCE51"
+					type: "checkmark"
+				}
+				{
+					id: "34C02497D9F6B8B4"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "minecraft:gold_ingot"
+								}
+								{
+									Count: 1b
+									id: "thermal:silver_ingot"
+								}
+							]
+						}
+					}
+					title: "Gold or Silver"
+					type: "item"
+				}
+				{
+					id: "190818797810579E"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			title: "Diamond Standard"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["4C2E22EDFE23E329"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "6D5A27189CC77A1F"
+			tasks: [
+				{
+					id: "4D28015E809FFB8F"
+					item: "thermal:bronze_coin"
+					type: "item"
+				}
+				{
+					id: "4055144E2DF25A90"
+					item: "thermal:silver_coin"
+					type: "item"
+				}
+				{
+					id: "7D40438A921499DB"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: false
+			dependencies: ["4C2E22EDFE23E329"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "3176F04B52BD7587"
+			tasks: [{
+				id: "21A01746E41259E7"
+				item: "thermal:enderium_coin"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: false
+			dependencies: ["4C2E22EDFE23E329"]
+			hide_until_deps_complete: false
+			icon: "concatenationcore:one_karaon"
+			id: "5FC0D027A4943E93"
+			tasks: [
+				{
+					consume_items: false
+					id: "5D76AC8282E931B1"
+					item: "concatenationcore:one_karaon"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "48B0B610B3A2BA34"
+					item: "concatenationcore:twenty_five_karaon"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "033E8A35493EABC5"
+					item: "concatenationcore:one_hundred_twenty_five_karaon"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0604CD2713BEF50C"
+					item: "concatenationcore:six_hundred_twenty_five_karaon"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "7E5691A81B5F067A"
+					item: "concatenationcore:three_thousand_one_hundred_twenty_five_karaon"
+					type: "item"
+				}
+			]
+			title: "Karaon Bills"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["4C2E22EDFE23E329"]
+			hide_until_deps_complete: false
+			id: "79C4E3F45E1C609E"
+			max_completable_dependents: 1
+			size: 1.15d
+			tasks: [{
+				consume_items: false
+				id: "3C1579FCFD20F5E6"
+				item: "concatenationcore:merchant_permit_1"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["79C4E3F45E1C609E"]
+			hide_until_deps_complete: false
+			id: "77F408B576D8AB9D"
+			max_completable_dependents: 1
+			size: 1.15d
+			tasks: [{
+				consume_items: false
+				id: "026733716E5D6389"
+				item: "concatenationcore:gold_card"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["08D644D94DD5BD8E"]
+			hide_until_deps_complete: false
+			icon: "concatenationcore:merchant_permit_3"
+			id: "60639CD0322496FA"
+			max_completable_dependents: 1
+			size: 1.15d
+			tasks: [{
+				consume_items: false
+				id: "2E1997D20B15F21D"
+				item: "concatenationcore:merchant_permit_3"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["77F408B576D8AB9D"]
+			hide_until_deps_complete: false
+			id: "08D644D94DD5BD8E"
+			size: 1.15d
+			tasks: [{
+				consume_items: false
+				id: "68416B53C89B86C1"
+				item: "concatenationcore:merchant_permit_2"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["79C4E3F45E1C609E"]
+			hide_dependency_lines: true
+			id: "2AC5A12A461BE1AB"
+			rewards: [{
+				id: "502C10E4ADE46A73"
+				item: "concatenationcore:one_hundred_twenty_five_karaon"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "6DC5F1DEE39EC5E6"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4C2E22EDFE23E329"]
+			hide_dependency_lines: true
+			id: "35BB6D5468606986"
+			rewards: [{
+				id: "1405E2BC56D60DEC"
+				item: "concatenationcore:one_karaon"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4416C3658635F655"
+				item: "minecraft:bread"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D5A27189CC77A1F"]
+			hide_until_deps_complete: true
+			id: "59C56C88071EFA03"
+			tasks: [{
+				id: "36ECAF85A5916BA3"
+				item: "tconstruct:silky_cloth"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6D5A27189CC77A1F"]
+			hide_until_deps_complete: true
+			id: "633B798ABC049C44"
+			tasks: [{
+				id: "580D67B78957EDC4"
+				item: "mekanism:salt"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6D5A27189CC77A1F"]
+			id: "45C5445D20E0EE52"
+			tasks: [{
+				id: "5D88CB55EA5A0FC4"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:wool"
+					}
+				}
+				title: "Any Wool"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6D5A27189CC77A1F"]
+			id: "3742A083D2394A6E"
+			tasks: [{
+				id: "165BFC936EFDABA0"
+				item: "minecraft:purple_dye"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6D5A27189CC77A1F"]
+			id: "31CBC43929A65981"
+			tasks: [{
+				id: "36002A560321A438"
+				item: "minecraft:minecart"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6D5A27189CC77A1F"]
+			id: "3865565456FE86A2"
+			tasks: [{
+				id: "5B39AC8577D1BCF1"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3176F04B52BD7587"]
+			id: "2B12B0FA62FEDD1D"
+			tasks: [{
+				id: "6D758BCF2EAB504B"
+				item: "immersive_weathering:moss_clump"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3176F04B52BD7587"]
+			id: "2F88EE276BE7FE60"
+			tasks: [{
+				id: "1B51BC14CFAEAFAB"
+				item: "minecraft:potato"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6D5A27189CC77A1F"]
+			id: "7E8674ABC8694BD7"
+			tasks: [{
+				id: "48B84786B5DA88DD"
+				item: "minecraft:honey_bottle"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3176F04B52BD7587"]
+			id: "1B69E334E6738EF7"
+			tasks: [{
+				id: "35A8FCD4D8228812"
+				item: "minecraft:amethyst_shard"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3176F04B52BD7587"]
+			id: "2C82CB3DC754799D"
+			tasks: [{
+				id: "6FD58BF05AEF5EF8"
+				item: "born_in_chaos_v1:sea_terror_eye"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3176F04B52BD7587"]
+			id: "43800935FFB32A86"
+			tasks: [{
+				id: "60C87C880EB38987"
+				item: "tfmg:aluminum_ingot"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3176F04B52BD7587"]
+			id: "0FE5FB8DC57E4D19"
+			tasks: [{
+				id: "1F2FED352FA2FF99"
+				item: "solarflux:sp_1"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3176F04B52BD7587"]
+			id: "794A9FDE75362575"
+			tasks: [{
+				id: "6CE845499C4AA16D"
+				item: "thermal:diamond_gear"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["79C4E3F45E1C609E"]
+			hide_dependency_lines: true
+			id: "0EB5E50ED375D599"
+			tasks: [{
+				id: "45E2572B921A20E8"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["79C4E3F45E1C609E"]
+			hide_dependency_lines: true
+			id: "14BB565A61BEB3FB"
+			tasks: [{
+				id: "18C30C6B7BD83F46"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["79C4E3F45E1C609E"]
+			hide_dependency_lines: true
+			id: "22D5877CDC5C19F1"
+			tasks: [{
+				id: "75EC0EE42F7736A7"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "thermal:rubberwood_log"
+							}
+							{
+								Count: 1b
+								id: "integrateddynamics:menril_log"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["77F408B576D8AB9D"]
+			hide_dependency_lines: true
+			id: "0951C12A76E66868"
+			tasks: [{
+				id: "2CE5F24083EACEE2"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["08D644D94DD5BD8E"]
+			hide_dependency_lines: true
+			id: "3DE2AC1DC7B3254F"
+			tasks: [{
+				id: "218337324D06FC78"
+				item: "mekanism:ingot_uranium"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["08D644D94DD5BD8E"]
+			hide_dependency_lines: true
+			id: "0C1CB1F7A72DFC9A"
+			tasks: [{
+				id: "2D20D7FDD29281BD"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["77F408B576D8AB9D"]
+			hide_dependency_lines: true
+			id: "70D1C7620A27DB43"
+			tasks: [{
+				id: "5CE1CD036BDC36A0"
+				item: "minecraft:blaze_powder"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["77F408B576D8AB9D"]
+			hide_dependency_lines: true
+			id: "34792263FF1B879A"
+			tasks: [{
+				id: "458CE0D142C42781"
+				item: "createmetallurgy:steel_ingot"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["08D644D94DD5BD8E"]
+			hide_dependency_lines: true
+			id: "428A60F282604095"
+			tasks: [{
+				id: "413943F3345BA944"
+				item: "tconstruct:slimesteel_ingot"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5FC0D027A4943E93"]
+			hide_dependency_lines: true
+			id: "0D61E037EBFC92FE"
+			rewards: [{
+				id: "2DF467C33E4E2A01"
+				item: "minecraft:bread"
+				type: "item"
+			}]
+			tasks: [{
+				id: "34598814CE73D217"
+				item: "concatenationcore:one_karaon"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+	]
 	subtitle: ["Limited Event"]
 	title: "The Economy, Fools!"
 }
