@@ -296,6 +296,9 @@ ServerEvents.tags('item', event => {
 
     add('curios:belt', [
         'concatenationcore:gold_card',
+    ]);
+
+    add('curios:element_holder', [
         'concatenationcore:platinum_card',
     ]);
 

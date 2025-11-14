@@ -707,10 +707,10 @@
     "modId": "ftblibrary",
     "version": "2001.2.10"
   },
-  "ftb-quests-forge-2001.4.14.jar": {
-    "jarName": "ftb-quests-forge-2001.4.14.jar",
+  "ftb-quests-forge-2001.4.15.jar": {
+    "jarName": "ftb-quests-forge-2001.4.15.jar",
     "modId": "ftbquests",
-    "version": "2001.4.14"
+    "version": "2001.4.15"
   },
   "ftb-teams-forge-2001.3.1.jar": {
     "jarName": "ftb-teams-forge-2001.3.1.jar",
@@ -1044,6 +1044,11 @@
     "jarName": "melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
     "modId": "melody",
     "version": "1.0.2"
+  },
+  "mexposed-1.20.1-1.0.1.jar": {
+    "jarName": "mexposed-1.20.1-1.0.1.jar",
+    "modId": "mexposed",
+    "version": "1.20.1-1.0.1"
   },
   "midnightlib-forge-1.4.2.jar": {
     "jarName": "midnightlib-forge-1.4.2.jar",

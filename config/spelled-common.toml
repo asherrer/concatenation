@@ -12,7 +12,7 @@
 	individualItems = true
 	#Decides whether you need specific items to level up (Default: true)
 	requireItems = true
-	#Decides whether you need specific items to level up (Default: ars_nouveau:air_essence)
+	#Decides whether you need specific items to level up (Default: minecraft:lapis_lazuli)
 	requiredItem = "ars_nouveau:air_essence"
 	#Determines how much xp you need to pay per individual level when enabled (XP Levels) [Syntax: level,xp_cost]
 	#If you have changed the maxLevel and enabled individualLevels you'll need supply the new individual level costs

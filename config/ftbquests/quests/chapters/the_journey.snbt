@@ -3154,8 +3154,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: 10.5d
+			x: 4.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["5DF3CE9894B8409C"]
@@ -3811,7 +3811,7 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
+			x: 7.0d
 			y: 12.0d
 		}
 		{
@@ -22095,8 +22095,8 @@
 				type: "item"
 			}]
 			title: "Element Holder"
-			x: 4.0d
-			y: 9.5d
+			x: 5.5d
+			y: 13.5d
 		}
 		{
 			dependencies: ["33F8735D8322AFE6"]
@@ -27129,42 +27129,6 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["5DF3CE9894B8409C"]
-			description: ["&2Some anomalous shards possess elemental affinities, which can be solified with resonite to form gems.&r"]
-			id: "4482ACBA1E30B083"
-			tasks: [{
-				id: "0610783DC5FC64F6"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "elementalcraft:crude_fire_gem"
-							}
-							{
-								Count: 1b
-								id: "elementalcraft:crude_water_gem"
-							}
-							{
-								Count: 1b
-								id: "elementalcraft:crude_earth_gem"
-							}
-							{
-								Count: 1b
-								id: "elementalcraft:crude_air_gem"
-							}
-						]
-					}
-				}
-				title: "Any Crude Gem"
-				type: "item"
-			}]
-			x: 5.0d
-			y: 12.0d
-		}
-		{
 			dependencies: ["125252660A518C4F"]
 			description: ["&2The Anomaly Resonator can calibrate itself to an anomaly to help you find new ones or get to know more about the status of one you have found.&r"]
 			id: "553C0E6637920EC0"
@@ -27675,10 +27639,7 @@
 			y: -15.5d
 		}
 		{
-			dependencies: [
-				"770B8C25D934EC9B"
-				"4482ACBA1E30B083"
-			]
+			dependencies: ["770B8C25D934EC9B"]
 			dependency_requirement: "one_completed"
 			id: "08F5E41C824834DC"
 			tasks: [{
@@ -27687,7 +27648,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 13.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["12F6BD166085B3B5"]
@@ -27723,8 +27684,8 @@
 				item: "spelled:spell_book"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 12.0d
+			x: 6.0d
+			y: 11.0d
 		}
 		{
 			id: "537E72C60F75AAF0"
@@ -27972,7 +27933,7 @@
 			]
 			title: "Runecrafting"
 			x: 4.0d
-			y: 10.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["193DD74E480D6269"]
@@ -27998,6 +27959,7 @@
 		{
 			dependencies: ["57264B7E24823F02"]
 			id: "308D342714E5F13E"
+			size: 0.75d
 			tasks: [
 				{
 					id: "0A926D261AC7BB01"
