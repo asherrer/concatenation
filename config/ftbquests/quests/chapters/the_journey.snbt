@@ -1,3 +1,4 @@
+
 {
 	autofocus_id: "2CEDBC536409D424"
 	default_hide_dependency_lines: false
@@ -22613,64 +22614,6 @@
 			y: -12.0d
 		}
 		{
-<<<<<<< HEAD
-			dependencies: [
-				"731126727DDCAC54"
-				"2B825471FE41A521"
-				"524067700E07EB06"
-			]
-			description: [
-				"The World is the final major arcana of the tarot, symbolizing completion. The World arcana is capable of anything, of every starting pathway, and of time dilution around itself."
-				""
-				"The World card is crafted from every single tarot card, excluding itself. The Error card uses the Aeon singularity to fool the world into recognizing The Fool card, numbered 0, as the World, numbered 22, the last of the arcana."
-			]
-			hide_dependency_lines: true
-			id: "0F3237156DE95B07"
-			rewards: [
-				{
-					auto: "enabled"
-					command: "/effect give @a wither 60 2"
-					elevate_perms: true
-					icon: {
-						Count: 1
-						id: "tarotcards:the_world"
-						tag: { }
-					}
-					id: "56088B539E3643ED"
-					silent: true
-					team_reward: false
-					title: "The Force of Ten Thousand Years"
-					type: "command"
-				}
-				{
-					auto: "no_toast"
-					command: "/tellraw @a {\"text\":\"An Eternal Aeon is born!\",\"bold\":true,\"italic\":true,\"color\":\"gold\"}"
-					elevate_perms: true
-					icon: "concatenationcore:aeon"
-					id: "10754A5E539447E9"
-					silent: true
-					title: "Birth of an Aeon"
-					type: "command"
-				}
-			]
-			size: 1.75d
-			subtitle: "Eternal Aeon"
-			tasks: [{
-				id: "4C8456E59D963D84"
-				item: {
-					Count: 1
-					id: "tarotcards:the_world"
-					tag: { }
-				}
-				type: "item"
-			}]
-			title: "&6The World"
-			x: 0.0d
-			y: -20.25d
-		}
-		{
-=======
->>>>>>> main
 			dependencies: ["679D7B535BE7E8B2"]
 			description: ["&3I finally got my hands on a Psidust sample. If I use a basic CAD made of just an assembly and nothing else, I can channel Psi Energy into redstone dust and create Psidust. It’s... interesting. I can’t quite explain the reaction when I mixed redstone dust with Psi Energy, but the results are undeniable. I’ve used it to create unique tools and spell components.&r"]
 			id: "56209781BEA94B72"
