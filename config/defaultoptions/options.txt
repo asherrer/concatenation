@@ -5,7 +5,7 @@ autoSuggestions:true
 chatColors:true
 chatLinks:true
 chatLinksPrompt:true
-enableVsync:false
+enableVsync:true
 entityShadows:true
 forceUnicodeFont:false
 discrete_mouse_scroll:false
@@ -30,21 +30,21 @@ glintSpeed:0.5
 glintStrength:0.75
 damageTiltStrength:1.0
 highContrast:false
-gamma:1.0
-renderDistance:12
-simulationDistance:12
+gamma:0.5
+renderDistance:8
+simulationDistance:8
 entityDistanceScaling:1.0
 guiScale:0
 particles:0
 maxFps:120
-graphicsMode:1
+graphicsMode:0
 ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
-renderClouds:"true"
-resourcePacks:["vanilla","tacz_resources","mod_resources","builtin/towntalk","Moonlight Mods Dynamic Assets","fabric","resources/Create Immersive Aircrafts Resource Pack 1.20.1 - 2.0.zip","resources/LowOnFire_1.20.1.zip","resources/Stay_True_1.20.zip","resources/cubic-sun-moon-v1.8.1a.zip","resources/Icon Journey 1.1.zip","resources/Old+Iron+Chest.zip","resources/ReApplied.zip","resources/Better_Enderdragon.zip","resources/ConcatenationTips.zip","resources/elysiapresents_lootr.zip"]
-incompatibleResourcePacks:["builtin/towntalk","resources/Icon Journey 1.1.zip","resources/Old+Iron+Chest.zip","resources/ReApplied.zip","resources/ConcatenationTips.zip","resources/elysiapresents_lootr.zip"]
-lastServer:noh.notourhardware.com
+renderClouds:"false"
+resourcePacks:["vanilla","tacz_resources","mod_resources","builtin/towntalk","Moonlight Mods Dynamic Assets","fabric","resources/Create Immersive Aircrafts Resource Pack 1.20.1 - 2.0.zip","resources/LowOnFire_1.20.1.zip","resources/Stay_True_1.20.zip","resources/cubic-sun-moon-v1.8.1a.zip","resources/Icon Journey 1.1.zip","resources/Old+Iron+Chest.zip","resources/ReApplied.zip"]
+incompatibleResourcePacks:["builtin/towntalk","resources/Nobushleaves.zip","resources/Icon Journey 1.1.zip","resources/Old+Iron+Chest.zip","resources/ReApplied.zip","resources/Soleil-Roumain-Tips.zip"]
+lastServer:
 lang:en_us
 soundDevice:""
 chatVisibility:0
@@ -63,7 +63,7 @@ chatHeightUnfocused:0.4375
 chatScale:1.0
 chatWidth:1.0
 notificationDisplayTime:1.0
-mipmapLevels:4
+mipmapLevels:1
 useNativeTransport:true
 mainHand:"right"
 attackIndicator:1

@@ -838,17 +838,17 @@ ServerEvents.recipes(event => {
                         A: 'concatenationcore:glowing_gold'
                 }
         )
-        event.shaped(
-                Item.of('tarotcards:the_emperor'),
-                [
-                        'AAA',
-                        'AAA',
-                        'AAA'
-                ],
-                {
-                        A: 'concatenationcore:gold_paper'
-                }
-        )
+        // event.shaped(
+        //         Item.of('tarotcards:the_emperor'),
+        //         [
+        //                 'AAA',
+        //                 'AAA',
+        //                 'AAA'
+        //         ],
+        //         {
+        //                 A: 'concatenationcore:gold_paper'
+        //         }
+        // )
         event.shapeless(
                 Item.of('minecraft:glowstone_dust'),
                 [
