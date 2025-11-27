@@ -8,9 +8,12 @@
     "createmetallurgy",
     "thermal",
     "mekanism",
+    "tconstruct",
     "createdeco",
     "concatenationcore",
-    "perdition"
+    "perdition",
+    "tfmg",
+    "common_ore_library"
   ],
   "stoneStrata": [
     "stone",

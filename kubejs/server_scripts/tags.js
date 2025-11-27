@@ -220,6 +220,8 @@ ServerEvents.tags('item', event => {
     event.add('minecraft:shovels', 'psi:psimetal_shovel');
 
     event.add('elementalcraft:infusable/sword', 'psi:psimetal_sword');
+    event.add('elementalcraft:infusable/sword', 'concatenationcore:riparian');
+    event.add('elementalcraft:infusable/sword', 'concatenationcore:temblor');
     event.add('forge:tools/swords', 'psi:psimetal_sword');
     event.add('minecraft:swords', 'psi:psimetal_sword');
 
@@ -287,6 +289,7 @@ ServerEvents.tags('item', event => {
     add('tarotcards:tarot_cards', fullSets);
     add('curios:charm', [
         'concatenationcore:rython',
+        'concatenationcore:stalker_ward'
     ]);
     add('curios:spellbook', [
         'concatenationcore:karma_tome',
@@ -579,5 +582,10 @@ ServerEvents.tags('item', event => {
 
     add('forge:gems/sulfur', [
         'the_deep_void:sulfur'
+    ])
+
+    add('concatenation:isolated_ingot', [
+        'concatenationcore:galvanized_iron',
+        'concatenationcore:ferrotin_bronze_ingot'
     ])
 });

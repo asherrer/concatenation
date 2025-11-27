@@ -9,3 +9,5 @@ Platform.mods.ftbquests.name = 'Eleonore\'s Travels';
 Platform.mods.ars_scalaes.name = 'Hexerei';
 Platform.mods.lychee.name = 'Lychee';
 Platform.mods.craftingstation.name = 'Tinkers\' Construct';
+Platform.mods.kubejs.name = 'Concatenation';
+Platform.mods.common_ore_library.name = 'Common';
