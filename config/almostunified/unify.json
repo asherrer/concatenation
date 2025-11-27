@@ -6,13 +6,13 @@
     "craftingstation",
     "create",
     "createmetallurgy",
-    "tfmg",
     "thermal",
     "mekanism",
     "tconstruct",
     "createdeco",
     "concatenationcore",
     "perdition",
+    "tfmg",
     "common_ore_library"
   ],
   "stoneStrata": [
