@@ -101,48 +101,45 @@ ServerEvents.recipes(event => {
                         E: 'minecraft:crying_obsidian'
                 }
         ).keepIngredient('tarotcards:strength')
-        event.shaped(
+        event.shapeless(
                 Item.of('concatenationcore:celestial_calralite'),
                 [
-                        'ABC',
-                        'BD ',
-                        '   '
-                ],
-                {
-                        B: 'tconstruct:raw_cobalt',
-                        D: 'minecraft:fire_charge',
-                        C: 'createmetallurgy:raw_wolframite',
-                        A: 'concatenationcore:breaking_tool'
-                }
+                        'concatenationcore:breaking_tool',
+                        'tconstruct:raw_cobalt',
+                        'createmetallurgy:raw_wolframite',
+                        'tconstruct:raw_cobalt',
+                        'mcore:raw_titanium',
+                        '#concatenation:firing_item'
+                ]
         ).damageIngredient('concatenationcore:breaking_tool')
-        event.shaped(
-                Item.of('concatenationcore:celestial_calralite'),
-                [
-                        'ABC',
-                        'BD ',
-                        '   '
-                ],
-                {
-                        B: 'tconstruct:raw_cobalt',
-                        C: 'createmetallurgy:raw_wolframite',
-                        D: 'elementalcraft:fire_shard',
-                        A: 'concatenationcore:breaking_tool'
-                }
-        ).damageIngredient('concatenationcore:breaking_tool')
-        event.shaped(
-                Item.of('concatenationcore:celestial_calralite'),
-                [
-                        'ABC',
-                        'BD ',
-                        '   '
-                ],
-                {
-                        B: 'tconstruct:raw_cobalt',
-                        C: 'createmetallurgy:raw_wolframite',
-                        D: 'ars_nouveau:fire_essence',
-                        A: 'concatenationcore:breaking_tool'
-                }
-        ).damageIngredient('concatenationcore:breaking_tool')
+        // event.shaped(
+        //         Item.of('concatenationcore:celestial_calralite'),
+        //         [
+        //                 'ABC',
+        //                 'BD ',
+        //                 '   '
+        //         ],
+        //         {
+        //                 B: 'tconstruct:raw_cobalt',
+        //                 C: 'createmetallurgy:raw_wolframite',
+        //                 D: 'elementalcraft:fire_shard',
+        //                 A: 'concatenationcore:breaking_tool'
+        //         }
+        // ).damageIngredient('concatenationcore:breaking_tool')
+        // event.shaped(
+        //         Item.of('concatenationcore:celestial_calralite'),
+        //         [
+        //                 'ABC',
+        //                 'BD ',
+        //                 '   '
+        //         ],
+        //         {
+        //                 B: 'tconstruct:raw_cobalt',
+        //                 C: 'createmetallurgy:raw_wolframite',
+        //                 D: 'ars_nouveau:fire_essence',
+        //                 A: 'concatenationcore:breaking_tool'
+        //         }
+        // ).damageIngredient('concatenationcore:breaking_tool')
         event.shaped(
                 Item.of('tconstruct:soulsteel_ingot'),
                 [

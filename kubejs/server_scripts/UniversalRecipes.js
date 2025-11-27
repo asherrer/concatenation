@@ -15,7 +15,11 @@ ServerEvents.recipes(event => {
                 'travelerscompass:travelerscompass',
                 'explorerscompass:explorerscompass',
                 'naturescompass:naturescompass',
-                'born_in_chaos_v1:eternal_candy'
+                'born_in_chaos_v1:eternal_candy',
+                'chunkloaders:basic_chunk_loader',
+                'chunkloaders:single_chunk_loader',
+                'chunkloaders:advanced_chunk_loader',
+                'chunkloaders:ultimate_chunk_loader'
         ]
 
         remove.forEach(item => {
@@ -391,7 +395,7 @@ ServerEvents.recipes(event => {
                         B: 'irons_spellbooks:arcane_essence',
                         A: 'concatenationcore:silver_paper',
                         D: 'concatenationcore:descran',
-                        E: '#elementalcraft:crystals'
+                        E: '#elementalcraft:crystals/elemental'
                 }
         ).keepIngredient('#concatenation:magic_cards_t2')
         event.shaped(
@@ -1155,4 +1159,114 @@ ServerEvents.recipes(event => {
                         'concatenationcore:full_cups'
                 ]
         )
+        event.shapeless(
+                Item.of(
+                        "concatenationcore:protection_charm",
+                        '{AttributeModifiers:[{AttributeName:"generic.luck",Name:"generic.luck",Amount:1,Operation:0,UUID:[I;-627705973,885605043,-1990155892,-718506500],Slot:"offhand"}]}'
+                ),
+                [
+                        'minecraft:paper',
+                        'minecraft:red_dye',
+                        'minecraft:ink_sac',
+                        'born_in_chaos_v1:ethereal_spirit',
+                        '#concatenation:firing_item',
+                        'tarotcards:death'
+                ]
+        ).keepIngredient('tarotcards:death')
+        event.shapeless(
+                Item.of('concatenationcore:stalker_ward'),
+                [
+                        'concatenationcore:protection_charm',
+                        'born_in_chaos_v1:nightmare_stalker_skull',
+                        'born_in_chaos_v1:fire_dust',
+                        'concatenationcore:experience_orb',
+                        'minecraft:glow_ink_sac',
+                        'minecraft:black_dye'
+                ]
+        )
+        event.shaped(
+                Item.of('summonerscrolls:zombie_summoner_scroll'),
+                [
+                        'ABA',
+                        'CAD',
+                        'EEE'
+                ],
+                {
+                        D: 'minecraft:ink_sac',
+                        E: 'minecraft:rotten_flesh',
+                        C: 'born_in_chaos_v1:ethereal_spirit',
+                        A: 'minecraft:paper',
+                        B: 'tarotcards:death'
+                }
+        ).keepIngredient('tarotcards:death')
+        event.shaped(
+                Item.of('summonerscrolls:skeleton_summoner_scroll'),
+                [
+                        'ABA',
+                        'CAD',
+                        'EEE'
+                ],
+                {
+                        D: 'minecraft:ink_sac',
+                        C: 'born_in_chaos_v1:ethereal_spirit',
+                        A: 'minecraft:paper',
+                        E: 'minecraft:bone',
+                        B: 'tarotcards:death'
+                }
+        ).keepIngredient('tarotcards:death')
+        event.shaped(
+    Item.of('chunkloaders:single_chunk_loader'),
+    [
+        'ABA',
+        'BCB',
+        'ABA'
+    ],
+    {
+        B: 'concatenationcore:celestial_calralite',
+        A: 'rftoolsbase:infused_diamond',
+        C: 'celestisynth:celestial_core_heated'
+    }
+)
+event.shaped(
+    Item.of('chunkloaders:basic_chunk_loader'),
+    [
+        'ABA',
+        'CDC',
+        'ABA'
+    ],
+    {
+        B: 'concatenationcore:celestial_calralite',
+        A: 'rftoolsbase:infused_enderpearl',
+        C: 'chunkloaders:single_chunk_loader',
+        D: 'celestisynth:celestial_core_heated'
+    }
+)
+event.shaped(
+    Item.of('chunkloaders:advanced_chunk_loader'),
+    [
+        'ABA',
+        'CDC',
+        'ABA'
+    ],
+    {
+        C: 'chunkloaders:basic_chunk_loader',
+        B: 'concatenationcore:glowing_gold_block',
+        A: 'concatenationcore:experience_orb',
+        D: 'celestisynth:celestial_core_heated'
+    }
+)
+event.shaped(
+    Item.of('chunkloaders:ultimate_chunk_loader'),
+    [
+        'ABA',
+        'CDC',
+        'ABA'
+    ],
+    {
+        C: 'chunkloaders:advanced_chunk_loader',
+        A: 'concatenationcore:experience_orb',
+        D: 'celestisynth:celestial_core_heated',
+        B: 'concatenationcore:silver_paper'
+    }
+)
 });
