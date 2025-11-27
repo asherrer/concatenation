@@ -29213,6 +29213,28 @@
 			x: -9.0d
 			y: 7.0d
 		}
+		{
+			dependencies: ["51F0251F529BE03C"]
+			description: ["The Insightful Crystal is a useful way of storing experience into a solid form. Mages and witches have their own methods of storing experience, well this is one of the primary portable ways for a technician."]
+			hide_dependency_lines: true
+			id: "3615CE00936174BD"
+			rewards: [{
+				id: "4B3A6AE333F2E6DC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "2D66F98C45777152"
+				item: {
+					Count: 1
+					id: "thermal:xp_crystal"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -16.0d
+			y: -2.0d
+		}
 	]
 	title: "The Journey"
 }

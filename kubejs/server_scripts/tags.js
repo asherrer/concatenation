@@ -290,6 +290,7 @@ ServerEvents.tags('item', event => {
     add('tarotcards:tarot_cards', fullSets);
     add('curios:charm', [
         'concatenationcore:rython',
+        'concatenationcore:stalker_ward'
     ]);
     add('curios:spellbook', [
         'concatenationcore:karma_tome',

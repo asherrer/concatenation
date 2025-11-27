@@ -1,8 +1,8 @@
 {
-  "fmlloader-1.20.1-47.4.0.jar (modloader)": {
-    "jarName": "fmlloader-1.20.1-47.4.0.jar (modloader)",
+  "fmlloader-1.20.1-47.4.10.jar (modloader)": {
+    "jarName": "fmlloader-1.20.1-47.4.10.jar (modloader)",
     "modId": "forge",
-    "version": "fmlloader-1.20.1-47.4.0.jar"
+    "version": "fmlloader-1.20.1-47.4.10.jar"
   },
   "accessories-neoforge-1.0.0-beta.48+1.20.1.jar": {
     "jarName": "accessories-neoforge-1.0.0-beta.48+1.20.1.jar",
@@ -234,6 +234,11 @@
     "modId": "chunkactivitytracker",
     "version": "1.0.1"
   },
+  "chunkloaders-1.2.9-forge-mc1.20.1.jar": {
+    "jarName": "chunkloaders-1.2.9-forge-mc1.20.1.jar",
+    "modId": "chunkloaders",
+    "version": "1.2.9"
+  },
   "chunksending-1.20.1-2.8.jar": {
     "jarName": "chunksending-1.20.1-2.8.jar",
     "modId": "chunksending",
@@ -304,10 +309,10 @@
     "modId": "commoncapabilities",
     "version": "2.9.9"
   },
-  "concatenationcore-1.2.3-forge-1.20.1.jar": {
-    "jarName": "concatenationcore-1.2.3-forge-1.20.1.jar",
+  "concatenationcore-1.2.4-forge-1.20.1.jar": {
+    "jarName": "concatenationcore-1.2.4-forge-1.20.1.jar",
     "modId": "concatenationcore",
-    "version": "1.2.3"
+    "version": "1.2.4"
   },
   "configured-forge-1.20.1-2.2.3.jar": {
     "jarName": "configured-forge-1.20.1-2.2.3.jar",
@@ -975,10 +980,10 @@
     "modId": "lootjs",
     "version": "1.20.1-2.13.0"
   },
-  "lootr-forge-1.20-0.7.35.93.jar": {
-    "jarName": "lootr-forge-1.20-0.7.35.93.jar",
+  "lootr-forge-1.20-0.7.35.94.jar": {
+    "jarName": "lootr-forge-1.20-0.7.35.94.jar",
     "modId": "lootr",
-    "version": "0.7.35.92"
+    "version": "0.7.35.94"
   },
   "lukis-grand-capitals-1.1.2.jar": {
     "jarName": "lukis-grand-capitals-1.1.2.jar",
@@ -1185,10 +1190,10 @@
     "modId": "patchouli",
     "version": "1.20.1-84.1-FORGE"
   },
-  "perdition-1.2.0-forge-1.20.1.jar": {
-    "jarName": "perdition-1.2.0-forge-1.20.1.jar",
+  "perdition-1.2.2-forge-1.20.1.jar": {
+    "jarName": "perdition-1.2.2-forge-1.20.1.jar",
     "modId": "perdition",
-    "version": "1.2.0"
+    "version": "1.2.2"
   },
   "Placebo-1.20.1-8.6.3.jar": {
     "jarName": "Placebo-1.20.1-8.6.3.jar",
@@ -1467,6 +1472,11 @@
     "jarName": "supermartijn642configlib-1.1.8-forge-mc1.20.jar",
     "modId": "supermartijn642configlib",
     "version": "1.1.8"
+  },
+  "supermartijn642corelib-1.1.18-forge-mc1.20.1.jar": {
+    "jarName": "supermartijn642corelib-1.1.18-forge-mc1.20.1.jar",
+    "modId": "supermartijn642corelib",
+    "version": "1.1.18"
   },
   "supplementaries-1.20-3.1.41.jar": {
     "jarName": "supplementaries-1.20-3.1.41.jar",

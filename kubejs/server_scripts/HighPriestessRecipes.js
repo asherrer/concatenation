@@ -68,7 +68,8 @@ ServerEvents.recipes(event => {
                 'hammerlib:gears',
                 'travelanchors:travel_staff',
                 'travelanchors:travel_anchor',
-                'thermal:enderium_gear'
+                'thermal:enderium_gear',
+                'thermal:xp_crystal'
         ]
 
         remove.forEach(item => {
@@ -1433,6 +1434,19 @@ ServerEvents.recipes(event => {
                         C: 'tarotcards:the_high_priestess'
                 }
         ).keepIngredient('tarotcards:the_high_priestess')
+        event.shaped(
+                Item.of('thermal:xp_crystal'),
+                [
+                        'ABA',
+                        'BCB',
+                        'ABA'
+                ],
+                {
+                        A: '#forge:consumables/experience_3',
+                        B: 'thermal:enderium_dust',
+                        C: 'thermal:sapphire'
+                }
+        )
 
         event.recipes.thermal.press('concatenationcore:signalum_coil', ['thermal:signalum_dust', 'concatenationcore:copper_lead_coil'])
         event.recipes.thermal.press('concatenationcore:meteorite_clump', ['2x concatenationcore:meteorite', 'thermal:press_packing_2x2_die'])
