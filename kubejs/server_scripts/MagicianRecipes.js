@@ -39,7 +39,6 @@ ServerEvents.recipes(event => {
                 'torchmaster:feral_flare_lantern',
                 'torchmaster:frozen_pearl',
                 'reliquary:shears_of_winter',
-                'thermal:laser_diode',
                 'spelled:ancient_knowledge_tome',
                 'spelled:leveling_altar',
                 'spelled:spell_book',
@@ -1210,7 +1209,7 @@ ServerEvents.recipes(event => {
                         D: 'itemfilters:custom',
                         E: 'minecraft:hopper',
                         A: 'elementalcraft:drenched_iron_nugget',
-                        C: '#elementalcraft:crystals/elemental/elemental'
+                        C: '#elementalcraft:crystals/elemental'
                 }
         )
         event.shaped(

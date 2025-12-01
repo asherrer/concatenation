@@ -596,4 +596,9 @@ ServerEvents.tags('item', event => {
     add('forge:dusts/salt', [
         'refurbished_furniture:sea_salt',
     ])
+
+    add('concatenation:insight_material', [
+        'thermal:sapphire',
+        'strangematter:insight_shard'
+    ])
 });

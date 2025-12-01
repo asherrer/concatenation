@@ -328,7 +328,7 @@ ServerEvents.recipes(event => {
         }
     )
     event.shaped(
-        Item.of('elementalcraft:inert_crystal'),
+        Item.of('elementalcraft:inert_crystal', 2),
         [
             'ABB',
             'B  ',
@@ -384,6 +384,18 @@ ServerEvents.recipes(event => {
             '#concatenation:firing_item',
             '#concatenation:watering_item'
         ]
+    )
+    event.shaped(
+        Item.of('perdition:elemental_soil', 2),
+        [
+            'AAA',
+            'ABA',
+            'AAA'
+        ],
+        {
+            B: 'elementalcraft:earthcrystal',
+            A: 'strangematter:anomalous_grass'
+        }
     )
 
     event.custom({
@@ -462,5 +474,11 @@ ServerEvents.recipes(event => {
             A: 'strangematter:resonite_ingot'
         }
     )
-
+    event.shapeless(
+        Item.of('perdition:limbo_bush'),
+        [
+            'perdition:limbo_berries',
+            'perdition:blackened_resin'
+        ]
+    )
 });

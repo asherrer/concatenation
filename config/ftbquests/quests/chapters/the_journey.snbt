@@ -2082,6 +2082,7 @@
 				"{@pagebreak}"
 				"The meteor stone itself is often overlooked, but it's still a robust atmosphere-defying material that is worth collecting for future endeavours."
 			]
+			icon: "ae2:sky_stone_block"
 			id: "7DD14D1827FF575E"
 			rewards: [
 				{
@@ -2096,19 +2097,27 @@
 					xp_levels: 1
 				}
 			]
-			tasks: [{
-				id: "3D8A93A0719526F7"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
+			tasks: [
+				{
+					id: "3D8A93A0719526F7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
 						}
+						id: "ae2:sky_stone_block"
 					}
-					id: "ae2:sky_stone_block"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "398D533D9FEB226C"
+					item: "ae2:meteorite_compass"
+					optional_task: true
+					type: "item"
+				}
+			]
 			title: "Find a fallen meteor"
 			x: -4.0d
 			y: -1.5d
@@ -27113,7 +27122,9 @@
 				""
 				"&2However, limbo berries can only be grown in Purgatory, reacting violently with incompatibility when grown in other dimensions. Perhaps someone could find a way to grow them back home...&r"
 				"{@pagebreak}"
-				"&2After experimentation, it seems that pure soil can be made from pure rock, compatible with limbo berries for them to be grown in the overworld.&r"
+				"&2After experimentation, it seems that pure soil can be made from pure rock, compatible with limbo berries for them to be grown in the overworld."
+				""
+				"&2Further research has made it known that elemental soil can be made from anomalous grass, but all of its nutrients seem sucked out after some growth, letting the limbo bush wither and die. It is much cheaper though.&r&r"
 			]
 			icon: "perdition:limbo_berries"
 			id: "07D743EBC4DDD625"
@@ -27138,6 +27149,12 @@
 				{
 					id: "0E175B5BAA9963FF"
 					item: "perdition:pure_soil"
+					type: "item"
+				}
+				{
+					id: "1759E33EB98E248F"
+					item: "perdition:elemental_soil"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -27885,12 +27902,18 @@
 				"This requires an amount of experience and air essences, as words travel through the air. Air essences can be produced by infusing an air crystal with more air."
 			]
 			id: "08F5E41C824834DC"
-			rewards: [{
-				count: 3
-				id: "23958407EA199A3B"
-				item: "ars_nouveau:air_essence"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "23958407EA199A3B"
+					item: "ars_nouveau:air_essence"
+					type: "item"
+				}
+				{
+					id: "43CBA9DD904526A6"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
 			tasks: [{
 				id: "6B73AB6AD8490861"
 				item: "spelled:leveling_altar"
@@ -27972,23 +27995,6 @@
 			}]
 			x: -0.5d
 			y: -7.0d
-		}
-		{
-			dependencies: ["63B383DE2EEFE2F3"]
-			id: "2FFA8CB4C1FD06C7"
-			tasks: [{
-				id: "1F75F73BB8D4E736"
-				item: {
-					Count: 1
-					id: "thermal:laser_diode"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 17.0d
-			y: 12.5d
 		}
 		{
 			dependencies: ["57264B7E24823F02"]

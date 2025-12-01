@@ -100,6 +100,16 @@ ServerEvents.recipes(event => {
                 requiredTier: 3
         });
 
+        event.custom({
+                type: 'tconstruct:alloy',
+                inputs: [
+                        { tag: 'forge:molten_nickel', amount: 90 },
+                        { tag: 'forge:molten_copper', amount: 270 }
+                ],
+                result: { fluid: 'tconstruct:molten_platinum', amount: 30 },
+                temperature: 760
+        })
+
         event.replaceInput(
                 { mod: 'createbigcannons' },
                 'createbigcannons:cast_iron_ingot',

@@ -309,10 +309,10 @@
     "modId": "commoncapabilities",
     "version": "2.9.9"
   },
-  "concatenationcore-1.2.4-forge-1.20.1.jar": {
-    "jarName": "concatenationcore-1.2.4-forge-1.20.1.jar",
+  "concatenationcore-1.2.5-forge-1.20.1.jar": {
+    "jarName": "concatenationcore-1.2.5-forge-1.20.1.jar",
     "modId": "concatenationcore",
-    "version": "1.2.4"
+    "version": "1.2.5"
   },
   "configured-forge-1.20.1-2.2.3.jar": {
     "jarName": "configured-forge-1.20.1-2.2.3.jar",
@@ -592,10 +592,10 @@
     "modId": "emi_enchanting",
     "version": "0.1.2+1.20.1+forge"
   },
-  "emi_loot-0.7.6+1.20.1+forge.jar": {
-    "jarName": "emi_loot-0.7.6+1.20.1+forge.jar",
+  "emi_loot-0.7.8+1.20.1-fix1+forge.jar": {
+    "jarName": "emi_loot-0.7.8+1.20.1-fix1+forge.jar",
     "modId": "emi_loot",
-    "version": "0.7.6+1.20.1+forge"
+    "version": "0.7.8+1.20.1-fix1+forge"
   },
   "emi_ores-1.2+1.20.1+forge.jar": {
     "jarName": "emi_ores-1.2+1.20.1+forge.jar",
@@ -1200,10 +1200,10 @@
     "modId": "patchouli",
     "version": "1.20.1-84.1-FORGE"
   },
-  "perdition-1.2.2-forge-1.20.1.jar": {
-    "jarName": "perdition-1.2.2-forge-1.20.1.jar",
+  "perdition-1.2.3-forge-1.20.1.jar": {
+    "jarName": "perdition-1.2.3-forge-1.20.1.jar",
     "modId": "perdition",
-    "version": "1.2.2"
+    "version": "1.2.3"
   },
   "Placebo-1.20.1-8.6.3.jar": {
     "jarName": "Placebo-1.20.1-8.6.3.jar",
