@@ -547,7 +547,6 @@
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
-			hide_until_deps_complete: true
 			id: "1D9002F6E0272ABC"
 			min_required_dependencies: 1
 			rewards: [{
@@ -22455,12 +22454,24 @@
 				"It is unclear whether the botany pot actually possesses magical power. "
 			]
 			id: "5DC19F5250D0CF9D"
-			rewards: [{
-				count: 6
-				id: "409D74CA46DCE953"
-				item: "concatenationcore:pyrite"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 6
+					id: "409D74CA46DCE953"
+					item: "concatenationcore:pyrite"
+					type: "item"
+				}
+				{
+					id: "0BFEB519489A1536"
+					item: "botanypots:terracotta_botany_pot"
+					type: "item"
+				}
+				{
+					id: "4602B336DE069406"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "798538A8AF3E49FD"
 				item: "botanypots:terracotta_botany_pot"
@@ -27183,6 +27194,13 @@
 				"&o&2If only I could understand what the murmurs are saying… I wish to die in the know, and not be buried clueless…&r&r"
 			]
 			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "perdition:planeswalker_potion"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "2E25CC35003C7E0E"
 			rewards: [
 				{
@@ -28508,7 +28526,7 @@
 			icon: "alloy_smelter:forge_controller_tier3"
 			id: "0C08591DA9C6D314"
 			rewards: [{
-				count: 4
+				count: 16
 				id: "2267F61B4AFD158F"
 				item: "minecraft:blaze_rod"
 				type: "item"
@@ -29332,9 +29350,9 @@
 		{
 			dependencies: ["0964BD6C4413A9C9"]
 			description: [
-				"Platinum is an extremely rare metal. It nearly never appears by itself, only in trace amounts combined with other minerals. Nickel is often found with sufficient amounts of platinum that is often discarded during the nickel extraction process or refining. Some special methods such as the foundry can extract it more efficiently. "
+				"Platinum is an extremely rare metal. It nearly never appears by itself, only in trace amounts combined with other minerals. It may rarely appear in the Netherworld in pure form. Nickel is often found with sufficient amounts of platinum that is often discarded during the nickel extraction process or refining. Some special methods such as the foundry can extract it more efficiently. "
 				""
-				"A more crude method is using a large amount of copper and nickel in a smeltery, discaring most of the metal to produce a little amount of impure platinum."
+				"A more crude method is using a large amount of silver and nickel in a smeltery, discaring most of the metal to produce a little amount of impure platinum."
 			]
 			id: "7EC83053F1BDF835"
 			rewards: [{
@@ -29408,13 +29426,21 @@
 				"The most notable quality of these tools is the innate magnetism they possess. Any meteorite tool will naturally attract nearby items, in a range of around five blocks, to itself."
 			]
 			id: "08F1231849E950B7"
-			rewards: [{
-				count: 24
-				id: "766168052083D79B"
-				item: "ae2:sky_stone_block"
-				random_bonus: 24
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 24
+					id: "766168052083D79B"
+					item: "ae2:sky_stone_block"
+					random_bonus: 24
+					type: "item"
+				}
+				{
+					count: 2
+					id: "778AE73AAFD8A42F"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+			]
 			subtitle: "Magnetism!"
 			tasks: [{
 				id: "5D5530314ACDA0BC"

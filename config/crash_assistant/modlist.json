@@ -34,10 +34,10 @@
     "modId": "aiimprovements",
     "version": "0.5.2"
   },
-  "alloy_smelter-forge-1.20.1-1.2.0.jar": {
-    "jarName": "alloy_smelter-forge-1.20.1-1.2.0.jar",
+  "alloy_smelter-forge-1.20.1-1.2.1.jar": {
+    "jarName": "alloy_smelter-forge-1.20.1-1.2.1.jar",
     "modId": "alloy_smelter",
-    "version": "1.2.0"
+    "version": "1.2.1"
   },
   "alltheleaks-1.1.1+1.20.1-forge.jar": {
     "jarName": "alltheleaks-1.1.1+1.20.1-forge.jar",
@@ -647,10 +647,10 @@
     "modId": "enchanter_fix",
     "version": "1.6"
   },
-  "EnchantmentDescriptions-Forge-1.20.1-17.1.19.jar": {
-    "jarName": "EnchantmentDescriptions-Forge-1.20.1-17.1.19.jar",
+  "EnchantmentDescriptions-Forge-1.20.1-17.1.20.jar": {
+    "jarName": "EnchantmentDescriptions-Forge-1.20.1-17.1.20.jar",
     "modId": "enchdesc",
-    "version": "17.1.19"
+    "version": "17.1.20"
   },
   "EnderStorage-1.20.1-2.11.0.188-universal.jar": {
     "jarName": "EnderStorage-1.20.1-2.11.0.188-universal.jar",
@@ -1304,11 +1304,6 @@
     "jarName": "PuzzlesLib-v8.1.32-1.20.1-Forge.jar",
     "modId": "puzzleslib",
     "version": "8.1.32"
-  },
-  "quantumchunks-1.0.jar": {
-    "jarName": "quantumchunks-1.0.jar",
-    "modId": "mentalchunks",
-    "version": "1.0"
   },
   "radiantgear-forge-2.2.0+1.20.1.jar": {
     "jarName": "radiantgear-forge-2.2.0+1.20.1.jar",
