@@ -661,27 +661,6 @@ ServerEvents.recipes(event => {
                         E: 'reliquary:nebulous_heart'
                 }
         ).keepIngredient('tarotcards:the_hierophant')
-        event.shapeless(
-                Item.of('perdition:petrified_planks'),
-                [
-                        'immersive_weathering:perdition/petrified_scales',
-                        'immersive_weathering:perdition/petrified_scales',
-                        'immersive_weathering:perdition/petrified_scales',
-                        'immersive_weathering:perdition/petrified_scales',
-                        'immersive_weathering:perdition/petrified_scales',
-                        'immersive_weathering:perdition/petrified_scales',
-                        'immersive_weathering:perdition/petrified_scales',
-                        'immersive_weathering:perdition/petrified_scales',
-                        'immersive_weathering:perdition/petrified_scales'
-                ]
-        )
-        event.shapeless(
-                Item.of('immersive_weathering:tallow'),
-                [
-                        'hexerei:animal_fat',
-                        'hexerei:animal_fat'
-                ]
-        )
         event.shaped(
                 Item.of('hexerei:mixing_cauldron'),
                 [
