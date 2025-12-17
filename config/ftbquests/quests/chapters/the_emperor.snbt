@@ -10,11 +10,16 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: [
+				"5FB472DF1ACE7FF4"
+				"45AE33EDAF0EEB9C"
+			]
 			description: [
 				"&5As you have explored, you may have encountered abandoned colonies. If you like, you can take over an abandoned colony and repair it. This can be a good way to jumpstart your colony. However, if you want the full colony experience, then it’s recommended that you find a good place to settle your colony and start the old fashioned way. Blood, sweat and tears.&r"
 				"{@pagebreak}"
 				"&aNote: ReversTeam is not affiliated with this questline as of now.&r"
 			]
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "irons_spellbooks:villager_spell_book"
