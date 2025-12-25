@@ -23822,6 +23822,10 @@
 								Count: 1b
 								id: "thermal:tomato"
 							}
+							{
+								Count: 1b
+								id: "minecolonies:tomato"
+							}
 						]
 					}
 				}
@@ -23864,7 +23868,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				icon: "minecraft:glowstone"
+				icon: "minecolonies:blockhutcowboy"
 				id: "5F1693E2AC3554C7"
 				stat: "minecraft:animals_bred"
 				type: "stat"
@@ -28634,22 +28638,8 @@
 				item: "concatenationcore:ferrotin_bronze_ingot"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 9.0d
-		}
-		{
-			dependencies: ["53F8923B85A8A9CC"]
-			hide_until_deps_complete: true
-			hide_until_deps_visible: true
-			id: "768D38C149E01806"
-			invisible: true
-			tasks: [{
-				id: "6EFE56EE1C42E6DD"
-				title: "Center Quest"
-				type: "checkmark"
-			}]
-			x: 0.5d
-			y: 0.0d
+			x: -5.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["0F3C19C3311A0821"]
