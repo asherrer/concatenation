@@ -50,7 +50,7 @@ layout_action_executable_blocks {
 
 element {
   interactable = true
-  source = Minecraft {"placeholder":"mcversion"} %n%Running Concatenation Lite 1.4.1%n%{"placeholder":"loadedmods"} mods loaded. 443 intended.
+  source = Minecraft {"placeholder":"mcversion"} %n%Running Concatenation Lite 1.4.2%n%{"placeholder":"loadedmods"} mods loaded. 448 intended.
   source_mode = direct
   shadow = true
   scale = 0.75
@@ -1150,4 +1150,3 @@ vanilla_button {
   is_hidden = false
   automated_button_clicks = 0
 }
-
