@@ -46,7 +46,8 @@ ServerEvents.recipes(event => {
                 'elementalcraft:pipe_priority_rings',
                 'elementalcraft:cover_frame',
                 'elementalcraft:pipe_priority_rings',
-                'elementalcraft:sorter'
+                'elementalcraft:sorter',
+                'waystones:warp_plate'
         ]
 
         remove.forEach(item => {
@@ -73,11 +74,6 @@ ServerEvents.recipes(event => {
                 { output: 'reliquary:handgun' },
                 'reliquary:slime_pearl',
                 'reliquary:destruction_catalyst'
-        );
-        event.replaceInput(
-                { output: 'waystones:warp_plate' },
-                'minecraft:flint',
-                'elementalcraft:aircrystal'
         );
 
         event.shaped(
@@ -414,9 +410,9 @@ ServerEvents.recipes(event => {
                         'ABA'
                 ],
                 {
-                        C: 'elementalcraft:drenched_iron_ingot',
+                        B: 'elementalcraft:drenched_iron_ingot',
                         A: 'waystones:warp_dust',
-                        B: 'elementalcraft:aircrystal'
+                        C: 'elementalcraft:purecrystal'
                 }
         )
         event.shaped(
@@ -1150,6 +1146,12 @@ ServerEvents.recipes(event => {
                 ]
         )
         event.shapeless(
+                Item.of('spelled:spell_book'),
+                [
+                        'spelled:spell_book'
+                ]
+        )
+        event.shapeless(
                 Item.of('spelled:ancient_knowledge_tome'),
                 [
                         'elementalcraft:scroll_paper',
@@ -1304,6 +1306,34 @@ ServerEvents.recipes(event => {
                         E: 'elementalcraft:powerful_earth_shard',
                         D: 'elementalcraft:powerful_fire_shard',
                         A: 'elementalcraft:powerful_air_shard'
+                }
+        )
+        event.shaped(
+                Item.of('waystones:warp_plate', 1),
+                [
+                        'ABA',
+                        'CDC',
+                        'ABA'
+                ],
+                {
+                        C: 'elementalcraft:drenched_iron_ingot',
+                        B: 'waystones:warp_dust',
+                        D: 'elementalcraft:aircrystal',
+                        A: 'minecraft:stone_bricks'
+                }
+        )
+        event.shaped(
+                Item.of('waystones:warp_plate', 1),
+                [
+                        'ABA',
+                        'CDC',
+                        'ABA'
+                ],
+                {
+                        B: 'elementalcraft:drenched_iron_ingot',
+                        C: 'waystones:warp_dust',
+                        D: 'elementalcraft:aircrystal',
+                        A: 'minecraft:stone_bricks'
                 }
         )
 });
