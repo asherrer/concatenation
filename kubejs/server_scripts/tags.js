@@ -29,6 +29,11 @@ ServerEvents.tags('item', event => {
         'tarotcards:temperance'
     ]);
 
+    add('concatenation:swashbuckler_cards', [
+        'tarotcards:the_hierophant',
+        'tarotcards:the_chariot'
+    ]);
+
     add('concatenation:hammers', [
         'concatenationcore:hammer',
         'concatenationcore:ironclad_hammer',
@@ -262,7 +267,8 @@ ServerEvents.tags('item', event => {
         'ars_nouveau:sorcerer_boots',
         'ars_nouveau:sorcerer_leggings',
         'ars_nouveau:sorcerer_robes',
-        'ars_nouveau:sorcerer_hood'
+        'ars_nouveau:sorcerer_hood',
+        'reliquary:mercy_cross'
     ]);
 
     const sublime = [
@@ -633,5 +639,13 @@ ServerEvents.tags('item', event => {
 
     add('concatenation:crusher_input/tin', [
         'thermal:tin_ingot'
+    ])
+
+    add('forge:glass_blocks', [
+        'minecraft:glass'
+    ])
+
+    add('forge:dusts/quartz', [
+        'ars_technica:quartz_dust'
     ])
 });

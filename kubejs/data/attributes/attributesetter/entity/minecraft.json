@@ -19,7 +19,7 @@
   "ender_dragon": [
     {
       "attribute": "minecraft:generic.max_health",
-      "value": 750,
+      "value": 250,
       "operation": "ADDITION"
     },
     {

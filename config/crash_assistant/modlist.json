@@ -319,10 +319,10 @@
     "modId": "commoncapabilities",
     "version": "2.9.9"
   },
-  "concatenationcompat-1.0.1-forge-1.20.1.jar": {
-    "jarName": "concatenationcompat-1.0.1-forge-1.20.1.jar",
+  "concatenationcompat-1.0.2-forge-1.20.1.jar": {
+    "jarName": "concatenationcompat-1.0.2-forge-1.20.1.jar",
     "modId": "concatenationcompat",
-    "version": "1.0.1"
+    "version": "1.0.2"
   },
   "concatenationcore-1.3.2-forge-1.20.1.jar": {
     "jarName": "concatenationcore-1.3.2-forge-1.20.1.jar",
@@ -339,8 +339,8 @@
     "modId": "connectivity",
     "version": "1.20.1-7.2"
   },
-  "Connector-1.0.0-beta.46+1.20.1.jar": {
-    "jarName": "Connector-1.0.0-beta.46+1.20.1.jar"
+  "Connector-1.0.0-beta.47+1.20.1.jar": {
+    "jarName": "Connector-1.0.0-beta.47+1.20.1.jar"
   },
   "ConnectorExtras-1.11.2+1.20.1.jar": {
     "jarName": "ConnectorExtras-1.11.2+1.20.1.jar",
@@ -367,10 +367,10 @@
     "modId": "controlling",
     "version": "12.0.2"
   },
-  "conveniencerecipes-1.0.4-forge-1.20.1.jar": {
-    "jarName": "conveniencerecipes-1.0.4-forge-1.20.1.jar",
+  "conveniencerecipes-1.0.4-1-forge-1.20.1.jar": {
+    "jarName": "conveniencerecipes-1.0.4-1-forge-1.20.1.jar",
     "modId": "conveniencerecipes",
-    "version": "1.0.4"
+    "version": "1.0.41"
   },
   "copycats-3.0.2+mc.1.20.1-forge.jar": {
     "jarName": "copycats-3.0.2+mc.1.20.1-forge.jar",
@@ -582,10 +582,10 @@
     "modId": "durabilitytooltip",
     "version": "1.1.5"
   },
-  "dynamic-fps-3.9.5+minecraft-1.20.0-forge.jar": {
-    "jarName": "dynamic-fps-3.9.5+minecraft-1.20.0-forge.jar",
+  "dynamic-fps-3.11.3+minecraft-1.20.0-forge.jar": {
+    "jarName": "dynamic-fps-3.11.3+minecraft-1.20.0-forge.jar",
     "modId": "dynamic_fps",
-    "version": "3.9.5"
+    "version": "3.11.3"
   },
   "dynamicvillage-v0.4-1.20.1.jar": {
     "jarName": "dynamicvillage-v0.4-1.20.1.jar",
@@ -617,10 +617,10 @@
     "modId": "emi_enchanting",
     "version": "0.1.2+1.20.1+forge"
   },
-  "emi_loot-0.7.8+1.20.1-fix1+forge.jar": {
-    "jarName": "emi_loot-0.7.8+1.20.1-fix1+forge.jar",
+  "emi_loot-0.7.9+1.20.1+forge.jar": {
+    "jarName": "emi_loot-0.7.9+1.20.1+forge.jar",
     "modId": "emi_loot",
-    "version": "0.7.8+1.20.1-fix1+forge"
+    "version": "0.7.9+1.20.1+forge"
   },
   "emi_ores-1.2+1.20.1+forge.jar": {
     "jarName": "emi_ores-1.2+1.20.1+forge.jar",
@@ -667,10 +667,10 @@
     "modId": "explorerscompass",
     "version": "1.20.1-1.3.3-forge"
   },
-  "extendedalloysmelters-1.0.0-forge-1.20.1.jar": {
-    "jarName": "extendedalloysmelters-1.0.0-forge-1.20.1.jar",
+  "extendedalloysmelters-1.0.1-forge-1.20.1.jar": {
+    "jarName": "extendedalloysmelters-1.0.1-forge-1.20.1.jar",
     "modId": "extendedalloysmelters",
-    "version": "1.0.0"
+    "version": "1.0.1"
   },
   "ExtremeSoundMuffler-3.49.1-forge-1.20.1.jar": {
     "jarName": "ExtremeSoundMuffler-3.49.1-forge-1.20.1.jar",
@@ -912,20 +912,20 @@
     "modId": "ironchest",
     "version": "1.20.1-14.4.4"
   },
-  "irons_spellbooks-1.20.1-3.4.0.11.jar": {
-    "jarName": "irons_spellbooks-1.20.1-3.4.0.11.jar",
+  "irons_spellbooks-1.20.1-3.15.0.jar": {
+    "jarName": "irons_spellbooks-1.20.1-3.15.0.jar",
     "modId": "irons_spellbooks",
-    "version": "1.20.1-3.4.0.11"
+    "version": "1.20.1-3.15.0"
   },
   "item-filters-forge-2001.1.0-build.59.jar": {
     "jarName": "item-filters-forge-2001.1.0-build.59.jar",
     "modId": "itemfilters",
     "version": "2001.1.0-build.59"
   },
-  "Ixeris-3.8.4+1.20.1-forge.jar": {
-    "jarName": "Ixeris-3.8.4+1.20.1-forge.jar",
+  "Ixeris-3.8.5+1.20.1-forge.jar": {
+    "jarName": "Ixeris-3.8.5+1.20.1-forge.jar",
     "modId": "ixeris",
-    "version": "3.8.4+1.20.1-forge"
+    "version": "3.8.5+1.20.1-forge"
   },
   "Jade-1.20.1-Forge-11.13.2.jar": {
     "jarName": "Jade-1.20.1-Forge-11.13.2.jar",
@@ -1260,10 +1260,10 @@
     "modId": "patchouli",
     "version": "1.20.1-84.1-FORGE"
   },
-  "perdition-1.2.5-forge-1.20.1.jar": {
-    "jarName": "perdition-1.2.5-forge-1.20.1.jar",
+  "perdition-1.2.6-forge-1.20.1.jar": {
+    "jarName": "perdition-1.2.6-forge-1.20.1.jar",
     "modId": "perdition",
-    "version": "1.2.5"
+    "version": "1.2.6"
   },
   "Placebo-1.20.1-8.6.3.jar": {
     "jarName": "Placebo-1.20.1-8.6.3.jar",
@@ -1668,11 +1668,6 @@
     "modId": "theurgy",
     "version": "1.25.0"
   },
-  "thoriumreactors-1.20.1-0.1.7.1b-all.jar": {
-    "jarName": "thoriumreactors-1.20.1-0.1.7.1b-all.jar",
-    "modId": "thoriumreactors",
-    "version": "0.1.6b"
-  },
   "Threads-1.0.2-1.20.1.jar": {
     "jarName": "Threads-1.0.2-1.20.1.jar",
     "modId": "threads",
@@ -1708,10 +1703,10 @@
     "modId": "tomeofblood",
     "version": "0.4.4"
   },
-  "toomanyrecipeviewers-0.7.0+mc.20.1.jar": {
-    "jarName": "toomanyrecipeviewers-0.7.0+mc.20.1.jar",
+  "toomanyrecipeviewers-0.7.1+mc.20.1.jar": {
+    "jarName": "toomanyrecipeviewers-0.7.1+mc.20.1.jar",
     "modId": "toomanyrecipeviewers",
-    "version": "0.7.0+mc.20.1"
+    "version": "0.7.1+mc.20.1"
   },
   "torch-hit-forge-1.20.1-7.0.0.jar": {
     "jarName": "torch-hit-forge-1.20.1-7.0.0.jar",
