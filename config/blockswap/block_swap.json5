@@ -1,0 +1,21 @@
+{
+	// Generates all block states for all blocks in the registry.
+	"generate_all_known_states": false,
+	// Whether blocks are replaced in existing chunks.
+	"retro_gen": true,
+	"state_swapper": [],
+	"swapper": {
+	   		"thoriumreactors:fluorite_ore": "minecraft:stone",
+	   		"thoriumreactors:deepslate_fluorite_ore": "minecraft:deepslate",
+			"thoriumreactors:uranium_ore": "minecraft:stone",
+	   		"thoriumreactors:deepslate_uranium_ore": "minecraft:deepslate",
+			"thoriumreactors:nickel_ore": "minecraft:stone",
+	   		"thoriumreactors:deepslate_nickel_ore": "minecraft:deepslate",
+			"thoriumreactors:titanic_iron_ore": "minecraft:stone",
+	   		"thoriumreactors:deepslate_titanic_iron_ore": "minecraft:deepslate",
+			"thoriumreactors:graphite_ore": "minecraft:stone",
+	   		"thoriumreactors:deepslate_graphite_ore": "minecraft:deepslate",
+			"thoriumreactors:bauxite_ore": "minecraft:stone",
+	   		"thoriumreactors:deepslate_bauxite_ore": "minecraft:deepslate"
+	   	}
+}

@@ -74,7 +74,9 @@ ServerEvents.recipes(event => {
                 'thoriumreactors:blasted_iron_block',
                 'thoriumreactors:blasted_iron_ingot',
                 'thoriumreactors:steel_chest_block',
-                'thoriumreactors:thorium_chest_block'
+                'thoriumreactors:thorium_chest_block',
+                'thoriumreactors:thorium',
+                'thoriumreactors:fluorite_ingot'
         ]
 
         remove.forEach(item => {
@@ -192,25 +194,235 @@ ServerEvents.recipes(event => {
                 '#concatenation:firing_item'
         );
         event.replaceInput(
-                { output: 'thermal:machine_pulverizer' },
-                'minecraft:flint',
-                'concatenationcore:macerator_wheel'
+                { input: 'minecraft:experience_bottle' },
+                'minecraft:experience_bottle',
+                '#forge:consumables/experience_3'
         );
 
-        event.remove({ output: 'thermal:lumium_dust', type: 'minecraft:crafting_shapeless' })
-        event.remove({ output: 'thermal:enderium_dust', type: 'minecraft:crafting_shapeless' })
+        event.replaceInput(
+                { input: 'thoriumreactors:fluorite_ingot' },
+                'thoriumreactors:fluorite_ingot',
+                'mekanism:fluorite_gem'
+        );
+
+        event.replaceInput(
+                { input: 'ae2:calculation_processor' },
+                'ae2:calculation_processor',
+                'concatenationcore:primed_calculation_processor'
+        )
+        event.replaceInput(
+                { mod: 'advanced_ae' },
+                'minecraft:redstone',
+                'concatenationcore:stickyredstone'
+        )
+        event.replaceInput(
+                { mod: 'advanced_ae' },
+                'minecraft:copper_ingot',
+                'concatenationcore:celestial_calralite'
+        )
+        event.replaceInput(
+                { mod: 'advanced_ae', input: 'minecraft:netherite_ingot' },
+                'minecraft:netherite_ingot',
+                'concatenationcore:erhantahir_alloy'
+        )
+
+        const refined = [
+                'mekanism:ingot_osmium',
+                'mekanism:ingot_uranium',
+                'tconstruct:cobalt_ingot',
+                'createmetallurgy:tungsten_ingot',
+                //'thoriumreactors:chromium_ingot',
+                //'thoriumreactors:manganese_ingot',
+                //'thoriumreactors:niob_ingot',
+                'mcore:titanium_ingot',
+                'tfmg:lithium_ingot',
+                'tfmg:aluminum_ingot',
+                //'thoriumreactors:molybdenum_ingot'
+        ]
+
+        const refined_oreberry = [
+                'oreberriesreplanted:uranium_oreberry',
+                'oreberriesreplanted:aluminum_oreberry',
+                'oreberriesreplanted:osmium_oreberry'
+        ]
+
+        const alloyed = [
+                'thermal:lumium_dust',
+                'thermal:enderium_dust',
+                'thermal:signalum_ingot',
+                'thermal:lumium_ingot',
+                'thermal:enderium_ingot',
+                //'thoriumreactors:graphite_ingot'
+        ]
+
+        // const thoriumIngots = [
+        //         {
+        //                 ore: 'thoriumreactors:chromite_ore',
+        //                 deepslate: 'thoriumreactors:deepslate_chromite_ore',
+        //                 ingot: 'thoriumreactors:chromium_ingot'
+        //         },
+        //         {
+        //                 ore: 'thoriumreactors:molybdenum_ore',
+        //                 deepslate: 'thoriumreactors:deepslate_molybdenum_ore',
+        //                 ingot: 'thoriumreactors:molybdenum_ingot'
+        //         },
+        //         {
+        //                 ore: 'thoriumreactors:pyrochlor_ore',
+        //                 deepslate: 'thoriumreactors:deepslate_pyrochlor_ore',
+        //                 ingot: 'thoriumreactors:niob_ingot'
+        //         },
+        //         {
+        //                 ore: 'thoriumreactors:manganese_ore',
+        //                 deepslate: 'thoriumreactors:deepslate_manganese_ore',
+        //                 ingot: 'thoriumreactors:manganese_ingot'
+        //         }
+        // ]
+
+        function getForms(id) {
+                const [mod, name] = id.split(':')
+
+                if (mod === 'mekanism' && name.startsWith('ingot_')) {
+                        const metal = name.replace('ingot_', '')
+                        return {
+                                ingot: id,
+                                nugget: `${mod}:nugget_${metal}`,
+                                block: `${mod}:block_${metal}`,
+                                raw: `${mod}:raw_${metal}`,
+                                rawBlock: `${mod}:raw_${metal}_block`
+                        }
+                }
+
+                if (name.endsWith('_ingot')) {
+                        const base = name.replace('_ingot', '')
+                        return {
+                                ingot: id,
+                                nugget: `${mod}:${base}_nugget`,
+                                block: `${mod}:${base}_block`,
+                                raw: `${mod}:raw_${base}`,
+                                rawBlock: `${mod}:raw_${base}_block`
+                        }
+                }
+
+                return null
+        }
+
+        function processIngot(id, removeFurnaceRecipes) {
+                event.remove({ output: id, type: 'minecraft:crafting_shaped' })
+                event.remove({ output: id, type: 'minecraft:crafting_shapeless' })
+
+                if (removeFurnaceRecipes) {
+                        event.remove({ output: id, type: 'minecraft:smelting' })
+                        event.remove({ output: id, type: 'minecraft:blasting' })
+                }
+
+                if (id.includes('dust')) return
+
+                const forms = getForms(id)
+                if (!forms) return
+
+                event.shaped(
+                        Item.of(forms.ingot),
+                        [
+                                'NNN',
+                                'NNN',
+                                'NNN'
+                        ],
+                        { N: forms.nugget }
+                )
+
+                event.shapeless(
+                        Item.of(forms.ingot, 9),
+                        [forms.block]
+                )
+        }
+
+        refined.forEach(id => processIngot(id, true))
+        alloyed.forEach(id => processIngot(id, false))
+
+        refined_oreberry.forEach(oreberry => {
+                event.remove({
+                        input: oreberry,
+                        type: 'oreberriesreplanted:vat'
+                })
+        })
+
+        // refined.forEach(id => {
+        //         const forms = getForms(id)
+        //         if (!forms) return
+
+        //         event.custom({
+        //                 type: 'thoriumreactors:blasting',
+        //                 ticks: 200,
+        //                 temperature: 850,
+        //                 input: {
+        //                         'slot-0': { item: forms.raw }
+        //                 },
+        //                 output: {
+        //                         'slot-0': { item: forms.ingot },
+        //                         'slot-1': { item: forms.nugget },
+        //                         chance: 30
+        //                 }
+        //         })
+
+        //         event.custom({
+        //                 type: 'thoriumreactors:blasting',
+        //                 ticks: 200,
+        //                 temperature: 850,
+        //                 input: {
+        //                         'slot-0': { item: forms.rawBlock }
+        //                 },
+        //                 output: {
+        //                         'slot-0': { item: forms.ingot },
+        //                         'slot-1': { item: forms.nugget },
+        //                         chance: 30
+        //                 }
+        //         })
+        // })
+
+        refined_oreberry.forEach(oreberry => {
+                const metal = oreberry.replace('oreberriesreplanted:', '').replace('_oreberry', '')
+                const ingot = refined.find(i => i.endsWith(`${metal}_ingot`) || i.endsWith(`ingot_${metal}`))
+                if (!ingot) return
+                const forms = getForms(ingot)
+                if (!forms) return
+
+                event.recipes.thermal.smelter({
+                        result: [
+                                { item: forms.nugget },
+                                { item: forms.nugget, chance: 0.6 }
+                        ],
+                        ingredient: oreberry
+                })
+        })
+
+        // thoriumIngots.forEach(entry => {
+        //         const forms = getForms(entry.ingot)
+        //         if (!forms) return
+
+        //                 ;[entry.ore, entry.deepslate].forEach(ore => {
+        //                         event.custom({
+        //                                 type: 'thoriumreactors:blasting',
+        //                                 ticks: 200,
+        //                                 temperature: 850,
+        //                                 input: {
+        //                                         'slot-0': { item: ore }
+        //                                 },
+        //                                 output: {
+        //                                         'slot-0': { item: forms.ingot },
+        //                                         'slot-1': { item: forms.nugget },
+        //                                         chance: 30
+        //                                 }
+        //                         })
+        //                 })
+        // })
+
+        event.recipes.thermal.smelter(Item.of('mekanism:nugget_osmium', 3), ['mekanism:dust_osmium']).energy(50000)
+
         event.remove({ output: 'thermal:lumium_gear', type: 'minecraft:crafting_shaped' })
         event.remove({ output: 'thermal:enderium_gear', type: 'minecraft:crafting_shaped' })
-        event.remove({ output: 'thermal:lumium_ingot', type: 'minecraft:crafting_shapeless' })
-        event.remove({ output: 'thermal:signalum_ingot', type: 'minecraft:crafting_shapeless' })
-        event.remove({ output: 'thermal:enderium_ingot', type: 'minecraft:crafting_shapeless' })
-        event.remove({ output: 'mekanism:ingot_osmium', type: 'minecraft:smelting' })
-        event.remove({ output: 'mekanism:ingot_osmium', type: 'minecraft:blasting' })
-        event.remove({ output: 'tconstruct:rose_gold_ingot', type: 'thermal:smelter' })
         event.remove({ output: 'integrateddynamics:variable', type: 'minecraft:crafting_shaped' })
         event.remove({ output: 'mekanism:basic_fluid_tank', type: 'minecraft:crafting_shaped' })
         event.remove({ output: 'createmetallurgy:iron_dust', type: 'mekanism:crusher' })
-        //event.remove({ output: 'mekanism:basic_control_circuit'})
 
         event.shaped(
                 Item.of('tarotcards:the_high_priestess'),
@@ -1535,6 +1747,17 @@ ServerEvents.recipes(event => {
         //                 B: '#forge:chests/wooden'
         //         }
         // )
+        // event.shaped(
+        //         Item.of('thoriumreactors:thorium'),
+        //         [
+        //                 'AAA',
+        //                 'AAA',
+        //                 'AAA'
+        //         ],
+        //         {
+        //                 A: 'thoriumreactors:thorium_block'
+        //         }
+        // )
 
         event.recipes.thermal.press('concatenationcore:signalum_coil', ['thermal:signalum_dust', 'concatenationcore:copper_lead_coil'])
         event.recipes.thermal.press('concatenationcore:meteorite_clump', ['2x concatenationcore:meteorite', 'thermal:press_packing_2x2_die'])
@@ -1549,11 +1772,16 @@ ServerEvents.recipes(event => {
         event.recipes.thermal.pulverizer([Item.of('thermal:apatite_dust').withChance(0.2), Item.of('thermal:gold_dust').withChance(0.2), Item.of('thermal:sapphire_dust').withChance(0.4), Item.of('minecraft:redstone').withChance(0.5)], 'thermal:apatite_dust')
         event.recipes.thermal.chiller(Item.of('integrateddynamics:menril_sapling'), [Fluid.of('minecraft:water', 10000), 'thermal:ice_charge'])
         event.recipes.thermal.chiller(Item.of('integrateddynamics:menril_sapling'), [Fluid.of('minecraft:water', 10000), 'concatenationcore:ice_shard'])
-        event.recipes.thermal.chiller(Item.of('thermal:lapis_gear'), [Fluid.of('integrateddynamics:menril_resin', 1000), 'thermal:lapis_dust'])
-        event.recipes.thermal.chiller(Item.of('thermal:emerald_gear'), [Fluid.of('integrateddynamics:menril_resin', 1000), 'thermal:emerald_dust'])
-        event.recipes.thermal.chiller(Item.of('thermal:quartz_gear'), [Fluid.of('integrateddynamics:menril_resin', 1000), 'mekanism:dust_quartz'])
-        event.recipes.thermal.chiller(Item.of('thermal:diamond_gear'), [Fluid.of('integrateddynamics:menril_resin', 1000), 'thermal:diamond_dust'])
-        event.recipes.thermal.chiller(Item.of('thermal:enderium_gear', 2), [Fluid.of('integrateddynamics:menril_resin', 1000), 'thermal:enderium_block'])
+        event.recipes.thermal.chiller(Item.of('thermal:lapis_gear'), [Fluid.of('integrateddynamics:menril_resin', 900), 'thermal:lapis_dust'])
+        event.recipes.thermal.chiller(Item.of('thermal:emerald_gear'), [Fluid.of('integrateddynamics:menril_resin', 900), 'thermal:emerald_dust'])
+        event.recipes.thermal.chiller(Item.of('thermal:quartz_gear'), [Fluid.of('integrateddynamics:menril_resin', 900), 'mekanism:dust_quartz'])
+        event.recipes.thermal.chiller(Item.of('thermal:diamond_gear'), [Fluid.of('integrateddynamics:menril_resin', 900), 'thermal:diamond_dust'])
+        event.recipes.thermal.chiller(Item.of('thermal:enderium_gear', 2), [Fluid.of('integrateddynamics:menril_resin', 900), 'thermal:enderium_block'])
+        event.recipes.thermal.chiller(Item.of('thermal:lapis_gear'), [Fluid.of('thermal:resin', 900), 'thermal:lapis_dust'])
+        event.recipes.thermal.chiller(Item.of('thermal:emerald_gear'), [Fluid.of('thermal:resin', 900), 'thermal:emerald_dust'])
+        event.recipes.thermal.chiller(Item.of('thermal:quartz_gear'), [Fluid.of('thermal:resin', 900), 'mekanism:dust_quartz'])
+        event.recipes.thermal.chiller(Item.of('thermal:diamond_gear'), [Fluid.of('thermal:resin', 900), 'thermal:diamond_dust'])
+        event.recipes.thermal.chiller(Item.of('thermal:enderium_gear', 2), [Fluid.of('thermal:resin', 900), 'thermal:enderium_block'])
         event.recipes.thermal.smelter('concatenationcore:galvanized_iron_nugget', ['create:zinc_nugget', 'concatenationcore:double_nugget']).energy(8000)
         event.recipes.thermal.smelter('concatenationcore:daladite', ['concatenationcore:celestial_calralite', 'rftoolsbase:infused_diamond', 'mekanism:ingot_refined_obsidian']).energy(55000)
         event.recipes.thermal.smelter('concatenationcore:erhantahir_alloy', ['rftoolsbase:infused_diamond', 'minecraft:nether_star', 'concatenationcore:daladite']).energy(1000000)
@@ -1561,9 +1789,11 @@ ServerEvents.recipes(event => {
         event.recipes.thermal.smelter(Item.of('mekanism:nugget_osmium', 3), ['mekanism:dust_osmium']).energy(50000)
         event.recipes.thermal.smelter('concatenationcore:celestial_calralite', ['mcore:raw_titanium', 'tconstruct:raw_cobalt', 'createmetallurgy:raw_wolframite']).energy(50000)
         event.recipes.thermal.smelter('concatenationcore:celestial_calralite', ['tconstruct:cobalt_ingot', 'mcore:titanium_ingot', 'createmetallurgy:tungsten_ingot']).energy(50000)
-        event.recipes.thermal.smelter('common_ore_library:platinum_dust', ['thoriumreactors:chromium_ingot', 'thermal:nickel_ingot', 'minecraft:copper_ingot']).energy(10000)
+        //event.recipes.thermal.smelter('common_ore_library:platinum_dust', ['thoriumreactors:chromium_ingot', 'thermal:nickel_ingot', 'minecraft:copper_ingot']).energy(10000)
+        event.recipes.thermal.smelter('mcore:titanium_ingot', ['mcore:raw_titanium']).energy(1000)
         event.recipes.thermal.crucible(Fluid.of('integrateddynamics:menril_resin', 900), 'integrateddynamics:crystalized_menril_block').energy(9000)
         event.recipes.thermal.crucible(Fluid.of('integrateddynamics:menril_resin', 100), 'integrateddynamics:crystalized_menril_chunk').energy(3000)
+        event.recipes.thermal.crucible(Fluid.of('thermal:resin', 1000), 'perdition:resin').energy(3000)
         event.recipes.thermal.centrifuge([Item.of('thoriumreactors:sodium').withChance(0.5)], 'mekanism:salt')
         event.recipes.mekanism.enriching('mekanism:enriched_iron', 'createmetallurgy:iron_dust')
         event.recipes.mekanism.enriching('mekanism:enriched_redstone', 'concatenationcore:stickyredstone')

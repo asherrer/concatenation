@@ -280,8 +280,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 4.1d
-			y: 5.95d
+			x: 4.125d
+			y: 5.625d
 		}
 		{
 			dependencies: ["2970C1ADE44898FF"]
@@ -438,6 +438,7 @@
 				type: "item"
 			}]
 			size: 1.15d
+			subtitle: "Mine No More"
 			tasks: [{
 				id: "37B2666AB5EAB430"
 				item: {
@@ -451,8 +452,8 @@
 				}
 				type: "item"
 			}]
-			x: -10.25d
-			y: 0.0d
+			x: -11.0d
+			y: -0.25d
 		}
 		{
 			dependencies: ["2157576FC7005917"]
@@ -511,8 +512,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.6d
-			y: 6.95d
+			x: 2.625d
+			y: 6.625d
 		}
 		{
 			dependencies: [
@@ -893,6 +894,11 @@
 		}
 		{
 			dependencies: ["1D9002F6E0272ABC"]
+			description: [
+				"Having traversed lake Maran by ship, I have come across these smaller vessels dotting the coastline. They are most often used as smaller fishing vessels or smaller methods of transportations. "
+				""
+				"Although their small and simple shape doesn't inflict a restriction on their manufacturing, Hierophants do tend to make these ships far easier."
+			]
 			hide_dependency_lines: true
 			id: "73C5D7FC9AB3E5F8"
 			rewards: [{
@@ -919,6 +925,7 @@
 		}
 		{
 			dependencies: ["73C5D7FC9AB3E5F8"]
+			description: ["Piracy is still rampant even with enough officials patrolling the seas. I've heard this 'Raider' model is frequently used by pirates. It is essentially an upgraded version of the smaller swashbuckler."]
 			id: "4493DC75D8CE4857"
 			rewards: [{
 				id: "5714E29DD2151B79"
@@ -947,6 +954,11 @@
 				"2990E1C06FD1E413"
 				"3502EBD994DE89A2"
 				"73C5D7FC9AB3E5F8"
+			]
+			description: [
+				"The Cutter is frequently used by small crews sailing the Maran lake. Although it's called a lake, it is sometimes more of an inland sea, requiring more than mere rafts to navigate. These cutters, although appearing kind of small, can store a VERY surprising amount of items in the hull. More than a couple of large backpacks for sure."
+				""
+				"I've witnessed many of these smaller merchant ships transporting goods during my journey. Fishing up a small book that I noticed fell from a cutter, I gained a soulbound enchanted book. I guess those merchants must have wanted to keep their belongings safe. "
 			]
 			id: "396320452B50120B"
 			rewards: [{
@@ -982,26 +994,63 @@
 		}
 		{
 			dependencies: ["396320452B50120B"]
+			description: [
+				"Both coastal enforcement, smaller sections of the navy, and pirates use different versions of militarised cutters. These smaller ships are fast, versatile, armed and can contain a bunch of either confiscated cargo, or illicit contraband."
+				""
+				"Sadly, I was not able to find a good encounter of pirates and the navy engaging each other during my peaceful trip across Lake Maran. A lot of the enforcers onboard of this ship are indeed heavily armed, though. They are all wielding foreign firearms."
+			]
 			id: "58FF082917ADFA66"
-			rewards: [{
-				id: "0CC9E7AE9F50A591"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
-			size: 0.9d
-			tasks: [{
-				id: "542DF1C1F03FC523"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
+			rewards: [
+				{
+					id: "77A058FE17B77B4B"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 1
+							GunFireMode: "SEMI"
+							GunId: "tacz:springfield1873"
+							HasBulletInBarrel: 1b
 						}
 					}
-					id: "hpm:cuttermilitariseditem"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 48
+					id: "0133A2139FE2D3B4"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:45_70"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 0.9d
+			tasks: [
+				{
+					id: "542DF1C1F03FC523"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "hpm:cuttermilitariseditem"
+					}
+					type: "item"
+				}
+				{
+					id: "169E7E82D519C619"
+					item: "hpm:pirate_cutter_item"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Militarised Cutter"
 			x: -21.1d
 			y: 8.549999999999997d
 		}
@@ -1010,7 +1059,15 @@
 				"7254694EBCAAEF0D"
 				"463EFF7D25CB7127"
 			]
-			description: ["Use the screwspinner to pick up the Corvette Steamship."]
+			description: [
+				"The corvette steamship is an interesting prototype manufactured by the Transmaran Transportation Company, a large and bulky seafaring vessel capable of transporting a hundred people at once and several dozens of tons of cargo, powered by sails and in some prototypes, steam generators."
+				""
+				"I've tried replicating a smaller version of the corvette steamship, as I usually do in my workshop, but well.. My model seems to steer horribly and I'm not sure if I can see anything at all. I left the blueprints for this prototype if anyone wants to try to usurp them."
+				""
+				"{@pagebreak}"
+				"The screwspinner is a strange device used to transport the corvette steamship. Simply use it near a corvette steamship and by some miracle, you will be able to transport the whole thing. I don't think this was designed by a technician or engineer, but rather a mage that did not know what a screwdriver is."
+			]
+			icon: "hpm:corvette_steamship_item"
 			id: "3A01D45D51A293BD"
 			rewards: [
 				{
@@ -1031,19 +1088,33 @@
 				}
 			]
 			size: 0.9d
-			tasks: [{
-				id: "7C1837301ED0CADD"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
+			tasks: [
+				{
+					id: "7C1837301ED0CADD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "hpm:corvette_steamship_item"
+					}
+					type: "item"
+				}
+				{
+					id: "19E23855212901B8"
+					item: {
+						Count: 1
+						id: "concatenationcore:screwspinner"
+						tag: {
+							Damage: 0
 						}
 					}
-					id: "hpm:corvette_steamship_item"
+					optional_task: true
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: -22.0d
 			y: 8.999999999999996d
 		}
@@ -1082,12 +1153,31 @@
 		}
 		{
 			dependencies: ["58FF082917ADFA66"]
+			description: [
+				"I've heard some of the passengers and crew members discuss how large sails will soon be obselete with steam or electric motors in the newer generations of ships. "
+				""
+				"I would be quite excited to see what the Transmaran Company can come up with. This trip on a passenger corvette of theirs was quite pleasant and worth the cost."
+			]
 			id: "463EFF7D25CB7127"
-			rewards: [{
-				id: "4D528EE2E6C1C923"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "4D528EE2E6C1C923"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 48
+					id: "1395BC634BAC6658"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:45_70"
+						}
+					}
+					type: "item"
+				}
+			]
 			size: 0.9d
 			tasks: [{
 				id: "7A6EF0930E1BF5AF"
@@ -1107,12 +1197,31 @@
 		}
 		{
 			dependencies: ["58FF082917ADFA66"]
+			description: [
+				"Arriving in port once the journey is over makes for a fairly impressive view of the city. The port is busy loading and unloading cargo, embarking passengers and building new ships. "
+				""
+				"Newly fabricated hulls are being loaded into drydocks for the rest of the ship to be assembled. The corvette steamships, like the one I was travelling on, were especially massive."
+			]
 			id: "7254694EBCAAEF0D"
-			rewards: [{
-				id: "616796DE8B41664C"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "616796DE8B41664C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 48
+					id: "59FDB86F916243B3"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:45_70"
+						}
+					}
+					type: "item"
+				}
+			]
 			size: 0.9d
 			tasks: [
 				{
@@ -1447,8 +1556,8 @@
 				}
 				type: "item"
 			}]
-			x: -12.75d
-			y: 0.9000000000000004d
+			x: -13.5d
+			y: 0.6500000000000004d
 		}
 		{
 			dependencies: [
@@ -2217,8 +2326,8 @@
 				title: "Experience Pump or Pump"
 				type: "item"
 			}]
-			x: -10.65d
-			y: 1.3000000000000007d
+			x: -11.4d
+			y: 1.0500000000000007d
 		}
 		{
 			dependencies: ["5F92E8FC88D86566"]
@@ -2242,8 +2351,8 @@
 				}
 				type: "item"
 			}]
-			x: -14.25d
-			y: 0.9000000000000004d
+			x: -15.0d
+			y: 0.6500000000000004d
 		}
 		{
 			dependencies: ["1A0E2D5ACAF189AC"]
@@ -2269,8 +2378,8 @@
 				}
 				type: "item"
 			}]
-			x: -9.75d
-			y: 1.3000000000000007d
+			x: -10.5d
+			y: 1.0500000000000007d
 		}
 		{
 			dependencies: ["2104737FF0D2E4E7"]
@@ -2506,8 +2615,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.1d
-			y: 7.45d
+			x: 4.125d
+			y: 7.125d
 		}
 		{
 			dependencies: ["42EF54B7ABFC5789"]
@@ -2562,8 +2671,8 @@
 				type: "item"
 			}]
 			title: "Elemental Extraction"
-			x: 5.1d
-			y: 8.45d
+			x: 5.125d
+			y: 8.125d
 		}
 		{
 			dependencies: ["1F58B572150DAE32"]
@@ -2588,8 +2697,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.1d
-			y: 9.45d
+			x: 6.125d
+			y: 9.125d
 		}
 		{
 			dependencies: ["1F58B572150DAE32"]
@@ -2615,8 +2724,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.1d
-			y: 7.95d
+			x: 6.125d
+			y: 7.625d
 		}
 		{
 			dependencies: ["12F6BD166085B3B5"]
@@ -2648,8 +2757,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.1d
-			y: 10.45d
+			x: 7.125d
+			y: 10.125d
 		}
 		{
 			dependencies: ["57264B7E24823F02"]
@@ -2679,8 +2788,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.225d
-			y: 12.075d
+			x: 9.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["57264B7E24823F02"]
@@ -2709,8 +2818,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.6d
-			y: 10.95d
+			x: 9.0d
+			y: 10.5d
 		}
 		{
 			dependencies: [
@@ -2736,8 +2845,8 @@
 				}
 				type: "item"
 			}]
-			x: 11.225d
-			y: 11.2d
+			x: 11.299999999999999d
+			y: 11.0d
 		}
 		{
 			dependencies: ["3B824E760CC7B14B"]
@@ -2790,8 +2899,8 @@
 				type: "item"
 			}]
 			title: "Growth or Harvest Shrine"
-			x: 12.725d
-			y: 10.2d
+			x: 13.2d
+			y: 10.1d
 		}
 		{
 			dependencies: ["3B824E760CC7B14B"]
@@ -2819,8 +2928,8 @@
 				}
 				type: "item"
 			}]
-			x: 12.725d
-			y: 11.2d
+			x: 13.2d
+			y: 11.1d
 		}
 		{
 			dependencies: ["3B824E760CC7B14B"]
@@ -2866,8 +2975,8 @@
 				}
 				type: "item"
 			}]
-			x: 12.725d
-			y: 12.2d
+			x: 13.2d
+			y: 12.1d
 		}
 		{
 			dependencies: ["3B824E760CC7B14B"]
@@ -2895,8 +3004,8 @@
 				}
 				type: "item"
 			}]
-			x: 11.725d
-			y: 12.7d
+			x: 12.2d
+			y: 12.6d
 		}
 		{
 			dependencies: ["3B824E760CC7B14B"]
@@ -2920,8 +3029,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.725d
-			y: 12.7d
+			x: 11.2d
+			y: 12.6d
 		}
 		{
 			dependencies: ["12F6BD166085B3B5"]
@@ -2958,8 +3067,8 @@
 				title: "Tool Infusion"
 				type: "checkmark"
 			}]
-			x: 5.6d
-			y: 10.45d
+			x: 5.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["4E9AB3BBC0D575C4"]
@@ -3008,7 +3117,7 @@
 			]
 			title: "Swift Alloy \\& Springaline Shard"
 			x: 6.6d
-			y: 12.45d
+			y: 13.0d
 		}
 		{
 			dependencies: ["6635F7B2CD984F4F"]
@@ -3092,7 +3201,7 @@
 			]
 			title: "Improved Extraction and Containment"
 			x: 3.1d
-			y: 12.95d
+			y: 13.5d
 		}
 		{
 			dependencies: ["6635F7B2CD984F4F"]
@@ -3117,7 +3226,7 @@
 				type: "item"
 			}]
 			x: 2.1d
-			y: 13.95d
+			y: 14.5d
 		}
 		{
 			dependencies: ["4FA1B8DD76B592DD"]
@@ -3147,7 +3256,7 @@
 				type: "item"
 			}]
 			x: 5.1d
-			y: 13.45d
+			y: 14.0d
 		}
 		{
 			dependencies: ["5DF3CE9894B8409C"]
@@ -3228,7 +3337,7 @@
 				}
 			]
 			x: 4.1d
-			y: 13.95d
+			y: 14.5d
 		}
 		{
 			dependencies: ["2A33F6E189A28CDF"]
@@ -3264,7 +3373,7 @@
 				type: "item"
 			}]
 			x: 3.1d
-			y: 14.45d
+			y: 15.0d
 		}
 		{
 			dependencies: ["51E48EAB50B0971E"]
@@ -3294,7 +3403,7 @@
 				type: "item"
 			}]
 			x: 2.6d
-			y: 17.45d
+			y: 18.0d
 		}
 		{
 			dependencies: ["4FA1B8DD76B592DD"]
@@ -3324,7 +3433,7 @@
 				type: "item"
 			}]
 			x: 6.1d
-			y: 11.45d
+			y: 12.0d
 		}
 		{
 			dependencies: ["6635F7B2CD984F4F"]
@@ -3396,7 +3505,7 @@
 			}]
 			title: "Displacement Plate"
 			x: 2.1d
-			y: 14.95d
+			y: 15.5d
 		}
 		{
 			dependencies: ["4FA1B8DD76B592DD"]
@@ -3426,7 +3535,7 @@
 				type: "item"
 			}]
 			x: 8.1d
-			y: 13.45d
+			y: 14.0d
 		}
 		{
 			dependencies: ["51E48EAB50B0971E"]
@@ -3704,7 +3813,7 @@
 			}]
 			title: "Jewels"
 			x: 3.6d
-			y: 17.45d
+			y: 18.0d
 		}
 		{
 			dependencies: ["330D9AAC0CD81668"]
@@ -3736,7 +3845,7 @@
 				type: "item"
 			}]
 			x: 9.6d
-			y: 14.45d
+			y: 15.0d
 		}
 		{
 			dependencies: [
@@ -3803,7 +3912,7 @@
 				type: "item"
 			}]
 			x: 7.6d
-			y: 14.45d
+			y: 15.0d
 		}
 		{
 			dependencies: ["6A5FC0572660FB1E"]
@@ -6144,7 +6253,7 @@
 			y: 23.5d
 		}
 		{
-			dependencies: ["57264B7E24823F02"]
+			dependencies: ["53FE81F34BBC0B45"]
 			description: ["The warpstone is an utility item, letting you travel to any waystone regardless of where you are situated. This however comes at a price: experience levels, increasing with the distance. In case of emergencies, you may return to a safe space quickly. This is not an absolute escape plan though. I recall a time while fighting a sea monster, I was unable to trigger the waystone while drowning."]
 			id: "02CAE7DE326720EA"
 			rewards: [{
@@ -6169,8 +6278,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.225d
-			y: 9.575d
+			x: 8.525d
+			y: 8.175d
 		}
 		{
 			dependencies: ["02CAE7DE326720EA"]
@@ -6238,8 +6347,8 @@
 				type: "item"
 			}]
 			title: "Waystone"
-			x: 9.075d
-			y: 8.55d
+			x: 8.075d
+			y: 6.574999999999999d
 		}
 		{
 			dependencies: ["03F5F8D8A4E7D749"]
@@ -9517,7 +9626,11 @@
 			y: 18.9d
 		}
 		{
-			dependencies: ["35C32229A51A1B7D"]
+			dependencies: [
+				"35C32229A51A1B7D"
+				"7948CF780F8B6C0B"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			id: "548F91724FEC0349"
 			rewards: [{
@@ -9539,7 +9652,7 @@
 				}
 				type: "item"
 			}]
-			x: -15.299999999999999d
+			x: -14.85d
 			y: 13.95d
 		}
 		{
@@ -9593,7 +9706,11 @@
 			y: 17.099999999999998d
 		}
 		{
-			dependencies: ["35C32229A51A1B7D"]
+			dependencies: [
+				"06A4BEEE42830A85"
+				"35C32229A51A1B7D"
+			]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			id: "129D0C37D4A27A2B"
 			rewards: [{
@@ -9615,8 +9732,8 @@
 				}
 				type: "item"
 			}]
-			x: -16.849999999999998d
-			y: 14.399999999999999d
+			x: -15.75d
+			y: 14.85d
 		}
 		{
 			dependencies: ["129D0C37D4A27A2B"]
@@ -9981,8 +10098,8 @@
 				}
 				type: "item"
 			}]
-			x: -12.375d
-			y: -1.125d
+			x: -13.125d
+			y: -1.375d
 		}
 		{
 			dependencies: [
@@ -10575,7 +10692,7 @@
 				type: "item"
 			}]
 			x: 3.1d
-			y: 15.95d
+			y: 16.5d
 		}
 		{
 			dependencies: ["5F92E8FC88D86566"]
@@ -10600,8 +10717,8 @@
 				}
 				type: "item"
 			}]
-			x: -12.0d
-			y: 2.25d
+			x: -12.75d
+			y: 2.0d
 		}
 		{
 			dependencies: ["5F92E8FC88D86566"]
@@ -10626,8 +10743,8 @@
 				}
 				type: "item"
 			}]
-			x: -12.899999999999999d
-			y: 2.25d
+			x: -13.649999999999999d
+			y: 2.0d
 		}
 		{
 			dependencies: ["5F92E8FC88D86566"]
@@ -10656,8 +10773,8 @@
 				}
 				type: "item"
 			}]
-			x: -13.799999999999999d
-			y: 2.25d
+			x: -14.549999999999999d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3F86C492412EBA3F"]
@@ -11195,8 +11312,8 @@
 				}
 				type: "item"
 			}]
-			x: 11.725d
-			y: 9.7d
+			x: 12.2d
+			y: 9.6d
 		}
 		{
 			dependencies: ["34457CDE76EDFEAC"]
@@ -11228,8 +11345,8 @@
 				}
 				type: "item"
 			}]
-			x: 11.1d
-			y: 9.2d
+			x: 11.575d
+			y: 9.1d
 		}
 		{
 			dependencies: ["4AE782719D5A61F7"]
@@ -11440,6 +11557,11 @@
 		}
 		{
 			dependencies: ["2E2A38A96D401883"]
+			description: [
+				"The Solid Fuel Generator adapts the Solid Fuel Quarry's fueling capabilities, making use of solid fuels such as coal, charcoal, blaze rods or entire lava buckets.. Not exactly solid in my mind, but the bucket also gets molten down by the power.."
+				""
+				"Actually, it would make far more sense if the Solid Fuel Quarry had this machine inside and not the opposite as I previously implied.."
+			]
 			id: "23F4055CA5B50F60"
 			rewards: [{
 				id: "4E11D70B7622FBC1"
@@ -11451,8 +11573,8 @@
 				item: "concatenationcore:coal_generator"
 				type: "item"
 			}]
-			x: -10.875d
-			y: -1.25d
+			x: -11.625d
+			y: -1.5d
 		}
 		{
 			dependencies: ["4A8A1D4B99AB1DCA"]
@@ -19239,8 +19361,8 @@
 				item: "immersive_aircraft:quadrocopter"
 				type: "item"
 			}]
-			x: -15.849999999999998d
-			y: 15.149999999999999d
+			x: -17.0d
+			y: 15.0d
 		}
 		{
 			dependencies: ["0964BD6C4413A9C9"]
@@ -19451,7 +19573,7 @@
 			]
 			title: "Specialized Tools"
 			x: -3.0d
-			y: 13.5d
+			y: 13.200000000000001d
 		}
 		{
 			dependencies: ["0964BD6C4413A9C9"]
@@ -19529,7 +19651,7 @@
 			}]
 			title: "Vein Hammer"
 			x: -1.5d
-			y: 13.5d
+			y: 13.200000000000001d
 		}
 		{
 			dependencies: ["0964BD6C4413A9C9"]
@@ -21848,8 +21970,8 @@
 					type: "item"
 				}
 			]
-			x: 8.1d
-			y: 7.95d
+			x: 7.15d
+			y: 5.675d
 		}
 		{
 			dependencies: ["2157576FC7005917"]
@@ -21916,8 +22038,8 @@
 				type: "item"
 			}]
 			title: "Sublime Gold Tools"
-			x: 2.4d
-			y: 8.75d
+			x: 2.25d
+			y: 9.0d
 		}
 		{
 			dependencies: ["12F6BD166085B3B5"]
@@ -21988,8 +22110,8 @@
 				}
 			]
 			title: "Frozen Ice Armor"
-			x: 2.4d
-			y: 9.649999999999999d
+			x: 2.25d
+			y: 9.899999999999999d
 		}
 		{
 			dependencies: ["330D9AAC0CD81668"]
@@ -22278,7 +22400,7 @@
 			]
 			title: "Elemental Spells"
 			x: 9.1d
-			y: 12.95d
+			y: 13.5d
 		}
 		{
 			dependencies: ["33F8735D8322AFE6"]
@@ -23223,8 +23345,18 @@
 		}
 		{
 			dependencies: ["35C32229A51A1B7D"]
+			description: [
+				"Large hulls are used in the production of large ships. They are not the hull as a whole, but rather a part of the hull."
+				""
+				"Hierophants are usually the most skilled in shipbuilding, for whatever reason. Water-based transportation systems still remain one of the cheapest options available."
+			]
 			hide_dependency_lines: true
 			id: "3502EBD994DE89A2"
+			rewards: [{
+				id: "7233A8FA30376690"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 0.9d
 			tasks: [{
 				id: "5E97D8BCC9D5F7C9"
@@ -23236,8 +23368,14 @@
 		}
 		{
 			dependencies: ["35C32229A51A1B7D"]
+			description: ["Large masts help ships steer into the wind. Taking down a sail with a strong enough current means the ship sails downstream instead."]
 			hide_dependency_lines: true
 			id: "2990E1C06FD1E413"
+			rewards: [{
+				id: "23C80170181846E7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 0.9d
 			tasks: [{
 				id: "17A44B4D90AC1A4E"
@@ -27035,10 +27173,7 @@
 			y: -2.0999999999999996d
 		}
 		{
-			dependencies: [
-				"7E1C64AA0AA235C2"
-				"5C78A0206DEDAC4C"
-			]
+			dependencies: ["02CAE7DE326720EA"]
 			dependency_requirement: "one_started"
 			description: [
 				"&o&7A note is posted over the journal entry on waystones&r&r"
@@ -27053,6 +27188,7 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			subtitle: "Cut Into Purgatory"
 			tasks: [{
 				id: "17F62EFFD1213206"
 				item: {
@@ -27064,8 +27200,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.6d
-			y: 7.55d
+			x: 9.625d
+			y: 7.225d
 		}
 		{
 			dependencies: ["3D75596C95BC3EAB"]
@@ -27110,8 +27246,8 @@
 					type: "item"
 				}
 			]
-			x: 10.2d
-			y: 8.75d
+			x: 10.225d
+			y: 8.425d
 		}
 		{
 			dependencies: ["3B8127AF958727B0"]
@@ -27256,8 +27392,8 @@
 					type: "item"
 				}
 			]
-			x: 6.975d
-			y: 8.825d
+			x: 7.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["55895AB2924ABAFC"]
@@ -27880,8 +28016,8 @@
 				item: "spelled:leveling_altar"
 				type: "item"
 			}]
-			x: 4.1d
-			y: 9.95d
+			x: 4.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["12F6BD166085B3B5"]
@@ -27921,8 +28057,8 @@
 				}
 			]
 			title: "Knowledge of Words"
-			x: 5.1d
-			y: 9.45d
+			x: 5.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["4FA1B8DD76B592DD"]
@@ -27939,7 +28075,7 @@
 				type: "item"
 			}]
 			x: 6.6d
-			y: 13.45d
+			y: 14.0d
 		}
 		{
 			dependencies: [
@@ -28008,8 +28144,8 @@
 				type: "item"
 			}]
 			title: "Light Elemental Weapons"
-			x: 2.4d
-			y: 10.55d
+			x: 2.25d
+			y: 10.8d
 		}
 		{
 			dependencies: ["51E48EAB50B0971E"]
@@ -28058,10 +28194,11 @@
 			}]
 			title: "Heavy Elemental Weapons"
 			x: 4.1d
-			y: 15.95d
+			y: 16.5d
 		}
 		{
 			dependencies: ["5DF3CE9894B8409C"]
+			description: ["Runes are an important part of an Elementist's ability to speed up the magical processes used by various of the elemental apparatus. These are most notably used to speed up the extraction on sources, albeit they may deplete the sources faster."]
 			id: "68698DC00C0F83E6"
 			rewards: [
 				{
@@ -28234,7 +28371,7 @@
 			]
 			title: "Runecrafting"
 			x: 4.6d
-			y: 12.45d
+			y: 13.0d
 		}
 		{
 			dependencies: ["193DD74E480D6269"]
@@ -28265,7 +28402,7 @@
 			}]
 			title: "Ore Purified"
 			x: 1.5d
-			y: 13.0d
+			y: 13.55d
 		}
 		{
 			dependencies: ["57264B7E24823F02"]
@@ -28307,8 +28444,8 @@
 				}
 			]
 			title: "Elemental Logistics"
-			x: 7.1d
-			y: 11.45d
+			x: 7.5d
+			y: 11.25d
 		}
 		{
 			dependencies: ["539A664D885AAA1C"]
@@ -28354,8 +28491,8 @@
 				type: "item"
 			}]
 			title: "Grinding and Sawing"
-			x: 9.6d
-			y: 9.95d
+			x: 9.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["6635F7B2CD984F4F"]
@@ -28378,7 +28515,7 @@
 				type: "item"
 			}]
 			x: 4.1d
-			y: 14.95d
+			y: 15.5d
 		}
 		{
 			dependencies: ["06A4BEEE42830A85"]
@@ -28458,8 +28595,10 @@
 			description: [
 				"The fastest of the alloy smelters, the scorchia alloy smelter is made from a material originating from the netherworld, allowing for the highest heat throughout."
 				""
-				"It is a very noticeable speed upgrade over its predecessor and can &ldouble the yield of raw ore!&r As a result, it uses more fuel, sadly."
+				"It is a very noticeable speed upgrade over its predecessor and can &ldouble the yield of raw ore!&r As a result, it uses more fuel, sadly. The different amount of inputs into the Scorchia Smelter makes a great difference."
 				"{@pagebreak}"
+				"1-2 inputs still perform a doubling of ore yield. 3 inputs remains at normal speed while 4 inputs is the most efficient between speed and amount of inputs. 5 inputs is simply the most it can handle."
+				""
 				"The alloy smelter requires a controller with a 3x3 scorchia brick base underneath and a 2 block-high hollow chimney around the controller."
 			]
 			icon: "alloy_smelter:forge_controller_tier3"
@@ -29360,86 +29499,103 @@
 				"Meteorite clumps can be turned into frail but still effective tools. These do not have the highest durability or mining speed, but boast a mining level as impressive as diamond."
 				""
 				"The most notable quality of these tools is the innate magnetism they possess. Any meteorite tool will naturally attract nearby items, in a range of around five blocks, to itself."
+				"{@pagebreak}"
+				"The Meteorite Broadaxe is one of the special meteorite tools alongside the Meteorite Longsword. Apprentice Technicians enjoy making these special tool types to one-up their Hermit comrades. "
+				""
+				"The Meteorite Broadaxe has the special ability to cut 3 logs at once and draw them to its wielder, due to the innate magnetism of the axe. Using a lesser quantity of meteorite, for the regular meteorite axe, only makes it cut 1 log."
 			]
 			id: "08F1231849E950B7"
-			rewards: [
+			rewards: [{
+				count: 24
+				id: "766168052083D79B"
+				item: "ae2:sky_stone_block"
+				random_bonus: 24
+				type: "item"
+			}]
+			subtitle: "Magnetism!"
+			tasks: [
 				{
-					count: 24
-					id: "766168052083D79B"
-					item: "ae2:sky_stone_block"
-					random_bonus: 24
+					id: "50D054040D355AC0"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "concatenationcore:meteorite_sword"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "concatenationcore:meteorite_longsword"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "concatenationcore:meteorite_pickaxe"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "concatenationcore:meteorite_axe"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "concatenationcore:meteorite_broadaxe"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "concatenationcore:meteorite_shovel"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "concatenationcore:meteorite_hoe"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "Any Meteorite Tool"
 					type: "item"
 				}
 				{
-					count: 2
-					id: "778AE73AAFD8A42F"
-					item: "minecraft:blaze_rod"
+					id: "3CC8EA55720E17CC"
+					item: {
+						Count: 1
+						id: "concatenationcore:meteorite_broadaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
 					type: "item"
 				}
 			]
-			subtitle: "Magnetism!"
-			tasks: [{
-				id: "5D5530314ACDA0BC"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "concatenationcore:meteorite_sword"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								id: "concatenationcore:meteorite_longsword"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								id: "concatenationcore:meteorite_pickaxe"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								id: "concatenationcore:meteorite_axe"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								id: "concatenationcore:meteorite_shovel"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								id: "concatenationcore:meteorite_hoe"
-								tag: {
-									Damage: 0
-								}
-							}
-						]
-					}
-				}
-				title: "Any Meteorite Tool"
-				type: "item"
-			}]
 			title: "Meteorite Tools"
 			x: -5.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["5746BB5C34ED74C7"]
-			description: ["The boiler is most often used as a component piece in other machines, but it has its own uses, most often to power other low-tech equipment with steam power, such as the steam-powered macerator."]
+			description: ["The boiler is most often used as a component piece in other machines, but it has its own uses, most often to power other low-tech equipment with steam power, such as the steam-powered macerator or steam-powered tree feller."]
 			id: "67BC86096C11BFD0"
 			rewards: [{
 				count: 6
@@ -29448,13 +29604,14 @@
 				type: "item"
 			}]
 			size: 0.85d
+			subtitle: "Hydraulic Machinery"
 			tasks: [{
 				id: "354CDFF963ABD0B8"
 				item: "concatenationcore:boiler"
 				type: "item"
 			}]
 			x: -8.5d
-			y: 0.9249999999999998d
+			y: 0.4999999999999999d
 		}
 		{
 			dependencies: ["6F736EF54A792577"]
@@ -29591,7 +29748,7 @@
 			}]
 			title: "Gears"
 			x: -8.5d
-			y: -0.425d
+			y: -0.85d
 		}
 		{
 			dependencies: ["73F4AAF2267BB33B"]
@@ -29744,7 +29901,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/curios set curio @s 5"
+					command: "/curios set curio @s 6"
 					elevate_perms: true
 					icon: {
 						Count: 1
@@ -29755,7 +29912,7 @@
 					ignore_reward_blocking: true
 					silent: true
 					team_reward: false
-					title: "+4 Curio Slots"
+					title: "+5 Curio Slots"
 					type: "command"
 				}
 			]
@@ -31649,7 +31806,7 @@
 				""
 				"Then, when the Thermae contains over 1000mb of liquid galvanized iron, place an iron block in the dipping bath of the Thermae, one block right above the Thermae to galvanize the block of iron."
 				"{@pagebreak}"
-				"Crushed Zinc in Thermae + Lava in Heater = Liquid Galvanized Iron."
+				"9 Crushed Zinc in Thermae + Lava in Heater = Liquid Galvanized Iron."
 				""
 				"Iron Block Above + 1000mb of Liquid Galvanized Iron = Galvanized Iron Block."
 			]
@@ -31795,7 +31952,15 @@
 		}
 		{
 			dependencies: ["5C7795F275644B09"]
+			description: ["Hardened Glass is a tremedously useful material, especially in the construction of higher technology machinery. It is exceptionally durable, capable of resisting explosions and even the impact of a Wither. As such, it can be used in complex machinery with no fear of the glass breaking."]
 			id: "0C490675BD4137E8"
+			rewards: [{
+				count: 4
+				id: "652AF9FC00C2425A"
+				item: "minecraft:obsidian"
+				random_bonus: 4
+				type: "item"
+			}]
 			tasks: [{
 				id: "3481CB8DE526E5A8"
 				item: "thermal:obsidian_glass"
@@ -31806,6 +31971,7 @@
 		}
 		{
 			dependencies: ["35C32229A51A1B7D"]
+			description: ["Leaving the city of Illias by submarine was one of the last things I expected to do, but unfortunately, it turns out I made as many friends as enemies in my time here."]
 			hide_dependency_lines: true
 			id: "793E50D268C0B230"
 			rewards: [{
@@ -31824,6 +31990,11 @@
 		}
 		{
 			dependencies: ["793E50D268C0B230"]
+			description: [
+				"Even though guards patrolled every part of the port, I thought I could either take them head on, or slip by, but why bother when a technician proposes you to try a cool submarine prototype? Now, this technician wasn't from here, after all, this was a coastal town. I only recently learned that most of the city was built either on reclaimed land or directly on top of the sea. This did mean it was quite easy to build an underwater hangar to build, let's say a submarine. Let's hope my travel diary doesn't get wet. I can cast water breathing, but I can't cast it on my book!"
+				"{@pagebreak}"
+				"To assemble the submarine, assuming you have one of a similar prototype as I do, who knows, this may get popular and sell like hotcakes, you need to first plunge the cabin of the submarine into water. Submarines don't go well on land. Then, you can attach the other parts of the submarine to the cabin."
+			]
 			id: "7F9A0E2C0EE245B0"
 			rewards: [{
 				count: 3
@@ -31842,6 +32013,7 @@
 		}
 		{
 			dependencies: ["793E50D268C0B230"]
+			description: ["For a time, I taught spellcasting and the basics of elemental sources to the few who begged for my knowledge. I don't know why they didn't simply sail across the sea. Over the course of a month, multiple laws on the restriction of magic were imposed and I quickly had to resort to holding most of my gatherings in secret. At least, I sent most of my apostles overseas since there weren't many elemental sources in the city, as no one had bothered to take care of them. Eventually, all of the exits from the city were heavily guarded. "]
 			id: "47025B4852DC4F90"
 			rewards: [{
 				count: 3
@@ -31860,6 +32032,11 @@
 		}
 		{
 			dependencies: ["793E50D268C0B230"]
+			description: [
+				"The first time I went to Illias, I expected something more magical. The surrounding regions were literally built in archwood forests and mushroom lands, but this small island housed a city far larger than it ever should have, a true metropolis that needed to expand across the sea in every direction. Instead, it was ruled by one doge (or duke) who had a severe distrust of archmages. As a result, the study of magic was quite backwards."
+				""
+				"As I returned from the city of mages, Sparkon, with a newlyfound title as an archmage, I enjoyed a special reputation in Illias. No longer was I just an eccentric traveler, but an archmage."
+			]
 			id: "36A39A859ADA2AFA"
 			rewards: [{
 				count: 3
@@ -31878,8 +32055,15 @@
 		}
 		{
 			dependencies: ["35C32229A51A1B7D"]
+			description: ["From my time in the state of the dwarven mine, I thought I had seen all there was to mining, from gigantic mining machines digging chunk-sized holes, to manual mining and growing ores. This drill model is quite unique, however! Inspired from the multipart mining bores of the Tower pathway, some Hierophants and Chariot card holders decided to combine their strengths into a more concise, specialized drilling machine."]
 			hide_dependency_lines: true
 			id: "5059730ED7CB61E4"
+			rewards: [{
+				id: "6B9BBDC80F17592B"
+				item: "thermal:diamond_dust"
+				random_bonus: 8
+				type: "item"
+			}]
 			size: 0.9d
 			tasks: [{
 				id: "2C41B0F25AFCFA77"
@@ -31891,8 +32075,15 @@
 		}
 		{
 			dependencies: ["35C32229A51A1B7D"]
+			description: ["This biosynthesizing engine is truly a strange invention, solely designed for the specialised drill vehicle. It could hold many other applications. It is still pretty inefficient and uses a whole solid fuel generator as a base while stripping parts to miniaturize the engine."]
 			hide_dependency_lines: true
 			id: "1E93B65B7B6D7D42"
+			rewards: [{
+				count: 64
+				id: "5285CE7334579581"
+				item: "minecraft:charcoal"
+				type: "item"
+			}]
 			size: 0.9d
 			tasks: [{
 				id: "450BCAA84C162795"
@@ -31907,7 +32098,17 @@
 				"5059730ED7CB61E4"
 				"1E93B65B7B6D7D42"
 			]
+			description: [
+				"The specialized drill vehicle is a robust beast which can pierce through thick layers of stone and ore, helping one gather large amounts quickly. It uses fuel quite inefficiently and requires a substantial amount of water to cool down, but once it gets going, it's a pretty fun mining trip!"
+				""
+				"&a(Press I by default to open the fuel menu of the drill. Insert water and fuel.)"
+			]
 			id: "49E7519CB88FB97A"
+			rewards: [{
+				id: "4827FB4CD6555ECF"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			size: 1.15d
 			tasks: [{
 				id: "089CDBB286F7F5A6"
@@ -31947,8 +32148,19 @@
 		}
 		{
 			dependencies: ["35C32229A51A1B7D"]
+			description: [
+				"&o&7An extra note is posted over the page&r"
+				""
+				"&2This graphene mesh is quite simple in nature, it's simply coal processed over and over again and then stringed together. We use a lead gear as the base for the mesh to make for a solid core."
+			]
 			hide_dependency_lines: true
 			id: "3AF7EF3881C4E120"
+			rewards: [{
+				count: 2
+				id: "1156A13C0A931869"
+				item: "mekanism:ingot_uranium"
+				type: "item"
+			}]
 			tasks: [{
 				id: "10FDACF3BC60AC52"
 				item: "cyberspace:carbon_fiber_mesh"
@@ -31959,7 +32171,24 @@
 		}
 		{
 			dependencies: ["3AF7EF3881C4E120"]
+			description: [
+				"&o&7An extra note is posted over the page&r"
+				""
+				"&2I'm unsure of how this quantum core reacts to our realm. Drawing inspiration from studying the various anomalies and the distant realms that were opened up, we have figured out that by using nuclear power, we can react in a way with another world. Or rather, are we creating another? This seems similar in a way to those accounts of some geniuses managing to create their own dimensions with elaborate machinery."
+			]
 			id: "163FA79484716D9B"
+			rewards: [
+				{
+					id: "442F37D17BE49025"
+					item: "concatenationcore:circuit"
+					type: "item"
+				}
+				{
+					id: "734E0B307D89B65E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "22AF5AE1BD1915A4"
 				item: "cyberspace:quantum_core"
@@ -32017,6 +32246,118 @@
 			}]
 			x: 1.1749999999999998d
 			y: -30.5d
+		}
+		{
+			dependencies: ["67BC86096C11BFD0"]
+			description: [
+				"The Steam-Powered Tree Feller is a great low-tech automation machine to take care of trees. It requires an adjacent active boiler nearby to work, then it is able to fell entire trees with either its front or back sawblades. If a chest is placed on top of the tree feller, then the contents will be deposited in there."
+				"{@pagebreak}"
+				"It can also accodomate storage for saplings and bone meal to grow trees autonomously. The one bone meal is consumed per sapling planted and it does not use the bone meal on the sapling to grow it faster automatically. Saplings are replanted on the felling of trees."
+			]
+			icon: "concatenationcore:hydraulic_tree_feller"
+			id: "458B01DF47E78455"
+			rewards: [
+				{
+					id: "407EB51E14C1CDDF"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					count: 9
+					id: "7FC47618C838687F"
+					item: "minecraft:coal"
+					type: "item"
+				}
+			]
+			subtitle: "Trees No More"
+			tasks: [
+				{
+					id: "27C30BE3C988C471"
+					item: "concatenationcore:hydraulic_tree_feller"
+					type: "item"
+				}
+				{
+					id: "0AF64AC08542F128"
+					item: "concatenationcore:boiler"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["70E2308111F7C590"]
+			id: "678D4D2A0E011E2D"
+			tasks: [{
+				id: "222FF71E469884A6"
+				item: "thoriumreactors:machine_casing"
+				type: "item"
+			}]
+			x: -29.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["678D4D2A0E011E2D"]
+			id: "101A46F86D92875F"
+			tasks: [{
+				id: "55F0833B5083403B"
+				item: {
+					Count: 1
+					id: "thoriumreactors:blast_furnace_block"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -29.0d
+			y: 27.5d
+		}
+		{
+			dependencies: ["7A48E4111415FDF6"]
+			id: "70E2308111F7C590"
+			tasks: [{
+				id: "079F90A7F2BEA4BA"
+				item: "thoriumreactors:graphite_ingot"
+				type: "item"
+			}]
+			x: -29.5d
+			y: 24.5d
+		}
+		{
+			dependencies: ["42F701FC987C6C99"]
+			hide_dependency_lines: true
+			id: "7A48E4111415FDF6"
+			size: 1.15d
+			tasks: [{
+				id: "1E040A6E06BC1C15"
+				item: "concatenationcore:full_vessels"
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -30.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["57264B7E24823F02"]
+			description: [
+				"Warp Plates are an important teleportation tool that is frequently used by Magicians to quickly travel between multiple sources throughout the world."
+				""
+				"Warp Plates, when placed, produce an attuned shard that is bound to their location. It is then possible to place that shard in a second plate to create a link between the two warp plates. It is thus possible to create either simple two-way portals or a whole chain of plates."
+			]
+			id: "53FE81F34BBC0B45"
+			rewards: [{
+				count: 4
+				id: "5B5B196220C0E353"
+				item: "waystones:warp_plate"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1807AB409BD5A2F4"
+				item: "waystones:warp_plate"
+				type: "item"
+			}]
+			x: 8.025d
+			y: 9.175d
 		}
 	]
 	title: "The Journey"

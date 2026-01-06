@@ -43,7 +43,7 @@ key_key.projecte.helmet_toggle:key.keyboard.x:SHIFT
 key_key.projecte.boots_toggle:key.keyboard.x:NONE
 key_key.projecte.charge:key.keyboard.unknown:NONE
 key_key.projecte.extra_function:key.keyboard.c:NONE
-key_key.projecte.fire_projectile:key.keyboard.r:NONE
+key_key.projecte.fire_projectile:key.keyboard.unknown:NONE
 key_key.projecte.mode:key.keyboard.g:NONE
 key_key.modernfix.config:key.keyboard.unknown:NONE
 key_key.corpse.death_history:key.keyboard.u:NONE
@@ -122,6 +122,13 @@ key_chloride.zoom:key.keyboard.v:NONE
 key_key.tconstruct.helmet_interact:key.keyboard.z:NONE
 key_key.tconstruct.leggings_interact:key.keyboard.i:NONE
 key_keybind.reliquary.fortune_coin:key.keyboard.unknown:NONE
+key_key.buildinggadgets2.settings_menu:key.keyboard.unknown:NONE
+key_key.buildinggadgets2.undo:key.keyboard.unknown:NONE
+key_key.buildinggadgets2.anchor:key.keyboard.unknown:NONE
+key_key.buildinggadgets2.range:key.keyboard.unknown:NONE
+key_key.minecolonies.toggle_goggles:key.keyboard.unknown:NONE
+key_key.irons_spellbooks.spell_wheel:key.keyboard.unknown:NONE
+key_key.irons_spellbooks.spell_wheel_toggle:key.keyboard.unknown:NONE
 key_key.buildinggadgets2.settings_menu:key.keyboard.g:NONE
 key_key.buildinggadgets2.undo:key.keyboard.u:NONE
 key_key.buildinggadgets2.anchor:key.keyboard.h:NONE
@@ -282,6 +289,7 @@ key_key.jade.show_uses:key.keyboard.keypad.4:NONE
 key_key.jade.narrate:key.keyboard.keypad.5:NONE
 key_key.jade.show_details:key.keyboard.left.shift:NONE
 key_key.ae2.wireless_pattern_access_terminal:key.keyboard.unknown:NONE
+key_key.ae2.wireless_quantum_crafter_terminal:key.keyboard.unknown:NONE
 key_key.ae2.ae2wtlib_restock:key.keyboard.unknown:NONE
 key_key.ae2.ae2wtlib_magnet:key.keyboard.unknown:NONE
 key_key.ae2.portable_item_cell:key.keyboard.unknown:NONE
@@ -289,3 +297,10 @@ key_key.ae2.ae2wtlib_stow:key.keyboard.unknown:NONE
 key_key.ae2.portable_fluid_cell:key.keyboard.unknown:NONE
 key_key.ae2.wireless_pattern_encoding_terminal:key.keyboard.unknown:NONE
 key_key.ae2.wireless_terminal:key.keyboard.unknown:NONE
+key_key.advanced_ae.pattern_encoder_action:key.keyboard.unknown:NONE
+key_key.advanced_ae.pick_craft:key.keyboard.unknown:NONE
+key_key.advanced_ae.portable_workbench:key.keyboard.unknown:NONE
+key_key.advanced_ae.quantum_armor_config:key.keyboard.unknown:NONE
+key_key.advanced_ae.quantum_magnet_upgrade:key.keyboard.unknown:NONE
+key_key.advanced_ae.quantum_auto_stock_upgrade:key.keyboard.unknown:NONE
+key_key.advanced_ae.quantum_night_vision_upgrade:key.keyboard.unknown:NONE
