@@ -1,0 +1,19 @@
+{
+  "Restriction Data": {
+    "stage": "server_ban",
+    "itemList": [
+      {
+        "item": "hpm:hand_cannon"
+      }
+    ]
+  },
+
+  "Settings": {
+    "dropItemsFromInventory": true,
+    "canPickupItems": false,
+    "itemsPickupDelay": 15, 
+    "canUseItems": false,
+    "canBreakBlocks": true,
+    "canRightClickBlocks": false
+  }
+}

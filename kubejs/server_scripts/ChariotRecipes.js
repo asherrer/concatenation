@@ -26,7 +26,8 @@ ServerEvents.recipes(event => {
                 'thesubmarinemod:alas_submarino',
                 'cyberspace:terminal',
                 'cyberspace:quantum_core',
-                'cyberspace:carbon_fiber_mesh'
+                'cyberspace:carbon_fiber_mesh',
+                'hpm:largehull'
         ]
 
         remove.forEach(item => {
@@ -576,4 +577,18 @@ ServerEvents.recipes(event => {
                         A: 'cyberspace:carbon_fiber'
                 }
         )
+        event.shaped(
+                Item.of('hpm:largehull'),
+                [
+                        ' AB',
+                        'CDC',
+                        'CCC'
+                ],
+                {
+                        D: 'hpm:smallhull',
+                        C: '#minecraft:logs',
+                        A: 'minecraft:iron_block',
+                        B: '#concatenation:swashbuckler_cards'
+                }
+        ).keepIngredient('#concatenation:swashbuckler_cards')
 });
