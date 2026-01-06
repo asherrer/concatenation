@@ -158,11 +158,6 @@ ServerEvents.recipes(event => {
                 'createaddition:zinc_sheet'
         )
         event.replaceInput(
-                { input: 'ae2:calculation_processor' },
-                'ae2:calculation_processor',
-                'concatenationcore:primed_calculation_processor'
-        )
-        event.replaceInput(
                 { output: 'tconstruct:crafting_station' },
                 'tconstruct:crafting_station',
                 'craftingstation:crafting_station'

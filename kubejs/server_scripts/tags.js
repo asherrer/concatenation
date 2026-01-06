@@ -29,6 +29,11 @@ ServerEvents.tags('item', event => {
         'tarotcards:temperance'
     ]);
 
+    add('concatenation:swashbuckler_cards', [
+        'tarotcards:the_hierophant',
+        'tarotcards:the_chariot'
+    ]);
+
     add('concatenation:hammers', [
         'concatenationcore:hammer',
         'concatenationcore:ironclad_hammer',
@@ -94,7 +99,7 @@ ServerEvents.tags('item', event => {
         'asr:stone_giant_sword',
         'asr:ender_giant_sword',
         'bloodmagic:soulsword',
-        'reliquary:magicbane',
+        'reliquary:magicbane'
         //'create_dd:gilded_rose_sword'
     ]);
 
@@ -261,7 +266,8 @@ ServerEvents.tags('item', event => {
         'ars_nouveau:sorcerer_boots',
         'ars_nouveau:sorcerer_leggings',
         'ars_nouveau:sorcerer_robes',
-        'ars_nouveau:sorcerer_hood'
+        'ars_nouveau:sorcerer_hood',
+        'reliquary:mercy_cross'
     ]);
 
     const sublime = [
@@ -283,7 +289,8 @@ ServerEvents.tags('item', event => {
         'concatenationcore:full_cups',
         'concatenationcore:full_wands',
         'concatenationcore:full_pentacles',
-        'concatenationcore:full_swords'
+        'concatenationcore:full_swords',
+        'concatenationcore:full_vessels'
     ];
     add('curios:curio', fullSets);
     add('tarotcards:tarot_cards', fullSets);
@@ -621,7 +628,8 @@ ServerEvents.tags('item', event => {
     add('concatenation:crusher_input', [
         'create:zinc_ingot',
         'thermal:tin_ingot',
-        'perdition:compacted_marmor'
+        'perdition:compacted_marmor',
+        'ae2:certus_quartz_crystal'
     ])
 
     add('concatenation:crusher_input/zinc', [
@@ -630,5 +638,13 @@ ServerEvents.tags('item', event => {
 
     add('concatenation:crusher_input/tin', [
         'thermal:tin_ingot'
+    ])
+
+    add('forge:glass_blocks', [
+        'minecraft:glass'
+    ])
+
+    add('forge:dusts/quartz', [
+        'ars_technica:quartz_dust'
     ])
 });

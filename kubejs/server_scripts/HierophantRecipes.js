@@ -3,7 +3,6 @@ ServerEvents.recipes(event => {
         const remove = [
                 'quarryplus:solid_fuel_quarry',
                 'quarryplus:workbench',
-                'concatenationcore:galvanized_iron',
                 'ae2:charger',
                 'solarflux:sp_1',
                 'solarflux:sp_2',
@@ -596,34 +595,34 @@ ServerEvents.recipes(event => {
                         'oreberriesreplanted:nickel_oreberry'
                 ]
         )
-        event.shapeless(
-                Item.of('mekanism:ingot_uranium'),
-                [
-                        'oreberriesreplanted:uranium_oreberry',
-                        'oreberriesreplanted:uranium_oreberry',
-                        'oreberriesreplanted:uranium_oreberry',
-                        'oreberriesreplanted:uranium_oreberry',
-                        'oreberriesreplanted:uranium_oreberry',
-                        'oreberriesreplanted:uranium_oreberry',
-                        'oreberriesreplanted:uranium_oreberry',
-                        'oreberriesreplanted:uranium_oreberry',
-                        'oreberriesreplanted:uranium_oreberry'
-                ]
-        )
-        event.shapeless(
-                Item.of('mekanism:ingot_osmium'),
-                [
-                        'oreberriesreplanted:osmium_oreberry',
-                        'oreberriesreplanted:osmium_oreberry',
-                        'oreberriesreplanted:osmium_oreberry',
-                        'oreberriesreplanted:osmium_oreberry',
-                        'oreberriesreplanted:osmium_oreberry',
-                        'oreberriesreplanted:osmium_oreberry',
-                        'oreberriesreplanted:osmium_oreberry',
-                        'oreberriesreplanted:osmium_oreberry',
-                        'oreberriesreplanted:osmium_oreberry'
-                ]
-        )
+        // event.shapeless(
+        //         Item.of('mekanism:ingot_uranium'),
+        //         [
+        //                 'oreberriesreplanted:uranium_oreberry',
+        //                 'oreberriesreplanted:uranium_oreberry',
+        //                 'oreberriesreplanted:uranium_oreberry',
+        //                 'oreberriesreplanted:uranium_oreberry',
+        //                 'oreberriesreplanted:uranium_oreberry',
+        //                 'oreberriesreplanted:uranium_oreberry',
+        //                 'oreberriesreplanted:uranium_oreberry',
+        //                 'oreberriesreplanted:uranium_oreberry',
+        //                 'oreberriesreplanted:uranium_oreberry'
+        //         ]
+        // )
+        // event.shapeless(
+        //         Item.of('mekanism:ingot_osmium'),
+        //         [
+        //                 'oreberriesreplanted:osmium_oreberry',
+        //                 'oreberriesreplanted:osmium_oreberry',
+        //                 'oreberriesreplanted:osmium_oreberry',
+        //                 'oreberriesreplanted:osmium_oreberry',
+        //                 'oreberriesreplanted:osmium_oreberry',
+        //                 'oreberriesreplanted:osmium_oreberry',
+        //                 'oreberriesreplanted:osmium_oreberry',
+        //                 'oreberriesreplanted:osmium_oreberry',
+        //                 'oreberriesreplanted:osmium_oreberry'
+        //         ]
+        // )
         event.shapeless(
                 Item.of('create:zinc_ingot'),
                 [
@@ -1619,7 +1618,7 @@ ServerEvents.recipes(event => {
                         A: 'concatenationcore:mixing_tool',
                         B: 'minecraft:dirt',
                         C: 'minecraft:wheat_seeds',
-                        D: 'elementalcraft:weak_earth_shard'
+                        D: 'elementalcraft:earth_shard'
                 }
         )
         event.shaped(
@@ -1811,6 +1810,21 @@ ServerEvents.recipes(event => {
                         '#concatenation:firing_item'
                 ]
         )
+        event.shaped(
+                Item.of('concatenationcore:hydraulic_tree_feller'),
+                [
+                        'ACA',
+                        'BDB',
+                        'AEA'
+                ],
+                {
+                        A: 'createdeco:iron_support',
+                        D: 'concatenationcore:boiler',
+                        C: '#minecraft:hoes',
+                        E: 'minecraft:copper_block',
+                        B: '#minecraft:axes'
+                }
+        )
 
         event.recipes.minecraft.smelting(
                 'thermal:sapphire',
@@ -1820,6 +1834,10 @@ ServerEvents.recipes(event => {
                 'minecraft:glass',
                 'minecraft:sand'
         ).xp(0.1).cookingTime(100);
+        event.recipes.minecraft.blasting(
+                'minecraft:diamond',
+                'thermal:diamond_dust'
+        ).xp(0.1).cookingTime(300);
 
         event.recipes.thermal.pulverizer(Item.of('createmetallurgy:zinc_dust').withChance(1.5), 'create:zinc_ingot').energy(100)
 });
