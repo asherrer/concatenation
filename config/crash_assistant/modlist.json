@@ -219,10 +219,10 @@
     "modId": "celestisynth",
     "version": "1.20.1-1.3.3"
   },
-  "certain_questing_additions-forge-1.0.7+mc1.20.1.jar": {
-    "jarName": "certain_questing_additions-forge-1.0.7+mc1.20.1.jar",
+  "certain_questing_additions-forge-1.1.3+mc1.20.1.jar": {
+    "jarName": "certain_questing_additions-forge-1.1.3+mc1.20.1.jar",
     "modId": "certain_questing_additions",
-    "version": "1.0.7"
+    "version": "1.1.3"
   },
   "chat_heads-0.14.2-forge-1.20.jar": {
     "jarName": "chat_heads-0.14.2-forge-1.20.jar",
@@ -522,10 +522,10 @@
     "modId": "dataanchor",
     "version": "1.0.0.20"
   },
-  "decursio_stages-1.20.1-0.1.0b.jar": {
-    "jarName": "decursio_stages-1.20.1-0.1.0b.jar",
+  "decursio_stages-1.20.1-0.1.1b.jar": {
+    "jarName": "decursio_stages-1.20.1-0.1.1b.jar",
     "modId": "decursio_stages",
-    "version": "1.20.1-0.1.0b"
+    "version": "1.20.1-0.1.1b"
   },
   "defaultoptions-forge-1.20.1-18.0.4.jar": {
     "jarName": "defaultoptions-forge-1.20.1-18.0.4.jar",
@@ -581,11 +581,6 @@
     "jarName": "dynamic-fps-3.11.3+minecraft-1.20.0-forge.jar",
     "modId": "dynamic_fps",
     "version": "3.11.3"
-  },
-  "dynamic_monsters-forge-1.20.1_1.28.0.jar": {
-    "jarName": "dynamic_monsters-forge-1.20.1_1.28.0.jar",
-    "modId": "dynamic_monsters",
-    "version": "1.28.0"
   },
   "dynamicvillage-v0.4-1.20.1.jar": {
     "jarName": "dynamicvillage-v0.4-1.20.1.jar",
@@ -822,11 +817,6 @@
     "modId": "great_scrollable_tooltips",
     "version": "15.5.0+forge"
   },
-  "gstools-forge-1.20.1_1.28.0.jar": {
-    "jarName": "gstools-forge-1.20.1_1.28.0.jar",
-    "modId": "gstools",
-    "version": "1.28.0"
-  },
   "guideme-20.1.14.jar": {
     "jarName": "guideme-20.1.14.jar",
     "modId": "guideme",
@@ -951,6 +941,11 @@
     "jarName": "journeymap-1.20.1-5.10.3-forge.jar",
     "modId": "journeymap",
     "version": "5.10.3"
+  },
+  "jupiter-2.3.3-bugfix-1.20.1-forge.jar": {
+    "jarName": "jupiter-2.3.3-bugfix-1.20.1-forge.jar",
+    "modId": "jupiter",
+    "version": "2.3.3-bugfix"
   },
   "justenoughbreeding-forge-1.20-1.20.1-2.3.0.jar": {
     "jarName": "justenoughbreeding-forge-1.20-1.20.1-2.3.0.jar",
@@ -1250,6 +1245,26 @@
     "modId": "octolib",
     "version": "0.5.0.1"
   },
+  "OELib-forge-1.20.1-0.0.6.jar": {
+    "jarName": "OELib-forge-1.20.1-0.0.6.jar",
+    "modId": "oelib",
+    "version": "0.0.6"
+  },
+  "OneEnoughBlock-1.1.2.jar": {
+    "jarName": "OneEnoughBlock-1.1.2.jar",
+    "modId": "oneenoughblock",
+    "version": "1.1.2"
+  },
+  "OneEnoughFluid-1.1.0-jech.jar": {
+    "jarName": "OneEnoughFluid-1.1.0-jech.jar",
+    "modId": "oneenoughfluid",
+    "version": "1.1.0-jech"
+  },
+  "OneEnoughItem-1.0.6-jech.jar": {
+    "jarName": "OneEnoughItem-1.0.6-jech.jar",
+    "modId": "oneenoughitem",
+    "version": "1.0.6-jech"
+  },
   "OpenLoader-Forge-1.20.1-19.0.4.jar": {
     "jarName": "OpenLoader-Forge-1.20.1-19.0.4.jar",
     "modId": "openloader",
@@ -1380,6 +1395,11 @@
     "modId": "redirected",
     "version": "1.0.0"
   },
+  "redstone_flux-1.20.1-Forge-1.0.0.jar": {
+    "jarName": "redstone_flux-1.20.1-Forge-1.0.0.jar",
+    "modId": "redstone_flux",
+    "version": "1.0.0"
+  },
   "refurbished_furniture-forge-1.20.1-1.0.19.jar": {
     "jarName": "refurbished_furniture-forge-1.20.1-1.0.19.jar",
     "modId": "refurbished_furniture",
@@ -1447,6 +1467,11 @@
   },
   "ScalableCatsForce-3.3.1-build-0-with-library.jar": {
     "jarName": "ScalableCatsForce-3.3.1-build-0-with-library.jar"
+  },
+  "scarecrowsterritory-1.1.11d-forge-mc1.20.4.jar": {
+    "jarName": "scarecrowsterritory-1.1.11d-forge-mc1.20.4.jar",
+    "modId": "scarecrowsterritory",
+    "version": "1.1.11+d"
   },
   "scorchiaalloysmelters-1.0.1-forge-1.20.1.jar": {
     "jarName": "scorchiaalloysmelters-1.0.1-forge-1.20.1.jar",
@@ -1613,6 +1638,11 @@
     "modId": "tagfixes",
     "version": "1.0.0"
   },
+  "tangiblecommands-1.0.0-forge-1.20.1.jar": {
+    "jarName": "tangiblecommands-1.0.0-forge-1.20.1.jar",
+    "modId": "tangiblecommands",
+    "version": "1.0.0"
+  },
   "tarotcards-1.20-1.7.0.jar": {
     "jarName": "tarotcards-1.20-1.7.0.jar",
     "modId": "tarotcards",
@@ -1692,6 +1722,11 @@
     "jarName": "theurgy-1.20.1-1.25.0.jar",
     "modId": "theurgy",
     "version": "1.25.0"
+  },
+  "thoriumreactors-1.20.1-0.1.7.1b-all.jar": {
+    "jarName": "thoriumreactors-1.20.1-0.1.7.1b-all.jar",
+    "modId": "thoriumreactors",
+    "version": "0.1.6b"
   },
   "Threads-1.0.2-1.20.1.jar": {
     "jarName": "Threads-1.0.2-1.20.1.jar",

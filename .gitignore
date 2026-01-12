@@ -55,6 +55,10 @@ essential
 ESM
 wiki
 server.dat
+lightspeed-cache
+oeb
+oef
+oei
 
 # explicitly included config
 !config/ProjectE/client.toml
