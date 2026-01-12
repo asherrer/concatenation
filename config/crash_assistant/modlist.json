@@ -54,10 +54,10 @@
     "modId": "almostunified",
     "version": "1.20.1-0.10.1"
   },
-  "amendments-1.20-2.2.1.jar": {
-    "jarName": "amendments-1.20-2.2.1.jar",
+  "amendments-1.20-2.2.3.jar": {
+    "jarName": "amendments-1.20-2.2.3.jar",
     "modId": "amendments",
-    "version": "1.20-2.2.1"
+    "version": "1.20-2.2.3"
   },
   "appleskin-forge-mc1.20.1-2.5.1.jar": {
     "jarName": "appleskin-forge-mc1.20.1-2.5.1.jar",
@@ -264,10 +264,10 @@
     "modId": "cleanswing",
     "version": "1.8"
   },
-  "clientsort-forge-2.1.5+1.20.1.jar": {
-    "jarName": "clientsort-forge-2.1.5+1.20.1.jar",
+  "clientsort-forge-2.1.6+1.20.1.jar": {
+    "jarName": "clientsort-forge-2.1.6+1.20.1.jar",
     "modId": "clientsort",
-    "version": "2.1.5+1.20.1"
+    "version": "2.1.6+1.20.1"
   },
   "cloth-config-11.1.136-forge.jar": {
     "jarName": "cloth-config-11.1.136-forge.jar",
@@ -401,11 +401,6 @@
     "jarName": "cosmeticcorpsecompat-1.19.x-1.20.x-Forge-1.0.0.jar",
     "modId": "cosmeticcorpsecompat",
     "version": "1.0.0"
-  },
-  "craftingrecipeexporter-1.20.1-Forge-1.0.2.jar": {
-    "jarName": "craftingrecipeexporter-1.20.1-Forge-1.0.2.jar",
-    "modId": "craftingrecipeexporter",
-    "version": "1.0.2"
   },
   "craftingstation-1.20.1-1.3.2.jar": {
     "jarName": "craftingstation-1.20.1-1.3.2.jar",
@@ -547,10 +542,10 @@
     "modId": "does_it_tick",
     "version": "1.1.4"
   },
-  "domum_ornamentum-1.20.1-1.0.292-snapshot-universal.jar": {
-    "jarName": "domum_ornamentum-1.20.1-1.0.292-snapshot-universal.jar",
+  "domum_ornamentum-1.20.1-1.0.295-snapshot-universal.jar": {
+    "jarName": "domum_ornamentum-1.20.1-1.0.295-snapshot-universal.jar",
     "modId": "domum_ornamentum",
-    "version": "1.20.1-1.0.292-snapshot"
+    "version": "1.20.1-1.0.295-snapshot"
   },
   "dpanvil-1.20.1-5.0.1.jar": {
     "jarName": "dpanvil-1.20.1-5.0.1.jar",
@@ -586,6 +581,11 @@
     "jarName": "dynamic-fps-3.11.3+minecraft-1.20.0-forge.jar",
     "modId": "dynamic_fps",
     "version": "3.11.3"
+  },
+  "dynamic_monsters-forge-1.20.1_1.28.0.jar": {
+    "jarName": "dynamic_monsters-forge-1.20.1_1.28.0.jar",
+    "modId": "dynamic_monsters",
+    "version": "1.28.0"
   },
   "dynamicvillage-v0.4-1.20.1.jar": {
     "jarName": "dynamicvillage-v0.4-1.20.1.jar",
@@ -641,6 +641,11 @@
     "jarName": "emitrades-forge-1.2.1+mc1.20.1.jar",
     "modId": "emitrades",
     "version": "1.2.1+mc1.20.1"
+  },
+  "emixx-forge-1.1.2-1.20.1.jar": {
+    "jarName": "emixx-forge-1.1.2-1.20.1.jar",
+    "modId": "emixx",
+    "version": "1.1.2-1.20.1"
   },
   "enchanter_fix-1.6+mc1.20-1.21.8.jar": {
     "jarName": "enchanter_fix-1.6+mc1.20-1.21.8.jar",
@@ -707,10 +712,10 @@
     "modId": "fastleafdecay",
     "version": "32"
   },
-  "FastSuite-1.20.1-5.1.0.jar": {
-    "jarName": "FastSuite-1.20.1-5.1.0.jar",
+  "FastSuite-1.20.1-5.1.1.jar": {
+    "jarName": "FastSuite-1.20.1-5.1.1.jar",
     "modId": "fastsuite",
-    "version": "5.1.0"
+    "version": "5.1.1"
   },
   "ferritecore-6.0.1-forge.jar": {
     "jarName": "ferritecore-6.0.1-forge.jar",
@@ -816,6 +821,11 @@
     "jarName": "great_scrollable_tooltips-15.5.0+forge.jar",
     "modId": "great_scrollable_tooltips",
     "version": "15.5.0+forge"
+  },
+  "gstools-forge-1.20.1_1.28.0.jar": {
+    "jarName": "gstools-forge-1.20.1_1.28.0.jar",
+    "modId": "gstools",
+    "version": "1.28.0"
   },
   "guideme-20.1.14.jar": {
     "jarName": "guideme-20.1.14.jar",
@@ -1020,6 +1030,11 @@
     "modId": "libx",
     "version": "1.20.1-5.0.12"
   },
+  "lightspeed-1.20.1-1.1.2hotfix.jar": {
+    "jarName": "lightspeed-1.20.1-1.1.2hotfix.jar",
+    "modId": "lightspeed",
+    "version": "1.20.1-1.1.2hotfix"
+  },
   "lithostitched-forge-1.20.1-1.4.11.jar": {
     "jarName": "lithostitched-forge-1.20.1-1.4.11.jar",
     "modId": "lithostitched",
@@ -1034,6 +1049,11 @@
     "jarName": "lmft-1.0.4+1.20.1-forge.jar",
     "modId": "lmft",
     "version": "1.0.4+1.20.1"
+  },
+  "logprot-1.20.1-3.5.jar": {
+    "jarName": "logprot-1.20.1-3.5.jar",
+    "modId": "logprot",
+    "version": "1.4"
   },
   "lootjs-forge-1.20.1-2.13.0.jar": {
     "jarName": "lootjs-forge-1.20.1-2.13.0.jar",
@@ -1060,10 +1080,10 @@
     "modId": "manaunification",
     "version": "1.0.3"
   },
-  "Mantle-1.20.1-1.11.95.jar": {
-    "jarName": "Mantle-1.20.1-1.11.95.jar",
+  "Mantle-1.20.1-1.11.97.jar": {
+    "jarName": "Mantle-1.20.1-1.11.97.jar",
     "modId": "mantle",
-    "version": "1.11.95"
+    "version": "1.11.97"
   },
   "marbledsarsenal-1.20.1forge-2.3.0.3.jar": {
     "jarName": "marbledsarsenal-1.20.1forge-2.3.0.3.jar",
@@ -1125,20 +1145,20 @@
     "modId": "midnightlib",
     "version": "1.9.1"
   },
-  "minecolonies-1.20.1-1.1.1153-snapshot.jar": {
-    "jarName": "minecolonies-1.20.1-1.1.1153-snapshot.jar",
+  "minecolonies-1.20.1-1.1.1159-snapshot.jar": {
+    "jarName": "minecolonies-1.20.1-1.1.1159-snapshot.jar",
     "modId": "minecolonies",
-    "version": "1.20.1-1.1.1153-snapshot"
+    "version": "1.20.1-1.1.1159-snapshot"
   },
   "MineColonies_Compatibility-1.20.1-2.105.jar": {
     "jarName": "MineColonies_Compatibility-1.20.1-2.105.jar",
     "modId": "minecolonies_compatibility",
     "version": "2.105"
   },
-  "MineColonies_Tweaks-1.20.1-2.93-all.jar": {
-    "jarName": "MineColonies_Tweaks-1.20.1-2.93-all.jar",
+  "MineColonies_Tweaks-1.20.1-2.94-all.jar": {
+    "jarName": "MineColonies_Tweaks-1.20.1-2.94-all.jar",
     "modId": "minecolonies_tweaks",
-    "version": "2.93"
+    "version": "2.94"
   },
   "mobtimizations-forge-1.20.1-1.0.0.jar": {
     "jarName": "mobtimizations-forge-1.20.1-1.0.0.jar",
@@ -1240,10 +1260,10 @@
     "modId": "oreberriesreplanted",
     "version": "0.5.2"
   },
-  "packetfixer-3.3.0-1.18-1.20.4-merged.jar": {
-    "jarName": "packetfixer-3.3.0-1.18-1.20.4-merged.jar",
+  "packetfixer-3.3.1-1.18-1.20.4-merged.jar": {
+    "jarName": "packetfixer-3.3.1-1.18-1.20.4-merged.jar",
     "modId": "packetfixer",
-    "version": "3.3.0"
+    "version": "3.3.1"
   },
   "particle_core-0.2.6+1.20.1+forge.jar": {
     "jarName": "particle_core-0.2.6+1.20.1+forge.jar",
@@ -1324,6 +1344,11 @@
     "jarName": "PuzzlesLib-v8.1.32-1.20.1-Forge.jar",
     "modId": "puzzleslib",
     "version": "8.1.32"
+  },
+  "quick-pack-forge-1.2.1+1.20.1-all.jar": {
+    "jarName": "quick-pack-forge-1.2.1+1.20.1-all.jar",
+    "modId": "quick_pack",
+    "version": "1.2.1"
   },
   "Radars 0.3.5.1-Create6.jar": {
     "jarName": "Radars 0.3.5.1-Create6.jar",
@@ -1568,10 +1593,10 @@
     "modId": "supermartijn642corelib",
     "version": "1.1.18"
   },
-  "supplementaries-1.20-3.1.41.jar": {
-    "jarName": "supplementaries-1.20-3.1.41.jar",
+  "supplementaries-1.20-3.1.42-forge.jar": {
+    "jarName": "supplementaries-1.20-3.1.42-forge.jar",
     "modId": "supplementaries",
-    "version": "1.20-3.1.41"
+    "version": "1.20-3.1.42"
   },
   "swashbucklers! 2.6.6B 1.20.1.jar": {
     "jarName": "swashbucklers! 2.6.6B 1.20.1.jar",
@@ -1598,10 +1623,10 @@
     "modId": "tcintegrations",
     "version": "2.0.25.17"
   },
-  "TConstruct-1.20.1-3.11.0.148.jar": {
-    "jarName": "TConstruct-1.20.1-3.11.0.148.jar",
+  "TConstruct-1.20.1-3.11.1.158.jar": {
+    "jarName": "TConstruct-1.20.1-3.11.1.158.jar",
     "modId": "tconstruct",
-    "version": "3.11.0.148"
+    "version": "3.11.1.158"
   },
   "TerraBlender-forge-1.20.1-3.0.1.10.jar": {
     "jarName": "TerraBlender-forge-1.20.1-3.0.1.10.jar",
@@ -1682,11 +1707,6 @@
     "jarName": "tinker_rapier-1.0.1-1.20.1.jar",
     "modId": "tinker_rapier",
     "version": "1.0.1-1.20.1"
-  },
-  "tinkersplatinumtungsten-1.0.0-forge-1.20.1.jar": {
-    "jarName": "tinkersplatinumtungsten-1.0.0-forge-1.20.1.jar",
-    "modId": "tinkersplatinumtungsten",
-    "version": "1.0.0"
   },
   "Tips-Forge-1.20.1-12.1.8.jar": {
     "jarName": "Tips-Forge-1.20.1-12.1.8.jar",
@@ -1778,10 +1798,10 @@
     "modId": "veinmining",
     "version": "1.5.0+1.20.1"
   },
-  "via_romana-2.2.1+1.20.1-forge.jar": {
-    "jarName": "via_romana-2.2.1+1.20.1-forge.jar",
+  "via_romana-2.2.2+1.20.1-forge.jar": {
+    "jarName": "via_romana-2.2.2+1.20.1-forge.jar",
     "modId": "via_romana",
-    "version": "2.2.1+1.20.1-forge"
+    "version": "2.2.2+1.20.1-forge"
   },
   "visuality-forge-2.0.2.jar": {
     "jarName": "visuality-forge-2.0.2.jar",

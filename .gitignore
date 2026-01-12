@@ -54,6 +54,7 @@ user-prefs.json
 essential
 ESM
 wiki
+server.dat
 
 # explicitly included config
 !config/ProjectE/client.toml
@@ -73,3 +74,4 @@ wiki
 !config/Mekanism/tools-client.toml
 !config/stylisheffects-client.toml
 !config/moonlight-client.toml
+!config/mantle-client.toml
