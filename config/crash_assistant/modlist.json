@@ -334,10 +334,10 @@
     "modId": "configured",
     "version": "2.2.3"
   },
-  "connectivity-1.20.1-7.2.jar": {
-    "jarName": "connectivity-1.20.1-7.2.jar",
+  "connectivity-1.20.1-7.6.jar": {
+    "jarName": "connectivity-1.20.1-7.6.jar",
     "modId": "connectivity",
-    "version": "1.20.1-7.2"
+    "version": "1.20.1-7.6"
   },
   "Connector-1.0.0-beta.47+1.20.1.jar": {
     "jarName": "Connector-1.0.0-beta.47+1.20.1.jar"
@@ -386,6 +386,11 @@
     "jarName": "corpse-forge-1.20.1-1.0.23.jar",
     "modId": "corpse",
     "version": "1.20.1-1.0.23"
+  },
+  "corpsecommand-1.0.0-forge-1.20.1.jar": {
+    "jarName": "corpsecommand-1.0.0-forge-1.20.1.jar",
+    "modId": "corpsecommand",
+    "version": "1.0.0"
   },
   "corpsecurioscompat-1.20.1-Forge-3.1.3.jar": {
     "jarName": "corpsecurioscompat-1.20.1-Forge-3.1.3.jar",
@@ -947,10 +952,10 @@
     "modId": "jupiter",
     "version": "2.3.3-bugfix"
   },
-  "justenoughbreeding-forge-1.20-1.20.1-2.3.0.jar": {
-    "jarName": "justenoughbreeding-forge-1.20-1.20.1-2.3.0.jar",
+  "justenoughbreeding-forge-1.20-1.20.1-2.5.0.jar": {
+    "jarName": "justenoughbreeding-forge-1.20-1.20.1-2.5.0.jar",
     "modId": "justenoughbreeding",
-    "version": "2.3.0"
+    "version": "2.5.0"
   },
   "killingwaves-1.0.0-forge-1.20.1.jar": {
     "jarName": "killingwaves-1.0.0-forge-1.20.1.jar",
@@ -967,10 +972,10 @@
     "modId": "kjsindustrialforegoing",
     "version": "1.0"
   },
-  "kleeslabs-forge-1.20.1-15.0.9.jar": {
-    "jarName": "kleeslabs-forge-1.20.1-15.0.9.jar",
+  "kleeslabs-forge-1.20.1-15.0.11.jar": {
+    "jarName": "kleeslabs-forge-1.20.1-15.0.11.jar",
     "modId": "kleeslabs",
-    "version": "15.0.9"
+    "version": "15.0.11"
   },
   "konkrete_forge_1.8.0_MC_1.20-1.20.1.jar": {
     "jarName": "konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
@@ -1065,10 +1070,10 @@
     "modId": "mr_lukis_grandcapitals",
     "version": "1.1.2"
   },
-  "Lychee-1.20.1-Forge-5.1.21.jar": {
-    "jarName": "Lychee-1.20.1-Forge-5.1.21.jar",
+  "Lychee-1.20.1-Forge-5.1.24.jar": {
+    "jarName": "Lychee-1.20.1-Forge-5.1.24.jar",
     "modId": "lychee",
-    "version": "5.1.21+forge"
+    "version": "5.1.24+forge"
   },
   "manaunification-1.20.1-1.0.3.jar": {
     "jarName": "manaunification-1.20.1-1.0.3.jar",
@@ -1145,15 +1150,15 @@
     "modId": "minecolonies",
     "version": "1.20.1-1.1.1159-snapshot"
   },
-  "MineColonies_Compatibility-1.20.1-2.105.jar": {
-    "jarName": "MineColonies_Compatibility-1.20.1-2.105.jar",
+  "MineColonies_Compatibility-1.20.1-2.107.jar": {
+    "jarName": "MineColonies_Compatibility-1.20.1-2.107.jar",
     "modId": "minecolonies_compatibility",
-    "version": "2.105"
+    "version": "2.107"
   },
-  "MineColonies_Tweaks-1.20.1-2.94-all.jar": {
-    "jarName": "MineColonies_Tweaks-1.20.1-2.94-all.jar",
+  "MineColonies_Tweaks-1.20.1-2.95-all.jar": {
+    "jarName": "MineColonies_Tweaks-1.20.1-2.95-all.jar",
     "modId": "minecolonies_tweaks",
-    "version": "2.94"
+    "version": "2.95"
   },
   "mobtimizations-forge-1.20.1-1.0.0.jar": {
     "jarName": "mobtimizations-forge-1.20.1-1.0.0.jar",
@@ -1334,6 +1339,11 @@
     "jarName": "ppfluids-1.20.1-2.0.1.jar",
     "modId": "ppfluids",
     "version": "2.0.1"
+  },
+  "prettifiedwits-1.0.0-forge-1.20.1.jar": {
+    "jarName": "prettifiedwits-1.0.0-forge-1.20.1.jar",
+    "modId": "prettifiedwits",
+    "version": "1.0.0"
   },
   "PrettyPipes-1.15.0-all.jar": {
     "jarName": "PrettyPipes-1.15.0-all.jar",
@@ -1588,10 +1598,10 @@
     "modId": "structuresloottweak",
     "version": "1.0.0"
   },
-  "structurify-forge-2.0.11+mc1.20.1.jar": {
-    "jarName": "structurify-forge-2.0.11+mc1.20.1.jar",
+  "structurify-forge-2.0.12+mc1.20.1.jar": {
+    "jarName": "structurify-forge-2.0.12+mc1.20.1.jar",
     "modId": "structurify",
-    "version": "2.0.11"
+    "version": "2.0.12"
   },
   "structurize-1.20.1-1.0.793-snapshot.jar": {
     "jarName": "structurize-1.20.1-1.0.793-snapshot.jar",
@@ -1628,10 +1638,10 @@
     "modId": "hpm",
     "version": "2.6.6"
   },
-  "tacz-1.20.1-1.1.7-release.jar": {
-    "jarName": "tacz-1.20.1-1.1.7-release.jar",
+  "tacz-1.20.1-1.1.7-hotfix.jar": {
+    "jarName": "tacz-1.20.1-1.1.7-hotfix.jar",
     "modId": "tacz",
-    "version": "1.1.7"
+    "version": "1.1.7-hotfix"
   },
   "tagfixes-1.0.0-forge-1.20.1.jar": {
     "jarName": "tagfixes-1.0.0-forge-1.20.1.jar",
@@ -1653,10 +1663,10 @@
     "modId": "tcintegrations",
     "version": "2.0.25.17"
   },
-  "TConstruct-1.20.1-3.11.1.158.jar": {
-    "jarName": "TConstruct-1.20.1-3.11.1.158.jar",
+  "TConstruct-1.20.1-3.11.2.166.jar": {
+    "jarName": "TConstruct-1.20.1-3.11.2.166.jar",
     "modId": "tconstruct",
-    "version": "3.11.1.158"
+    "version": "3.11.2.166"
   },
   "TerraBlender-forge-1.20.1-3.0.1.10.jar": {
     "jarName": "TerraBlender-forge-1.20.1-3.0.1.10.jar",
@@ -1863,20 +1873,15 @@
     "modId": "waves",
     "version": "1.6.1"
   },
-  "waystones-forge-1.20.1-14.1.17.jar": {
-    "jarName": "waystones-forge-1.20.1-14.1.17.jar",
+  "waystones-forge-1.20.1-14.1.18.jar": {
+    "jarName": "waystones-forge-1.20.1-14.1.18.jar",
     "modId": "waystones",
-    "version": "14.1.17"
+    "version": "14.1.18"
   },
   "welcomescreen-forge-1.0.0-1.20.1.jar": {
     "jarName": "welcomescreen-forge-1.0.0-1.20.1.jar",
     "modId": "welcomescreen",
     "version": "1.0.0"
-  },
-  "wits-1.1.0+1.20.1-forge.jar": {
-    "jarName": "wits-1.1.0+1.20.1-forge.jar",
-    "modId": "wits",
-    "version": "1.1.0+1.20.1-forge"
   },
   "world_preview-forge-1.20.1-1.3.1.jar": {
     "jarName": "world_preview-forge-1.20.1-1.3.1.jar",

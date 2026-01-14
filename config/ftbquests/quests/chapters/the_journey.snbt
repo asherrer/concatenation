@@ -11261,15 +11261,7 @@
 			]
 			tasks: [{
 				id: "2F25BD20E3A91A9C"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "tconstruct:rose_gold_ingot"
-				}
+				item: "thermal:rose_gold_ingot"
 				type: "item"
 			}]
 			x: -7.0d
