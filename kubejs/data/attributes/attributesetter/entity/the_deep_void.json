@@ -439,7 +439,7 @@
     },
     {
       "attribute": "minecraft:generic.attack_damage",
-      "value": 20,
+      "value": 5,
       "operation": "ADDITION"
     }
   ],

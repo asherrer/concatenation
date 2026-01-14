@@ -1,0 +1,15 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    { "item": "tfmg:plastic_sheet" }
+  ],
+  "tool": {
+    "item": "concatenation:cutting_tool"
+  },
+  "result": [
+    {
+      "item": "industrialforegoing:plastic",
+      "count": 1
+    }
+  ]
+}

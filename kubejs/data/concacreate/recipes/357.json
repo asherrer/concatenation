@@ -1,0 +1,10 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    { "item": "createaddition:brass_rod" },
+    { "item": "create:brass_sheet" }
+  ],
+  "results": [
+    { "item": "createtaczauto:casing_357_magnum" }
+  ]
+}
