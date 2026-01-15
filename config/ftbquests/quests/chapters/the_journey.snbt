@@ -251,7 +251,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 7.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["2157576FC7005917"]
@@ -325,8 +325,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.6000000000000005d
-			y: -1.5999999999999996d
+			x: 6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["73F4AAF2267BB33B"]
@@ -1280,7 +1280,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: 10.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["5F7CEE33D11A352F"]
@@ -1314,7 +1314,7 @@
 		{
 			dependencies: [
 				"5B6717870A814E8C"
-				"2515356468657815"
+				"2444E9C25D297DEC"
 			]
 			description: [
 				"The Smeltery is used for ore processing, alloying and further advancement in tinkering. It's a multiblock apparatus requiring a square or rectangular seared bricks structure, also using seared tanks to hold lava required for melting ores."
@@ -1358,7 +1358,7 @@
 					type: "item"
 				}
 			]
-			size: 1.1d
+			size: 1.15d
 			tasks: [
 				{
 					id: "1CE945FCC1B4A9B7"
@@ -1420,11 +1420,11 @@
 				}
 				type: "item"
 			}]
-			x: -9.0d
+			x: -8.5d
 			y: 16.0d
 		}
 		{
-			dependencies: ["0964BD6C4413A9C9"]
+			dependencies: ["4557B51A13938B2F"]
 			description: [
 				"Brass is a crucial material of the Tower pathway, frequently used in expansive machinery."
 				""
@@ -1450,8 +1450,8 @@
 				}
 				type: "item"
 			}]
-			x: -9.0d
-			y: 13.5d
+			x: -10.5d
+			y: 12.5d
 		}
 		{
 			dependencies: [
@@ -6376,9 +6376,8 @@
 			y: 20.0d
 		}
 		{
-			dependencies: ["2970C1ADE44898FF"]
+			dependencies: ["287ED2C334B0E957"]
 			description: ["An essential fixture for anyone delving into witchcraft, used to mix a great many things and infuse them with ancient spiritual power. The Mixing Cauldron can also be used for more efficient potion brewing at its scale. This is also where you'll be bleeding many creature. In fact, this cauldron has the uncanny ability to draw blood, even from vaguely human-shaped wood...  "]
-			hide_dependency_lines: true
 			id: "3B8127AF958727B0"
 			rewards: [
 				{
@@ -6418,7 +6417,7 @@
 				type: "item"
 			}]
 			x: 9.100000000000001d
-			y: -2.0999999999999996d
+			y: -1.0d
 		}
 		{
 			dependencies: ["3B8127AF958727B0"]
@@ -6444,7 +6443,7 @@
 				type: "item"
 			}]
 			x: 9.600000000000001d
-			y: -3.5999999999999996d
+			y: -2.5d
 		}
 		{
 			dependencies: ["08656304775DB207"]
@@ -6508,7 +6507,7 @@
 			]
 			title: "Witch Robes"
 			x: 9.600000000000001d
-			y: -5.6d
+			y: -4.5d
 		}
 		{
 			dependencies: ["0CC91D0458ACB827"]
@@ -6542,7 +6541,7 @@
 				type: "item"
 			}]
 			x: 12.100000000000001d
-			y: -4.6d
+			y: -3.5d
 		}
 		{
 			dependencies: ["0BBFD1B138A5DA3D"]
@@ -6568,7 +6567,7 @@
 				type: "item"
 			}]
 			x: 12.100000000000001d
-			y: -6.1d
+			y: -5.0d
 		}
 		{
 			dependencies: ["3EF9977332170323"]
@@ -6594,7 +6593,7 @@
 				type: "item"
 			}]
 			x: 12.100000000000001d
-			y: -7.1d
+			y: -6.0d
 		}
 		{
 			dependencies: ["3B8127AF958727B0"]
@@ -6644,7 +6643,7 @@
 			]
 			title: "Acquiring Blood"
 			x: 11.100000000000001d
-			y: -2.5999999999999996d
+			y: -1.5d
 		}
 		{
 			dependencies: ["3B8127AF958727B0"]
@@ -6727,7 +6726,7 @@
 				type: "item"
 			}]
 			x: 13.100000000000001d
-			y: -3.5999999999999996d
+			y: -2.5d
 		}
 		{
 			dependencies: ["0BBFD1B138A5DA3D"]
@@ -6781,7 +6780,7 @@
 			]
 			title: "Broom Satchels"
 			x: 13.600000000000001d
-			y: -4.6d
+			y: -3.5d
 		}
 		{
 			dependencies: ["2970C1ADE44898FF"]
@@ -6848,8 +6847,8 @@
 				type: "item"
 			}]
 			title: "Drying Rack"
-			x: 9.100000000000001d
-			y: 0.9000000000000004d
+			x: 8.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["50DF4F514B4C87B9"]
@@ -6904,8 +6903,8 @@
 				type: "item"
 			}]
 			title: "Enhanced Brushes"
-			x: 9.100000000000001d
-			y: 2.4000000000000004d
+			x: 8.5d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -6945,7 +6944,7 @@
 				type: "item"
 			}]
 			x: 13.600000000000001d
-			y: -7.6d
+			y: -6.5d
 		}
 		{
 			dependencies: ["3B8127AF958727B0"]
@@ -6970,7 +6969,7 @@
 				type: "item"
 			}]
 			x: 8.100000000000001d
-			y: -3.5999999999999996d
+			y: -2.5d
 		}
 		{
 			dependencies: ["3B8127AF958727B0"]
@@ -7012,7 +7011,7 @@
 				type: "item"
 			}]
 			x: 10.100000000000001d
-			y: -0.5999999999999996d
+			y: 0.5d
 		}
 		{
 			dependencies: ["3B8127AF958727B0"]
@@ -7053,8 +7052,8 @@
 				}
 			]
 			title: "Gathering Moon Dust"
-			x: 10.600000000000001d
-			y: 3.4000000000000004d
+			x: 10.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["0419D82408E8C7B0"]
@@ -7080,7 +7079,7 @@
 				type: "item"
 			}]
 			x: 12.100000000000001d
-			y: 1.4000000000000004d
+			y: 2.5d
 		}
 		{
 			dependencies: ["3B8127AF958727B0"]
@@ -7121,7 +7120,7 @@
 				type: "item"
 			}]
 			x: 11.600000000000001d
-			y: -1.0999999999999996d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0BBFD1B138A5DA3D"]
@@ -7146,7 +7145,7 @@
 				type: "item"
 			}]
 			x: 15.1d
-			y: -4.6d
+			y: -3.5d
 		}
 		{
 			dependencies: ["7B7ECE9C646B974B"]
@@ -7172,7 +7171,7 @@
 			}]
 			title: "Crow Food"
 			x: 11.100000000000001d
-			y: 0.40000000000000036d
+			y: 1.5d
 		}
 		{
 			dependencies: ["0BBFD1B138A5DA3D"]
@@ -7222,7 +7221,7 @@
 			}]
 			title: "Broom Tips"
 			x: 13.600000000000001d
-			y: -6.1d
+			y: -5.0d
 		}
 		{
 			dependencies: ["6EB3E5667F8481FC"]
@@ -7366,7 +7365,7 @@
 			]
 			title: "Collect Every Herb"
 			x: 13.100000000000001d
-			y: -0.09999999999999964d
+			y: 1.0d
 		}
 		{
 			dependencies: ["3B8127AF958727B0"]
@@ -7399,8 +7398,8 @@
 				}
 				type: "item"
 			}]
-			x: 12.100000000000001d
-			y: 3.4000000000000004d
+			x: 12.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["2970C1ADE44898FF"]
@@ -7483,8 +7482,8 @@
 				}
 			]
 			title: "Courier Depot"
-			x: 13.600000000000001d
-			y: 3.4000000000000004d
+			x: 13.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["2970C1ADE44898FF"]
@@ -7511,8 +7510,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.4d
-			y: -2.8999999999999995d
+			x: 4.8d
+			y: -2.8d
 		}
 		{
 			dependencies: ["00E41146BE22270E"]
@@ -7637,7 +7636,7 @@
 				type: "item"
 			}]
 			x: -10.0d
-			y: 16.5d
+			y: 17.0d
 		}
 		{
 			dependencies: ["48182227AA27C096"]
@@ -8691,7 +8690,7 @@
 					type: "item"
 				}
 			]
-			x: -11.0d
+			x: -11.5d
 			y: 15.0d
 		}
 		{
@@ -8917,7 +8916,7 @@
 				}
 			]
 			title: "Tinkering"
-			x: -5.0d
+			x: -5.5d
 			y: 8.5d
 		}
 		{
@@ -8975,7 +8974,7 @@
 			]
 			title: "Efficient Tinkering Storage"
 			x: -5.0d
-			y: 7.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["13FC54673932E4F0"]
@@ -8999,8 +8998,8 @@
 				}
 				type: "item"
 			}]
-			x: -6.0d
-			y: 8.0d
+			x: -6.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["6CE0DB1AEB597BCE"]
@@ -9575,7 +9574,7 @@
 				}
 				type: "item"
 			}]
-			x: -7.0d
+			x: -6.0d
 			y: 15.5d
 		}
 		{
@@ -9963,7 +9962,7 @@
 			]
 			title: "Cultist Armor"
 			x: 10.600000000000001d
-			y: -4.6d
+			y: -3.5d
 		}
 		{
 			dependencies: ["3B8127AF958727B0"]
@@ -9998,8 +9997,8 @@
 					type: "item"
 				}
 			]
-			x: 13.600000000000001d
-			y: 5.4d
+			x: 14.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["5D6BE53739B45840"]
@@ -10023,8 +10022,8 @@
 				}
 				type: "item"
 			}]
-			x: 15.1d
-			y: 6.4d
+			x: 15.499999999999998d
+			y: 8.0d
 		}
 		{
 			dependencies: [
@@ -10340,7 +10339,6 @@
 				"{@pagebreak}"
 				"You will also need to cast bronze into a gear cast to manufacture the bronze gears required."
 			]
-			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "6AABF2BA290CD429"
 			rewards: [{
@@ -20369,7 +20367,7 @@
 				}
 			]
 			x: 14.6d
-			y: -3.0999999999999996d
+			y: -2.0d
 		}
 		{
 			dependencies: ["0901394AD3A5FDAB"]
@@ -21767,8 +21765,8 @@
 				type: "item"
 			}]
 			title: "The Paxel"
-			x: -3.5d
-			y: 6.0d
+			x: -3.0d
+			y: 5.5d
 		}
 		{
 			dependencies: [
@@ -22030,7 +22028,7 @@
 				type: "item"
 			}]
 			title: "Sublime Gold Tools"
-			x: 2.25d
+			x: 1.7999999999999998d
 			y: 9.0d
 		}
 		{
@@ -22102,7 +22100,7 @@
 				}
 			]
 			title: "Frozen Ice Armor"
-			x: 2.25d
+			x: 1.7999999999999998d
 			y: 9.899999999999999d
 		}
 		{
@@ -22444,8 +22442,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.1000000000000005d
-			y: 0.9000000000000004d
+			x: 6.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["71BB28D5234F5991"]
@@ -22525,7 +22523,7 @@
 			}]
 			title: "Botany Pot"
 			x: 13.100000000000001d
-			y: -1.0999999999999996d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3CA659FFA729615D"]
@@ -23200,7 +23198,7 @@
 			y: 34.425d
 		}
 		{
-			dependencies: ["7EC83053F1BDF835"]
+			dependencies: ["5AB59B366ED4E373"]
 			description: [
 				"Found some ancient blueprints from my nether adventures and saved them for later. I've borrowed an interesting book in a dwarven library with a note on the cover:"
 				""
@@ -23219,6 +23217,7 @@
 					xp_levels: 1
 				}
 			]
+			size: 1.1d
 			tasks: [{
 				id: "3507E1E26124F2F5"
 				item: {
@@ -23238,8 +23237,8 @@
 				type: "item"
 			}]
 			title: "The Fantastic Foundry"
-			x: -3.5d
-			y: 17.0d
+			x: -3.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["3AF5EB2526EAD40C"]
@@ -23279,7 +23278,7 @@
 				type: "item"
 			}]
 			x: 12.600000000000001d
-			y: -2.5999999999999996d
+			y: -1.5d
 		}
 		{
 			dependencies: ["5F12CF1071CE8A45"]
@@ -23332,8 +23331,8 @@
 				}
 				type: "item"
 			}]
-			x: 15.6d
-			y: -6.6d
+			x: 7.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["35C32229A51A1B7D"]
@@ -23573,8 +23572,8 @@
 				type: "item"
 			}]
 			title: "Summoning Scrolls"
-			x: 15.1d
-			y: 4.9d
+			x: 15.499999999999998d
+			y: 6.5d
 		}
 		{
 			dependencies: ["73F4AAF2267BB33B"]
@@ -27162,7 +27161,7 @@
 			}]
 			title: "Divination Rods"
 			x: 14.6d
-			y: -2.0999999999999996d
+			y: -1.0d
 		}
 		{
 			dependencies: ["02CAE7DE326720EA"]
@@ -27525,7 +27524,11 @@
 				"2970C1ADE44898FF"
 			]
 			dependency_requirement: "one_completed"
-			description: ["&2Anomalous Shards, much like resonite ore, can be found crystalizing under anomalies, seeping into rock. Thorough digging may be required, but do not be hasty, the process takes a long time and can be accelerated with annomalous technology.&r"]
+			description: [
+				"&2Anomalous Shards, much like resonite ore, can be found crystalizing under anomalies, seeping into rock. Thorough digging may be required, but do not be hasty, the process takes a long time and can be accelerated with annomalous technology. "
+				""
+				"&2They usually appear in shallow ground near anomalies, around 2-5 blocks of depth from the ground. &r"
+			]
 			id: "622A83A7012371BE"
 			rewards: [
 				{
@@ -28003,13 +28006,14 @@
 					xp_levels: 3
 				}
 			]
+			size: 0.9d
 			tasks: [{
 				id: "6B73AB6AD8490861"
 				item: "spelled:leveling_altar"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 10.0d
+			x: 3.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["12F6BD166085B3B5"]
@@ -28022,12 +28026,14 @@
 				""
 				"Once you find enough ancient words in different scraps and notes of ancient writings, check up on the words you've accumulated in your Tome of Knowledge."
 			]
+			hide_dependency_lines: false
 			id: "314ACC07FE5193DC"
 			rewards: [{
 				id: "4934E0EA604D263F"
 				item: "spelled:ancient_knowledge_tome"
 				type: "item"
 			}]
+			size: 0.9d
 			subtitle: "The pen is mightier than the sword."
 			tasks: [
 				{
@@ -28049,11 +28055,11 @@
 				}
 			]
 			title: "Knowledge of Words"
-			x: 5.0d
+			x: 4.75d
 			y: 9.5d
 		}
 		{
-			dependencies: ["4FA1B8DD76B592DD"]
+			dependencies: ["314ACC07FE5193DC"]
 			description: ["The spell book can be used to not only write down your spelled spells more concretely for usage of the &oknowledge of words&r, but also to semi-silently cast. Or at least, murmur much faster while reading out the text..."]
 			id: "770B8C25D934EC9B"
 			rewards: [{
@@ -28061,13 +28067,14 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			size: 0.9d
 			tasks: [{
 				id: "4EBAD888D5D37E59"
 				item: "spelled:spell_book"
 				type: "item"
 			}]
-			x: 6.6d
-			y: 14.0d
+			x: 3.5d
+			y: 10.0d
 		}
 		{
 			dependencies: [
@@ -28136,7 +28143,7 @@
 				type: "item"
 			}]
 			title: "Light Elemental Weapons"
-			x: 2.25d
+			x: 1.7999999999999998d
 			y: 10.8d
 		}
 		{
@@ -28518,6 +28525,8 @@
 				"{@pagebreak}"
 				"The alloy smelter requires a controller with a 3x3 stone brick base underneath and a 2 block-high hollow chimney around the controller."
 				""
+				"&o&7  A drawn note is left on the entry"
+				""
 				"{image:concatenationcore:textures/alloy_smelter.png width:100 height:100 align:center}"
 			]
 			icon: "alloy_smelter:forge_controller_tier1"
@@ -28543,16 +28552,18 @@
 			]
 			title: "Stone Alloy Smelter"
 			x: 0.0d
-			y: 9.0d
+			y: 7.5d
 		}
 		{
-			dependencies: ["06A4BEEE42830A85"]
+			dependencies: ["49C2BB622D7F5BFD"]
 			description: [
 				"An efficient smelting furnace, able to handle double the amount of ore and for a much faster output. "
 				""
 				"The alloy smelter is quite fast compared to a regular furnace and is even fuel-efficient when smelting in batches of two."
 				"{@pagebreak}"
 				"The alloy smelter requires a controller with a 3x3 brick base underneath and a 2 block-high hollow chimney around the controller."
+				""
+				"&o&7  A drawn note is left on the entry"
 				""
 				"{image:concatenationcore:textures/alloy_smelter.png width:100 height:100 align:center}"
 			]
@@ -28564,6 +28575,7 @@
 				item: "minecraft:coal"
 				type: "item"
 			}]
+			size: 1.15d
 			subtitle: "Hasteful Ore Processing"
 			tasks: [
 				{
@@ -28579,11 +28591,11 @@
 				}
 			]
 			title: "Brick Alloy Smelter"
-			x: -2.0d
-			y: 9.0d
+			x: -2.75d
+			y: 9.6d
 		}
 		{
-			dependencies: ["7EC83053F1BDF835"]
+			dependencies: ["5AB59B366ED4E373"]
 			description: [
 				"The fastest of the alloy smelters, the scorchia alloy smelter is made from a material originating from the netherworld, allowing for the highest heat throughout."
 				""
@@ -28601,6 +28613,7 @@
 				item: "minecraft:blaze_rod"
 				type: "item"
 			}]
+			size: 1.1d
 			subtitle: "Double Ore Processing"
 			tasks: [
 				{
@@ -28617,8 +28630,8 @@
 				}
 			]
 			title: "Scorchia Alloy Smelter"
-			x: -2.5d
-			y: 16.0d
+			x: -3.0d
+			y: 17.5d
 		}
 		{
 			dependencies: ["050A151DEB4BAF79"]
@@ -28751,7 +28764,7 @@
 			y: -6.375d
 		}
 		{
-			dependencies: ["5153F78E7C90421F"]
+			dependencies: ["2FFA8334D1BEB88A"]
 			description: [
 				"Ferrotin Bronze is an uncertain alloy between iron and bronze, which can be alloyed in an alloy smelter. It doesn't seem like it should yield a proper durable material, but iron coats around the bronze similarly to the zinc of galvanized iron. It's quite strange, honestly."
 				""
@@ -28770,7 +28783,7 @@
 				type: "item"
 			}]
 			x: -5.5d
-			y: 10.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["0F3C19C3311A0821"]
@@ -29421,19 +29434,28 @@
 				""
 				"A more crude method is using a large amount of silver and nickel in a smeltery, discaring most of the metal to produce a little amount of impure platinum."
 			]
+			icon: "common_ore_library:platinum_ingot"
 			id: "7EC83053F1BDF835"
 			rewards: [{
 				id: "16B9F33D9B2A2226"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			tasks: [{
-				id: "61F8C5F5051DD791"
-				item: "common_ore_library:platinum_ingot"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "61F8C5F5051DD791"
+					item: "common_ore_library:platinum_ingot"
+					type: "item"
+				}
+				{
+					id: "475F2D51B4992348"
+					item: "thermal_processing:nether_platinum_ore"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: -4.5d
-			y: 15.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["5C37D62CC88F677F"]
@@ -30189,8 +30211,8 @@
 				item: "minecraft:lantern"
 				type: "item"
 			}]
-			x: 4.249999999999999d
-			y: -6.45d
+			x: 4.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["524067700E07EB06"]
@@ -30645,8 +30667,8 @@
 				weak_nbt_match: true
 			}]
 			title: "Seasons"
-			x: -2.7500000000000004d
-			y: -6.45d
+			x: -2.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["524067700E07EB06"]
@@ -30712,8 +30734,8 @@
 				type: "item"
 			}]
 			title: "Builder's Workstations"
-			x: -3.2d
-			y: -5.45d
+			x: -3.5999999999999996d
+			y: -5.3999999999999995d
 		}
 		{
 			dependencies: ["524067700E07EB06"]
@@ -30853,8 +30875,8 @@
 				type: "item"
 			}]
 			title: "Lazy Man's Dream"
-			x: 4.7d
-			y: -5.45d
+			x: 4.95d
+			y: -5.3999999999999995d
 		}
 		{
 			dependencies: [
@@ -31716,6 +31738,8 @@
 				""
 				"The Heater is placed at the bottom and can be filled with lava to serve as fuel to heat up the contents of the Thermae placed above. It is then used to infuse the block above, usually an iron block. &a(Right click the Heater with a lava bucket to put in lava.)&r"
 				"{@pagebreak}"
+				"&o&7  A drawn note is left on the entry"
+				""
 				"{image:concatenationcore:textures/thermae.png width:100 height:100 align:center}"
 			]
 			id: "4C76FB98A8040661"
@@ -32373,6 +32397,239 @@
 			}]
 			x: 8.025d
 			y: 9.175d
+		}
+		{
+			dependencies: ["5153F78E7C90421F"]
+			id: "2FFA8334D1BEB88A"
+			tasks: [{
+				id: "1671DE5D49F727A8"
+				item: "thermal:bronze_ingot"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["2515356468657815"]
+			id: "2444E9C25D297DEC"
+			tasks: [{
+				id: "7C90D1BEE5369EA5"
+				item: "concatenationcore:smeltery_fuel_core"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["06A4BEEE42830A85"]
+			id: "49C2BB622D7F5BFD"
+			tasks: [{
+				id: "0C03665F15B46128"
+				item: "concatenationcore:forge_grate"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["31750A18D07A8904"]
+			id: "7DDEBB0D4A978C4E"
+			tasks: [{
+				id: "6DF869905B455D7D"
+				item: {
+					Count: 1
+					id: "concatenationcore:mixing_tool"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.25d
+			y: 9.3d
+		}
+		{
+			dependencies: [
+				"7EC83053F1BDF835"
+				"59D783372A16F858"
+			]
+			id: "5AB59B366ED4E373"
+			tasks: [{
+				id: "4819F69ECFA0F32C"
+				item: "concatenationcore:platinum_fuel_core"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["0964BD6C4413A9C9"]
+			id: "629CB95B2A3C1022"
+			tasks: [{
+				id: "76B6BB1B19597DC9"
+				item: {
+					Count: 2
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "tconstruct:gear_cast"
+							}
+							{
+								Count: 1b
+								id: "tconstruct:wire_cast"
+							}
+							{
+								Count: 1b
+								id: "tconstruct:coin_cast"
+							}
+							{
+								Count: 1b
+								id: "tconstruct:rod_cast"
+							}
+						]
+					}
+				}
+				title: "Any Gear, Wire, Rod or Coin Cast"
+				type: "item"
+			}]
+			title: "Casting Machine Parts"
+			x: -8.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["0964BD6C4413A9C9"]
+			id: "4557B51A13938B2F"
+			tasks: [{
+				id: "783A5C3066E6BA58"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "tconstruct:ingot_cast"
+							}
+							{
+								Count: 1b
+								id: "tconstruct:gem_cast"
+							}
+							{
+								Count: 1b
+								id: "tconstruct:nugget_cast"
+							}
+							{
+								Count: 1b
+								id: "tconstruct:ingot_sand_cast"
+							}
+							{
+								Count: 1b
+								id: "tconstruct:gem_sand_cast"
+							}
+							{
+								Count: 1b
+								id: "tconstruct:nugget_sand_cast"
+							}
+							{
+								Count: 1b
+								id: "tconstruct:ingot_red_sand_cast"
+							}
+							{
+								Count: 1b
+								id: "tconstruct:gem_red_sand_cast"
+							}
+							{
+								Count: 1b
+								id: "tconstruct:nugget_red_sand_cast"
+							}
+							{
+								Count: 1b
+								id: "thermal:chiller_ingot_cast"
+							}
+							{
+								Count: 1b
+								id: "thermalconstruct:bronze_cast_gem"
+							}
+						]
+					}
+				}
+				title: "Ingot, Nugget or Gem Cast"
+				type: "item"
+			}]
+			title: "Casting Materials"
+			x: -8.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["5528A8B3F2AE6D2F"]
+			id: "287ED2C334B0E957"
+			tasks: [{
+				id: "645F596F4E8CFBFE"
+				item: "minecraft:candle"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["51E48EAB50B0971E"]
+			hide_dependency_lines: true
+			id: "18876F26DAE1C815"
+			tasks: [{
+				id: "78CCEC06F1173191"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							air: 0
+							earth: 0
+							fire: 0
+							water: 0
+						}
+					}
+					id: "elementalcraft:pure_element_holder"
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["524067700E07EB06"]
+			id: "074421F47A443EC7"
+			rewards: [{
+				id: "2EC0FFDDDE776B73"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "3F478074FDC5FF2A"
+				item: "tangiblecommands:wits_item"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["524067700E07EB06"]
+			id: "089B3DD50486B1A5"
+			tasks: [{
+				id: "594441E211B3BD02"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "scarecrowsterritory:primitive_scarecrows"
+					}
+				}
+				title: "Any Scarecrow"
+				type: "item"
+			}]
+			title: "Scarecrow"
+			x: -4.0d
+			y: -7.0d
 		}
 	]
 	title: "The Journey"
