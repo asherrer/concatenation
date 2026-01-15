@@ -1,0 +1,9 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    { "item": "createaddition:brass_rod" }
+  ],
+  "results": [
+    { "item": "createtaczauto:casing_556x_45mm" }
+  ]
+}

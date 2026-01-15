@@ -47,11 +47,6 @@
       "operation": "ADDITION"
     },
     {
-      "attribute": "minecraft:generic.movement_speed",
-      "value": 0.2,
-      "operation": "ADDITION"
-    },
-    {
       "attribute": "minecraft:generic.attack_damage",
       "value": 10,
       "operation": "ADDITION"
@@ -298,12 +293,12 @@
   "weaver_of_souls": [
     {
       "attribute": "minecraft:generic.max_health",
-      "value": 500,
+      "value": 250,
       "operation": "ADDITION"
     },
     {
       "attribute": "minecraft:generic.attack_damage",
-      "value": 20,
+      "value": 48,
       "operation": "ADDITION"
     }
   ],
@@ -341,37 +336,39 @@
       "operation": "ADDITION"
     }
   ],
-  "primordial_crawler": [
+  "primordial_bone_crawler": [
     {
       "attribute": "minecraft:generic.max_health",
-      "value": 500,
+      "value": 250,
       "operation": "ADDITION"
     },
     {
       "attribute": "minecraft:generic.movement_speed",
-      "value": 0.2,
-      "operation": "ADDITION"
-    },
-    {
-      "attribute": "minecraft:generic.attack_damage",
-      "value": 20,
+      "value": 0.1,
       "operation": "ADDITION"
     }
   ],
   "skull_smasher": [
     {
       "attribute": "minecraft:generic.max_health",
-      "value": 10,
+      "value": 80,
       "operation": "ADDITION"
     },
     {
       "attribute": "minecraft:generic.movement_speed",
       "value": 0.2,
       "operation": "ADDITION"
+    }
+  ],
+  "saw_thrower": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 80,
+      "operation": "ADDITION"
     },
     {
-      "attribute": "minecraft:generic.attack_damage",
-      "value": 20,
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.2,
       "operation": "ADDITION"
     }
   ],
@@ -439,7 +436,7 @@
     },
     {
       "attribute": "minecraft:generic.attack_damage",
-      "value": 20,
+      "value": 5,
       "operation": "ADDITION"
     }
   ],
@@ -474,6 +471,13 @@
     {
       "attribute": "minecraft:generic.attack_damage",
       "value": 20,
+      "operation": "ADDITION"
+    }
+  ],
+  "flesh_fangs": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 25,
       "operation": "ADDITION"
     }
   ]

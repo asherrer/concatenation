@@ -18824,8 +18824,8 @@
 				}
 			]
 			title: "Nightmare Armour"
-			x: 15.0d
-			y: -19.5d
+			x: 14.5d
+			y: -20.0d
 		}
 		{
 			dependencies: ["369EB408D49E5415"]
@@ -24458,14 +24458,13 @@
 			id: "4E62B2BDC912CCA1"
 			rewards: [
 				{
-					count: 2
-					id: "59F7B2C5BBA33A38"
-					item: "the_deep_void:rotten_bone"
+					id: "1D2E1C7C150595FA"
+					item: "the_deep_void:book_of_ancient_knowledge"
 					type: "item"
 				}
 				{
-					count: 8
-					id: "0C37EDEEACC3615D"
+					count: 32
+					id: "2B7F88E89A5D4024"
 					item: "minecraft:torch"
 					type: "item"
 				}
@@ -24484,9 +24483,11 @@
 		{
 			dependencies: ["4E62B2BDC912CCA1"]
 			description: [
-				"&7“When entering a new dimension for the first time, many people would default to mining the same way they would anywhere else to sample the new realm’s materials. You can still do that here in the Deep Void, but it’s not nearly as effective as it is in other, less hostile dimensions. For one, the darkness below the surface is actually constricting, choking the life out of anyone not in the light. In addition to this, ore veins do not appear the same way here in comparison to other places.”"
+				"&7“Similar to other dimensions like the Nether, the Deep Void is host to its own unique ore ecosystem. Some of them can be found in the overworld, like Sulfur or Cinnabar, but there's a number of samples unique to the Deep Void as well!\""
 				"{@pagebreak}"
-				"&7“In my case, I had no luck getting any new minerals until I fell into a vast cave network, in which the dimension’s treasures had revealed themselves. Minerals are easy to find lining the walls of rock and bone. Onyx and Lavendite are some of the most common gems in the Deep Void, but are nonetheless important for processing its more valuable materials.”"
+				"&7\"The most ubiquitous of these materials is Onyx, which I've found a large quantity of uses for. It's rather commonly found anywhere down here, which is a trait shared by Lavendite. Bismuth is a bit more rare, only appearing in particularly treacherous biomes, but I'd say it's a worthwhile endeavor to get nonetheless.\""
+				"{@pagebreak}"
+				"&7\"Another note, mining in the Deep Void poses challenges not found in the rest of the dimension. The darkness underground is unnervingly constricting, manifesting in physical damage if you're not careful. Also, I've found this unique ore that I can't seem to mine, even with my most powerful pickaxe! Hopefully I figure out a way to extract it later on.\""
 			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: false
@@ -24507,10 +24508,27 @@
 					item: "the_deep_void:lavendite"
 					type: "item"
 				}
+				{
+					id: "4735451EAB021F6C"
+					item: "the_deep_void:bismuth"
+					type: "item"
+				}
+				{
+					id: "38CC94760F047859"
+					item: "thermal:sulfur"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3FCC8EC4BE3A07F2"
+					item: "thermal:cinnabar"
+					optional_task: true
+					type: "item"
+				}
 			]
-			title: "Onyx \\& Lavendite"
-			x: 40.5d
-			y: -4.5d
+			title: "Deep Void Minerals"
+			x: 36.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["13E34EDD951B61F9"]
@@ -24547,8 +24565,8 @@
 				type: "item"
 			}]
 			title: "Exit the Deep Void"
-			x: 42.0d
-			y: -6.0d
+			x: 34.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["4E62B2BDC912CCA1"]
@@ -24573,8 +24591,8 @@
 				title: "The Drifting Monoliths"
 				type: "biome"
 			}]
-			x: 43.0d
-			y: -5.0d
+			x: 41.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["4E62B2BDC912CCA1"]
@@ -24596,73 +24614,8 @@
 				title: "The Windswept Hollow"
 				type: "biome"
 			}]
-			x: 35.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["4E62B2BDC912CCA1"]
-			description: [
-				"&7“There’s a number of monsters down here, so I’ve been examining their bodies’ properties after killing them. A lot of them share similar compositions, those being rotten bones and necrosed skin, but a couple of them have a more interesting drop.\""
-				"{@pagebreak}"
-				"&7\"The Fool Eater, which masquerades as the Damned eyes that remove lights, is primarily made of a strange black moss. I’ve also obtained this material from the passive Wanderers, but only when they make contact and sink into the earth.”"
-				"{@pagebreak}"
-				"&7“It seems like these creatures had grown used to living in the dark, so why is the sky so bright here? It doesn’t make much sense. Perhaps this is a recent development.”"
-			]
-			hide_dependent_lines: true
-			id: "3EA067C20E4ED59E"
-			rewards: [{
-				id: "3491AF599E53B846"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
-			tasks: [{
-				id: "107E19F2328419D0"
-				item: "the_deep_void:black_moss"
-				type: "item"
-			}]
-			x: 43.0d
-			y: 8.5d
-		}
-		{
-			dependencies: ["4E62B2BDC912CCA1"]
-			description: [
-				"&7“Recently, I came across a mockery of a forest down here. All of its trees were petrified and creaking, with their inhabitants clearly observing my every move. As I made my way through the undergrowth, I was ambushed by plant-like creatures I have dubbed the &8Rooted&7.\""
-				"{@pagebreak}"
-				"&7\"They are capable of blinding their prey and creating illusions of themselves in order to avoid attacks. Even after I had killed them all, I could feel their judgemental stares through their inanimate roots.”"
-			]
-			hide_until_deps_complete: true
-			id: "10348477C6AD7322"
-			rewards: [{
-				count: 2
-				id: "7D20A0457207709B"
-				item: "the_deep_void:disturbing_root"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0ACD234F12D142DB"
-				item: "the_deep_void:disturbing_root"
-				type: "item"
-			}]
 			x: 35.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["5645C4B5F7C63262"]
-			description: ["&b“Cinnabar isn’t really useful on its own. It needs to be paired with other materials to realize any potential from it. One of the more conventional means of refining it is combining it with Sulfur to condense it into an ingot.”"]
-			hide_until_deps_complete: true
-			id: "037DC2CEAEB2F5CB"
-			rewards: [{
-				id: "60554570A41412DB"
-				item: "the_deep_void:cinnabar_roll"
-				type: "item"
-			}]
-			tasks: [{
-				id: "5F032FE02D4798D6"
-				item: "the_deep_void:refined_cinnabar"
-				type: "item"
-			}]
-			x: 41.5d
-			y: -4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["1D1398D93B1EED36"]
@@ -24697,29 +24650,8 @@
 				}
 			]
 			title: "Grim Gem \\& Desolate Soil"
-			x: 37.5d
-			y: 3.5d
-		}
-		{
-			dependencies: [
-				"10348477C6AD7322"
-				"6B96137C28502D97"
-			]
-			description: ["&7“With some help from Nyxil, I was able to create a device that harnesses the power of the Rooted. When powered by redstone, this block will, as per its name implies, root everything around it. Do take note that it’s indiscriminate in its effect and will blind you if you power it yourself!”"]
-			hide_dependent_lines: true
-			id: "21353923BC4CD93E"
-			rewards: [{
-				id: "6ABCD200821811BB"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			tasks: [{
-				id: "0B26F1661FD09040"
-				item: "the_deep_void:rooter"
-				type: "item"
-			}]
-			x: 36.5d
-			y: -5.0d
+			x: 33.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4E62B2BDC912CCA1"]
@@ -24737,19 +24669,16 @@
 				type: "item"
 			}]
 			title: "Liquid Void"
-			x: 37.0d
-			y: -6.5d
+			x: 37.5d
+			y: 3.5d
 		}
 		{
-			dependencies: [
-				"13E34EDD951B61F9"
-				"037DC2CEAEB2F5CB"
-			]
+			dependencies: ["13E34EDD951B61F9"]
 			description: [
-				"&b“Refined Onyx is one of the most ubiquitous resources I’ve had the opportunity to work with. It’s a necessary component of many recipes.”"
+				"&7\"With Nyxil's help, I learned how to refine the local materials of the Deep Void into more traditionally applicable bars of their respective material.\""
+				"&b\"It's not too difficult of a process.\""
 				"{@pagebreak}"
-				"&7“...Don’t you have more to say?”"
-				"&b“No, not really. It’s just good.”"
+				"&b\"The only thing you kind of need to know is that Refined Cinnabar is required to serve as a malleable 'base' to create a relevant alloy. Other than that, you just need to combine it with Lavendite and either Onyx or Bismuth to get a desirable result.\""
 			]
 			id: "76D7A6B494BCAABC"
 			rewards: [{
@@ -24757,13 +24686,26 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			tasks: [{
-				id: "668CFB37EB6DA75E"
-				item: "the_deep_void:refined_onyx"
-				type: "item"
-			}]
-			x: 40.0d
-			y: -2.0d
+			tasks: [
+				{
+					id: "61B31A834962EFE7"
+					item: "the_deep_void:refined_cinnabar"
+					type: "item"
+				}
+				{
+					id: "0257ED68A3EF3CBA"
+					item: "the_deep_void:refined_onyx"
+					type: "item"
+				}
+				{
+					id: "626F6F962AE5EE97"
+					item: "the_deep_void:refined_bismuth"
+					type: "item"
+				}
+			]
+			title: "Refined Materials"
+			x: 38.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["6B96137C28502D97"]
@@ -24800,14 +24742,13 @@
 				}
 			]
 			title: "The Nightmare"
-			x: 37.0d
-			y: -8.0d
+			x: 39.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
 				"6B96137C28502D97"
 				"13E34EDD951B61F9"
-				"0D61335A0B07300D"
 			]
 			description: [
 				"&b“...Is this thing on?” "
@@ -24831,8 +24772,8 @@
 				item: "the_deep_void:ancient_onyx"
 				type: "item"
 			}]
-			x: 38.2d
-			y: -4.75d
+			x: 38.5d
+			y: 1.6500000000000001d
 		}
 		{
 			dependencies: ["4E62B2BDC912CCA1"]
@@ -24854,22 +24795,23 @@
 				title: "The Crawler Nest"
 				type: "biome"
 			}]
-			x: 41.0d
+			x: 43.5d
 			y: 6.5d
 		}
 		{
 			dependencies: ["7CFABDA77781489E"]
 			description: [
-				"&7“At the center of this horrible place, the mother of all goo balls contains the Primordial Bone Crawler. Since we were unable to break through the incredibly fast-regenerating goop, we had to fight our way from the bottom of the ball to the top where the beast was.\""
+				"&7“At the center of this horrible place, the mother of all goo balls contains the Primordial Nest, which contains the mother of all Bone Crawlers. Since we were unable to break through the incredibly fast-regenerating goop, we had to fight our way from the bottom of the ball to the top where the beast was.\""
 				"&7\"Have I mentioned I hate Bone Crawlers?”"
 				"{@pagebreak}"
 				"&b“I think they’re cute.”"
 				"&7“You have the right to your opinion even if it’s wrong. Anyhow, the queen of all crawlers is deceptively intelligent, using her environment to her advantage by burrowing and slamming up slime projectiles. Killing the Primordial Bone Crawler rewarded us with Bone Crawler Molt Pieces, of which I gave to Nyxil. I do not need these.”"
 				"{@pagebreak}"
 				"&b“...The armor you can make with this is really rather good.”"
-				"&7“I do not want to wear the Bone Crawlers’ skin.”"
+				"&7“I do not want to wear Bone Crawler skin under any circumstance.”"
 			]
 			hide_until_deps_complete: true
+			icon: "the_deep_void:head_of_the_primordial_crawler"
 			id: "1472186B0F51F01B"
 			rewards: [
 				{
@@ -24878,10 +24820,9 @@
 					type: "item"
 				}
 				{
-					count: 3
-					id: "3859D3EFB863C997"
-					item: "the_deep_void:bone_crawler_egg"
-					type: "item"
+					id: "09C8F30E2E7A8BF5"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			tasks: [{
@@ -24889,8 +24830,8 @@
 				item: "the_deep_void:primordial_crawler_treasure_bag"
 				type: "item"
 			}]
-			title: "The Primordial Bone Crawler"
-			x: 41.0d
+			title: "&7The Primordial Bone Crawler"
+			x: 43.5d
 			y: 5.0d
 		}
 		{
@@ -24913,7 +24854,7 @@
 				item: "the_deep_void:call_upon_the_hive"
 				type: "item"
 			}]
-			x: 42.0d
+			x: 44.5d
 			y: 4.5d
 		}
 		{
@@ -24949,8 +24890,8 @@
 				}
 			]
 			title: "The Flesh Infection"
-			x: 36.5d
-			y: 1.0d
+			x: 44.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["0A48C85C5B513BA6"]
@@ -24960,8 +24901,11 @@
 				"&7\"The &4Misanthropic Hivemind &7doesn’t have much in the way of movement, but it summons its Fleshkin to attack on its behalf. It also attacked with jaws that emerged from the flesh, holding whatever it grabbed in place until the fangs were destroyed.”"
 				"{@pagebreak}"
 				"&7“As a last ditch effort, it can absorb all of the living Fleshkin to regain its health, so be sure to end it quickly or without any other mobs being on the field. Its unique drops are Fleshy Bones, which can be used to craft objects that wield the strength of the Flesh Infection.”"
+				"{@pagebreak}"
+				"&b\"...They don't seem to be enough to meld the infection into a truly worthwhile alloy though. I'm almost certain we're missing something.\""
 			]
 			hide_until_deps_complete: true
+			icon: "the_deep_void:head_of_the_hivemind"
 			id: "152DC73801813764"
 			rewards: [
 				{
@@ -24970,10 +24914,9 @@
 					type: "item"
 				}
 				{
-					count: 8
-					id: "3948CF348E6901B6"
-					item: "the_deep_void:flesh_chunk"
-					type: "item"
+					id: "54383812C45FEF50"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			tasks: [{
@@ -24981,9 +24924,9 @@
 				item: "the_deep_void:misanthropic_hivemind_treasure_bag"
 				type: "item"
 			}]
-			title: "The Misanthropic Hivemind"
-			x: 34.5d
-			y: 0.0d
+			title: "&4The Misanthropic Hivemind"
+			x: 44.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["152DC73801813764"]
@@ -25000,8 +24943,9 @@
 				item: "the_deep_void:heart_of_the_mind"
 				type: "item"
 			}]
-			x: 34.5d
-			y: -1.0d
+			title: "&4Heart of The Shared Mind"
+			x: 46.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -25027,16 +24971,16 @@
 				item: "the_deep_void:void_mirror"
 				type: "item"
 			}]
-			x: 39.5d
-			y: -9.5d
+			x: 41.0d
+			y: 2.5d
 		}
 		{
 			dependencies: [
 				"0F7A647082ED4B76"
 				"41407FE4EE0E464F"
 				"0B537A934EDDE900"
-				"21353923BC4CD93E"
 				"0D61335A0B07300D"
+				"6E4CFA7BEC2F8781"
 			]
 			dependency_requirement: "one_completed"
 			description: [
@@ -25067,14 +25011,11 @@
 				item: "concatenationcore:the_error"
 				type: "item"
 			}]
-			x: 44.5d
-			y: 3.0d
+			x: 48.0d
+			y: 0.0d
 		}
 		{
-			dependencies: [
-				"55895AB2924ABAFC"
-				"3EA067C20E4ED59E"
-			]
+			dependencies: ["55895AB2924ABAFC"]
 			description: ["&7“Following the defeat of the Primordial Bone Crawler, Nyxil had a revelation that led to an increase in her abilities. Thanks to that, she was able to create the Shatterbone Pickaxe, which could destroy even Bedrock! With this, we could finally descend and crack open that Voidrium ore that was impossible to dent.”"]
 			hide_until_deps_complete: true
 			id: "0F8C0FC726A93C13"
@@ -25103,26 +25044,24 @@
 				}
 				type: "item"
 			}]
-			x: 45.5d
-			y: 2.5d
+			x: 49.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["55895AB2924ABAFC"]
 			description: [
 				"&7“...This guy, huh? Must be real pretentious to live in a castle like this.” "
-				"&b“Yes. He’s the leader of the &6Cult of Catastrophe&b and is the sole holder of Sacred Cinnabar, which we need in order to manipulate Voidrium in any meaningful way.” "
+				"&b“Yes. He’s the leader of the &cCult of Catastrophe&b and is the sole holder of Sacred Cinnabar, which we need in order to manipulate Voidrium in any meaningful way.” "
 				"&7“...Even without that, I would’ve liked to beat this guy’s head in at some point. He’s the wretch that helped that other wretch kidnap Koby. Let’s get him.”"
+				"{@pagebreak}"
+				"&7\"For the listener, we're currently headed to the Overlooking Citadel. It's hard to miss.\""
 			]
+			icon: "the_deep_void:head_of_the_apostle"
 			id: "19E4A89845D3BF5D"
 			rewards: [
 				{
 					id: "189958AB746AB776"
 					item: "the_deep_void:chainsaw"
-					type: "item"
-				}
-				{
-					id: "73488DBAF6F12985"
-					item: "the_deep_void:hexed_doll"
 					type: "item"
 				}
 				{
@@ -25136,9 +25075,9 @@
 				item: "the_deep_void:apostle_of_catastrophe_treasure_bag"
 				type: "item"
 			}]
-			title: "The Apostle of Catastrophe"
-			x: 45.0d
-			y: 1.0d
+			title: "&cThe Apostle of Catastrophe"
+			x: 49.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["19E4A89845D3BF5D"]
@@ -25148,16 +25087,12 @@
 				"{@pagebreak}"
 				"&7“Right. He’s in the very center of the void, underground within the Sepulchre. One more fight, then we could resurface and everything will be &ljust fine&r.”"
 			]
+			icon: "the_deep_void:head_of_the_weaver"
 			id: "30BA63BCE8DAD0DE"
 			rewards: [
 				{
 					id: "422D36C5EA7109B6"
 					item: "the_deep_void:darkmare"
-					type: "item"
-				}
-				{
-					id: "43013418975C4461"
-					item: "the_deep_void:hexed_doll"
 					type: "item"
 				}
 				{
@@ -25171,9 +25106,9 @@
 				item: "the_deep_void:weaver_of_souls_treasure_bag"
 				type: "item"
 			}]
-			title: "The Weaver of Souls"
-			x: 45.5d
-			y: 0.0d
+			title: "&bThe Weaver of Souls"
+			x: 49.0d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -25193,8 +25128,8 @@
 				item: "the_deep_void:voidrium_gem"
 				type: "item"
 			}]
-			x: 47.5d
-			y: 1.5d
+			x: 51.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["30BA63BCE8DAD0DE"]
@@ -25207,20 +25142,36 @@
 				"{@pagebreak}"
 				"&b&o“I don’t know what to do now.”&r"
 			]
+			icon: "the_deep_void:soul_fused_ingot"
 			id: "6516D88B029F38F1"
-			rewards: [{
-				count: 8
-				id: "3EA1ABAA98AD8D9D"
-				item: "chipped:iron_bowl_soul_lantern"
-				type: "item"
-			}]
-			tasks: [{
-				id: "542C9BBFC74687DF"
-				item: "the_deep_void:soul_fused_ingot"
-				type: "item"
-			}]
-			x: 46.0d
-			y: -2.0d
+			rewards: [
+				{
+					count: 8
+					id: "3EA1ABAA98AD8D9D"
+					item: "chipped:iron_bowl_soul_lantern"
+					type: "item"
+				}
+				{
+					id: "3718E0D8096F5F7B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "542C9BBFC74687DF"
+					item: "the_deep_void:soul_fused_ingot"
+					type: "item"
+				}
+				{
+					id: "2F09CE44EB68054C"
+					item: "the_deep_void:smithing_template_soul"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 49.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["6516D88B029F38F1"]
@@ -25243,8 +25194,8 @@
 				item: "the_deep_void:voodoo_doll"
 				type: "item"
 			}]
-			x: 46.0d
-			y: -4.0d
+			x: 49.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["4E62B2BDC912CCA1"]
@@ -25274,10 +25225,7 @@
 			y: 9.5d
 		}
 		{
-			dependencies: [
-				"245B905EE8E73588"
-				"3EA067C20E4ED59E"
-			]
+			dependencies: ["245B905EE8E73588"]
 			description: [
 				"&b\"Today, I managed to create something to specifically counter the Stalker. The Rotten Flare Gun is relatively cheap to create for its effects. It can either ward off the Stalker by shooting it near the creature or weaken it substantially with a direct hit."
 				"{@pagebreak}"
@@ -25348,98 +25296,48 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["13E34EDD951B61F9"]
-			description: ["&7\"I found a light source that wasn't being destroyed by the Damned. The lantern emits a soft enough glow that the eyes ignore it. However, this also means that the Stalker can ignore the light. I'd advise against using this as a primary light source.\""]
-			id: "193F6528069D5771"
-			rewards: [
-				{
-					count: 15
-					id: "3372E69BF55DFFEF"
-					item: "the_deep_void:ferryman_lantern"
-					type: "item"
-				}
-				{
-					id: "6BDEA738C6FB6A63"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
-			tasks: [{
-				id: "53C5CE26BD66427E"
-				item: "the_deep_void:ferryman_lantern"
-				type: "item"
-			}]
-			x: 41.0d
-			y: -6.0d
-		}
-		{
 			dependencies: ["0A48C85C5B513BA6"]
 			description: [
 				"&7\"While mining in the Gloomy Deathgrounds, I was attacked by a Licker hiding in the ceiling. After we killed it, Nyxil salvaged its tongue and fashioned it into a surprisingly effective grappling hook.\""
 				"{@pagebreak}"
 				"&b\"Whipping it around can be a bit awkward, but I think I've gotten the hang of it! It's actually rather fun to swing around with it.\""
 			]
+			icon: "the_deep_void:licker_hook"
 			id: "0F5CCEE2D5E2401F"
-			rewards: [{
-				count: 2
-				id: "76A6FF577B3C7A80"
-				item: "the_deep_void:devourer_tendril"
-				type: "item"
-			}]
-			tasks: [{
-				id: "7120701EDB1D0B0A"
-				item: "the_deep_void:licker_hook"
-				type: "item"
-			}]
-			x: 38.0d
-			y: 0.5d
-		}
-		{
-			dependencies: [
-				"0F5CCEE2D5E2401F"
-				"4CD0892FB0841A42"
-				"3EA067C20E4ED59E"
+			rewards: [
+				{
+					count: 2
+					id: "76A6FF577B3C7A80"
+					item: "the_deep_void:devourer_tendril"
+					type: "item"
+				}
+				{
+					id: "676DE9EE16AF8A68"
+					type: "xp_levels"
+					xp_levels: 1
+				}
 			]
-			description: [
-				"&b\"By augmenting the Licker Hook with a Grim Gem, I was able to give it a bit more sentience and overall strength. Now, if it latches to an enemy, it attacks the target of its own volition.\""
-				"{@pagebreak}"
-				"&b\"It still has its applications outside of combat, but I've gained the habit of throwing out the hook at what I'm attacking before going in myself to sap it of its lifeforce.\""
+			tasks: [
+				{
+					id: "7120701EDB1D0B0A"
+					item: "the_deep_void:licker_hook"
+					type: "item"
+				}
+				{
+					id: "39B1A700DEAD7802"
+					item: "the_deep_void:grim_licker_hook"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "16A9CAE8FD2808C2"
+					item: "the_deep_void:vengeful_licker_hook"
+					optional_task: true
+					type: "item"
+				}
 			]
-			hide_until_deps_complete: true
-			id: "666D367401134D05"
-			rewards: [{
-				count: 4
-				id: "32D684F6A0F1E922"
-				item: "the_deep_void:grim_gem"
-				type: "item"
-			}]
-			tasks: [{
-				id: "2053CB05D8DBDCC4"
-				item: "the_deep_void:grim_licker_hook"
-				type: "item"
-			}]
-			x: 40.5d
-			y: 2.5d
-		}
-		{
-			dependencies: [
-				"666D367401134D05"
-				"30BA63BCE8DAD0DE"
-			]
-			description: ["&b\"I haven't really been using my Licker Hook to move around recently, so I decided to just empower its combat capabilities. When whatever it's attached to dies, it immediately leaps to another nearby enemy. This is on top of hexing everything it's adjacent to.\""]
-			id: "655F9A90ABEB10D7"
-			rewards: [{
-				id: "2AFB207A72F408A9"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			tasks: [{
-				id: "5FA102CC8C394232"
-				item: "the_deep_void:vengeful_licker_hook"
-				type: "item"
-			}]
-			x: 44.0d
-			y: -1.0d
+			x: 43.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["76D7A6B494BCAABC"]
@@ -25467,26 +25365,8 @@
 				}
 				type: "item"
 			}]
-			x: 42.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["76D7A6B494BCAABC"]
-			description: ["&7\"Lavendite is a very light material, so applying it to a sword can make it swing faster. This comes at the cost of reducing the damage per swing, but overall I think it's a positive.\""]
-			id: "5D09B87AB03E158A"
-			rewards: [{
-				id: "1C5A44F7776E1F64"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			tasks: [{
-				id: "229CC807FF47A40E"
-				item: "the_deep_void:smithing_template_lavendite"
-				type: "item"
-			}]
-			title: "Lavendite Upgrade"
 			x: 39.0d
-			y: -0.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["13E34EDD951B61F9"]
@@ -25517,8 +25397,8 @@
 				}
 			]
 			title: "Taming a Death Vulture"
-			x: 40.0d
-			y: -6.0d
+			x: 34.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["7CFABDA77781489E"]
@@ -25605,7 +25485,7 @@
 				}
 			]
 			title: "Hatching a Bone Crawler"
-			x: 41.0d
+			x: 43.5d
 			y: 7.5d
 		}
 		{
@@ -25665,30 +25545,52 @@
 				}
 			]
 			title: "Onyx Armor"
-			x: 40.0d
-			y: 0.0d
+			x: 37.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["76D7A6B494BCAABC"]
-			description: ["&b\"It's actually not very difficult to inflict Rot. You can apply a Rot Upgrade to some basic swords to do it, but unless you're resistant to it, you'll begin withering away as well.\""]
+			description: ["&7\"With refined materials from the Deep Void, one can make a variety of upgrades that have a variety of effects, ranging from inflicting rot with attacks to reflecting projectiles that are fired at you. There's a lot of options!\""]
 			id: "0A133081436C4565"
 			rewards: [{
 				id: "4F8D381ECDA6B13D"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			tasks: [{
-				id: "48B0A4B2F6A36ED7"
-				item: "the_deep_void:smithing_template_rot"
-				type: "item"
-			}]
-			title: "Rot Upgrade"
-			x: 38.5d
-			y: -2.5d
+			tasks: [
+				{
+					id: "48B0A4B2F6A36ED7"
+					item: "the_deep_void:smithing_template_rot"
+					type: "item"
+				}
+				{
+					id: "133A10E2360E6AA8"
+					item: "the_deep_void:smithing_template_lavendite"
+					type: "item"
+				}
+				{
+					id: "110A7DF594729780"
+					item: "the_deep_void:smithing_template_grim"
+					type: "item"
+				}
+				{
+					id: "1667D77EA50E2C27"
+					item: "the_deep_void:smithing_template_onyx"
+					type: "item"
+				}
+				{
+					id: "4AFE614F1BDCB93D"
+					item: "the_deep_void:smithing_template_bismuth"
+					type: "item"
+				}
+			]
+			title: "Upgrade Templates"
+			x: 36.5d
+			y: 0.0d
 		}
 		{
-			dependencies: ["76D7A6B494BCAABC"]
-			description: ["&7\"After killing the Masked Hunter, I had gotten pelts that I couldn't really make anything with. When combining it with Refined Onyx, however, I was able to construct an armor out of it. It makes me a bit uncomfortable when I wear the whole set though...\""]
+			dependencies: ["3BDE972F9EB52CF5"]
+			description: ["&2The hide claimed from those horrifying hunters in the woods can be repurposed into a set of armor that increases agility and the ability to recreate the beast's chilling scream."]
 			id: "0E8E4A69675A9BD1"
 			rewards: [{
 				id: "4DCCC89501194A92"
@@ -25742,8 +25644,8 @@
 				}
 			]
 			title: "Hunter's Armor"
-			x: 41.5d
-			y: -0.5d
+			x: 16.0d
+			y: -20.0d
 		}
 		{
 			dependencies: ["2F507B7274D8E006"]
@@ -25755,6 +25657,13 @@
 				"&b\"The Void Cloak is a very unique piece of clothing. While wearing it, a person could phase through walls at will! I don't need to say more than that.\""
 				"{@pagebreak}"
 				"&b\"The Shadestorm is a bow that synthesizes Grim Arrows to pelt enemies with. After they're sufficiently hit enough times, the bow can release a larger arrow that deals higher damage based on the accumulated shots.\""
+				"{@pagebreak}"
+				"&7\"The Void Matter Greatsword is a rather heavy weapon, but it allows for a powerful charge every few seconds that bulldozes through enemies.\""
+				"{@pagebreak}"
+				"&b\"The Forbidden Tome, when cast, forms daggers out of nearby entity's shadows, then stabs them with them. This also has the additional effect of healing the caster, making it useful to have in case of emergency.\""
+				"{@pagebreak}"
+				"&b\"The Soul Seeker, which is my current weapon of choice, repeats slashes in an area around the target sliced. Very good for culling the chaff.\""
+				"&7\"Whew, that's a lot of different weapons! Might have to trim down the number of summaries after this one.\""
 			]
 			id: "7880266B7CA4F2BE"
 			rewards: [
@@ -25819,22 +25728,54 @@
 					}
 					type: "item"
 				}
+				{
+					id: "0B974D6FD2587B29"
+					item: {
+						Count: 1
+						id: "the_deep_void:void_matter_greatsword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "564F76DA480EE9DF"
+					item: {
+						Count: 1
+						id: "the_deep_void:forbidden_tome"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1AD169453F14147B"
+					item: {
+						Count: 1
+						id: "the_deep_void:grim_scythe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
 			]
 			title: "Void Matter Gear"
-			x: 36.0d
-			y: -8.5d
+			x: 40.0d
+			y: 3.5d
 		}
 		{
-			dependencies: [
-				"1472186B0F51F01B"
-				"4CD0892FB0841A42"
-			]
+			dependencies: ["1472186B0F51F01B"]
 			description: [
 				"&b\"Using the primordial chitin, I was able to upgrade my Bone Crawler armor even further! While wearing the entire set, I felt like I had inherited all the qualities of the queen.\""
 				"{@pagebreak}"
 				"&b\"I'm able to swiftly travel on bone piles, to the point where I could swim through them if I chose to and be entirely undetectable! In addition to that, the armor granted me immunity to Rot and inflicting it on hit with my weapons.\""
 				"{@pagebreak}"
-				"&b\"...One thing I don't appreciate, however, is the urge I have to eat Bone Mush. I tried it, and even though it tastes marginally better, it still gives me nausea.\""
+				"&b\"The sword that I fashioned out of the Primordial Bone Crawler's own claws has a couple of unique properties. Whenever it digs into an already rotting target, it exacerbates the rot, making it more effective. Also, when attacking a poisoned target, it seemed to spread the effect to everything around the hit enemy.\""
+				"{@pagebreak}"
+				"&b\"...If I were to name 1 gripe I have with this equipment, it'd be the urge I have to eat Bone Mush. I tried it, and even though it tastes marginally better, it still gives me nausea.\""
 			]
 			hide_until_deps_complete: true
 			id: "6C7C01AE978AB479"
@@ -25896,36 +25837,26 @@
 					}
 					type: "item"
 				}
+				{
+					id: "20D53E9D22917D32"
+					item: {
+						Count: 1
+						id: "the_deep_void:claw_blade"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
 			]
-			title: "Crawler Royalty Armor"
-			x: 40.0d
+			title: "&7Crawler Royalty Equipment"
+			x: 42.5d
 			y: 5.5d
-		}
-		{
-			dependencies: ["037DC2CEAEB2F5CB"]
-			description: [
-				"&7\"I was able to refine some Bismuth early on in my travels, but I didn't find much use for it until we got Voidrium.\""
-				"&b\"Yeah, it resonates with the inherent power of Voidrium and draws it out for wielders to use. It's also rather vibrant, which is a rarity down here.\""
-			]
-			hide_dependency_lines: true
-			id: "61522FEF5D8B8203"
-			rewards: [{
-				count: 8
-				id: "360BEADC433E2051"
-				item: "the_deep_void:bismuth"
-				type: "item"
-			}]
-			tasks: [{
-				id: "72E928BE8909FFF8"
-				item: "the_deep_void:refined_bismuth"
-				type: "item"
-			}]
-			x: 49.5d
-			y: 1.5d
 		}
 		{
 			dependencies: [
 				"76D7A6B494BCAABC"
+				"79C2F929FF9F1586"
 				"152DC73801813764"
 				"43593B9FF0498E58"
 			]
@@ -25933,22 +25864,34 @@
 				"&7\"In order to shape Ancient Flesh into a more durable material, we had to coax it into 'infecting' an ingot of Refined Onyx.\""
 				"&b\"It's an expensive process, but the Hard Flesh Ingot is significantly more useful than the flesh alone.\""
 			]
+			icon: "the_deep_void:hard_flesh_ingot"
 			id: "04FB6C65AF290FFC"
 			rewards: [{
 				id: "6F20B29C9DBD031C"
 				item: "the_deep_void:hard_flesh_ingot"
 				type: "item"
 			}]
-			tasks: [{
-				id: "2B583F7FE59040AA"
-				item: "the_deep_void:hard_flesh_ingot"
-				type: "item"
-			}]
-			x: 37.0d
-			y: -1.0d
+			tasks: [
+				{
+					id: "2B583F7FE59040AA"
+					item: "the_deep_void:hard_flesh_ingot"
+					type: "item"
+				}
+				{
+					id: "615A5F88A42C5F93"
+					item: "the_deep_void:smithing_template_hard_flesh"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 42.0d
+			y: -1.5d
 		}
 		{
-			dependencies: ["04FB6C65AF290FFC"]
+			dependencies: [
+				"04FB6C65AF290FFC"
+				"19BCED907816DC38"
+			]
 			description: [
 				"&b\"Using the Hard Flesh Ingot, I was able to create a variety of weapons with different uses and unique abilities!\""
 				"&7\"Do note that items made from Hard Flesh is sentient. They are also very hungry.\""
@@ -26012,16 +25955,22 @@
 				}
 				{
 					id: "1808364E3BE679AF"
-					item: "the_deep_void:necronomicon"
+					item: {
+						Count: 1
+						id: "the_deep_void:necronomicon"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
 			title: "Hard Flesh Weapons"
-			x: 36.5d
-			y: -2.0d
+			x: 41.5d
+			y: -3.0d
 		}
 		{
-			dependencies: ["152DC73801813764"]
+			dependencies: ["19BCED907816DC38"]
 			description: [
 				"&b\"Using my knowledge of flesh manipulation, I was able to build my own Eyekin that's loyal to me! He flies and attacks mobs that hit me. I'm naming him Eyegor!\""
 				"&7\"...Does he have to look so freaky? Hah, what am I saying, you think this is normal, don't you.\""
@@ -26037,15 +25986,11 @@
 				item: "the_deep_void:eyekin_saddle"
 				type: "item"
 			}]
-			x: 34.0d
-			y: 1.5d
+			x: 43.5d
+			y: -5.0d
 		}
 		{
-			dependencies: [
-				"4E2F07927BA41118"
-				"61522FEF5D8B8203"
-				"4894336464C21319"
-			]
+			dependencies: ["4E2F07927BA41118"]
 			description: [
 				"&7\"Using the Onyx Armor as a base, Nyxil was able to create armor that takes advantage of Voidrium's latent power. It inherits the effects of Onyx that only occur within darkness, but it also gained a lot of other strong bonuses! "
 				"{@pagebreak}"
@@ -26104,8 +26049,8 @@
 				}
 			]
 			title: "Voidrium Armor"
-			x: 48.5d
-			y: 1.0d
+			x: 52.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4E2F07927BA41118"]
@@ -26176,8 +26121,8 @@
 				}
 			]
 			title: "Garments of the Weaver of Souls"
-			x: 47.5d
-			y: 0.0d
+			x: 51.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["4E2F07927BA41118"]
@@ -26246,14 +26191,11 @@
 				}
 			]
 			title: "Voidrium Weaponry"
-			x: 47.5d
-			y: 3.5d
+			x: 51.0d
+			y: 0.5d
 		}
 		{
-			dependencies: [
-				"6516D88B029F38F1"
-				"1BF61381E548269C"
-			]
+			dependencies: ["6516D88B029F38F1"]
 			description: ["&b\"If I want to work on his soul, I will need to reap other souls in order to proceed. This scythe is proficient at harvesting those.\""]
 			id: "3D80AEF0244B0032"
 			rewards: [
@@ -26286,8 +26228,8 @@
 				}
 				type: "item"
 			}]
-			x: 44.5d
-			y: -2.5d
+			x: 48.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["6516D88B029F38F1"]
@@ -26313,8 +26255,8 @@
 				}
 				type: "item"
 			}]
-			x: 47.5d
-			y: -2.5d
+			x: 51.0d
+			y: -5.5d
 		}
 		{
 			dependencies: [
@@ -26375,8 +26317,8 @@
 				}
 			]
 			title: "Soul-Fused Voidrium Armor"
-			x: 48.5d
-			y: -1.5d
+			x: 52.0d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -26401,8 +26343,8 @@
 				}
 				type: "item"
 			}]
-			x: 47.0d
-			y: -1.0d
+			x: 50.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["6516D88B029F38F1"]
@@ -26422,8 +26364,8 @@
 				item: "the_deep_void:soul_wings_chestplate"
 				type: "item"
 			}]
-			x: 45.0d
-			y: -3.5d
+			x: 48.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["6516D88B029F38F1"]
@@ -26447,14 +26389,11 @@
 				item: "the_deep_void:voidrium_glass"
 				type: "item"
 			}]
-			x: 47.0d
-			y: -3.5d
+			x: 50.5d
+			y: -6.5d
 		}
 		{
-			dependencies: [
-				"4E2F07927BA41118"
-				"61522FEF5D8B8203"
-			]
+			dependencies: ["4E2F07927BA41118"]
 			description: ["&7\"These voidrium tools are really quite fast. The pickaxe isn't quite as strong ass the Shatterbone Pickaxe, but the rest are top notch! Can't wait to bring these to the Overworld.\""]
 			id: "1F51A3A5B52E797C"
 			rewards: [{
@@ -26509,26 +26448,8 @@
 				}
 			]
 			title: "Voidrium Tools"
-			x: 48.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["1DD98931BFA84784"]
-			description: ["&7\"If I wanted to upgrade my gear with Grim Gems, I'd first need a template to implement it with. I made it out of ancient deepslate, desolate soil, and an onyx. Not bad, but not incredible either.\""]
-			id: "4CD0892FB0841A42"
-			rewards: [{
-				id: "1163EC598CC76964"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			tasks: [{
-				id: "340202B148FB8EE6"
-				item: "the_deep_void:smithing_template_grim"
-				type: "item"
-			}]
-			title: "Grim Upgrade"
-			x: 38.5d
-			y: 6.0d
+			x: 52.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["152DC73801813764"]
@@ -26555,8 +26476,8 @@
 				}
 				type: "item"
 			}]
-			x: 33.0d
-			y: 0.5d
+			x: 45.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["7BB92B0F64862D0C"]
@@ -26578,8 +26499,8 @@
 				item: "the_deep_void:void_core"
 				type: "item"
 			}]
-			x: 39.5d
-			y: -7.0d
+			x: 39.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["4E2F07927BA41118"]
@@ -26614,14 +26535,14 @@
 				item: "the_deep_void:endless_quiver"
 				type: "item"
 			}]
-			x: 48.5d
-			y: 3.5d
+			x: 52.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["19E4A89845D3BF5D"]
 			description: [
-				"&7\"An experimental weapon produced by the Apostle himself. It's like a normal rifle, except it has teeth that bite you and shoot your flesh as ammo. Which sets what it hits on fire.\""
-				"&b\"...I feel like that's a little bit different from a normal gun.\""
+				"&b\"What the heck is this?\""
+				"&7\"I'm not sure. It seems to be a... part of a gun? Why does it have teeth? I'll have to look into this more on the surface.\""
 			]
 			id: "1AEE8AF4DEFF8B68"
 			rewards: [{
@@ -26630,19 +26551,19 @@
 				xp_levels: 1
 			}]
 			tasks: [{
-				id: "71C35B94EBCDACAA"
-				item: "the_deep_void:heresy"
+				id: "3061CC5EA1F562C8"
+				item: "the_deep_void:ancient_gun_part"
 				type: "item"
 			}]
-			x: 44.0d
-			y: 0.5d
+			x: 48.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["19E4A89845D3BF5D"]
 			description: [
-				"&b\"The Apostle's gloves seem to be imbued with an enchantment that allows it to produce infinite knives. Even without its master, the weapon functions flawlessly.\" "
+				"&b\"The Apostle's weapons of choice are, obviously, rather strong. Even without its master, the weapons function flawlessly. Both the Bandolier and Glove are filled to the brim with coated knives, though they appear only on certain conditions.\""
 				"{@pagebreak}"
-				"&b\"It's also apparently how he was able to act so acrobatically? I have the urge to do backflips while wearing it.\""
+				"&b\"It's also apparently how he was able to act so acrobatically? I have the urge to do backflips and spins while wearing either of them.\""
 			]
 			id: "07C2A42D2B5A9DD7"
 			rewards: [{
@@ -26650,19 +26571,28 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			tasks: [{
-				id: "41BAC67D7F66BD96"
-				item: {
-					Count: 1
-					id: "the_deep_void:knife_glove"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "667598A8F5D03EEA"
+					item: {
+						Count: 1
+						id: "the_deep_void:knives_glove"
+						tag: { }
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: 44.0d
-			y: 1.5d
+				{
+					id: "7F4F07F05B0DCD81"
+					item: {
+						Count: 1
+						id: "the_deep_void:knife_bandolier"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 48.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["1472186B0F51F01B"]
@@ -26694,12 +26624,16 @@
 				}
 				type: "item"
 			}]
-			x: 40.5d
-			y: 4.0d
+			x: 44.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["6B96137C28502D97"]
-			description: ["&7\"The Attractor is rather self explanatory. When powered by a redstone signal, it pulls all items on the ground towards it. A very cost efficient and compact method of gathering drops!\""]
+			description: [
+				"&7\"The Attractor is rather self explanatory. When powered by a redstone signal, it pulls all items on the ground towards it. A very cost efficient and compact method of gathering drops!\""
+				"{@pagebreak}"
+				"&7\"...Is what I'd like to say, but it's a little bit... volatile. It also seems to drag any nearby mob towards itself as well, and anything it pulls has some rather extreme velocity.\""
+			]
 			id: "3BD3CD4C08226DEB"
 			rewards: [
 				{
@@ -26719,34 +26653,8 @@
 				item: "the_deep_void:attractor"
 				type: "item"
 			}]
-			x: 37.0d
-			y: -9.5d
-		}
-		{
-			dependencies: [
-				"7BB92B0F64862D0C"
-				"2F507B7274D8E006"
-			]
-			description: ["&b\"I tried writing in a book with Liquid Void, and in doing so I created the Forbidden Tome. It creates knives of shadow that heal the caster when they successfully attack a target.\""]
-			id: "33DA4DA060345DC6"
-			rewards: [{
-				id: "158623BF1DD48CF6"
-				item: "irons_spellbooks:eldritch_manuscript"
-				type: "item"
-			}]
-			tasks: [{
-				id: "62C249D282D79A2B"
-				item: {
-					Count: 1
-					id: "the_deep_void:forbidden_tome"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 38.0d
-			y: -7.5d
+			x: 38.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["1D1398D93B1EED36"]
@@ -26770,8 +26678,8 @@
 				item: "the_deep_void:grimberry_pie"
 				type: "item"
 			}]
-			x: 34.5d
-			y: 4.0d
+			x: 33.5d
+			y: 5.0d
 		}
 		{
 			dependencies: [
@@ -26794,47 +26702,8 @@
 				item: "the_deep_void:void_effigy"
 				type: "item"
 			}]
-			x: 46.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["10348477C6AD7322"]
-			description: ["&b\"Using some of the leftover Disturbing Roots, I created another tome. This one roots living creatures all around the caster, leaving them vulnerable to attack.\""]
-			id: "57A7B8C6DF37C7EB"
-			rewards: [{
-				id: "29E8DDD16606A26B"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:scroll"
-					tag: {
-						ISB_Spells: {
-							data: [{
-								id: "irons_spellbooks:root"
-								index: 0
-								level: 6
-								locked: 1b
-							}]
-							maxSpells: 1
-							mustEquip: 0b
-							spellWheel: 0b
-						}
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "38DD0C5B11D40D2D"
-				item: {
-					Count: 1
-					id: "the_deep_void:rooting_tome"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 34.5d
-			y: -5.5d
+			x: 50.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["76D7A6B494BCAABC"]
@@ -26881,8 +26750,8 @@
 				}
 			]
 			title: "Specialty Shields"
-			x: 42.0d
-			y: -2.5d
+			x: 38.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["5645C4B5F7C63262"]
@@ -26915,8 +26784,8 @@
 				title: "Creating an Overseer"
 				type: "advancement"
 			}]
-			x: 43.0d
-			y: -3.5d
+			x: 42.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["04FB6C65AF290FFC"]
@@ -26974,7 +26843,7 @@
 				}
 			]
 			title: "Hard Flesh Armor"
-			x: 37.5d
+			x: 40.5d
 			y: -2.0d
 		}
 		{
@@ -27004,7 +26873,7 @@
 				item: "the_deep_void:crawler_omelette"
 				type: "item"
 			}]
-			x: 42.0d
+			x: 44.5d
 			y: 7.5d
 		}
 		{
@@ -27305,12 +27174,7 @@
 		}
 		{
 			dependencies: ["0A48C85C5B513BA6"]
-			description: [
-				"&7“Within the Flesh Infection, one could find certain aberrations of flesh that are entirely immobile. When stripping this wavy flesh from the ground, you can find pockets of crystalized flesh that can be utilized in a variety of ways.”"
-				"{@pagebreak}"
-				"&b“...It makes a good snack in a pinch.”"
-				"&7“I’m going to pretend I didn’t hear that. If you really want to consume it, crafting it into an Ambrosia is entirely safe and, in fact, recommended! It tastes really good considering where it comes from and has restorative properties.”"
-			]
+			description: ["&7“Within the Flesh Infection, one could find certain aberrations of flesh that are entirely immobile. When stripping this wavy flesh from the ground, you can find pockets of crystalized flesh that can be utilized in a variety of ways.”"]
 			icon: "the_deep_void:flesh_chunk"
 			id: "43593B9FF0498E58"
 			rewards: [
@@ -27325,20 +27189,12 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "4D92913C3968F5F3"
-					item: "the_deep_void:flesh_chunk"
-					type: "item"
-				}
-				{
-					id: "4531DFFF940BDC4D"
-					item: "the_deep_void:ambrosia"
-					optional_task: true
-					type: "item"
-				}
-			]
-			x: 36.5d
+			tasks: [{
+				id: "4D92913C3968F5F3"
+				item: "the_deep_void:flesh_chunk"
+				type: "item"
+			}]
+			x: 42.0d
 			y: 0.0d
 		}
 		{
@@ -27409,8 +27265,8 @@
 				item: "the_deep_void:hexed_doll"
 				type: "item"
 			}]
-			x: 44.0d
-			y: 4.5d
+			x: 48.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4E62B2BDC912CCA1"]
@@ -27433,11 +27289,11 @@
 				item: "the_deep_void:lurker_shrine"
 				type: "item"
 			}]
-			x: 45.5d
-			y: 11.0d
+			x: 39.0d
+			y: 10.0d
 		}
 		{
-			dependencies: ["55895AB2924ABAFC"]
+			dependencies: ["19BCED907816DC38"]
 			description: [
 				"&b\"Hm. I know that in times past, this block was the cornerstone of life here, but knowledge of it was lost to time.\""
 				"&7\"...Well, what does it do?\""
@@ -27458,8 +27314,8 @@
 				item: "the_deep_void:glutton_block"
 				type: "item"
 			}]
-			x: 46.0d
-			y: 4.0d
+			x: 43.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["125252660A518C4F"]
@@ -32381,6 +32237,322 @@
 			}]
 			x: 8.025d
 			y: 9.175d
+		}
+		{
+			dependencies: ["152DC73801813764"]
+			description: [
+				"&7\"After digging through the undergrowth of the infection for a while, we happened upon upon a strange opening. The Watcher Chamber, as I have dubbed it, is home to the &6Hive's Watcher. &7It seems to be connected to all of the eyes within the fleshy biome, and the moment we step foot within its area, it attacked us.\""
+				"{@pagebreak}"
+				"&b\"It primarily attacked by charging towards us and spewing ichor everywhere. After being on the defensive for a while, I noticed that it couldn't move directly towards us if we were diagonal to it, allowing us to cleanly defeat it.\""
+				"{@pagebreak}"
+				"&7\"When we defeated it, we were able to collect some Ambrosial Flesh Chunks, which happened to be the final few materials we needed in order to fully harness the strength of the infection for ourselves.\""
+			]
+			icon: "the_deep_void:eye_of_the_hive_watcher"
+			id: "19BCED907816DC38"
+			rewards: [
+				{
+					id: "2F5C4EF0853832E7"
+					item: "the_deep_void:monsters_lair"
+					type: "item"
+				}
+				{
+					id: "1A56BFC3C396DC5B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "69978DD423B6AC30"
+				item: "the_deep_void:hive_watcher_treasure_bag"
+				type: "item"
+			}]
+			title: "&6The Hive's Watcher"
+			x: 44.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["19BCED907816DC38"]
+			description: ["&7\"After leaving the flesh infection, we came across a jailor caravan. After clearing out the area, I happened across a unique deposit of tough metal. My normal pickaxe couldn't break through it, but using the Ichor Pickaxe I created after fighting the watcher, I was able to dissolve its bonds and pick it up.\""]
+			icon: "the_deep_void:dark_steel_scrap"
+			id: "4145DB3DE1721CEE"
+			rewards: [
+				{
+					count: 4
+					id: "130BED8834B06F60"
+					item: "born_in_chaos_v1:pileof_dark_metal"
+					type: "item"
+				}
+				{
+					id: "0E6D9E0A4A2CBB74"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3B79C12DA13C8A1C"
+					item: {
+						Count: 1
+						id: "the_deep_void:ichor_carver"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2D8C4ACD26CB48B7"
+					item: "the_deep_void:dark_steel_scrap"
+					type: "item"
+				}
+				{
+					id: "184B5ABF4ED52B0D"
+					item: "the_deep_void:smithing_template_dark_steel"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Umbral Steel"
+			x: 46.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4145DB3DE1721CEE"]
+			description: ["&b\"Using the Umbral Steel we just got, I was able to create a bow out of the flesh infection's nervous system. It's a little finicky to use, but if you obey its reactions, it can launch arrows with terrifying force and obliterate enemies with gusto.\""]
+			hide_dependent_lines: true
+			id: "6E4CFA7BEC2F8781"
+			rewards: [{
+				id: "318901DF38C0A9FF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "27B63238A0276B09"
+				item: {
+					Count: 1
+					id: "the_deep_void:nerves_of_steel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 46.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0A48C85C5B513BA6"]
+			description: [
+				"&7\"While traveling through the flesh infection, we came across glowing bulbs of ichor. I decided to bottle some up for experimentation, which seemed to be a good choice.\""
+				"{@pagebreak}"
+				"&7\"Nyxil informed me that the gilded blood is typically used to create Ambrosia, which is an incredibly powerful concoction that can improve one's vitality temporarily, though it comes at a price.\""
+			]
+			icon: "the_deep_void:bottle_of_ambrosia"
+			id: "79C2F929FF9F1586"
+			rewards: [{
+				id: "19D9D9227E21CDF2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [
+				{
+					id: "01476A093E8098AF"
+					item: "the_deep_void:bottle_of_ambrosia"
+					type: "item"
+				}
+				{
+					id: "20231BDCDAC126B3"
+					item: "the_deep_void:ambrosia"
+					type: "item"
+				}
+			]
+			title: "Ichor and Ambrosia"
+			x: 43.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["43593B9FF0498E58"]
+			description: [
+				"&7\"While traveling through the Staring Hills, we saw an enormous beast in the distance. However, when I got closer in order to analyze and kill it, it fled. When I asked Nyxil about it, she said that it was a Flesh Worm, which despite its enormous size, is rather skittish and flees from enemies it knows can kill it.\""
+				"{@pagebreak}"
+				"&7\"When inquiring on whether or not its parts were valuable, she said yes, and started constructing a strange device. When the Thumper was placed on the ground, the worm seemed to go into a frenzy, forgetting its nature and striking at us.\""
+			]
+			icon: "the_deep_void:worm_tooth"
+			id: "7814C8CEB124C48A"
+			rewards: [
+				{
+					id: "18ABCFF973349EB5"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "12D1CF67C08ABF0E"
+					item: "the_deep_void:worm_tooth"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4681C758D21D655A"
+					item: "the_deep_void:thumper"
+					type: "item"
+				}
+				{
+					id: "5CD653B8EB309F5B"
+					item: "the_deep_void:worm_tooth"
+					type: "item"
+				}
+			]
+			title: "The Flesh Worm"
+			x: 40.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["19BCED907816DC38"]
+			description: ["&7\"Using the Ambrosial Chunks, we were able to construct a number of pieces that were empowered by ichor, including a sword, boots, and some arrows. They're not bad at all!\""]
+			id: "1F83C6D289779918"
+			rewards: [
+				{
+					count: 16
+					id: "10F0E8469F594C58"
+					item: "the_deep_void:solid_ambrosia"
+					type: "item"
+				}
+				{
+					id: "729482285CFB1CEB"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "69AAA7E3FE50D0D0"
+					item: {
+						Count: 1
+						id: "the_deep_void:ichor_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2104B92F53D8ED4F"
+					item: "the_deep_void:arrow_of_ichor_pellets"
+					type: "item"
+				}
+				{
+					id: "6B55E33BF90FE88C"
+					item: {
+						Count: 1
+						id: "the_deep_void:ichor_strider_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Ichor Equipment"
+			x: 43.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4145DB3DE1721CEE"]
+			description: ["&7\"I was able to create a new set of armor for Nyxil with the newly foraged Umbral Steel. Using some schematics we found in the encampment, I created a set that resembled a plague doctor's robes, which is able to heal the user while inflicting additional harm to foes.\""]
+			id: "77247F640821AFAD"
+			rewards: [{
+				id: "793FBA6A7E2C37A3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [
+				{
+					id: "655D24129D27A2D5"
+					item: {
+						Count: 1
+						id: "the_deep_void:plague_doctor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "04135556423760B9"
+					item: {
+						Count: 1
+						id: "the_deep_void:plague_doctor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2BA303B0E63AE64A"
+					item: {
+						Count: 1
+						id: "the_deep_void:plague_doctor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "35A3D3CFC65920D2"
+					item: {
+						Count: 1
+						id: "the_deep_void:plague_doctor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Plague Doctor Armor"
+			x: 45.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0F9265AD637B7FD7"]
+			description: [
+				"&b\"During my experiments, I tried combining the bones of the mimics from the Misted Remnants with a Hexed Doll in order to try and form a vessel for his soul to return to. I even created the doll in his image.\""
+				"{@pagebreak}"
+				"&b\"However, instead of working, it summoned a more powerful mimic that used illusion magic to assist its ability. I vanquished it, of course. Another failure.\""
+			]
+			icon: "the_deep_void:misted_heart"
+			id: "38E8B79FA39568EF"
+			rewards: [
+				{
+					id: "5A804C9132906CE2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "3469747AE4B5D320"
+					item: "the_deep_void:misted_heart"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4186CBA5E9E42091"
+					item: "the_deep_void:mimic_doll"
+					type: "item"
+				}
+				{
+					id: "00FED4CCCD054862"
+					item: "the_deep_void:misted_heart"
+					type: "item"
+				}
+			]
+			title: "The Elder Mimic"
+			x: 50.0d
+			y: 1.5d
 		}
 	]
 	title: "The Journey"
