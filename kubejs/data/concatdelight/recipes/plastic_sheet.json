@@ -1,0 +1,15 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    { "item": "industrialforegoing:plastic" }
+  ],
+  "tool": {
+    "tag": "concatenation:hammers"
+  },
+  "result": [
+    {
+      "item": "tfmg:plastic_sheet",
+      "count": 1
+    }
+  ]
+}

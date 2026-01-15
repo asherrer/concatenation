@@ -1,0 +1,11 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    { "item": "create:brass_nugget" },
+    { "item": "create:brass_nugget" },
+    { "item": "create:brass_nugget" }
+  ],
+  "results": [
+    { "item": "createtaczauto:casing_762x25" }
+  ]
+}
