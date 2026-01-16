@@ -1410,10 +1410,10 @@
     "modId": "redirected",
     "version": "1.0.0"
   },
-  "redstone_flux-1.20.1-Forge-1.0.0.jar": {
-    "jarName": "redstone_flux-1.20.1-Forge-1.0.0.jar",
+  "redstone_flux-1.20.1-Forge-1.1.0.jar": {
+    "jarName": "redstone_flux-1.20.1-Forge-1.1.0.jar",
     "modId": "redstone_flux",
-    "version": "1.0.0"
+    "version": "1.1.0"
   },
   "refurbished_furniture-forge-1.20.1-1.0.19.jar": {
     "jarName": "refurbished_furniture-forge-1.20.1-1.0.19.jar",
@@ -1688,10 +1688,10 @@
     "modId": "tfmg",
     "version": "1.0.2c"
   },
-  "the_deep_void-1.95-forge-1.20.1.jar": {
-    "jarName": "the_deep_void-1.95-forge-1.20.1.jar",
+  "the_deep_void-1.96.6-forge-1.20.1.jar": {
+    "jarName": "the_deep_void-1.96.6-forge-1.20.1.jar",
     "modId": "the_deep_void",
-    "version": "1.95"
+    "version": "1.96.6"
   },
   "thermal_cultivation-1.20.1-11.0.1.24.jar": {
     "jarName": "thermal_cultivation-1.20.1-11.0.1.24.jar",
@@ -1757,6 +1757,11 @@
     "jarName": "tinker_rapier-1.0.1-1.20.1.jar",
     "modId": "tinker_rapier",
     "version": "1.0.1-1.20.1"
+  },
+  "tinkersplatinumtungsten-1.0.1-forge-1.20.1.jar": {
+    "jarName": "tinkersplatinumtungsten-1.0.1-forge-1.20.1.jar",
+    "modId": "tinkersplatinumtungsten",
+    "version": "1.0.1"
   },
   "Tips-Forge-1.20.1-12.1.8.jar": {
     "jarName": "Tips-Forge-1.20.1-12.1.8.jar",

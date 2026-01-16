@@ -108,7 +108,7 @@ ItemEvents.modification(event => {
 		["the_deep_void:voidrium_sword", 18],
 		["the_deep_void:lavendite_voidrium_sword", 17],
 		9999,
-		["the_deep_void:knives_glove", 23],
+		//["the_deep_void:knives_glove", 23],
 
 		//
 		// armor

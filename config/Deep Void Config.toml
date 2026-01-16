@@ -76,7 +76,7 @@
 	DoDamageCap = false
 	#How much armor should the broken armor effect remove (percentage removed)
 	BrokenArmorAmplifier = 0.65
-	GiveWikiBook = true
+	GiveWikiBook = false
 
 ["Gameplay Changes"]
 	#When a player dies, they get sent to the Deep Void
