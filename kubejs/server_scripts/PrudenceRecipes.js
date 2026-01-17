@@ -14,6 +14,9 @@ ServerEvents.recipes(event => {
         'concatenationcore:stickyredstone'
     );
 
+    event.remove({ output: 'strangematter:resonite_ingot', type: 'minecraft:smelting' })
+    event.remove({ output: 'strangematter:resonite_ingot', type: 'minecraft:blasting' })
+
     // Prudence
     event.shaped(
         Item.of(

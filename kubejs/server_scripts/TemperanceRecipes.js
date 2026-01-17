@@ -682,6 +682,14 @@ ServerEvents.recipes(event => {
                         'hexerei:animal_fat'
                 ]
         )
+        event.shapeless(
+                Item.of('minecraft:candle'),
+                [       
+                        'minecraft:string',
+                        'hexerei:animal_fat',
+                        'hexerei:animal_fat'
+                ]
+        )
         event.shaped(
                 Item.of('hexerei:mixing_cauldron'),
                 [

@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = welcomescreen_update
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1766623867556
+  last_edited_time = 1768631550911
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:6d5d6044-12bd-4859-92c7-a4e871092ce0-1766622759206] = [groups:][instances:]
+  [loading_requirement_container_meta:59ce4aaf-21ae-4a2d-ad45-c3a75d173133-1768631425086] = [groups:][instances:]
 }
 
 menu_background {
@@ -544,8 +544,8 @@ element {
   fade_out_speed = 1.0
   base_opacity = 1.0
   auto_sizing = false
-  auto_sizing_base_screen_width = 2562
-  auto_sizing_base_screen_height = 1476
+  auto_sizing_base_screen_width = 2560
+  auto_sizing_base_screen_height = 1480
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = a3b7443a-9467-4b64-9aaf-b174f4eb91b9-1761669886468
@@ -576,7 +576,7 @@ element {
 
 element {
   interactable = true
-  source = 01/05/2025 - v1.4.3 "Chariots and Cups"%n%12/24/2025 - v1.4.2-3%n%12/24/2025 - v1.4.2 "Refractive Pentacles"%n%12/16/2025 - v1.4.1%n%12/02/2025 - v1.4.0 "Refractive Ratcheting"%n%11/25/2025 - v1.3.5%n%11/25/2025 - v1.3.4 "Death"%n%11/11/2025 - v1.3.3 "Cogent Purgatory"%n%11/07/2025 - v1.3.2%n%11/04/2025 - v1.3.1%n%10/30/2025 - v1.3.0 "Prudent Prerogative"%n%%n%10/25/2025 - v1.2.3 "The Empress"%n%10/19/2025 - v1.2.2%n%10/15/2025 - v1.2.1 "Door of Dis"%n%10/11/2025 - v1.2.0-1%n%10/11/2025 - v1.2.0 "Gate to Perdition"%n%10/07/2025 - v1.1.3-1%n%10/07/2025 - v1.1.3%n%10/05/2025 - v1.1.2%n%10/05/2025 - v1.1.1 "World Devourer"%n%09/30/2025 - v1.1.0-2 "Occult Calling"%n%09/28/2025 - v1.1.0-1 "Hand of Wands"%n%9/25/2025 - v1.0.19 "Future of Creation"%n%9/23/2025 - v1.0.18 "The World"%n%?/?/2025 - v1.0.17%n%9/8/2025 - v1.0.16
+  source = 01/17/2025 - v1.4.3 "Sorting and Sorties"%n%01/05/2025 - v1.4.3 "Chariots and Cups"%n%12/24/2025 - v1.4.2-3%n%12/24/2025 - v1.4.2 "Refractive Pentacles"%n%12/16/2025 - v1.4.1%n%12/02/2025 - v1.4.0 "Refractive Ratcheting"%n%11/25/2025 - v1.3.5%n%11/25/2025 - v1.3.4 "Death"%n%11/11/2025 - v1.3.3 "Cogent Purgatory"%n%11/07/2025 - v1.3.2%n%11/04/2025 - v1.3.1%n%10/30/2025 - v1.3.0 "Prudent Prerogative"%n%%n%10/25/2025 - v1.2.3 "The Empress"%n%10/19/2025 - v1.2.2%n%10/15/2025 - v1.2.1 "Door of Dis"%n%10/11/2025 - v1.2.0-1%n%10/11/2025 - v1.2.0 "Gate to Perdition"%n%10/07/2025 - v1.1.3-1%n%10/07/2025 - v1.1.3%n%10/05/2025 - v1.1.2%n%10/05/2025 - v1.1.1 "World Devourer"%n%09/30/2025 - v1.1.0-2 "Occult Calling"%n%09/28/2025 - v1.1.0-1 "Hand of Wands"%n%9/25/2025 - v1.0.19 "Future of Creation"%n%9/23/2025 - v1.0.18 "The World"%n%?/?/2025 - v1.0.17%n%9/8/2025 - v1.0.16
   source_mode = direct
   shadow = true
   scale = 0.5

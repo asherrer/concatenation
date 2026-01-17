@@ -137,6 +137,38 @@ ServerEvents.recipes(event => {
                 temperature: 760
         })
 
+        event.custom({
+                type: 'tconstruct:melting',
+                inputs: [
+                        { tag: 'forge:molten_nickel', amount: 90 },
+                        { tag: 'forge:molten_silver', amount: 60 }
+                ],
+                result: { fluid: 'tconstruct:molten_platinum', amount: 60 },
+                temperature: 760
+        })
+
+        event.custom({
+                type: "tconstruct:melting",
+                ingredient: { "item": "createmetallurgy:wolframite_ore" },
+                result: {
+                        "fluid": "tconstruct:molten_tungsten",
+                        "amount": 90
+                },
+                temperature: 1250,
+                time: 800
+        })
+
+        event.custom({
+                type: "tconstruct:melting",
+                ingredient: { "item": "createmetallurgy:raw_wolframite_block" },
+                result: {
+                        "fluid": "tconstruct:molten_tungsten",
+                        "amount": 810
+                },
+                temperature: 1250,
+                time: 800
+        })
+
         event.replaceInput(
                 { mod: 'createbigcannons' },
                 'createbigcannons:cast_iron_ingot',
@@ -841,23 +873,48 @@ ServerEvents.recipes(event => {
         event.recipes.minecraft.blasting(
                 'create:zinc_ingot',
                 'createmetallurgy:zinc_dust'
-        ).xp(0.1).cookingTime(100);
+        ).xp(0.1).cookingTime(50);
 
         event.recipes.minecraft.blasting(
                 'minecraft:glowstone_dust',
                 'thermal:glowstone_mushroom_spores'
-        ).xp(0.1).cookingTime(100);
+        ).xp(0.1).cookingTime(75);
         event.recipes.minecraft.blasting(
                 'minecraft:gunpowder',
                 'thermal:gunpowder_mushroom_spores'
-        ).xp(0.1).cookingTime(100);
+        ).xp(0.1).cookingTime(75);
         event.recipes.minecraft.blasting(
                 'minecraft:redstone',
                 'thermal:redstone_mushroom_spores'
-        ).xp(0.1).cookingTime(100);
+        ).xp(0.1).cookingTime(75);
         event.recipes.minecraft.blasting(
                 'minecraft:slime_ball',
                 'thermal:slime_mushroom_spores'
+        ).xp(0.1).cookingTime(75);
+
+        event.recipes.minecraft.smelting(
+                'tfmg:crushed_raw_lithium',
+                'tfmg:lithium_ingot'
         ).xp(0.1).cookingTime(100);
+        event.recipes.minecraft.blasting(
+                'tfmg:crushed_raw_lithium',
+                'tfmg:lithium_ingot'
+        ).xp(0.1).cookingTime(50);
+        event.recipes.minecraft.smelting(
+                'create:crushed_raw_platinum',
+                'common_ore_library:platinum_ingot'
+        ).xp(0.1).cookingTime(100);
+        event.recipes.minecraft.blasting(
+                'create:crushed_raw_platinum',
+                'common_ore_library:platinum_ingot'
+        ).xp(0.1).cookingTime(50);
+        event.recipes.minecraft.smelting(
+                'create:crushed_raw_aluminum',
+                'tfmg:aluminum_ingot'
+        ).xp(0.1).cookingTime(100);
+        event.recipes.minecraft.blasting(
+                'create:crushed_raw_aluminum',
+                'tfmg:aluminum_ingot'
+        ).xp(0.1).cookingTime(50);
 
 });
