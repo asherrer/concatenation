@@ -33,11 +33,15 @@
 	StalkingStalkerSpawns = true
 	#The time it takes for the Stalker to spawn in ticks (Default = 1,200 ticks)
 	StalkerSpawnTimer = 1200.0
-	#If Bone Cages should be placed by Masked Hunters
+	#Whether Masked Hunters will spawn in the Overworld or not
 	SpawnMaskedHunters = true
 	#The cooldown before a Masked Hunter can spawn naturally (In ticks)
 	MaskedHunterCooldown = 108000.0
 	StalkerDespawnTimer = 6000.0
+	#If Bone Cages should be placed by Masked Hunters
+	SpawnBoneCages = true
+	#How far away the screams can be heard (attenuation distance) [1 is normal]
+	MaskedHunterScreamDistance = 16.0
 
 [Misc]
 	#Whether the ''Seek Light'' warning should appear when the Stalker is close or not (Happens only one time)
@@ -47,7 +51,7 @@
 	#How long the Void Blessing effect should last when entering the Deep Void (In ticks)
 	VoidBlessingTimer = 600.0
 	#Should players teleport to the Deep Void when falling in the void in any dimension
-	AllowOtherWorldTp = false
+	AllowOtherWorldTp = true
 	#Should Soul light sources not get destroyed
 	AllowSoulLight = false
 	#If players should hallucinate below y=1 or not
@@ -69,7 +73,7 @@
 	#If bosses should apply Broken Armor when attacking
 	BossesBreakArmor = true
 	#Damage should deal (damage + percentage of damage beyond the cap) when reached
-	BossDamageCap = 10.0
+	BossDamageCap = 15.0
 	#The percentage of the damage that exceeded the cap that should be dealt
 	DamageCapPercentage = 0.6
 	#If bosses should have damage caps
@@ -110,6 +114,10 @@
 	ApostleGrab = 30.0
 	#Damage
 	ApostleMissGrabMelee = 15.0
+	#When under Max Health/Config Number, second phase is active
+	ApostleSecondPhase = 1.8
+	#Damage in an AOE on successful parry (only damages the attacker)
+	ApostleParry = 10.0
 
 ["Misanthropic Hivemind"]
 	#Damage each tick
@@ -147,9 +155,9 @@
 	#Damage dealt in an AOE
 	CruelStiletto = 10.0
 	#Damage dealt by the small arrows
-	ShadestormShadeArrow = 4.0
+	ShadestormShadeArrow = 2.5
 	#Damage dealt by the big arrow in an AOE (+ original damage)
-	ShadestormBigArrow = 10.0
+	ShadestormBigArrow = 15.0
 	#Damage dealt after the first hit
 	SoulSeekerRepeatedDamage = 12.0
 	#Damage dealt in an AOE each tick
@@ -177,24 +185,61 @@
 	#Damage dealt in an AOE
 	VoidMatterGreatsword = 30.0
 	#Damage dealt if the entity does not have broken armor (full damage, not an addition)
-	RustyClawsExtraDamage = 6.0
+	RustyClawsExtraDamage = 14.0
 	#Damage per projectile
 	IchorSwordSpit = 21.0
 	#Damage per projectile
-	ArrowOfSpite = 4.0
+	ArrowOfSpite = 8.0
 	#Damage per projectile
-	ArrowOfIchorPellets = 2.5
+	ArrowOfIchorPellets = 4.5
 	#Damage (velocity increases that number)
 	Misanthropy = 7.5
 	NervesOfSteelCrit = 75.0
+	#Damage upon teleporting to the target
+	FleshParasiteTp = 15.0
+	#If the flesh parasite should work on mobs other than players (for servers: may cause extreme lag if used repeatedly)
+	FleshParasiteEnableEntity = true
+	#Extra damage when on low health
+	RottenTongueDamage = 25.0
+	BloodBowSpike = 10.0
+	OnyxNaginataReachAddition = 2.0
+	Needlefish = 7.0
+	#Ignores armor
+	TombstoneDoom = 50.0
+	KnifeBandolierFullChargeHit = 25.0
+	#How long it takes before the knife bandolier is fully charged (in ticks)
+	KnifeBandolierTimeBeforeCharge = 90.0
+	#Damage per knife
+	KnifeBandolierKnife = 15.0
+	#Damage in an AOE each tick
+	KnifeBandolierAoe = 40.0
+	NecronomiconRange = 24.0
+	#Damage upon successfully catching an entity
+	TheCatcherInitialDamage = 6.0
+	#Damage added to the weapon's base damage upon catching an entity
+	TheCatcherExtraDamage = 8.0
+	#For how long can the player fly (in ticks)
+	FlyWingsDuration = 200.0
 
 ["Hive's Watcher"]
 	#Damage each tick
-	HiveWatcherWhileMoving = 10.0
+	HiveWatcherWhileMoving = 40.0
 	#Damage per projectile
-	HiveWatcherSpit = 12.0
-	#Percentage change of spawning bone blockades
-	HiveWatcherBlockade = 0.9
+	HiveWatcherSpit = 16.0
+	#Percentage change of spawning bone spikes
+	HiveWatcherSpikeSpawn = 0.5
+	#Percentage change of spawning fangs
+	HiveWatcherFangsSpawn = 0.5
+	#How long the bone spike attack lasts (in ticks)
+	HiveWatcherSpikeDuration = 100.0
+	#The frequency at which the bone spikes spawn (in ticks)
+	HiveWatcherSpikeFrequency = 5.0
+	#When under Max Health/Config Number, second phase is active
+	HiveWatcherSecondPhase = 1.5
+	#Damage when the player is near the spike
+	HiveWatcherSpike = 15.0
+	#Size of the damaging zone around the boss while it's moving
+	HiveWatcherAttackRadius = 9.0
 
 ["Flesh Worm"]
 	#Damage in an AOE
