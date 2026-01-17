@@ -1295,4 +1295,18 @@ ServerEvents.recipes(event => {
                         'mekanism:salt'
                 ]
         )
+
+        event.shapeless(
+                Item.of('ars_nouveau:experience_gem', 9),
+                [
+                        '#concatenation:mob_charm'
+                ]
+        )
+
+        event.shapeless(
+                Item.of('ars_nouveau:experience_gem', 9),
+                [
+                        '#concatenation:knowledge'
+                ]
+        )
 });

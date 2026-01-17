@@ -91,15 +91,24 @@ ItemEvents.modification(event => {
 		1200, ["mekanismtools:steel_paxel", 6, paxelPenalty(1)],
 
 		// deep void weapons
+		1561,
+		["the_deep_void:void_matter_greatsword", 15],
+		["the_deep_void:grim_scythe", 12],
+		["the_deep_void:cruel_stiletto", 10],
 		2456, 
-		["the_deep_void:hard_flesh_sword", 11],
+		["the_deep_void:hard_flesh_sword", 15],
 		["the_deep_void:claw_blade", 8],
 		["the_deep_void:animosity", 10],
-		["the_deep_void:the_harvest", 16],
-		["the_deep_void:tombstone", 30],
+		["the_deep_void:ichor_sword", 21],
+		["the_deep_void:judgement", 21],
+		["the_deep_void:soul_cleaver", 22],
+		["the_deep_void:the_harvest", 30],
+		["the_deep_void:tombstone", 50],
 		3461,
-		["the_deep_void:voidrium_sword", 9],
-		["the_deep_void:lavendite_voidrium_sword", 8],
+		["the_deep_void:voidrium_sword", 18],
+		["the_deep_void:lavendite_voidrium_sword", 17],
+		9999,
+		//["the_deep_void:knives_glove", 23],
 
 		//
 		// armor
@@ -153,6 +162,7 @@ ItemEvents.modification(event => {
 		1040, ["the_deep_void:flesh_armor_chestplate", 7],
 		975, ["the_deep_void:flesh_armor_leggings", 6],
 		845, ["the_deep_void:flesh_armor_boots", 4],
+		1040, ["the_deep_void:crawler_royalty_chestplate", 11],
 
 		// Juggernaut
 		10000,

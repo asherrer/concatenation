@@ -1764,7 +1764,7 @@ ServerEvents.recipes(event => {
                         'ECE'
                 ],
                 {
-                        D: 'concatenationcore:boiler',
+                        D: 'concatenationcore:zinc_casing',
                         A: 'thermal:tin_ingot',
                         E: 'minecraft:iron_ingot',
                         B: 'minecraft:cauldron',

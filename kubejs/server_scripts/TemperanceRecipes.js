@@ -661,6 +661,14 @@ ServerEvents.recipes(event => {
                         E: 'reliquary:nebulous_heart'
                 }
         ).keepIngredient('tarotcards:the_hierophant')
+        event.shapeless(
+                Item.of('minecraft:candle'),
+                [       
+                        'minecraft:string',
+                        'hexerei:animal_fat',
+                        'hexerei:animal_fat'
+                ]
+        )
         event.shaped(
                 Item.of('hexerei:mixing_cauldron'),
                 [

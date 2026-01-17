@@ -14,7 +14,7 @@ ServerEvents.recipes(event => {
             A: 'concatenationcore:experienced_paper',
             E: 'tfmg:p_semiconductor'
         }
-    )
+    ).keepIngredient('tarotcards:wheel_of_fortune')
     event.shapeless(
         Item.of('minecraft:fire_charge'),
         [

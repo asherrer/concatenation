@@ -1,0 +1,22 @@
+{
+	id: "08B621108883EFEC"
+	loot_size: 1
+	order_index: 23
+	rewards: [
+		{ count: 128, item: "minecraft:gravel" }
+		{ count: 128, item: "minecraft:sand" }
+		{ count: 32, item: "minecraft:clay" }
+		{ item: "minecraft:diamond" }
+		{ count: 16, item: "minecraft:coal" }
+		{
+			item: {
+				Count: 1
+				id: "mekanismtools:bronze_paxel"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "Gift of the Forge"
+}

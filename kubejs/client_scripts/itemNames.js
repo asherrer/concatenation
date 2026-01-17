@@ -28,6 +28,8 @@ ClientEvents.lang('en_us', event => {
   event.renameItem('alloy_smelter:forge_controller_tier2', 'Brick Controller');
   event.renameItem('alloy_smelter:forge_controller_tier3', 'Scorchia Controller');
   //event.renameItem('farmersdelight:cutting_board', 'Board');
-
+  event.renameItem('the_deep_void:dark_steel_scrap', 'Umbral Steel Scrap');
+  event.renameItem('the_deep_void:dark_steel_deposit', 'Umbral Steel Deposit');
+  event.renameItem('the_deep_void:block_of_dark_steel', 'Block of Umbral Steel');
   event.rename('fluid.bloodmagic.life_essence', 'Life Essence')
 })
