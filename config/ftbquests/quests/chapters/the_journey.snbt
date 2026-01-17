@@ -25182,12 +25182,19 @@
 				"&b“Since I believe it was his wish, I’ll be scattering as many copies of this record across the dimension as I can. Hopefully it was of use to you. Goodbye.”"
 			]
 			id: "0E5251536D5AE77B"
-			rewards: [{
-				count: 4
-				id: "04B0B7359D977C8C"
-				item: "immersive_weathering:enchanted_golden_moss_clump"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "04B0B7359D977C8C"
+					item: "immersive_weathering:enchanted_golden_moss_clump"
+					type: "item"
+				}
+				{
+					id: "5FAA5E1062BB0BE6"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "549CDC679F8994C1"
 				item: "the_deep_void:voodoo_doll"
@@ -25999,7 +26006,7 @@
 			rewards: [{
 				id: "7D49951C3BA5E5E2"
 				type: "xp_levels"
-				xp_levels: 1
+				xp_levels: 2
 			}]
 			tasks: [
 				{
@@ -26058,7 +26065,7 @@
 				"{@pagebreak}"
 				"&b\"I feel like I could manipulate the flow of battle just by being there. My built Overseers became significantly stronger, and whenever I kill something I reap their soul, adding their life essence to mine. That effect seems to wear off whenever I take of the mask specifically.\""
 				"{@pagebreak}"
-				"&b\"The mask isn't the only piece that has a unique effect. The rest of the set allowed me to heal, teleport, wither enemies, ignore gravity, and dodge attacks. Combined, it makes me an even more formidable opponent than before.\""
+				"&b\"The mask isn't the only piece that has a unique effect. The rest of the set allowed me to heal, teleport, wither enemies, ignore gravity, and dodge attacks. Combined, it makes me an even more formidable fighter than I could've imagined.\""
 			]
 			id: "1C5018478399258F"
 			rewards: [
@@ -26138,11 +26145,19 @@
 				"&7\"I think I'll take this one, personally. Sounds perfect for a defensive fighting style!\""
 			]
 			id: "40DE00C16BC62FF4"
-			rewards: [{
-				id: "2396DD605B702322"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "2396DD605B702322"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 3
+					id: "2E06E4CF08ED6021"
+					item: "the_deep_void:voidrium_gem"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "3C78164358E4B56B"
@@ -26267,7 +26282,7 @@
 			rewards: [{
 				id: "0D190F4612DC9D67"
 				type: "xp_levels"
-				xp_levels: 1
+				xp_levels: 2
 			}]
 			tasks: [
 				{
@@ -26382,6 +26397,11 @@
 					item: "minecraft:emerald_block"
 					type: "item"
 				}
+				{
+					id: "3EC872876CA27A72"
+					type: "xp_levels"
+					xp_levels: 1
+				}
 			]
 			tasks: [{
 				id: "22B855A29C3A1219"
@@ -26395,11 +26415,18 @@
 			dependencies: ["4E2F07927BA41118"]
 			description: ["&7\"These voidrium tools are really quite fast. The pickaxe isn't quite as strong ass the Shatterbone Pickaxe, but the rest are top notch! Can't wait to bring these to the Overworld.\""]
 			id: "1F51A3A5B52E797C"
-			rewards: [{
-				id: "5D1B7C24EB36DAC3"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "5D1B7C24EB36DAC3"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "34F7A7FE653BD5B2"
+					item: "the_deep_void:block_of_voidrium"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "76F4CBF43C384B3C"
@@ -26456,7 +26483,7 @@
 				"&b\"By constructing a chestpiece out of the Fleshy Bones of the hivemind, I'm able to traverse the flesh infection freely! When wearing it, I'm seen as a Fleshkin and not attacked. The terrain is noticably less hostile too, with the teeth retracting when I walk over them and the pus sacks not exploding.\""
 				"{@pagebreak}"
 				"&7\"...May I have one?\""
-				"&b\"Sure, you helped me, so I don't mind!\""
+				"&b\"Sure. We have enough bones for 2.\""
 			]
 			id: "0DC391823089161D"
 			rewards: [{
@@ -26508,27 +26535,34 @@
 				"&7\"That's alright. I'm sure we'll get our hands on them sooner rather than later.\""
 			]
 			id: "4886ADAECCD988A0"
-			rewards: [{
-				id: "5B60981C296253A3"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:scroll"
-					tag: {
-						ISB_Spells: {
-							data: [{
-								id: "irons_spellbooks:magic_arrow"
-								index: 0
-								level: 6
-								locked: 1b
-							}]
-							maxSpells: 1
-							mustEquip: 0b
-							spellWheel: 0b
+			rewards: [
+				{
+					id: "5B60981C296253A3"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:magic_arrow"
+									index: 0
+									level: 6
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "2BA955DFCCEB2C68"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "7CAE315C844D49FF"
 				item: "the_deep_void:endless_quiver"
@@ -31715,7 +31749,7 @@
 				""
 				"Then, when the Thermae contains over 1000mb of liquid galvanized iron, place an iron block in the dipping bath of the Thermae, one block right above the Thermae to galvanize the block of iron."
 				"{@pagebreak}"
-				"9 Crushed Zinc in Thermae + Lava in Heater = Liquid Galvanized Iron."
+				"18 Crushed Zinc in Thermae + Lava in Heater = Liquid Galvanized Iron."
 				""
 				"Iron Block Above + 1000mb of Liquid Galvanized Iron = Galvanized Iron Block."
 			]
