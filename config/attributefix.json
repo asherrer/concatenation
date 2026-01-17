@@ -11,6 +11,17 @@
         "value": 512
       }
     },
+    "gstools:disease_effect_weakness": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 9,
+        "value": 9
+      }
+    },
     "minecraft:generic.follow_range": {
       "enabled": true,
       "min": {
@@ -53,6 +64,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "gstools:has_disease_boolean": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2,
+        "value": 2
       }
     },
     "irons_spellbooks:lightning_magic_resist": {
@@ -110,6 +132,17 @@
         "value": 100
       }
     },
+    "gstools:disease_time": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 16000,
+        "value": 16000
+      }
+    },
     "irons_spellbooks:fire_spell_power": {
       "enabled": false,
       "min": {
@@ -119,6 +152,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "gstools:disease_effect_hunger": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 40,
+        "value": 40
       }
     },
     "forge:entity_reach": {
@@ -209,6 +253,17 @@
         "value": 100
       }
     },
+    "gstools:disease_effect_wither": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 64,
+        "value": 64
+      }
+    },
     "irons_spellbooks:cooldown_reduction": {
       "enabled": false,
       "min": {
@@ -229,6 +284,28 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "gstools:disease_effect_poison": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 40,
+        "value": 40
+      }
+    },
+    "gstools:disease_effect_blindness": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 40,
+        "value": 40
       }
     },
     "minecraft:zombie.spawn_reinforcements": {
@@ -284,6 +361,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "gstools:disease_effect_slowness": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 18,
+        "value": 18
       }
     },
     "minecraft:generic.armor_toughness": {
@@ -594,6 +682,17 @@
         "value": 100
       }
     },
+    "gstools:disease_effect_nausea": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 40,
+        "value": 40
+      }
+    },
     "tconstruct:generic.knockback_multiplier": {
       "enabled": false,
       "min": {
@@ -625,6 +724,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "gstools:disease_effect_mining_fatigue": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 9,
+        "value": 9
       }
     },
     "minecraft:generic.movement_speed": {
