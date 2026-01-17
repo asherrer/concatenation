@@ -474,6 +474,18 @@
       "operation": "ADDITION"
     }
   ],
+  "hive_watcher": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 350,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.1,
+      "operation": "ADDITION"
+    }
+  ],
   "flesh_fangs": [
     {
       "attribute": "minecraft:generic.max_health",
