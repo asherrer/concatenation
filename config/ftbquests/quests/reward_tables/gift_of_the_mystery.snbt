@@ -1,0 +1,29 @@
+{
+	id: "44FBA1B892C342A6"
+	loot_size: 1
+	order_index: 22
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "minecraft:iron_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 3, item: "minecraft:iron_ingot" }
+		{ item: "minecraft:candle" }
+		{
+			count: 3
+			item: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:long_night_vision"
+				}
+			}
+		}
+	]
+	title: "Gift of the Mystery"
+}

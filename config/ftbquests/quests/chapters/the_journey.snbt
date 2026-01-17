@@ -1400,6 +1400,7 @@
 				""
 				"It is made from casting either molten zinc or molten iron on an andesite block in a casting basin."
 			]
+			hide_dependency_lines: true
 			id: "48182227AA27C096"
 			rewards: [{
 				count: 16
@@ -1420,8 +1421,8 @@
 				}
 				type: "item"
 			}]
-			x: -8.5d
-			y: 16.0d
+			x: -9.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["4557B51A13938B2F"]
@@ -6376,7 +6377,11 @@
 			y: 20.0d
 		}
 		{
-			dependencies: ["287ED2C334B0E957"]
+			dependencies: [
+				"287ED2C334B0E957"
+				"5528A8B3F2AE6D2F"
+			]
+			dependency_requirement: "one_completed"
 			description: ["An essential fixture for anyone delving into witchcraft, used to mix a great many things and infuse them with ancient spiritual power. The Mixing Cauldron can also be used for more efficient potion brewing at its scale. This is also where you'll be bleeding many creature. In fact, this cauldron has the uncanny ability to draw blood, even from vaguely human-shaped wood...  "]
 			id: "3B8127AF958727B0"
 			rewards: [
@@ -9507,7 +9512,10 @@
 			y: 17.4d
 		}
 		{
-			dependencies: ["33BA0ACE3EA7C44B"]
+			dependencies: [
+				"33BA0ACE3EA7C44B"
+				"59D783372A16F858"
+			]
 			description: [
 				"Although primarly made by &bHigh Priestess&r card holders, &dHermit&r card holders can adhere to the &bHigh Priestess&r path as well by making these same circuits."
 				""
@@ -9548,7 +9556,7 @@
 			y: 17.825d
 		}
 		{
-			dependencies: ["0964BD6C4413A9C9"]
+			dependencies: ["4557B51A13938B2F"]
 			description: [
 				"Electrum is a material frequently used in circuits and electronic machinery, especially by the High Priestess and Hierophant pathways."
 				""
@@ -9574,8 +9582,8 @@
 				}
 				type: "item"
 			}]
-			x: -6.0d
-			y: 15.5d
+			x: -6.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["51F0251F529BE03C"]
@@ -11235,7 +11243,7 @@
 			y: -14.924999999999999d
 		}
 		{
-			dependencies: ["59D783372A16F858"]
+			dependencies: ["4557B51A13938B2F"]
 			dependency_requirement: "one_completed"
 			description: [
 				"Rose gold is a crucial material of the Tower pathway, frequently used in expansive machinery."
@@ -14681,7 +14689,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["2A13540D4E396260"]
+			dependencies: ["4AE782719D5A61F7"]
 			description: ["The jetpack is an incredible mobility force. Powered by RF energy, the jetpacks allows for a certain ability of flight and high movement for the user."]
 			id: "1B09621238805777"
 			rewards: [{
@@ -14729,8 +14737,8 @@
 				type: "item"
 			}]
 			title: "Jetpack"
-			x: -29.325d
-			y: 16.15d
+			x: -30.175d
+			y: 19.974999999999998d
 		}
 		{
 			dependencies: ["662F8F7426A07A9D"]
@@ -28153,6 +28161,7 @@
 							]
 						}
 					}
+					title: "Any Rune Slate"
 					type: "item"
 				}
 				{
@@ -28255,6 +28264,7 @@
 							]
 						}
 					}
+					title: "Any Rune"
 					type: "item"
 				}
 			]
@@ -29856,6 +29866,7 @@
 				team_reward: false
 				type: "item"
 			}]
+			subtitle: "Weaknesses of the Undead"
 			tasks: [
 				{
 					entity: "minecraft:zombie"
@@ -30288,6 +30299,7 @@
 				team_reward: false
 				type: "item"
 			}]
+			subtitle: "Storage Everywhere"
 			tasks: [{
 				id: "12A760AF88731FEC"
 				item: {
@@ -30471,6 +30483,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Portable Cards"
 			tasks: [{
 				id: "1ED754487E1000F1"
 				item: {
@@ -30582,6 +30595,7 @@
 				}
 			]
 			size: 0.9d
+			subtitle: "Material Variety"
 			tasks: [{
 				id: "3BAE5CAF4F2F9147"
 				item: {
@@ -32290,7 +32304,13 @@
 		}
 		{
 			dependencies: ["5153F78E7C90421F"]
+			description: ["Bronze is a great material when more advanced ones aren't available. It functions as a material most useful in early metallurgy for tinkerers. It can be produced via the alloy smelter, using three parts copper and one part tin."]
 			id: "2FFA8334D1BEB88A"
+			rewards: [{
+				id: "5DB26B50B67D373D"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1671DE5D49F727A8"
 				item: "thermal:bronze_ingot"
@@ -32301,7 +32321,19 @@
 		}
 		{
 			dependencies: ["2515356468657815"]
+			description: [
+				"The centerpiece of the inside of a smeltery, it serves to efficiently make use of liquid fuel to melt raw ores, even producing a higher amount in the process."
+				""
+				"It can be combined with four seared brick blocks in an alloy smelter to produce a smeltery controller."
+			]
 			id: "2444E9C25D297DEC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3143A76141074886"
+				table_id: 627725552958304236L
+				title: "Gift of the Forge"
+				type: "choice"
+			}]
 			tasks: [{
 				id: "7C90D1BEE5369EA5"
 				item: "concatenationcore:smeltery_fuel_core"
@@ -32312,7 +32344,13 @@
 		}
 		{
 			dependencies: ["06A4BEEE42830A85"]
+			description: ["Used as a component in the making of elaborate forges and alloy smelters, the forge grate serves to manage the entry of ores and fuel into forges."]
 			id: "49C2BB622D7F5BFD"
+			rewards: [{
+				id: "21E26547B34B7D90"
+				item: "minecraft:blast_furnace"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0C03665F15B46128"
 				item: "concatenationcore:forge_grate"
@@ -32323,7 +32361,13 @@
 		}
 		{
 			dependencies: ["31750A18D07A8904"]
+			description: ["The Mixing Tool is a crafting tool used to mix together substances manually. This process can usually be automated later on. Taking grout, a material of importance for tinkerers of the Hermit Pathway needed for the construction of smelteries, grout can be manually mixed and then cooked in alloy smelters, or later once a smeltery is made, it, along with seared stone, which can be more easily obtained by directly melting clay into the smeltery."]
 			id: "7DDEBB0D4A978C4E"
+			rewards: [{
+				id: "5450DC9840177EA8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "6DF869905B455D7D"
 				item: {
@@ -32343,7 +32387,15 @@
 				"7EC83053F1BDF835"
 				"59D783372A16F858"
 			]
+			description: ["A less efficient but maximalist version of the fuel core, handling higher temperatures to reduce the amount of impurities in ore even further. This can result in very precise alloying or doubling the yield of ore processing. To reach these higher temperatures, more or better fuel is needed."]
 			id: "5AB59B366ED4E373"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "083152E56E44AADD"
+				table_id: 1720371631664813731L
+				title: "Gift of the Platinum Ore"
+				type: "choice"
+			}]
 			tasks: [{
 				id: "4819F69ECFA0F32C"
 				item: "concatenationcore:platinum_fuel_core"
@@ -32354,7 +32406,18 @@
 		}
 		{
 			dependencies: ["0964BD6C4413A9C9"]
+			description: [
+				"Several machine parts can be cast from the smeltery, very useful for both engineers of the Tower Pathway, a path most Hermits will eventually follow, and technicians of the High Priestess pathway."
+				""
+				"Among the most useful machine parts to be cast are gears and wires. The process will waste a lesser amount of resources on average than making it  by hand."
+			]
 			id: "629CB95B2A3C1022"
+			rewards: [{
+				count: 4
+				id: "074FAF8465E18EA1"
+				item: "concatenationcore:stickyredstone"
+				type: "item"
+			}]
 			tasks: [{
 				id: "76B6BB1B19597DC9"
 				item: {
@@ -32386,11 +32449,21 @@
 			}]
 			title: "Casting Machine Parts"
 			x: -8.0d
-			y: 14.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["0964BD6C4413A9C9"]
+			description: [
+				"Materials can be cast into many forms, most often ingots and nuggets. Molten gems will require a gem cast. While nugget casts may seem redundant or downright useless, they are actually more useful than ingot casts. As the melting process purifies the ore to a higher degree, a higher amount of ore will be left over as nuggets that don't form into a clean ingot. This also solves a lot of management issues between ingots and nuggets."
+				""
+				"Compacting drawers can solve the issue of turning nuggets into ingots and blocks cleanly."
+			]
 			id: "4557B51A13938B2F"
+			rewards: [{
+				id: "546AD66B58793432"
+				item: "tconstruct:nugget_cast"
+				type: "item"
+			}]
 			tasks: [{
 				id: "783A5C3066E6BA58"
 				item: {
@@ -32450,23 +32523,55 @@
 			}]
 			title: "Casting Materials"
 			x: -8.0d
-			y: 12.5d
+			y: 14.0d
 		}
 		{
 			dependencies: ["5528A8B3F2AE6D2F"]
+			description: [
+				"A candle is an essential mystical ingredient, serving as a medium for many rituals... and serving as ambience!"
+				""
+				"There are multiple ways of producing sufficient candlesticks, most of them involving animal fat - more specifically, pig fat. Animal fat can be harvested from animal carcasses and tallow can be acquired from pig fat. A more peaceful solution would be to create a bee farm to harvest honeycombs, which make even higher quality candles."
+			]
+			icon: "minecraft:candle"
 			id: "287ED2C334B0E957"
-			tasks: [{
-				id: "645F596F4E8CFBFE"
-				item: "minecraft:candle"
-				type: "item"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "477822FF88B5E9A6"
+				table_id: 4970744427841798822L
+				title: "Gift of the Mysteries"
+				type: "choice"
 			}]
+			tasks: [
+				{
+					id: "645F596F4E8CFBFE"
+					item: "minecraft:candle"
+					type: "item"
+				}
+				{
+					id: "0038D4613ECBCC88"
+					item: "hexerei:animal_fat"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 7.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["51E48EAB50B0971E"]
+			description: [
+				"The Pure Element Holder is the pinnacle of elemental holders, taking less space and being able to hold all four elements at once - and for a fantastically higher quantity."
+				""
+				"It is quite costly however, as the miniature source holders must compress elements much further than regular holders. This has led to great innovations in element storage as well, on top of holding all four elements in the same place. As a result, a substantial amount of fireite and elements is used in the creation of this artifact."
+			]
 			hide_dependency_lines: true
 			id: "18876F26DAE1C815"
+			rewards: [{
+				id: "62DC451FD685AC4F"
+				item: "elementalcraft:fireite_ingot"
+				type: "item"
+			}]
+			subtitle: "The Four Powers!"
 			tasks: [{
 				id: "78CCEC06F1173191"
 				item: {
@@ -32488,12 +32593,20 @@
 		}
 		{
 			dependencies: ["524067700E07EB06"]
+			description: [
+				"The Architectural Encylopedia is a most interesting tome and a very popular one at that. It contains a vast array of knowledge about the architecture of the various civilizations of this world. For one that sees multiple ruins throughout their travels, this is quite useful to know the real names of these locations. Or at least, the attributed name."
+				""
+				"&a(This item mimics the /wits command, to display the name of the structure the player is located at.)"
+			]
 			id: "074421F47A443EC7"
 			rewards: [{
-				id: "2EC0FFDDDE776B73"
-				type: "xp_levels"
-				xp_levels: 3
+				exclude_from_claim_all: true
+				id: "5756FB3A5DFC2608"
+				table_id: 1647664487679734616L
+				title: "Gift of the Historian"
+				type: "choice"
 			}]
+			subtitle: "Knowledge of Ruins"
 			tasks: [{
 				id: "3F478074FDC5FF2A"
 				item: "tangiblecommands:wits_item"
@@ -32504,17 +32617,22 @@
 		}
 		{
 			dependencies: ["524067700E07EB06"]
+			description: [
+				"If something is not observed, a different behaviour than expected may appear. These scarecrows affect the behaviour of monsters substantially, drawing them away from peaceful areas, leading to a higher population in the likes of wild and farm animals. "
+				""
+				"If placed on top of a monster spawner, monsters will seem to continually be summoned, as if an adventurer was still inside. This is very useful for industrial purposes."
+			]
 			id: "089B3DD50486B1A5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "47AB607D1150567E"
+				table_id: 6800703616788188502L
+				type: "choice"
+			}]
+			subtitle: "There's Someone There!"
 			tasks: [{
-				id: "594441E211B3BD02"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "scarecrowsterritory:primitive_scarecrows"
-					}
-				}
-				title: "Any Scarecrow"
+				id: "54C31871457DBA3F"
+				item: "scarecrowsterritory:primitive_scarecrow"
 				type: "item"
 			}]
 			title: "Scarecrow"

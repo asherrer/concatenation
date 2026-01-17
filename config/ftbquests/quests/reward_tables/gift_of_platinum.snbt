@@ -1,0 +1,65 @@
+{
+	id: "17DFFCE2530A56A3"
+	loot_size: 1
+	order_index: 24
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "tconstruct:seared_lantern"
+				tag: {
+					tank: {
+						Amount: 50
+						FluidName: "createmetallurgy:molten_gold"
+					}
+				}
+			}
+		}
+		{ count: 2, item: "oreberriesreplanted:silver_oreberry_bush" }
+		{
+			item: {
+				Count: 1
+				id: "tinker_rapier:rapier_tic"
+				tag: {
+					Damage: 0
+					tic_broken: 0b
+					tic_materials: [
+						"tconstruct:silver"
+						"tconstruct:silver"
+						"tconstruct:silver"
+						"tconstruct:silver"
+					]
+					tic_modifiers: [
+						{
+							level: 4
+							name: "tconstruct:smite"
+						}
+						{
+							level: 1
+							name: "tconstruct:silky_shears"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:durability": 0.75f
+						"tconstruct:mining_speed": 0.75f
+					}
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:attack_damage": 6.0f
+						"tconstruct:attack_speed": 3.3000002f
+						"tconstruct:durability": 360.0f
+						"tconstruct:harvest_tier": "minecraft:iron"
+						"tconstruct:mining_speed": 9.075001f
+					}
+					tic_volatile_data: {
+						abilities: 1
+						upgrades: 2
+					}
+				}
+			}
+		}
+		{ count: 6, item: "thermal_processing:nether_platinum_ore" }
+		{ item: "minecraft:diamond" }
+	]
+	title: "Gift of Platinum"
+}
