@@ -1,0 +1,40 @@
+{
+	id: "16DDAE1F312D3358"
+	loot_size: 1
+	order_index: 21
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "ae2:fluix_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "born_in_chaos_v1:spiny_shell_armor_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 128, item: "minecraft:golden_carrot" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "ars_elemental:soulbound"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{ item: "minecraft:totem_of_undying" }
+	]
+	title: "Gift of the Historian"
+}

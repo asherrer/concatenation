@@ -90,6 +90,7 @@ ServerEvents.tags('item', event => {
     //event.add('thermal:crafting/dies', 'concatenationcore:copper_lead_coil');
     event.add('thermal:crafting/dies', 'concatenationcore:hierophant_die');
     event.add('forge:consumables/experience_3', 'concatenationcore:experience_orb');
+    event.add('forge:consumables/experience_3', 'minecraft:experience_bottle');
 
     add('minecraft:swords', [
         'asr:diamond_giant_sword',
@@ -646,5 +647,35 @@ ServerEvents.tags('item', event => {
 
     add('forge:dusts/quartz', [
         'ars_technica:quartz_dust'
+    ])
+
+    add('concatenation:mob_charm', [
+        'reliquary:mob_charm_fragment',
+        'reliquary:mob_charm'
+    ])
+
+    add('concatenation:knowledge', [
+        'spelled:ancient_knowledge_tome',
+        'spelled:creative_tome'
+    ])
+
+    add('forge:ores', [
+        'strangematter:resonite_ore',
+        'strangematter:gravitic_shard_ore',
+        'strangematter:chrono_shard_ore',
+        'strangematter:spatial_shard_ore',
+        'strangematter:shade_shard_ore',
+        'strangematter:insight_shard_ore',
+        'strangematter:energetic_shard_ore',
+        'the_deep_void:onyx_ore',
+        'the_deep_void:lavendite_ore',
+        'the_deep_void:bismuth_ore',
+        'the_deep_void:sulfur_ore',
+        'the_deep_void:voidrium_ore',
+        'the_deep_void:cinnabar_ore'
+    ])
+
+    add('forge:coal_coke', [
+        'tfmg:coal_coke'
     ])
 });

@@ -46,7 +46,8 @@ key_key.projecte.extra_function:key.keyboard.c:NONE
 key_key.projecte.fire_projectile:key.keyboard.unknown:NONE
 key_key.projecte.mode:key.keyboard.g:NONE
 key_key.modernfix.config:key.keyboard.unknown:NONE
-key_key.corpse.death_history:key.keyboard.u:NONE
+key_key.oneenoughitem.open_editor:key.keyboard.r:NONE
+key_key.corpse.death_history:key.keyboard.unknown:NONE
 key_key.industrialforegoing.backpack.desc:key.keyboard.unknown:NONE
 key_key.hpm.fire:key.keyboard.h:NONE
 key_key.hpm.sailspeedup:key.keyboard.w:NONE
@@ -254,13 +255,13 @@ key_supplementaries.keybind.quiver:key.keyboard.v:NONE
 key_key.journeymap.zoom_in:key.keyboard.equal:NONE
 key_key.journeymap.zoom_out:key.keyboard.minus:NONE
 key_key.journeymap.minimap_type:key.keyboard.left.bracket:NONE
-key_key.journeymap.minimap_preset:key.keyboard.backslash:NONE
-key_key.journeymap.create_waypoint:key.keyboard.b:NONE
+key_key.journeymap.minimap_preset:key.keyboard.unknown:NONE
+key_key.journeymap.create_waypoint:key.keyboard.unknown:NONE
 key_key.journeymap.toggle_waypoints:key.keyboard.z:NONE
 key_key.journeymap.fullscreen_create_waypoint:key.keyboard.b:NONE
 key_key.journeymap.fullscreen_chat_position:key.keyboard.c:NONE
 key_key.journeymap.map_toggle_alt:key.keyboard.m:NONE
-key_key.journeymap.fullscreen_waypoints:key.keyboard.unknown:NONE
+key_key.journeymap.fullscreen_waypoints:key.keyboard.right.bracket:NONE
 key_key.journeymap.minimap_toggle_alt:key.keyboard.j:CONTROL
 key_key.journeymap.fullscreen_options:key.keyboard.o:NONE
 key_key.journeymap.fullscreen.north:key.keyboard.up:NONE
@@ -281,7 +282,7 @@ key_tfmg.keyinfo.transmission_shift_up:key.keyboard.v:NONE
 key_tfmg.keyinfo.transmission_shift_down:key.keyboard.c:NONE
 key_tfmg.keyinfo.custom_button:key.keyboard.b:NONE
 key_tfmg.keyinfo.engine_start:key.keyboard.i:NONE
-key_key.jade.config:key.keyboard.keypad.0:NONE
+key_key.jade.config:key.keyboard.apostrophe:NONE
 key_key.jade.show_overlay:key.keyboard.keypad.1:NONE
 key_key.jade.toggle_liquid:key.keyboard.keypad.2:NONE
 key_key.jade.show_recipes:key.keyboard.keypad.3:NONE

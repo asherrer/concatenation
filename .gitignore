@@ -54,6 +54,11 @@ user-prefs.json
 essential
 ESM
 wiki
+server.dat
+lightspeed-cache
+oeb
+oef
+oei
 
 # explicitly included config
 !config/ProjectE/client.toml
@@ -73,3 +78,5 @@ wiki
 !config/Mekanism/tools-client.toml
 !config/stylisheffects-client.toml
 !config/moonlight-client.toml
+!config/mantle-client.toml
+!config/emixx/emixx-client.toml

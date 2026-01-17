@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = concatenation_credits
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1765760094205
+  last_edited_time = 1768631413961
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:87755a53-06d4-47c0-bab5-b1577c318874-1765759986101] = [groups:][instances:]
+  [loading_requirement_container_meta:7d150e3c-31db-450d-8d1b-16d548062991-1768631351781] = [groups:][instances:]
 }
 
 menu_background {
@@ -249,7 +249,7 @@ element {
 
 element {
   interactable = true
-  source = ^^^%n%Mitemi - Lead Developer, Writer, Artist%n%Tikup - Developer, Writer, Artist%n%Gravitegg - Playtester%n%Skillode - Playtester%n%%n%Concatenation Division%n%SporiumCorium - Pack Developer, Writer%n%Newlumberjack - Pack Developer%n%Honeyglazedlady - Artist%n%Sem__lan - Writer%n%Lucy - Writer%n%Ranger- Playtester%n%Waayzii - Wiki Editor%n%Mimnin - Wiki Editor%n%Bajan - Wiki Editor%n%^^^
+  source = ^^^%n%Mitemi - Lead Developer, Writer, Artist%n%Tikup - Developer, Writer, Artist%n%Gravitegg - Playtester%n%Skillode - Playtester%n%%n%Concatenation Division%n%SporiumCorium - Pack Developer, Writer%n%Newlumberjack - Pack Developer%n%MysticSquire - Pack Developer%n%Ranger - Pack Developer, Playtester%n%Honeyglazedlady - Artist%n%Sem__lan - Writer%n%Waayzii - Wiki Editor%n%Mimnin - Wiki Editor%n%Bajan - Wiki Editor%n%^^^
   source_mode = direct
   shadow = true
   scale = 0.75
@@ -290,8 +290,8 @@ element {
   fade_out_speed = 1.0
   base_opacity = 1.0
   auto_sizing = false
-  auto_sizing_base_screen_width = 2562
-  auto_sizing_base_screen_height = 1476
+  auto_sizing_base_screen_width = 2560
+  auto_sizing_base_screen_height = 1480
   sticky_anchor = false
   anchor_point = mid-centered
   x = -113
