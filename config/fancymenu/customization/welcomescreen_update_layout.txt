@@ -503,7 +503,7 @@ element {
 
 element {
   interactable = true
-  source = Refractive Pentacles: overhaul of the Hierophant, Hand of Cups, Chariot and Hand of Pentacles pathways. The Chariot descriptions were overhauled and AdvancedAE was added.%n%%n%New ores and new processing methods have been added to prepare for the completion of the technological overhaul.
+  source = Sorting and Sorties: Hermit and Temperance have gotten more quests to smoothen their progressions. The Deep Void has been updated along with the Error Pathway.%n%%n%EMI has been cleaned up with other 400 tabs of items and 15k+ redundant recipes hidden.
   source_mode = direct
   shadow = true
   scale = 0.5
