@@ -893,28 +893,28 @@ ServerEvents.recipes(event => {
         ).xp(0.1).cookingTime(75);
 
         event.recipes.minecraft.smelting(
-                'tfmg:crushed_raw_lithium',
-                'tfmg:lithium_ingot'
+                'tfmg:lithium_ingot',
+                'tfmg:crushed_raw_lithium'
         ).xp(0.1).cookingTime(100);
         event.recipes.minecraft.blasting(
-                'tfmg:crushed_raw_lithium',
-                'tfmg:lithium_ingot'
+                'tfmg:lithium_ingot',
+                'tfmg:crushed_raw_lithium'
         ).xp(0.1).cookingTime(50);
         event.recipes.minecraft.smelting(
-                'create:crushed_raw_platinum',
-                'common_ore_library:platinum_ingot'
+                'common_ore_library:platinum_ingot',
+                'create:crushed_raw_platinum'
         ).xp(0.1).cookingTime(100);
         event.recipes.minecraft.blasting(
-                'create:crushed_raw_platinum',
-                'common_ore_library:platinum_ingot'
+                'common_ore_library:platinum_ingot',
+                'create:crushed_raw_platinum'
         ).xp(0.1).cookingTime(50);
         event.recipes.minecraft.smelting(
+                'tfmg:aluminum_ingot',
                 'create:crushed_raw_aluminum',
-                'tfmg:aluminum_ingot'
         ).xp(0.1).cookingTime(100);
         event.recipes.minecraft.blasting(
+                'tfmg:aluminum_ingot',
                 'create:crushed_raw_aluminum',
-                'tfmg:aluminum_ingot'
         ).xp(0.1).cookingTime(50);
 
 });
