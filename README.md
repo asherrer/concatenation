@@ -34,6 +34,8 @@ Each mod is represented by a pathway and its corresponding tarot cards, each of 
 #### ReversTeam
 - Mitemi - Lead Developer
 - Tikup - Developer
+- Newlumberjack - Mod Developer
+- Ranger - Pack Developer
 
 - Gravitegg - Playtester
 - Skillode - Playtester
