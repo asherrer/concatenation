@@ -1,0 +1,8 @@
+[
+  {
+    "matchFluid": [
+      "#c:molten_platinum"
+    ],
+    "resultFluid": "tconstruct:molten_platinum"
+  }
+]

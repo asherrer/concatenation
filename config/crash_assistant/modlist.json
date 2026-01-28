@@ -407,6 +407,11 @@
     "modId": "cosmeticcorpsecompat",
     "version": "1.0.0"
   },
+  "craftingrecipeexporter-1.20.1-Forge-1.0.2.jar": {
+    "jarName": "craftingrecipeexporter-1.20.1-Forge-1.0.2.jar",
+    "modId": "craftingrecipeexporter",
+    "version": "1.0.2"
+  },
   "craftingstation-1.20.1-1.3.3.jar": {
     "jarName": "craftingstation-1.20.1-1.3.3.jar",
     "modId": "craftingstation",
@@ -642,10 +647,10 @@
     "modId": "emitrades",
     "version": "1.2.1+mc1.20.1"
   },
-  "emixx-forge-1.1.2-1.20.1.jar": {
-    "jarName": "emixx-forge-1.1.2-1.20.1.jar",
+  "emixx-forge-1.1.4-1.20.1.jar": {
+    "jarName": "emixx-forge-1.1.4-1.20.1.jar",
     "modId": "emixx",
-    "version": "1.1.2-1.20.1"
+    "version": "1.1.4-1.20.1"
   },
   "enchanter_fix-1.6+mc1.20-1.21.8.jar": {
     "jarName": "enchanter_fix-1.6+mc1.20-1.21.8.jar",
@@ -717,10 +722,15 @@
     "modId": "fastleafdecay",
     "version": "32"
   },
-  "FastSuite-1.20.1-5.1.1.jar": {
-    "jarName": "FastSuite-1.20.1-5.1.1.jar",
+  "Fastload-Reforged-mc1.20.1-3.4.0.jar": {
+    "jarName": "Fastload-Reforged-mc1.20.1-3.4.0.jar",
+    "modId": "fastload",
+    "version": "3.4.0"
+  },
+  "FastSuite-1.20.1-5.1.2.jar": {
+    "jarName": "FastSuite-1.20.1-5.1.2.jar",
     "modId": "fastsuite",
-    "version": "5.1.1"
+    "version": "5.1.2"
   },
   "ferritecore-6.0.1-forge.jar": {
     "jarName": "ferritecore-6.0.1-forge.jar",
@@ -762,10 +772,10 @@
     "modId": "ftbquests",
     "version": "2001.4.17"
   },
-  "ftb-teams-forge-2001.3.1.jar": {
-    "jarName": "ftb-teams-forge-2001.3.1.jar",
+  "ftb-teams-forge-2001.3.2.jar": {
+    "jarName": "ftb-teams-forge-2001.3.2.jar",
     "modId": "ftbteams",
-    "version": "2001.3.1"
+    "version": "2001.3.2"
   },
   "ftb-xmod-compat-forge-2.1.3.jar": {
     "jarName": "ftb-xmod-compat-forge-2.1.3.jar",
@@ -792,10 +802,10 @@
     "modId": "geckolib",
     "version": "4.8.2"
   },
-  "Geophilic v3.4.4 f15-88.mod.jar": {
-    "jarName": "Geophilic v3.4.4 f15-88.mod.jar",
+  "Geophilic v3.4.6.mod.jar": {
+    "jarName": "Geophilic v3.4.6.mod.jar",
     "modId": "geophilic",
-    "version": "3.4.4"
+    "version": "3.4.6"
   },
   "GlitchCore-forge-1.20.1-0.0.1.1.jar": {
     "jarName": "GlitchCore-forge-1.20.1-0.0.1.1.jar",
@@ -857,10 +867,10 @@
     "modId": "iceberg",
     "version": "1.1.25"
   },
-  "ImmediatelyFast-Forge-1.5.3+1.20.4.jar": {
-    "jarName": "ImmediatelyFast-Forge-1.5.3+1.20.4.jar",
+  "ImmediatelyFast-Forge-1.5.4+1.20.4.jar": {
+    "jarName": "ImmediatelyFast-Forge-1.5.4+1.20.4.jar",
     "modId": "immediatelyfast",
-    "version": "1.5.3+1.20.4"
+    "version": "1.5.4+1.20.4"
   },
   "immersive_aircraft-1.4.0+1.20.1-forge.jar": {
     "jarName": "immersive_aircraft-1.4.0+1.20.1-forge.jar",
@@ -1105,6 +1115,11 @@
     "modId": "mcreator_mem_fix",
     "version": "1.0.4"
   },
+  "Measurements-forge-1.20.1-2.0.1.jar": {
+    "jarName": "Measurements-forge-1.20.1-2.0.1.jar",
+    "modId": "measurements",
+    "version": "2.0.1"
+  },
   "mekalus-mc1.20.1-1.8.0.1.jar": {
     "jarName": "mekalus-mc1.20.1-1.8.0.1.jar",
     "modId": "oculus",
@@ -1165,6 +1180,11 @@
     "modId": "mobtimizations",
     "version": "1.20.1-1.0.0"
   },
+  "modelfix-1.15.jar": {
+    "jarName": "modelfix-1.15.jar",
+    "modId": "modelfix",
+    "version": "1.15"
+  },
   "modernfix-forge-5.25.2+mc1.20.1.jar": {
     "jarName": "modernfix-forge-5.25.2+mc1.20.1.jar",
     "modId": "modernfix",
@@ -1214,6 +1234,11 @@
     "jarName": "netherportalfix-forge-1.20-13.0.1.jar",
     "modId": "netherportalfix",
     "version": "13.0.1"
+  },
+  "neutrontools-1.7.6.jar": {
+    "jarName": "neutrontools-1.7.6.jar",
+    "modId": "neutrontools",
+    "version": "1.7.6"
   },
   "nostartupmessages-1.0.1.jar": {
     "jarName": "nostartupmessages-1.0.1.jar",
@@ -1279,6 +1304,11 @@
     "jarName": "OreBerries-Replanted-1.20.1-0.5.2.jar",
     "modId": "oreberriesreplanted",
     "version": "0.5.2"
+  },
+  "packanalytics-forge-1.0.4-1.20.1.jar": {
+    "jarName": "packanalytics-forge-1.0.4-1.20.1.jar",
+    "modId": "packanalytics",
+    "version": "1.0.4"
   },
   "packetfixer-3.3.1-1.18-1.20.4-merged.jar": {
     "jarName": "packetfixer-3.3.1-1.18-1.20.4-merged.jar",
@@ -1773,10 +1803,10 @@
     "modId": "titanium",
     "version": "3.8.32"
   },
-  "tomeofblood-1.20.1-0.4.4-all.jar": {
-    "jarName": "tomeofblood-1.20.1-0.4.4-all.jar",
+  "tomeofblood-1.20.1-0.4.5.jar": {
+    "jarName": "tomeofblood-1.20.1-0.4.5.jar",
     "modId": "tomeofblood",
-    "version": "0.4.4"
+    "version": "0.4.5"
   },
   "toomanyrecipeviewers-0.7.1+mc.20.1.jar": {
     "jarName": "toomanyrecipeviewers-0.7.1+mc.20.1.jar",

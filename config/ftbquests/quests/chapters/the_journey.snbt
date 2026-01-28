@@ -3,7 +3,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "the_journey"
-	group: ""
+	group: "43E75A9CDCFA8796"
 	icon: "tarotcards:tarot_deck"
 	id: "7C44AFC336C0AE69"
 	images: [{
@@ -9240,9 +9240,8 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["06A4BEEE42830A85"]
+			dependencies: ["7DDEBB0D4A978C4E"]
 			description: ["Grout is the main material needed for the construction of the smeltery. Made from a lot of clay, it can later be cooked into seared bricks."]
-			hide_dependency_lines: true
 			id: "31750A18D07A8904"
 			rewards: [
 				{
@@ -19008,11 +19007,10 @@
 			]
 			size: 1.1d
 			tasks: [{
-				entity: "born_in_chaos_v1:nightmare_stalker"
-				icon: "born_in_chaos_v1:nightmare_stalker_skull"
-				id: "1F347DE2E2FD3B9A"
-				type: "kill"
-				value: 1L
+				advancement: "born_in_chaos_v1:fighting_nightmares"
+				criterion: ""
+				id: "24D0BAAC1C693C3E"
+				type: "advancement"
 			}]
 			title: "The Nightmare Stalker"
 			x: 11.0d
@@ -19429,7 +19427,7 @@
 									tic_modifiers: [
 										{
 											level: 4
-											name: "tconstruct:experienced"
+											name: "tconstruct:shock"
 										}
 										{
 											level: 1
@@ -19445,9 +19443,9 @@
 									tic_stats: {
 										"tconstruct:attack_damage": 10.724999f
 										"tconstruct:attack_speed": 0.69f
-										"tconstruct:durability": 765.0f
+										"tconstruct:durability": 621.5625f
 										"tconstruct:harvest_tier": "minecraft:iron"
-										"tconstruct:mining_speed": 2.9325f
+										"tconstruct:mining_speed": 2.76f
 									}
 									tic_volatile_data: {
 										abilities: 1
@@ -19481,7 +19479,7 @@
 									tic_modifiers: [
 										{
 											level: 4
-											name: "tconstruct:experienced"
+											name: "tconstruct:shock"
 										}
 										{
 											level: 2
@@ -19497,9 +19495,9 @@
 									tic_stats: {
 										"tconstruct:attack_damage": 6.0750003f
 										"tconstruct:attack_speed": 0.86249995f
-										"tconstruct:durability": 720.0f
+										"tconstruct:durability": 585.0f
 										"tconstruct:harvest_tier": "minecraft:iron"
-										"tconstruct:mining_speed": 3.9099998f
+										"tconstruct:mining_speed": 3.68f
 									}
 									tic_volatile_data: {
 										abilities: 1
@@ -19533,7 +19531,7 @@
 									tic_modifiers: [
 										{
 											level: 4
-											name: "tconstruct:experienced"
+											name: "tconstruct:shock"
 										}
 										{
 											level: 2
@@ -19553,9 +19551,9 @@
 									tic_stats: {
 										"tconstruct:attack_damage": 3.6000001f
 										"tconstruct:attack_speed": 1.15f
-										"tconstruct:durability": 675.0f
+										"tconstruct:durability": 548.4375f
 										"tconstruct:harvest_tier": "minecraft:iron"
-										"tconstruct:mining_speed": 2.9325f
+										"tconstruct:mining_speed": 2.76f
 									}
 									tic_volatile_data: {
 										abilities: 1
@@ -19616,7 +19614,7 @@
 								tic_modifiers: [
 									{
 										level: 4
-										name: "tconstruct:experienced"
+										name: "tconstruct:shock"
 									}
 									{
 										level: 2
@@ -19632,9 +19630,9 @@
 								tic_stats: {
 									"tconstruct:attack_damage": 6.875f
 									"tconstruct:attack_speed": 0.9775f
-									"tconstruct:durability": 900.0f
+									"tconstruct:durability": 731.25f
 									"tconstruct:harvest_tier": "minecraft:iron"
-									"tconstruct:mining_speed": 2.9325f
+									"tconstruct:mining_speed": 2.76f
 								}
 								tic_volatile_data: {
 									abilities: 1
@@ -19692,7 +19690,7 @@
 									tic_modifiers: [
 										{
 											level: 3
-											name: "tconstruct:experienced"
+											name: "tconstruct:shock"
 										}
 										{
 											level: 1
@@ -19707,9 +19705,10 @@
 									tic_stats: {
 										"tconstruct:attack_damage": 4.5f
 										"tconstruct:attack_speed": 1.84f
-										"tconstruct:durability": 198.0f
+										"tconstruct:block_amount": 10.0f
+										"tconstruct:durability": 160.875f
 										"tconstruct:harvest_tier": "minecraft:iron"
-										"tconstruct:mining_speed": 4.8875f
+										"tconstruct:mining_speed": 4.6f
 									}
 									tic_volatile_data: {
 										abilities: 1
@@ -19732,7 +19731,7 @@
 									tic_modifiers: [
 										{
 											level: 4
-											name: "tconstruct:experienced"
+											name: "tconstruct:shock"
 										}
 										{
 											level: 2
@@ -19752,9 +19751,10 @@
 									tic_stats: {
 										"tconstruct:attack_damage": 6.75f
 										"tconstruct:attack_speed": 1.15f
-										"tconstruct:durability": 630.0f
+										"tconstruct:block_amount": 10.0f
+										"tconstruct:durability": 511.875f
 										"tconstruct:harvest_tier": "minecraft:iron"
-										"tconstruct:mining_speed": 2.44375f
+										"tconstruct:mining_speed": 2.3f
 									}
 									tic_volatile_data: {
 										abilities: 1
@@ -19775,7 +19775,7 @@
 									tic_modifiers: [
 										{
 											level: 2
-											name: "tconstruct:experienced"
+											name: "tconstruct:shock"
 										}
 										{
 											level: 1
@@ -19800,9 +19800,9 @@
 										"tconstruct:attack_damage": 2.925f
 										"tconstruct:attack_speed": 2.3f
 										"tconstruct:block_amount": 10.0f
-										"tconstruct:durability": 135.0f
+										"tconstruct:durability": 109.6875f
 										"tconstruct:harvest_tier": "minecraft:iron"
-										"tconstruct:mining_speed": 7.3312497f
+										"tconstruct:mining_speed": 6.8999996f
 										"tconstruct:use_item_speed": 1.0f
 									}
 									tic_volatile_data: {
@@ -19827,7 +19827,7 @@
 									tic_modifiers: [
 										{
 											level: 4
-											name: "tconstruct:experienced"
+											name: "tconstruct:shock"
 										}
 										{
 											level: 1
@@ -19850,9 +19850,9 @@
 									tic_stats: {
 										"tconstruct:attack_damage": 2.5f
 										"tconstruct:attack_speed": 0.80499995f
-										"tconstruct:durability": 450.0f
+										"tconstruct:durability": 365.625f
 										"tconstruct:harvest_tier": "minecraft:iron"
-										"tconstruct:mining_speed": 4.39875f
+										"tconstruct:mining_speed": 4.14f
 									}
 									tic_volatile_data: {
 										abilities: 1
@@ -23413,7 +23413,7 @@
 								id: "summonerscrolls:zombie_summoner_scroll"
 								tag: {
 									Damage: 0
-									cost: 1
+									cost: 0
 									count: 1
 									damageAmount: 1
 									summon: "summonerscrolls:zombie_summon"
@@ -23424,7 +23424,7 @@
 								id: "summonerscrolls:spider_summoner_scroll"
 								tag: {
 									Damage: 0
-									cost: 1
+									cost: 0
 									count: 1
 									damageAmount: 1
 									summon: "summonerscrolls:spider_summon"
@@ -23435,7 +23435,7 @@
 								id: "summonerscrolls:spider_jockey_summoner_scroll"
 								tag: {
 									Damage: 0
-									cost: 3
+									cost: 2
 									count: 1
 									damageAmount: 1
 									summon: "summonerscrolls:spider_jockey_summon"
@@ -23446,7 +23446,7 @@
 								id: "summonerscrolls:skeleton_summoner_scroll"
 								tag: {
 									Damage: 0
-									cost: 2
+									cost: 0
 									count: 1
 									damageAmount: 2
 									summon: "summonerscrolls:skeleton_summon"
@@ -23457,7 +23457,7 @@
 								id: "summonerscrolls:bee_summoner_scroll"
 								tag: {
 									Damage: 0
-									cost: 3
+									cost: 1
 									count: 5
 									damageAmount: 5
 									summon: "summonerscrolls:bee_summon"
@@ -23479,7 +23479,7 @@
 								id: "summonerscrolls:stray_summoner_scroll"
 								tag: {
 									Damage: 0
-									cost: 4
+									cost: 2
 									count: 1
 									damageAmount: 5
 									summon: "summonerscrolls:stray_summon"
@@ -23490,7 +23490,7 @@
 								id: "summonerscrolls:cave_spider_summoner_scroll"
 								tag: {
 									Damage: 0
-									cost: 3
+									cost: 1
 									count: 3
 									damageAmount: 5
 									summon: "summonerscrolls:cave_spider_summon"
@@ -23501,7 +23501,7 @@
 								id: "summonerscrolls:enderman_summoner_scroll"
 								tag: {
 									Damage: 0
-									cost: 4
+									cost: 2
 									count: 1
 									damageAmount: 5
 									summon: "summonerscrolls:enderman_summon"
@@ -23512,7 +23512,7 @@
 								id: "summonerscrolls:piglin_summoner_scroll"
 								tag: {
 									Damage: 0
-									cost: 3
+									cost: 2
 									count: 1
 									damageAmount: 10
 									summon: "summonerscrolls:piglin_summon"
@@ -23523,7 +23523,7 @@
 								id: "summonerscrolls:creeper_summoner_scroll"
 								tag: {
 									Damage: 0
-									cost: 4
+									cost: 1
 									count: 1
 									damageAmount: 10
 									summon: "summonerscrolls:creeper_summon"
@@ -23567,7 +23567,7 @@
 								id: "summonerscrolls:iron_golem_summoner_scroll"
 								tag: {
 									Damage: 0
-									cost: 5
+									cost: 3
 									count: 1
 									damageAmount: 10
 									summon: "summonerscrolls:iron_golem_summon"
@@ -29049,11 +29049,11 @@
 				}
 			]
 			tasks: [{
-				entity: "born_in_chaos_v1:lifestealer"
+				advancement: "born_in_chaos_v1:horror_underthe_mantle"
+				criterion: ""
 				icon: "born_in_chaos_v1:lifestealer_skull"
-				id: "6476C628F809FBD6"
-				type: "kill"
-				value: 1L
+				id: "4F0D1AA77AFE720A"
+				type: "advancement"
 			}]
 			title: "The Lifestealer"
 			x: 14.5d
@@ -29082,11 +29082,10 @@
 				}
 			]
 			tasks: [{
-				entity: "born_in_chaos_v1:missionary_raider"
-				icon: "born_in_chaos_v1:missionaryicon"
-				id: "25DA78F8381F1D39"
-				type: "kill"
-				value: 1L
+				advancement: "born_in_chaos_v1:dark_creator"
+				criterion: ""
+				id: "4214DA66D9C82282"
+				type: "advancement"
 			}]
 			title: "The Missionary"
 			x: 13.5d
@@ -29103,11 +29102,10 @@
 				xp_levels: 10
 			}]
 			tasks: [{
-				entity: "born_in_chaos_v1:krampus"
-				icon: "born_in_chaos_v1:creepy_gift"
-				id: "475A703979D86F93"
-				type: "kill"
-				value: 1L
+				advancement: "born_in_chaos_v1:wrong_santa"
+				criterion: ""
+				id: "7B6DC0F8039BD528"
+				type: "advancement"
 			}]
 			title: "Krampus"
 			x: 16.0d
@@ -29115,7 +29113,13 @@
 		}
 		{
 			dependencies: ["0D70725FEAF0DC7B"]
-			description: ["Lord Pumpkinhead's origins stem from another world. A sinister lord that is fully battle-ready when summoned and poses a serious threat."]
+			description: [
+				"&7&oExtract from a hunter's diary:"
+				""
+				"&4Sir Pumpkinhead usually requires specific summoning rituals throughout the year, but due to Death card holder or high mages being entertained by the season, rogue Sir Pumpkinheads will frequently ravage the wilderness."
+				""
+				"&4It is unknown whether the multiple sightings of Sir Pumpkinhead are the same entity, a weaker entity to Lord Pumpkinhead, or one of 'His' avatars. I believe they're avatars though. I should hunt one of these as my contribution to the festivities. We'll have a night of drinking once I'm back."
+			]
 			hide_dependency_lines: true
 			id: "410C0B331F8A12F2"
 			rewards: [{
@@ -29124,19 +29128,12 @@
 				xp_levels: 10
 			}]
 			tasks: [{
-				entity: "born_in_chaos_v1:lord_pumpkinhead"
-				icon: {
-					Count: 1
-					id: "born_in_chaos_v1:lord_pumpkinheads_hat_helmet"
-					tag: {
-						Damage: 0
-					}
-				}
-				id: "44FF0850EB16E57C"
-				type: "kill"
-				value: 1L
+				advancement: "born_in_chaos_v1:pumpkin_sir"
+				criterion: ""
+				id: "6A5548EB730780B7"
+				type: "advancement"
 			}]
-			title: "Lord Pumpkinhead"
+			title: "Sir Pumpkinhead"
 			x: 15.0d
 			y: -24.0d
 		}
@@ -29779,7 +29776,7 @@
 			y: 1.05d
 		}
 		{
-			description: ["{image:concatenationcore:textures/pathway.png width:170 height:120 align:center}"]
+			description: ["{image:concatenationcore:textures/pathway.png width:270 height:220 align:center fit:true}"]
 			icon: "concatenationcore:gold_paper"
 			id: "3BE6CBA88F786861"
 			size: 0.7d
@@ -32230,57 +32227,6 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["70E2308111F7C590"]
-			id: "678D4D2A0E011E2D"
-			tasks: [{
-				id: "222FF71E469884A6"
-				item: "thoriumreactors:machine_casing"
-				type: "item"
-			}]
-			x: -29.0d
-			y: 26.0d
-		}
-		{
-			dependencies: ["678D4D2A0E011E2D"]
-			id: "101A46F86D92875F"
-			tasks: [{
-				id: "55F0833B5083403B"
-				item: {
-					Count: 1
-					id: "thoriumreactors:blast_furnace_block"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: -29.0d
-			y: 27.5d
-		}
-		{
-			dependencies: ["7A48E4111415FDF6"]
-			id: "70E2308111F7C590"
-			tasks: [{
-				id: "079F90A7F2BEA4BA"
-				item: "thoriumreactors:graphite_ingot"
-				type: "item"
-			}]
-			x: -29.5d
-			y: 24.5d
-		}
-		{
-			dependencies: ["42F701FC987C6C99"]
-			hide_dependency_lines: true
-			id: "7A48E4111415FDF6"
-			size: 1.15d
-			tasks: [{
-				id: "1E040A6E06BC1C15"
-				item: "concatenationcore:full_vessels"
-				type: "item"
-				weak_nbt_match: true
-			}]
-			x: -30.0d
-			y: 23.0d
-		}
-		{
 			dependencies: ["57264B7E24823F02"]
 			description: [
 				"Warp Plates are an important teleportation tool that is frequently used by Magicians to quickly travel between multiple sources throughout the world."
@@ -32360,7 +32306,7 @@
 			y: 8.5d
 		}
 		{
-			dependencies: ["31750A18D07A8904"]
+			dependencies: ["06A4BEEE42830A85"]
 			description: ["The Mixing Tool is a crafting tool used to mix together substances manually. This process can usually be automated later on. Taking grout, a material of importance for tinkerers of the Hermit Pathway needed for the construction of smelteries, grout can be manually mixed and then cooked in alloy smelters, or later once a smeltery is made, it, along with seared stone, which can be more easily obtained by directly melting clay into the smeltery."]
 			id: "7DDEBB0D4A978C4E"
 			rewards: [{

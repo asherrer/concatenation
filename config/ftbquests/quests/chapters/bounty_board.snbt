@@ -1,0 +1,390 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bounty_board"
+	group: "4AEECD5B848DA3A1"
+	icon: "create:clipboard"
+	id: "0C11BA015DF26C52"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			hide_dependent_lines: true
+			id: "30784E3952DDFD84"
+			rewards: [{
+				id: "6B5F0C572E8E85C2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "678FD058E26E4AE3"
+				item: "create:clipboard"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["30784E3952DDFD84"]
+			id: "72EA62835F4AEFD9"
+			size: 1.15d
+			tasks: [{
+				advancement: "minecraft:nether/summon_wither"
+				criterion: ""
+				icon: "minecraft:wither_rose"
+				id: "42306210AEE8D040"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["30784E3952DDFD84"]
+			id: "443D68F7812B0BD5"
+			tasks: [{
+				advancement: "minecraft:adventure/hero_of_the_village"
+				criterion: ""
+				id: "1267B0022514FD99"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["30784E3952DDFD84"]
+			id: "4D814D7620E3E98E"
+			tasks: [{
+				advancement: "born_in_chaos_v1:junior_summoner"
+				criterion: ""
+				id: "7FE956C8701781B4"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["30784E3952DDFD84"]
+			id: "2D597F553C8571B1"
+			tasks: [{
+				advancement: "born_in_chaos_v1:dismantledto_bones"
+				criterion: ""
+				id: "0FE68674F266CF4D"
+				type: "advancement"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["30784E3952DDFD84"]
+			icon: "born_in_chaos_v1:sea_terror_eye"
+			id: "384C10251DACEE34"
+			tasks: [{
+				entity: "born_in_chaos_v1:glutton_fish"
+				id: "12C22F09893543F1"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["30784E3952DDFD84"]
+			icon: "born_in_chaos_v1:spider_mandible"
+			id: "55B97B5BE5ED5021"
+			tasks: [{
+				entity: "born_in_chaos_v1:mother_spider"
+				id: "39C4391CA9195254"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["30784E3952DDFD84"]
+			icon: "born_in_chaos_v1:gnawed_bones"
+			id: "3DBC73A802DB053D"
+			tasks: [{
+				entity: "born_in_chaos_v1:dire_hound_leader"
+				id: "6988F3052812B54D"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["30784E3952DDFD84"]
+			icon: {
+				Count: 1
+				id: "born_in_chaos_v1:dark_metal_armor_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1951DD48F717B0DB"
+			tasks: [{
+				entity: "born_in_chaos_v1:fallen_chaos_knight"
+				id: "57A33671064268AC"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["30784E3952DDFD84"]
+			id: "6CF620CBAD48D019"
+			tasks: [{
+				id: "75239C01EAD2F634"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 10000
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["30784E3952DDFD84"]
+			id: "236CDF4D91BC9948"
+			tasks: [{
+				id: "63708C51BFA2A526"
+				stat: "minecraft:damage_taken"
+				type: "stat"
+				value: 12000
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["30784E3952DDFD84"]
+			id: "3D40D1DB3CD9B0C6"
+			tasks: [
+				{
+					entity: "ars_elemental:air_mage"
+					icon: {
+						Count: 1
+						id: "ars_elemental:air_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "6D5D200A46167B4A"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "ars_elemental:earth_mage"
+					icon: {
+						Count: 1
+						id: "ars_elemental:earth_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "09BCC39479FE278C"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "ars_elemental:fire_mage"
+					icon: {
+						Count: 1
+						id: "ars_elemental:fire_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "7DC647ED2C84E39D"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "ars_elemental:water_mage"
+					icon: {
+						Count: 1
+						id: "ars_elemental:aqua_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "1A3B51A18FD64F9A"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Rogue Mages"
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["30784E3952DDFD84"]
+			id: "339F7ED63821911B"
+			tasks: [
+				{
+					entity: "celestisynth:star_monolith"
+					icon: "celestisynth:star_monolith_blood"
+					id: "374F65FF3F365167"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "celestisynth:traverser"
+					icon: "celestisynth:crimson_piece"
+					id: "109E7A9FF856DD97"
+					type: "kill"
+					value: 10L
+				}
+			]
+			title: "Monoliths"
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["30784E3952DDFD84"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "tangiblecommands:back_item"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "49A0DCA022848096"
+			size: 0.75d
+			tasks: [{
+				id: "7AC4C9F463823391"
+				title: "Notice"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["30784E3952DDFD84"]
+			id: "4D6BF7479CE74699"
+			tasks: [{
+				entity: "irons_spellbooks:archevoker"
+				icon: {
+					Count: 1
+					id: "irons_spellbooks:archevoker_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "09CBEA18B379E97F"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["30784E3952DDFD84"]
+			id: "7CDFBC158801FAF9"
+			tasks: [{
+				entity: "irons_spellbooks:citadel_keeper"
+				icon: "irons_spellbooks:armor_pile"
+				id: "1293E604EB1D4976"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["30784E3952DDFD84"]
+			id: "0C0E8CD401D8DF87"
+			size: 1.15d
+			tasks: [{
+				entity: "irons_spellbooks:dead_king"
+				icon: {
+					Count: 1
+					id: "irons_spellbooks:gold_crown"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "624929FC33F50FD1"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["30784E3952DDFD84"]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:plagued_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "69F92FE873777D86"
+			tasks: [{
+				entity: "irons_spellbooks:necromancer"
+				icon: {
+					Count: 1
+					id: "reliquary:mob_charm_fragment"
+					tag: {
+						entity: "irons_spellbooks:necromancer"
+					}
+				}
+				id: "29783DA5C93A6DBB"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["30784E3952DDFD84"]
+			id: "12B8E3E586F259E2"
+			tasks: [
+				{
+					entity: "irons_spellbooks:pyromancer"
+					icon: {
+						Count: 1
+						id: "irons_spellbooks:pyromancer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "344D81539F207E8C"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "irons_spellbooks:cryomancer"
+					icon: {
+						Count: 1
+						id: "irons_spellbooks:cryomancer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "4ED34CAA0CEB88C5"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["30784E3952DDFD84"]
+			id: "2353722DBB8200E7"
+			size: 1.15d
+			tasks: [{
+				id: "2957AEE63D7D3E46"
+				item: "irons_spellbooks:divine_soulshard"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+	]
+	subtitle: ["Limited Event"]
+	title: "Bounty Board"
+}
