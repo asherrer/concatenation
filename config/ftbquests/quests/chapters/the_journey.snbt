@@ -8431,7 +8431,7 @@
 				title: "Any #forge:ingots/aluminum"
 				type: "item"
 			}]
-			title: "aluminum"
+			title: "Aluminum"
 			x: -11.0d
 			y: 26.0d
 		}
@@ -11557,7 +11557,7 @@
 			description: [
 				"The Solid Fuel Generator adapts the Solid Fuel Quarry's fueling capabilities, making use of solid fuels such as coal, charcoal, blaze rods, or entire lava buckets. Not exactly solid in my mind, but the bucket also gets melted down by the power."
 				""
-				"Actually, it would make far more sense if the Solid Fuel Quarry had this machine inside and not the opposite as I previously implied."
+				"Actually, it would make far more sense if the Solid Fuel Quarry had this machine inside and not the opposite as I previously implied..."
 			]
 			id: "23F4055CA5B50F60"
 			rewards: [{
@@ -11636,7 +11636,7 @@
 				"3AF5EB2526EAD40C"
 				"107A1E1AB9252A58"
 			]
-			description: ["An even more advanced machine frame template for more complex machinery. It featurs a hybrid design that combines the resilience of enderium or netherite with the flexibility of plastic and the luxurious durability of rose gold plates. Pink slime, a unique material with few documented properties, is integral to the frame's structural integrity and energy efficiency."]
+			description: ["An even more advanced machine frame template for more complex machinery. It features a hybrid design that combines the resilience of enderium or netherite with the flexibility of plastic and the luxurious durability of rose gold plates. Pink slime, a unique material with few documented properties, is integral to the frame's structural integrity and energy efficiency."]
 			id: "4A8A1D4B99AB1DCA"
 			rewards: [
 				{
@@ -21923,7 +21923,7 @@
 		}
 		{
 			dependencies: ["2DFD2B7661869743"]
-			description: ["Linked Ender Chests are a version of Ender Chests better suited for industrial use. Automation can be more efficient by directly linking parts of various contraptions across dimensions by sending items or liquid with the Ender Tank."]
+			description: ["Linked Ender Chests are a version of ender chests better suited for industrial use. Automation can be more efficient by directly linking parts of various contraptions across dimensions by sending items or liquid with the Ender Tank."]
 			id: "1AD20894C1E7AFA7"
 			rewards: [{
 				id: "28F7BF6D7976BB2A"
