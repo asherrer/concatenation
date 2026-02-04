@@ -26413,7 +26413,7 @@
 		}
 		{
 			dependencies: ["4E2F07927BA41118"]
-			description: ["&7\"These voidrium tools are really quite fast. The pickaxe isn't quite as strong ass the Shatterbone Pickaxe, but the rest are top notch! Can't wait to bring these to the Overworld.\""]
+			description: ["&7\"These voidrium tools are really quite fast. The pickaxe isn't quite as strong as the Shatterbone Pickaxe, but the rest are top notch! Can't wait to bring these to the Overworld.\""]
 			id: "1F51A3A5B52E797C"
 			rewards: [
 				{
