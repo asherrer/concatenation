@@ -334,7 +334,7 @@
 				"The crushing hammer is the first tool holders of the Hierophant card will find to smash ingots into powder."
 				""
 				"{@pagebreak}"
-				"I've heard that a similar model has been in use for years, however, it's made to flatten ingots into plates instead. This model fell into disuse with the Industrial Revolution. Why take a minute to flatten plates manually when you can spend hours to automate it?"
+				"I've heard that a similar model has been in use for years, however, it's made to flatten ingots into plates instead. This model fell into disuse with the Industrial Revolution. Why take a minute to flatten ingots manually when you can spend hours to automate it?"
 			]
 			hide_dependency_lines: true
 			id: "6F736EF54A792577"
@@ -956,7 +956,7 @@
 				"73C5D7FC9AB3E5F8"
 			]
 			description: [
-				"The Cutter is frequently used by small crews sailing the Maran lake. Although it's called a lake, it is sometimes more of an inland sea, requiring more than mere rafts to navigate. These cutters, although appearing kind of small, can store a VERY surprising amount of items in the hull. More than a couple of large backpacks for sure."
+				"The Cutter is frequently used by small crews sailing the Maran Lake. Although it's called a lake, it is sometimes more of an inland sea, requiring more than mere rafts to navigate. These cutters, although appearing kind of small, can store a VERY surprising amount of items in the hull. More than a couple of large backpacks for sure."
 				""
 				"I've witnessed many of these smaller merchant ships transporting goods during my journey. Fishing up a small book that I noticed fell from a cutter, I gained a Soulbound enchanted book. I guess those merchants must have wanted to keep their belongings safe. "
 			]
@@ -1060,7 +1060,7 @@
 				"463EFF7D25CB7127"
 			]
 			description: [
-				"The corvette steamship is an interesting prototype manufactured by the Transmaran Transportation Company, a large and bulky seafaring vessel capable of transporting a hundred people at once and several dozen tons of cargo, powered by sails and in some prototypes, steam generators."
+				"The corvette steamship is an interesting prototype manufactured by the Transmaran Transportation Company, a large and bulky seafaring vessel capable of transporting a hundred people at once and several dozen tons of cargo, powered by sails and, in some prototypes, steam generators."
 				""
 				"I've tried replicating a smaller version of the corvette steamship, as I usually do in my workshop, but well... My model seems to steer horribly and I'm not sure if I can see anything at all. I left the blueprints for this prototype if anyone wants to try to usurp them."
 				""
@@ -1321,7 +1321,7 @@
 				"{@pagebreak}"
 				"Any ore processed through the smeltery instead of being simply smelted in a furnace will produce greater yield. Therefore, it's a hallmark of any Hermit card holder to automate this process. Faucets will automatically cast with a redstone signal, and hoppers under a casting table or basin will extract the cast material or tool part."
 				"{@pagebreak}"
-				"More advanced alloys can be produced through the smeltery, such as brass or andesite alloy commonly used by the holders of the Tower card. Beware of smelting many different kinds of ores at once, as you may end up with unwanted alloys."
+				"More advanced alloys can be produced through the smeltery, such as the brass or andesite alloys commonly used by the holders of the Tower card. Beware of smelting many different kinds of ores at once, as you may end up with unwanted alloys."
 				"{@pagebreak}"
 				"Finally, the Smeltery can be used to cast powerful tool parts for specialized tools."
 			]
@@ -1567,7 +1567,7 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"Panvita can be grafted to essence bushes to clone them. However, their insistence to refuse to reproduce makes it so you must use a large amount of panvita. That is, unless you add solidified experience orbs during the grafting process."
+				"Panvita can be grafted to essence bushes to clone them. However, their insistence on refusing to reproduce makes it so you must use a large amount of panvita. That is, unless you add solidified experience orbs during the grafting process."
 				"{@pagebreak}"
 				"While oreberry bushes can only be planted in the dark, essence berry bushes can also be planted in the light."
 			]
@@ -1937,7 +1937,7 @@
 			description: [
 				"Panvita is a universal plant able to be grafted to any other plant and adapt to its host. This is most often used by holders of the Hierophant card to grow more oreberry bushes, which do not reproduce naturally, requiring panvita to be grafted to them. "
 				""
-				"&lPanvita exclusively grows via the incubator.&r"
+				"&lPanvita exclusively grows via the Incubator.&r"
 				"{@pagebreak}"
 				"The Incubator needs to be filled with water to start the growing process. You can use a water bucket for this purpose. Panvita will start to grow with a minimum of 100mb of water and will consume 80mb on growth."
 				""
@@ -2182,10 +2182,10 @@
 		{
 			dependencies: ["7BB90DEFC570E065"]
 			description: [
-				"This circuit model is often nicknamed as deficient by most engineers of our age. Everything needs to start somewhere, and this highly inefficient circuit does its job, although the manufacturing process is annoying."
+				"This circuit model is often labeled as deficient by most engineers of our age. Everything needs to start somewhere, and this highly inefficient circuit does its job, although the manufacturing process is annoying."
 				"{@pagebreak}"
 				"This is used in the process of"
-				"{ \"text\": \" unlocking the High Priestess pathway as well.\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"51211E92BC865FDC\" } }"
+				"{ \"text\": \"unlocking the High Priestess pathway as well.\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"51211E92BC865FDC\" } }"
 			]
 			id: "2E2A38A96D401883"
 			rewards: [{
@@ -2385,7 +2385,7 @@
 		{
 			dependencies: ["2104737FF0D2E4E7"]
 			description: [
-				"A blue, charged crystal. Its body glimmers faintly with blue light, pulsing as with a very visible current."
+				"A blue, charged crystal. Its body glimmers faintly with blue light, pulsing as if with a very visible current."
 				""
 				"The first time I held one, it crackled against my palm like winter lightning. I was reminded of storms and waves I once watched from the safety of the high ridges."
 			]
@@ -2587,7 +2587,7 @@
 			description: [
 				"The small element container is the basis for any small elemental system. Most elemental instruments need to be placed on top of a container, such as the elemental extractor. When broken, it will retain most of the element inside. "
 				""
-				"Pipes can be attached to its sides, which then can be toggled to output the element by &a(right-click)&r tapping on them, to transfer to other containers."
+				"Pipes can be attached to its sides, which then can be toggled to output the element by &a(right-click)&r tapping on them to transfer to other containers."
 			]
 			id: "42EF54B7ABFC5789"
 			rewards: [
@@ -3076,7 +3076,7 @@
 			description: [
 				"Swift alloy and the springaline shard are two materials required for subsequent elemental apparatus."
 				"{@pagebreak}"
-				"The swift alloy must be produced at the element binder in its specific sequence - gold ingot, drenched ingot, copper ingot, redstone, and air crystal."
+				"The swift alloy must be produced at the element binder in its specific sequence: gold ingot, drenched ingot, copper ingot, redstone, and air crystal."
 				""
 				"The springaline shard is also produced at the element binder, but its production can be made renewable with the budding shrine upgrade."
 			]
@@ -3960,7 +3960,7 @@
 			description: [
 				"Sourceberries double as a source of... well, source energy and also a food source. Eating a sourceberry will increase mana regeneration temporarily."
 				""
-				"Baking something with sourceberries, such as a berry roll or pie, can increase the mana regeneration and nourishment."
+				"Baking something with sourceberries, such as a berry roll or pie, can increase mana regeneration and nourishment."
 			]
 			hide_dependency_lines: true
 			id: "3CA659FFA729615D"
@@ -4192,7 +4192,7 @@
 		{
 			dependencies: ["71BB28D5234F5991"]
 			description: [
-				"The Sorcerer set is one of the three first available sets of specialized clothing for mages. Compared to the arcanist and battlemage variants, it provides the least defensive prowess, but the highest amount of threads can be woven into it, greatly increasing the magical customizability of the set."
+				"The Sorcerer set is one of the three first available sets of specialized clothing for mages. Compared to the arcanist and battlemage variants, it provides the least defensive prowess, but the highest number of threads can be woven into it, greatly increasing the magical customizability of the set."
 				""
 				"It is woven from gold and magebloom fiber."
 			]
@@ -5033,7 +5033,7 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"The alteration table is used by mages to embed and remove threads from their armor or robes. Each piece of clothing has a certain amount of threads it can accommodate, based on its tier. The sorcerer's set allows for the most threads compared to the other sets."
+				"The alteration table is used by mages to embed and remove threads from their armor or robes. Each piece of clothing has a certain number of threads it can accommodate, based on its tier. The sorcerer's set allows for the most threads compared to the other sets."
 				""
 				"Each thread slot has a corresponding tier, strengthening the effect of the thread."
 				"{@pagebreak}"
@@ -5917,7 +5917,7 @@
 		}
 		{
 			dependencies: ["71BB28D5234F5991"]
-			description: ["The mage spellbook is an upgrade to the prior novice spellbook, able to adapt to more glyphs. It is the catalyst to mint a proper new mage, able to use most spells and rituals bestowed to us by source."]
+			description: ["The mage spellbook is an upgrade to the prior novice spellbook, able to adapt to more glyphs. It is the catalyst to mint a proper new mage, able to use most spells and rituals bestowed upon us by source."]
 			id: "3CB40DE1FBC306E5"
 			rewards: [{
 				id: "741344787E0D91AD"
@@ -6255,7 +6255,7 @@
 		}
 		{
 			dependencies: ["53FE81F34BBC0B45"]
-			description: ["The warpstone is a utility item, letting you travel to any waystone regardless of where you are situated. This, however, comes at a price: experience levels, increasing with the distance. In case of emergencies, you may return to a safe space quickly. This is not an absolute escape plan, though. I recall a time while fighting a sea monster, I was unable to trigger the warpstone while drowning."]
+			description: ["The warpstone is a utility item, letting you travel to any waystone regardless of where you are situated. This, however, comes at a price: experience levels, increasing with the distance. In case of emergencies, you may return to a safe space quickly. This is not an absolute escape plan, though. I recall a time when, while fighting a sea monster, I was unable to trigger the warpstone while drowning."]
 			id: "02CAE7DE326720EA"
 			rewards: [{
 				count: 4
@@ -10116,7 +10116,7 @@
 			description: [
 				"The &6Strength Pathway&r is a mighty fusion of the &eMagician&r and &dHermit&r pathways, with the ability to produce some of the most powerful weapons in the land, along with decent but not specialized armor sets."
 				"{@pagebreak}"
-				"I have not partaken in the forging of celestial weapons myself, so I will have to delegate the following journal entries to notes I've found from a celestial smith named &6Fala&r. I had met her in a smithing mountain town, compiling together an encyclopedia on everything related to a forge, regular and celestial. The following notes are from that unfinished encyclopedia."
+				"I have not partaken in the forging of celestial weapons myself, so I will have to delegate the following journal entries to notes I've found from a celestial smith named &6Fala&r. I had met her in a smithing mountain town, where she was compiling an encyclopedia on everything related to a forge, regular and celestial. The following notes are from that unfinished encyclopedia."
 			]
 			hide_dependency_lines: true
 			id: "3060CAEE078FE9A0"
@@ -11247,7 +11247,7 @@
 			description: [
 				"Rose gold is a crucial material of the Tower pathway, frequently used in expansive machinery."
 				""
-				"It is made from alloying one part copper and one part gold."
+				"It is made by alloying one part copper and one part gold."
 			]
 			id: "33BA0ACE3EA7C44B"
 			rewards: [
@@ -11675,7 +11675,7 @@
 				""
 				"It requires fertilizer for faster growth."
 				"{@pagebreak}"
-				"It can pair nicely with the incubator, as panvita can be used to produce phyto-grow."
+				"It can pair nicely with the Incubator, as panvita can be used to produce Phyto-Gro."
 			]
 			id: "7923120C58E4B567"
 			rewards: [
@@ -11736,7 +11736,7 @@
 		}
 		{
 			dependencies: ["33F8735D8322AFE6"]
-			description: ["The blast chiller is used to cool various liquids."]
+			description: ["The Blast Chiller is used to cool various liquids."]
 			id: "7EB335BB570C5F7F"
 			rewards: [{
 				id: "5D2518A742710724"
@@ -11761,7 +11761,7 @@
 		}
 		{
 			dependencies: ["36318C8D65509470"]
-			description: ["The sawmill can cut various blocks."]
+			description: ["The Sawmill can cut various blocks."]
 			id: "4C5A2566E0BD8D23"
 			rewards: [{
 				id: "20A3605A8B4684C0"
@@ -11925,7 +11925,7 @@
 			description: [
 				"Menril trees can be found scattered throughout the world. They will usually be harvested for their titular Menril."
 				""
-				"If you have trouble finding such trees, it is possible to artificially grow a sapling using the blast chiller."
+				"If you have trouble finding such trees, it is possible to artificially grow a sapling using the Blast Chiller."
 			]
 			icon: "integrateddynamics:menril_sapling"
 			id: "10C786520F0893C9"
@@ -14426,7 +14426,7 @@
 		}
 		{
 			dependencies: ["639817BED42EBC3A"]
-			description: ["These hell-forged mechanisms from within the mines are made of finely crafted demonite and can provide additional enhancements to the runes empowering your altar, though they are usually not necessary. There are many complementary powers and technologies in this world, so you need not only dedicate yourself to one."]
+			description: ["These hell-forged mechanisms from within the mines are made of finely crafted demonite and can provide additional enhancements to the runes empowering your altar, though they are usually not necessary. There are many complementary powers and technologies in this world, so you need not dedicate yourself to only one."]
 			id: "32DA8E4E34681D50"
 			rewards: [{
 				id: "74AD5C3F024C7F92"
@@ -15587,7 +15587,7 @@
 		{
 			dependencies: ["5A609181C445CAAB"]
 			description: [
-				"The Mob Slaughter Factory can be used to produce liquid meat or, more importantly, pink slime, which is used in the manufacturing of higher quality machine casings."
+				"The Mob Slaughter Factory can be used to produce liquid meat or, more importantly, pink slime, which is used in the manufacturing of higher-quality machine casings."
 				"{@pagebreak}"
 				"To obtain pink slime, activate the mob slaughter factory with a mob in front, which will be instantly slaughtered and turned to slime."
 			]
@@ -16375,7 +16375,7 @@
 				"1F63B99669BB1002"
 			]
 			description: [
-				"The Wither Builder automates the process of creating Withers with RF power. It still requires wither skeleton skulls and soul sand, although these can be acquired more easily with the mob duplicator. This is a useful tool in the process of making an elaborate Wither farm, although this alone does not kill the Wither."
+				"The Wither Builder automates the process of creating Withers with RF power. It still requires wither skeleton skulls and soul sand, although these can be acquired more easily with the Mob Duplicator. This is a useful tool in the process of making an elaborate Wither farm, although this alone does not kill the Wither."
 				""
 				"Nether stars are an important future component, especially to make shadow steel. Ether gas is obtained through Withers as well."
 			]
@@ -17198,7 +17198,7 @@
 			description: [
 				"Refined Obsidian armor and Refined Glowstone armor are two equally impressive sets of protective equipment. While Refined Obsidian provides more protection and durability, Refined Glowstone has the same properties as holy materials such as gold or silver, dealing more damage towards the undead. "
 				"{@pagebreak}"
-				"Some prefer to use full refined obsidian sets, while others use a combination of the two with refined glowstone tools. However, by this point, most people have high-tech tools and weaponry such as the Infinity tools series or even more cutting-edge technology such as the atomic disassembler."
+				"Some prefer to use full refined obsidian sets, while others use a combination of the two with refined glowstone tools. However, by this point, most people have high-tech tools and weaponry such as the Infinity tools series or even more cutting-edge technology such as the Atomic Disassembler."
 			]
 			id: "648919584EBC4E4D"
 			rewards: [{
@@ -17972,7 +17972,7 @@
 		{
 			dependencies: ["57E0A183AE783034"]
 			description: [
-				"This tablet can be connected to many things, but the odds are that you will only care about the storage scanner. First, you will need to obtain a storage control module and then link it to a storage scanner (right-click). You can then insert the storage control module in a tablet. "
+				"This tablet can be connected to many things, but the odds are that you will only care about the storage scanner. First, you will need to obtain a storage control module and then link it to a storage scanner (right-click). You can then insert the storage control module into a tablet. "
 				""
 				"You can also directly put a storage module into the tablet, for a more fancy version of a backpack."
 			]
@@ -19396,7 +19396,7 @@
 			description: [
 				"Specialized tools can be assembled with tool parts for more efficient mining, woodcutting, and shoveling. Although you can assemble tools with the simple Tinker Station, I would recommend casting stronger metals into tool parts for greater durability, speed, and damage."
 				"{@pagebreak}"
-				"The Broadaxe can cut a tree in a single shot. The Sledge Hammer can mine in a 3x3 area and the Excavator similarly digs in a 3x3 area. "
+				"The Broadaxe can cut a tree in a single shot. The Sledge Hammer can mine in a 3x3 area, and the Excavator similarly digs in a 3x3 area. "
 			]
 			id: "5D90648C40D14717"
 			rewards: [{
@@ -20236,7 +20236,7 @@
 			description: [
 				"\"This looks like it could be used like in those firearms of the Judgement Pathway?\""
 				""
-				"&c\"Don't let its appearance fool you, this may look like a common pistol like yours, but this baby is actually a feat of magical engineering. Because of its components, its able to accept an incredible variety of magically manufactured ammunitions without malfunctioning!\""
+				"&c\"Don't let its appearance fool you, this may look like a common pistol like yours, but this baby is actually a feat of magical engineering. Because of its components, it's able to accept an incredible variety of magically manufactured ammunitions without malfunctioning!\""
 				"{@pagebreak}"
 				"&c\"I've personally created magic bullets that seek enemies, concussive rounds that explode, ammo that delivers potion payloads, and many more! My go-to ranged option as a reliquer. It's joined me on many a monster hunt and I wouldn't be nearly as successful as I am on them without it!\"&r"
 				""
@@ -20244,7 +20244,7 @@
 				""
 				"&c\"Reliquer.\"&r"
 				"{@pagebreak}"
-				"&c\"...Why is it shaped like a gun? Well, unlike those stuffy wizards and sorcerors you see all over the place here, I can recognize an ergonomic design when I see one. I don't have to like the techies to understand when they've made a good design choice. Increases the modularity quite a bit too!\"&r"
+				"&c\"...Why is it shaped like a gun? Well, unlike those stuffy wizards and sorcerers you see all over the place here, I can recognize an ergonomic design when I see one. I don't have to like the techies to understand when they've made a good design choice. Increases the modularity quite a bit too!\"&r"
 				""
 				"\"Do you think you could make it cast spells as well now?\""
 			]
@@ -20444,7 +20444,7 @@
 		{
 			dependencies: ["081070F7CBF61207"]
 			description: [
-				"&c\"If you ever thought that ender pearls offered a distinct lack of options in forms of teleportation, this one might be a favorable pick for you. Instead of relying on strength of arm to dictate where you end up, the Ender Staff has three distinct modes that allow for more controlled self teleportation. It has a basic mode which launches an ender pearl as normal, but it also has a long range mode that discharges the projectile with significantly less regard for gravity, allowing for significantly further instant transportation. \"&r"
+				"&c\"If you ever thought that ender pearls offered a distinct lack of options in forms of teleportation, this one might be a favorable pick for you. Instead of relying on strength of arm to dictate where you end up, the Ender Staff has three distinct modes that allow for more controlled self-teleportation. It has a basic mode which launches an ender pearl as normal, but it also has a long range mode that discharges the projectile with significantly less regard for gravity, allowing for significantly further instant transportation. \"&r"
 				"{@pagebreak}"
 				"&c\"Additionally, it features a waypoint mode, which instantly sends you to the last Wraith Node you interacted with. Overall a very solid relic.\"&r"
 				""
@@ -22120,7 +22120,7 @@
 				"{@pagebreak}"
 				"Element holders can store quite a large amount of their respective elements. They are usually filled up right at the source, and can be emptied into an element container."
 				""
-				"One of their primary uses is using the elements stored within to cast spells. They used to be the primary method to transport and harness elements before the pipe system was developed."
+				"One of their primary uses is to utilize the elements stored within to cast spells. They used to be the primary method to transport and harness elements before the pipe system was developed."
 			]
 			id: "50D50468F52D7FA1"
 			rewards: [{
@@ -22428,7 +22428,7 @@
 		{
 			dependencies: ["3B8127AF958727B0"]
 			description: [
-				"The Occult Calling is a pyrite tablet with knowledge unique to a witch written in blood. Or is it red ink?"
+				"The Occult Calling is a pyrite tablet with knowledge unique to a witch, written in blood. Or is it red ink?"
 				""
 				"Witches of the Temperance Pathway can use this to share their knowledge and use of the Book of Shadows and their iconic mixing cauldron with their friends."
 			]
@@ -23391,7 +23391,7 @@
 				""
 				"The scrolls can be used to summon mobs from the dead, with an experience and durability cost."
 				"{@pagebreak}"
-				"Some scrolls may be improved with the Enhancement Scroll, which can be rarely found around the world as the recipe to produce them has been lost to time. The improved scrolls produced by the Enhancement Scroll can still manually be made."
+				"Some scrolls may be improved with the Enhancement Scroll, which can rarely be found around the world as the recipe to produce them has been lost to time. The improved scrolls produced by the Enhancement Scroll can still manually be made."
 				"{@pagebreak}"
 				"Summons are all the more powerful when you consider that they ignore the concept of 'holiness', bypassing the undead's weaknesses to holy materials or fire."
 			]
@@ -23709,7 +23709,7 @@
 		{
 			dependencies: ["4128B0BDF74E7913"]
 			description: [
-				"&c\"While I was still in-training here in the city of Sparkon, I was actually learning the practices of the apothecary. While it didn't end up being the path I had stuck with, I still implement it in my routine since the methods are a little too valuable to just forget about. Instead of haphazardly stuffing ingredients one after another like many other brewers, apothecaries first grind a mix of components into a potion essence. \""
+				"&c\"While I was still in training here in the city of Sparkon, I was actually learning the practices of the apothecary. While it didn't end up being the path I had stuck with, I still implement it in my routine since the methods are a little too valuable to just forget about. Instead of haphazardly stuffing ingredients one after another like many other brewers, apothecaries first grind a mix of components into a potion essence. \""
 				"{@pagebreak}"
 				"&c\"Each ingredient can correspond to multiple different effects, but they require at least one shared effect in order to be concentrated into the essence. Then, we put the essence into the cauldron, add any universal reagents as desired, then throw in a bit of Nether Wart. This nets us three potions of significantly increased potency compared to their contemporaries!\"&r"
 			]
@@ -23977,7 +23977,7 @@
 			description: [
 				"During my time as a Hierophant, automatic fishing barges were a staple, providing great quantities of fish. One of the dishes that can be prepared with tasty salmon is barbecue. Stick a stick into it and it's suddenly very portable, although the preservation aspect is questionable. "
 				""
-				"This simple barbecue grew on me, first as a ration in time of need and then as an ever-present food even out of dire times."
+				"This simple barbecue grew on me, first as a ration in time of need and then as an ever-present food even outside of dire times."
 			]
 			id: "6B9C854C208F6A93"
 			rewards: [{
@@ -24070,7 +24070,7 @@
 			description: [
 				"On my travels to the East, this delicacy was one that had spread as far as the West goes. Despite using a simple staple crop, it manages to turn the annoying kelp we find around oceans into something edible."
 				""
-				"While dining at a high-end kelp roll shop in the middle of a river, this is where I was offered my first high-quality cutting board - the same one I still use to cut the very rolls I crave every night."
+				"While dining at a high-end kelp roll shop in the middle of a river, I was offered my first high-quality cutting board - the same one I still use to cut the very rolls I crave every night."
 			]
 			id: "1A0B3BD634038F87"
 			rewards: [{
@@ -24115,7 +24115,7 @@
 		{
 			dependencies: ["7D347AB89C552DDA"]
 			description: [
-				"This girl I had met was intrigued by me the most of all travelers and invited me in and offered me a holiday candy. Although the recipe was long lost to most, she had some pieces of a recipe book she could try to use. One day, she had done it, but she never published the fruits of her cuisine. She did it not for glory, money, or out of tradition. She did it because she wanted to be the only one who knows how."
+				"This girl I had met was intrigued by me the most of all travelers and invited me in and offered me a holiday candy. Although the recipe was long lost to most, she had some pieces of a recipe book she could try to use. One day, she had done it, but she never published the fruits of her cuisine. She did it not for glory, money, or out of tradition. She did it because she wanted to be the only one who knew how."
 				"{@pagebreak}"
 				"I kept one of the candies and managed to pin down the recipe after many nights licking small torn-off parts of a holiday candy."
 			]
@@ -24196,7 +24196,7 @@
 		}
 		{
 			dependencies: ["4E912C726E35BFB0"]
-			description: ["I entered a fancy-looking but desolate restaurant in Sparkon named \"L'Honey Home\". It's the most deserted restaurant in the city, but I have faith. Oddly, there is no menu as bees fly around the small shop. I am handed a bottle of honey. Curious, I ask what this is. They recognize I am not from here, and explain that this is a honeyed drink, sweet and nearly as nutritious as a meal. Well, not enough to replace it, which is why they also serve some sweet bread with it."]
+			description: ["I enter a fancy-looking but desolate restaurant in Sparkon named \"L'Honey Home\". It's the most deserted restaurant in the city, but I have faith. Oddly, there is no menu as bees fly around the small shop. I am handed a bottle of honey. Curious, I ask what this is. They recognize I am not from here, and explain that this is a honeyed drink, sweet and nearly as nutritious as a meal. Well, not enough to replace it, which is why they also serve some sweet bread with it."]
 			id: "685901ABFE713594"
 			rewards: [{
 				count: 6
@@ -24598,7 +24598,7 @@
 			description: [
 				"&7“The Windswept Hollow is a barren wasteland of Void Ash containing ancient ruins and covered fossils. It’s host to a variety of valuable resources and is one of the only places where you could find Sulfur.\""
 				"{@pagebreak}"
-				"&7\"Yet, these treasures aren’t unguarded; I recommend that you watch where you step, as there are multiple types of ambush predators lurking in the ash. The biome’s true value, however, is what lies beneath its surface. Under the ashen dunes are the Desolate Caves, which is full of a morbid soil that can cultivate the growth of rare minerals.”"
+				"&7\"Yet, these treasures aren’t unguarded; I recommend that you watch where you step, as there are multiple types of ambush predators lurking in the ash. The biome’s true value, however, is what lies beneath its surface. Under the ashen dunes are the Desolate Caves, which are full of a morbid soil that can cultivate the growth of rare minerals.”"
 			]
 			id: "1D1398D93B1EED36"
 			rewards: [{
@@ -24753,7 +24753,7 @@
 				"&b“...Is this thing on?” "
 				"&7“Yes.” "
 				"&b“Okay.”"
-				"&b“Onyx is a common material in the Deep Void, but in times before it used to grow even more virulently. These larger, more jagged crystals are valuable for creating tools and weapons.” "
+				"&b“Onyx is a common material in the Deep Void, but in times before, it used to grow even more virulently. These larger, more jagged crystals are valuable for creating tools and weapons.” "
 				"{@pagebreak}"
 				"&b“Ancient Onyx requires the Alchemical Niter of other precious gems, four pieces of Onyx, Liquid Void, and Desolate Soil as a catalyst.”"
 			]
@@ -24954,7 +24954,7 @@
 			description: [
 				"&7“I have been running low on supplies recently, so I was considering going back to the surface to restock all of my equipment. My main concern is that I wouldn’t know how to return to where I was previously, meaning that I would be leaving Nyxil behind with no way to find her afterwards.\" "
 				"{@pagebreak}"
-				"&7\"She alleviated this worry when, after we had defeated the Nightmare, created an upgraded version of the Void Pendant called the Void Mirror. With this, I could travel between the Overworld and the Deep Void as I pleased, and if I recalled where I was when I returned to the surface, I could return to the exact coordinate I was when I had left.”"
+				"&7\"She alleviated this worry when, after we had defeated the Nightmare, she created an upgraded version of the Void Pendant called the Void Mirror. With this, I could travel between the Overworld and the Deep Void as I pleased, and if I recalled where I was when I returned to the surface, I could return to the exact coordinate I was when I had left.”"
 				"{@pagebreak}"
 				"&7“...In the past, Nyxil had used the Void Mirror to peer into the Overworld and check on the visitors she helped escape. I hope that one day she could go there too.”"
 			]
@@ -25208,7 +25208,7 @@
 			description: [
 				"&7“One of the most important things to take note of in the Deep Void is that it is very, very dark. Despite the blinding white obscuring the sky, it does not provide any illumination upon the dimension’s surface. You’re obviously encouraged to light it up due to the issue of not being able to see, but I assure you there’s more incentive than just that. Staying in the dark for too long is a surefire way to invite an incredibly powerful existence to rip you apart.”"
 				"{@pagebreak}"
-				"&7“If you’ve felt like you’re being watched, then you are correct. The floating eyes in the darkness that break your torches aren’t the only things observing you. The &3Stalker&7, as I’ve dubbed it, is an intelligent hunter that prowls almost everywhere in the Deep Void. If you are outside of the range of a light source for too long, it will mark you for death, as its only weakness is the light. It is very fast and very deadly, so unless you are prepared for such an encounter I’d highly advise remaining outside of its interests.”"
+				"&7“If you’ve felt like you’re being watched, then you are correct. The floating eyes in the darkness that break your torches aren’t the only things observing you. The &3Stalker&7, as I’ve dubbed it, is an intelligent hunter that prowls almost everywhere in the Deep Void. If you are outside of the range of a light source for too long, it will mark you for death, as its only weakness is the light. It is very fast and very deadly, so unless you are prepared for such an encounter, I’d highly advise remaining outside of its interests.”"
 				"{@pagebreak}"
 				"&7“I’ve found a few alternatives to stave off the Stalker. One of them is to distract it with the strong scent of a cadaver. By fashioning together some rotten bones and flesh, I managed to turn the Stalker away for a few key moments by throwing it in the opposite direction of where I was. This does not fool it for long though, so as I have stated before: stay in the light.”"
 			]
@@ -25233,7 +25233,7 @@
 		{
 			dependencies: ["245B905EE8E73588"]
 			description: [
-				"&b\"Today, I managed to create something to specifically counter the Stalker. The Rotten Flare Gun is relatively cheap to create for its effects. It can either ward off the Stalker by shooting it near the creature or weaken it substantially with a direct hit."
+				"&b\"Today, I managed to create something to specifically counter the Stalker. The Rotten Flare Gun is relatively cheap to create for its effects. It can either ward off the Stalker by shooting it near the creature or weaken it substantially with a direct hit.\""
 				"{@pagebreak}"
 				"&b\"It's rather flimsy, but it should serve me well in a pinch.\""
 			]
@@ -25666,7 +25666,7 @@
 				"{@pagebreak}"
 				"&7\"The Void Matter Greatsword is a rather heavy weapon, but it allows for a powerful charge every few seconds that bulldozes through enemies.\""
 				"{@pagebreak}"
-				"&b\"The Forbidden Tome, when cast, forms daggers out of nearby entity's shadows, then stabs them with them. This also has the additional effect of healing the caster, making it useful to have in case of emergency.\""
+				"&b\"The Forbidden Tome, when cast, forms daggers out of nearby entities' shadows, then stabs them with them. This also has the additional effect of healing the caster, making it useful to have in case of emergency.\""
 				"{@pagebreak}"
 				"&b\"The Soul Seeker, which is my current weapon of choice, repeats slashes in an area around the target sliced. Very good for culling the chaff.\""
 				"&7\"Whew, that's a lot of different weapons! Might have to trim down the number of summaries after this one.\""
@@ -25779,7 +25779,7 @@
 				"{@pagebreak}"
 				"&b\"I'm able to swiftly travel on bone piles, to the point where I could swim through them if I chose to and be entirely undetectable! In addition to that, the armor granted me immunity to Rot and inflicting it on hit with my weapons.\""
 				"{@pagebreak}"
-				"&b\"The sword that I fashioned out of the Primordial Bone Crawler's own claws has a couple of unique properties. Whenever it digs into an already rotting target, it exacerbates the rot, making it more effective. Also, when attacking a poisoned target, it seemed to spread the effect to everything around the hit enemy.\""
+				"&b\"The sword that I fashioned out of the Primordial Bone Crawler's own claws has a couple of unique properties. Whenever it digs into an already rotting target, it exacerbates the rot, making it more effective. Also, when attacking a poisoned target, it seems to spread the effect to everything around the hit enemy.\""
 				"{@pagebreak}"
 				"&b\"...If I were to name one gripe I have with this equipment, it'd be the urge I have to eat Bone Mush. I tried it, and even though it tastes marginally better, it still gives me nausea.\""
 			]
@@ -25906,7 +25906,7 @@
 				"{@pagebreak}"
 				"&7\"From my suggestion, Nyxil tried making a chainsaw out of the hard flesh. It's rather fervent in eating both flesh and trees and bites deep into both.\""
 				"{@pagebreak}"
-				"&b\"By binding the flesh to a book, I created the Necronomicon. It summons flesh fangs to clamp targets in place, and if it manages to succesfully consume anything it creates a friendly Devourer in its place.\""
+				"&b\"By binding the flesh to a book, I created the Necronomicon. It summons flesh fangs to clamp targets in place, and if it manages to successfully consume anything it creates a friendly Devourer in its place.\""
 				"{@pagebreak}"
 				"&b\"...I tried my hand at making another sword, and this one seems to hate sentients other than the wielder. It's constantly trying to coax me into killing"
 				"{\"text\":\"Bernard\",\"obfuscated\":true}"
@@ -25998,7 +25998,7 @@
 		{
 			dependencies: ["4E2F07927BA41118"]
 			description: [
-				"&7\"Using the Onyx Armor as a base, Nyxil was able to create armor that takes advantage of Voidrium's latent power. It inherits the effects of Onyx that only occur within darkness, but it also gained a lot of other strong bonuses! "
+				"&7\"Using the Onyx Armor as a base, Nyxil was able to create armor that takes advantage of Voidrium's latent power. It inherits the effects of Onyx that only occur within darkness, but it also gained a lot of other strong bonuses! \""
 				"{@pagebreak}"
 				"&7\"The most notable is the damage reflection, which reciprocates attacks for their full value. Overall a very strong set that I'll be using from this point onward.\""
 			]
@@ -26063,7 +26063,7 @@
 			description: [
 				"&b\"Within the Overlooking Citadel, I found some blueprints that modeled a set of armor that was attributed to the Soul Weaver's creation. After creating it for myself, I can see why he would wear something like this.\""
 				"{@pagebreak}"
-				"&b\"I feel like I could manipulate the flow of battle just by being there. My built Overseers became significantly stronger, and whenever I kill something I reap their soul, adding their life essence to mine. That effect seems to wear off whenever I take of the mask specifically.\""
+				"&b\"I feel like I could manipulate the flow of battle just by being there. My built Overseers became significantly stronger, and whenever I kill something I reap their soul, adding their life essence to mine. That effect seems to wear off whenever I take off the mask specifically.\""
 				"{@pagebreak}"
 				"&b\"The mask isn't the only piece that has a unique effect. The rest of the set allowed me to heal, teleport, wither enemies, ignore gravity, and dodge attacks. Combined, it makes me an even more formidable fighter than I could've imagined.\""
 			]
@@ -26480,7 +26480,7 @@
 		{
 			dependencies: ["152DC73801813764"]
 			description: [
-				"&b\"By constructing a chestpiece out of the Fleshy Bones of the hivemind, I'm able to traverse the flesh infection freely! When wearing it, I'm seen as a Fleshkin and not attacked. The terrain is noticably less hostile too, with the teeth retracting when I walk over them and the pus sacks not exploding.\""
+				"&b\"By constructing a chestpiece out of the Fleshy Bones of the hivemind, I'm able to traverse the flesh infection freely! When wearing it, I'm seen as a Fleshkin and not attacked. The terrain is noticeably less hostile too, with the teeth retracting when I walk over them and the pus sacks not exploding.\""
 				"{@pagebreak}"
 				"&7\"...May I have one?\""
 				"&b\"Sure. We have enough bones for 2.\""
@@ -26594,7 +26594,7 @@
 		{
 			dependencies: ["19E4A89845D3BF5D"]
 			description: [
-				"&b\"The Apostle's weapons of choice are, obviously, rather strong. Even without its master, the weapons function flawlessly. Both the Bandolier and Glove are filled to the brim with coated knives, though they appear only on certain conditions.\""
+				"&b\"The Apostle's weapons of choice are, obviously, rather strong. Even without its master, the weapons function flawlessly. Both the Bandolier and Glove are filled to the brim with coated knives, though they appear only under certain conditions.\""
 				"{@pagebreak}"
 				"&b\"It's also apparently how he was able to act so acrobatically? I have the urge to do backflips and spins while wearing either of them.\""
 			]
@@ -26663,7 +26663,7 @@
 		{
 			dependencies: ["6B96137C28502D97"]
 			description: [
-				"&7\"The Attractor is rather self explanatory. When powered by a redstone signal, it pulls all items on the ground towards it. A very cost efficient and compact method of gathering drops!\""
+				"&7\"The Attractor is rather self-explanatory. When powered by a redstone signal, it pulls all items on the ground towards it. A very cost-efficient and compact method of gathering drops!\""
 				"{@pagebreak}"
 				"&7\"...Is what I'd like to say, but it's a little bit... volatile. It also seems to drag any nearby mob towards itself as well, and anything it pulls has some rather extreme velocity.\""
 			]
@@ -26720,7 +26720,7 @@
 				"30BA63BCE8DAD0DE"
 			]
 			description: [
-				"&b\"After upgrading my equipment from the first fight, I decided to ressurect the Weaver and destroy him again in order to get more Soul Shards. With the raw shards, I was able to create an effigy that effectively prevents the Stalker from approaching it at all.\""
+				"&b\"After upgrading my equipment from the first fight, I decided to resurrect the Weaver and destroy him again in order to get more Soul Shards. With the raw shards, I was able to create an effigy that effectively prevents the Stalker from approaching it at all.\""
 				"{@pagebreak}"
 				"&b\"I had no other reason to kill him again. It was entirely a strategic move. The only motive I have is progress.\""
 			]
@@ -27303,7 +27303,7 @@
 		}
 		{
 			dependencies: ["4E62B2BDC912CCA1"]
-			description: ["&7\"I came across a peculiar looking shrine today. It made a peculiar noise when I touched it, but I couldn't tell if anything changed.\""]
+			description: ["&7\"I came across a peculiar-looking shrine today. It made a peculiar noise when I touched it, but I couldn't tell if anything changed.\""]
 			id: "349E92916577CF96"
 			rewards: [
 				{
@@ -29250,7 +29250,7 @@
 			description: [
 				"&2The Synthetic Organs can be eaten raw to produce technological augments in oneself. They modify the biology of a being to grow powerful abilities. This comes as superhuman strength, speed, jumping and even shocking enemies. "
 				""
-				"&2These transhumanists need to now sustain themselves on batteries as a counterbalance to these newfound powers."
+				"&2These transhumanists now need to sustain themselves on batteries as a counterbalance to these newfound powers."
 			]
 			id: "2246B58523E7EF42"
 			rewards: [{
@@ -29306,7 +29306,7 @@
 		{
 			dependencies: ["411A1361299385DF"]
 			description: [
-				"&2Empty kismet batteries can be found around the kismet nests, or be crafted artificially and then charged manually. Full kismet batteries may appear on 'kilobytes' creatures, but they seem to be quite rare.&r"
+				"&2Empty Kismet batteries can be found around the Kismet Nests, or be crafted artificially and then charged manually. Full Kismet batteries may appear on 'kilobytes' creatures, but they seem to be quite rare.&r"
 				""
 				"&2These batteries are required to be consumed by transhumanists to keep their newly found technological powers.&r"
 			]
@@ -29368,7 +29368,7 @@
 		{
 			dependencies: ["334048AFEC728E43"]
 			description: [
-				"Extraction modules are used to well... extract items from pipes."
+				"Extraction modules are used to, well... extract items from pipes."
 				""
 				"There exist multiple other modules to serve other tasks."
 			]
@@ -29887,7 +29887,7 @@
 		{
 			dependencies: ["524067700E07EB06"]
 			description: [
-				"The Hot Air Balloon is a rudimentary form of aerial transportation requiring coal as fuel, but is able to travel to great heights. "
+				"The Hot Air Balloon is a rudimentary form of aerial transportation requiring coal as fuel, but it is able to travel to great heights. "
 				""
 				"It is actually surprisingly fast."
 			]
@@ -30139,7 +30139,7 @@
 		{
 			dependencies: ["524067700E07EB06"]
 			description: [
-				"The shield is a key defensive piece of equipment, idealfor blocking ranged attacks and melee hits. Although the base one might be enough for many, it's still possible to upgrade it."
+				"The shield is a key defensive piece of equipment, ideal for blocking ranged attacks and melee hits. Although the base one might be enough for many, it's still possible to upgrade it."
 				""
 				"The giant swords have a similar ability, being large enough to block hits, but to a much lesser degree."
 			]
@@ -30504,7 +30504,7 @@
 		{
 			dependencies: ["524067700E07EB06"]
 			description: [
-				"Iron chests and their other material upgraded versions can store many more items than regular chests."
+				"Iron chests and their other material-upgraded versions can store many more items than regular chests."
 				""
 				"On the other hand, drawers can hold a large quantity of a single item. They can also be upgraded or connected with a drawer controller."
 				"{@pagebreak}"
@@ -31635,7 +31635,7 @@
 				"5746BB5C34ED74C7"
 			]
 			description: [
-				"The Heater and the Thermae are two low-tech machines that when combined can prove to be very useful in the production of galvanized iron."
+				"The Heater and the Thermae are two low-tech machines that, when combined, can prove to be very useful in the production of galvanized iron."
 				""
 				"The Heater is placed at the bottom and can be filled with lava to serve as fuel to heat up the contents of the Thermae placed above. It is then used to infuse the block above, usually an iron block. &a(Right-click the Heater with a lava bucket to put in lava.)&r"
 				"{@pagebreak}"
@@ -31671,7 +31671,7 @@
 			description: [
 				"The Steam-Powered Crusher is a low-tech machine capable of crushing metals into, not quite dust or fine powder, but something close enough. "
 				""
-				"This is useful in the automation of galvanized iron as the most commonly crushed metals with this machine are of course iron and zinc, but also metals harder to crush with your bare hands and a hammer: copper and tin. This can be used to make bronze."
+				"This is useful in the automation of galvanized iron as the most commonly crushed metals with this machine are, of course, iron and zinc, but also metals harder to crush with your bare hands and a hammer: copper and tin. This can be used to make bronze."
 				"{@pagebreak}"
 				"To be powered, the crusher requires a nearby boiler within a one-block radius. The boiler must be active, thus requiring water and fuel inside. Water can be inserted with a bucket &a(right-click the boiler with it)&r."
 			]
@@ -31721,7 +31721,7 @@
 		{
 			dependencies: ["4C76FB98A8040661"]
 			description: [
-				"Using the Thermae, a dense metal block can be formed by placing a copper block in the hot dipping bath above the Thermae. A galvanized iron block must be inserted inside of the Thermae and with enough liquid galvanized iron contained inside, the galvanization process will start, melting and alloying the copper and galvanized iron block."
+				"Using the Thermae, a dense metal block can be formed by placing a copper block in the hot dipping bath above the Thermae. A galvanized iron block must be inserted inside of the Thermae and with enough liquid galvanized iron contained inside, the galvanization process will start, melting and alloying the copper and galvanized iron blocks."
 				""
 				"Copper Block Above + Galvanized Iron Block Inside + 1000mb of Liquid Galvanized Iron = Dense Metal Block"
 			]
@@ -31847,7 +31847,7 @@
 			description: [
 				"&o&7An extra note is posted over the page for the steam-powered crusher&r&r"
 				""
-				"&2Of those that have ventured into Dis, the marble realm, they may have found marble quite useless. However, this marble contains traces of other materials, often precious such as diamond and silver. The steam-powered crusher can be used to crush marble into powders, but a crushing wheel and a pulverizer remain more efficient."
+				"&2Of those that have ventured into Dis, the marble realm, they may have found marble quite useless. However, this marble contains traces of other materials, often precious, such as diamond and silver. The steam-powered crusher can be used to crush marble into powders, but a crushing wheel and a pulverizer remain more efficient."
 			]
 			id: "05CD5D7CEFF7C73E"
 			rewards: [{
@@ -32476,7 +32476,7 @@
 			description: [
 				"A candle is an essential mystical ingredient, serving as a medium for many rituals... and serving as ambience!"
 				""
-				"There are multiple ways of producing sufficient candlesticks, most of them involving animal fat - more specifically, pig fat. Animal fat can be harvested from animal carcasses, and tallow can be acquired from pig fat. A more peaceful solution would be to create a bee farm to harvest honeycombs, which make even higher quality candles."
+				"There are multiple ways of producing sufficient candlesticks, most of them involving animal fat - more specifically, pig fat. Animal fat can be harvested from animal carcasses, and tallow can be acquired from pig fat. A more peaceful solution would be to create a bee farm to harvest honeycombs, which make even higher-quality candles."
 			]
 			icon: "minecraft:candle"
 			id: "287ED2C334B0E957"
@@ -32588,7 +32588,7 @@
 		{
 			dependencies: ["152DC73801813764"]
 			description: [
-				"&7\"After digging through the undergrowth of the infection for a while, we happened upon upon a strange opening. The Watcher Chamber, as I have dubbed it, is home to the &6Hive's Watcher. &7It seems to be connected to all of the eyes within the fleshy biome, and the moment we step foot within its area, it attacked us.\""
+				"&7\"After digging through the undergrowth of the infection for a while, we happened upon a strange opening. The Watcher Chamber, as I have dubbed it, is home to the &6Hive's Watcher. &7It seems to be connected to all of the eyes within the fleshy biome, and the moment we stepped foot within its area, it attacked us.\""
 				"{@pagebreak}"
 				"&b\"It primarily attacked by charging towards us and spewing ichor everywhere. After being on the defensive for a while, I noticed that it couldn't move directly towards us if we were diagonal to it, allowing us to cleanly defeat it.\""
 				"{@pagebreak}"
@@ -32720,7 +32720,7 @@
 		{
 			dependencies: ["43593B9FF0498E58"]
 			description: [
-				"&7\"While traveling through the Staring Hills, we saw an enormous beast in the distance. However, when I got closer in order to analyze and kill it, it fled. When I asked Nyxil about it, she said that it was a Flesh Worm, which despite its enormous size, is rather skittish and flees from enemies it knows can kill it.\""
+				"&7\"While traveling through the Staring Hills, we saw an enormous beast in the distance. However, when I got closer in order to analyze and kill it, it fled. When I asked Nyxil about it, she said that it was a Flesh Worm, which, despite its enormous size, is rather skittish and flees from enemies it knows can kill it.\""
 				"{@pagebreak}"
 				"&7\"When inquiring on whether or not its parts were valuable, she said yes, and started constructing a strange device. When the Thumper was placed on the ground, the worm seemed to go into a frenzy, forgetting its nature and striking at us.\""
 			]
