@@ -785,20 +785,20 @@ ServerEvents.recipes(event => {
                         C: 'reliquary:nebulous_heart'
                 }
         ).keepIngredient('reliquary:lantern_of_paranoia')
-        event.shaped(
-                Item.of('reliquary:salamander_eye'),
-                [
-                        'ABC',
-                        'D  ',
-                        '   '
-                ],
-                {
-                        C: 'reliquary:frozen_core',
-                        A: 'reliquary:pyromancer_staff',
-                        D: 'torchmaster:frozen_pearl',
-                        B: 'reliquary:molten_core'
-                }
-        )
+        // event.shaped(
+        //         Item.of('reliquary:salamander_eye'),
+        //         [
+        //                 'ABC',
+        //                 'D  ',
+        //                 '   '
+        //         ],
+        //         {
+        //                 C: 'reliquary:frozen_core',
+        //                 A: 'reliquary:pyromancer_staff',
+        //                 D: 'torchmaster:frozen_pearl',
+        //                 B: 'reliquary:molten_core'
+        //         }
+        // )
         event.shaped(
                 Item.of('reliquary:magicbane'),
                 [

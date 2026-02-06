@@ -1,8 +1,0 @@
-[
-  {
-    "matchFluid": [
-      "createmetallurgy:molten_brass"
-    ],
-    "resultFluid": "tconstruct:molten_brass"
-  }
-]

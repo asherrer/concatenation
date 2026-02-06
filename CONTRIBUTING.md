@@ -9,13 +9,13 @@ You can contribute to Concatenation by making a pull request in ReversTeams' Git
 Concatenation has a strict modlist and any new additions must be viewed by a ReversTeam developer. Some mods are outright rejected for various reasons:
 
 Banned mods
--Apotheosis
--Avaritia
--Sophisticated Storage
--Sophisticated Backpacks
--Ultimine (configured but not installed by default)
--Mystical Agriculture
--Tom's Simple Storage
+- Apotheosis
+- Avaritia
+- Sophisticated Storage
+- Sophisticated Backpacks
+- Ultimine (configured but not installed by default)
+- Mystical Agriculture
+- Tom's Simple Storage
 
 Mods planned for other packs
 -Mana & Artifice

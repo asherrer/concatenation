@@ -1,8 +1,0 @@
-[
-  {
-    "matchFluid": [
-      "createmetallurgy:molten_tin"
-    ],
-    "resultFluid": "tconstruct:molten_tin"
-  }
-]

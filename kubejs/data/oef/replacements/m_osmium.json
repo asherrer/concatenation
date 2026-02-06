@@ -1,8 +1,0 @@
-[
-  {
-    "matchFluid": [
-      "createmetallurgy:molten_osmium"
-    ],
-    "resultFluid": "tconstruct:molten_osmium"
-  }
-]

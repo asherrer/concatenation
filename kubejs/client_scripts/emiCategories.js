@@ -11,6 +11,8 @@ EmiPlusPlusEvents.registerGroups(event => {
     event.register("concatenation:tconstruct_tinker_stations", "tconstruct:tinker_station")
     event.register("concatenation:tconstruct_tinkers_anvil", "tconstruct:tinkers_anvil")
     event.register("concatenation:tconstruct_scorched_anvil", "tconstruct:scorched_anvil")
+    event.register("concatenation:leaf_pile", "#immersive_weathering:leaf_piles")
+    event.register("concatenation:spikes", "supplementaries:bamboo_spikes")
 
     //Not working
     event.register("concatenation:tconstruct_seared_tanks", "tconstruct:seared_fuel_tank")
