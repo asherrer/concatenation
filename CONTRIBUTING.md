@@ -18,8 +18,8 @@ Banned mods
 - Tom's Simple Storage
 
 Mods planned for other packs
--Mana & Artifice
--Hexcasting
+- Mana & Artifice
+- Hexcasting
 
 Custom items and blocks are not added via KubeJS or Multiblocked2, but via custom mods, the primary one being Concatenation Core.
 
@@ -52,6 +52,8 @@ Each pathway questline should more or less be a contained story arc. For instanc
 
 #### English Conventions
 English (UK) is preferred over English (US). This means different spelling such as armour over armor, colour over color, aluminium over aluminum, etc. Oxford commas are in use.
+
+Numbers should be written in letter form (one, two) under two digits, and anything over two digits (11, 12) should be written in numerical form. Exceptions should be made when it is more convenient for gameplay reasons, such as enumerating quantities of items or layouts (3x3 over three-by-three).
 
 These conventions do not apply to translations of the quests in other languages.
 

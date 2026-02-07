@@ -1220,7 +1220,7 @@
 		}
 		{
 			dependencies: ["15B51FB56A64C303"]
-			description: ["&5The Blacksmith is a 3x3 crafter and can make any vanilla tools, armor, swords, and shields (no bows or redstone items). You will need to teach the Blacksmith the recipes of the items you want them to create. "]
+			description: ["&5The Blacksmith is a 3x3 crafter and can make any vanilla tools, armour, swords, and shields (no bows or redstone items). You will need to teach the Blacksmith the recipes of the items you want them to create. "]
 			id: "19D03831EB5EED02"
 			rewards: [{
 				count: 16
