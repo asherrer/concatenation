@@ -2622,7 +2622,7 @@
 		{
 			dependencies: ["42EF54B7ABFC5789"]
 			description: [
-				"To start your proper elemental setup, you will want to either find an &lelemental source&r in the wild - floating circles of color depending on the element - or make use of an element evaporator to evaporate raw or powerful natural shards into elemental power. "
+				"To start your proper elemental setup, you will want to either find an &lelemental source&r in the wild - floating circles of colour depending on the element - or make use of an element evaporator to evaporate raw or powerful natural shards into elemental power. "
 				""
 				"I would recommend finding a source instead, as it's more reliable. Finding all four sources in one place is miraculous, though. Noting down the location of the new sources found is crucial. "
 				"{@pagebreak}"
@@ -3511,7 +3511,7 @@
 		{
 			dependencies: ["4FA1B8DD76B592DD"]
 			description: [
-				"Once a widespread arcane art throughout the land, elemental spells fell out of most mages' favors after the discovery of more advanced spellcrafting. These days, this is a stepping stone to acquire spellcrafting."
+				"Once a widespread arcane art throughout the land, elemental spells fell out of most mages' favours after the discovery of more advanced spellcrafting. These days, this is a stepping stone to acquire spellcrafting."
 				"{@pagebreak}"
 				"The spell desk allows you to inscribe spells onto scrolls. These scrolls can then be used along with elements to cast various spells, from the most useful, to the least."
 			]
@@ -3856,7 +3856,7 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"The &eSun Pathway&r delves mainly into spellcrafting, gaining the ability to cast a vast variety of spells. Mages will don the armour they prefer between variations either more suited for mana optimization or for defensive prowess."
+				"The &6Sun Pathway&r delves mainly into spellcrafting, gaining the ability to cast a vast variety of spells. Mages will don the armour they prefer between variations either more suited for mana optimization or for defensive prowess."
 				"{@pagebreak}"
 				"It is adjacent to the &7Tower Pathway&r, the &6Strength Pathway&r, and the &fStar Pathway&r. Most mages of the Sun Pathway evolve from Magician elementalists."
 			]
@@ -10465,7 +10465,7 @@
 				""
 				"&6This combination creates a powerful synergy. This results in an armour that not only protects but also empowers its wearer, making it a favourite among those who value both defensive and offensive capabilities.&r"
 				"{@pagebreak}"
-				"&6It possesses various special abilities such as substantial defensive prowess, knockback resistance, additional mana, magic resistance, and of course: increasing the potency of celestial-grade weapons.&r"
+				"&6It possesses various special abilities such as substantial defensive prowess, knockback resistance, additional mana, magic resistance, and of course, increasing the potency of celestial-grade weapons.&r"
 				""
 				"&6The uniqueness of Solar Crystal Armour is that it protects its wearer by casting a burst of flames when attacked.&r"
 			]
@@ -13049,7 +13049,7 @@
 				"37AA006B7ABACDC8"
 				"6FC66F464CF54CF4"
 			]
-			description: ["Demonic ash, seems to be perpetually smoldering. I never used it for proper magic, but it does make for a good hand warmer."]
+			description: ["Demonic ash, seems to be perpetually smouldering. I never used it for proper magic, but it does make for a good hand warmer."]
 			id: "5145276716FB2377"
 			rewards: [{
 				id: "7C3426700E0D1F82"
@@ -14004,7 +14004,7 @@
 		}
 		{
 			dependencies: ["1E133F321CC64E1F"]
-			description: ["If one were to restore the entirety of the Cycle of Eldritch Scribings, it is likely it would allow one to develop the true ancient arts of Alchemy and Artifice. I regrettably never managed to find the entirety of the ancient knowledge, but it was of no matter since fully-formed alchemical implements do exist, somewhere in the world..."]
+			description: ["If one were to restore the entirety of the Cycle of Eldritch Scribings, it is likely it would allow one to develop the true ancient arts of Alchemy and Artifice. I regrettably never managed to find the entirety of the ancient knowledge, but it was of no matter since fully formed alchemical implements do exist, somewhere in the world..."]
 			id: "301D160C2B3F2B79"
 			rewards: [{
 				id: "4424841C11CCF47F"
@@ -15396,7 +15396,7 @@
 				"{@pagebreak}"
 				"His name is &cSantiago&r. He left me a couple of notes, and I've also written down a couple of our dialogues. Although he's a native to Sparkon, he spent more time outside of the city out on monster hunting raids to collect the rarest of ingredients. While he is officially an archmage as well as a reliquerer, he really did the bare minimum to be able to pass as an archmage."
 				"{@pagebreak}"
-				"It is adjacent to the &eSun Pathway&r, &fStar Pathway&r and &4Moon Pathway&r."
+				"It is adjacent to the &6Sun Pathway&r, &fStar Pathway&r and &4Moon Pathway&r."
 			]
 			hide_dependency_lines: true
 			id: "4E4E81226BED0E7C"
@@ -15433,7 +15433,7 @@
 				"{@pagebreak}"
 				"As I was particularly interested in their quest of pursuing the Philosopher’s Stone, I proposed an exchange. I would give them pointers regarding the magics that I had mastered up until that point, and in return they would train me in the art of alchemy. I’d say that it was a worthwhile trade, even if some of their methods seemed archaic compared to some of the more industrious pathways."
 				"{@pagebreak}"
-				"The Lovers is adjacent to &eThe Sun Pathway, &fThe Star Pathway, &7and &4The Moon Pathway."
+				"The Lovers is adjacent to &6The Sun Pathway, &fThe Star Pathway, &7and &4The Moon Pathway."
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
@@ -18878,7 +18878,7 @@
 		{
 			dependencies: ["3BDE972F9EB52CF5"]
 			description: [
-				"Nightmare weapons feature weaker strikes compared to dark metal weapons but make up for it by being technically considered holy weapons. This status is quite puzzling. One theory that can be thought of is that these weapons are so unholy in nature, that they loop around to being holy. Or rather, they simply have the same property of being more effective on the undead."
+				"Nightmare weapons feature weaker strikes compared to dark metal weapons but make up for it by being technically considered holy weapons. This status is quite puzzling. One theory that can be thought of is that these weapons are so unholy in nature, they loop around to being holy. Or rather, they simply have the same property of being more effective on the undead."
 				""
 				"All of these weapons have their strength enhanced when wearing a full nightmare set."
 			]
@@ -20444,7 +20444,7 @@
 		{
 			dependencies: ["081070F7CBF61207"]
 			description: [
-				"&c\"If you ever thought that ender pearls offered a distinct lack of options in forms of teleportation, this one might be a favorable pick for you. Instead of relying on strength of arm to dictate where you end up, the Ender Staff has three distinct modes that allow for more controlled self-teleportation. It has a basic mode which launches an ender pearl as normal, but it also has a long range mode that discharges the projectile with significantly less regard for gravity, allowing for significantly further instant transportation. \"&r"
+				"&c\"If you ever thought that ender pearls offered a distinct lack of options in forms of teleportation, this one might be a favourable pick for you. Instead of relying on strength of arm to dictate where you end up, the Ender Staff has three distinct modes that allow for more controlled self-teleportation. It has a basic mode which launches an ender pearl as normal, but it also has a long range mode that discharges the projectile with significantly less regard for gravity, allowing for significantly further instant transportation. \"&r"
 				"{@pagebreak}"
 				"&c\"Additionally, it features a waypoint mode, which instantly sends you to the last Wraith Node you interacted with. Overall a very solid relic.\"&r"
 				""
@@ -20767,7 +20767,7 @@
 			description: [
 				"Alchemical digestion is the process of exaltation, which is the act of increasing a material’s “tier.” For example, by combining four Niters obtained from a common metal, like copper, the digestion vat would return a Niter that corresponds to abundant metals, like iron and zinc."
 				"{@pagebreak}"
-				"This process first requires the creation of Purified Gold, which is produced by digesting gold with an alchemical salt. By purifying gold, its reactions with other elements are removed, making it an excellent catalyst for digestion. Despite this, Purified Gold is rather worthless outside of the realm of alchemy…"
+				"This process first requires the creation of Purified Gold, which is produced by digesting gold with an alchemical salt. By purifying gold, its reactions with other elements are removed, making it an excellent catalyst for digestion. Despite this, Purified Gold is rather worthless outside of the realm of alchemy..."
 			]
 			id: "29AB1C13F14D1962"
 			rewards: [{
@@ -24299,10 +24299,10 @@
 						]
 					}
 				}
-				title: "Any Mint Flavor"
+				title: "Any Mint Flavour"
 				type: "item"
 			}]
-			title: "Mint Flavored Treats"
+			title: "Mint Flavoured Treats"
 			x: -15.2d
 			y: -16.95d
 		}
@@ -24326,7 +24326,7 @@
 		}
 		{
 			dependencies: ["5B6678771CE97E00"]
-			description: ["Did I mention I enjoy lamb and mutton? Oh yes, I did. It is quite a tender and juicy meat when cooked perfectly. Shepherd's pie is quite the mix between a simple and fancy meal but is most savory when fresh. This isn't often the case though, as I tend to use fresh mutton for other recipes."]
+			description: ["Did I mention I enjoy lamb and mutton? Oh yes, I did. It is quite a tender and juicy meat when cooked perfectly. Shepherd's pie is quite the mix between a simple and fancy meal but is most savoury when fresh. This isn't often the case though, as I tend to use fresh mutton for other recipes."]
 			id: "4EC6DA569E476416"
 			rewards: [{
 				count: 12
@@ -24443,7 +24443,7 @@
 		{
 			dependencies: ["0D61335A0B07300D"]
 			description: [
-				"&0“Testing… one, two, one, two… Can you hear me…”"
+				"&0“Testing... one, two, one, two... Can you hear me...”"
 				"{@pagebreak}"
 				"&7“Hello. If you are hearing this, then you have found my audio log for my expedition into the Deep Void. My name is"
 				"{\"text\":\"Bernard\",\"obfuscated\":true}. "
@@ -24570,7 +24570,7 @@
 		{
 			dependencies: ["4E62B2BDC912CCA1"]
 			description: [
-				"&7“...I do not like this place. I am currently passing through ancient ruins within a desert of black sand. The iconography of these ruins greatly resembles the Monoliths of Limbo, which were also lost when all the doors shut. Even though I did not dabble much with the occult myself, I am still familiar with these red eyes due to Koby showing me pictures that he had taken on his own travels… I feel like I am being watched.”"
+				"&7“...I do not like this place. I am currently passing through ancient ruins within a desert of black sand. The iconography of these ruins greatly resembles the Monoliths of Limbo, which were also lost when all the doors shut. Even though I did not dabble much with the occult myself, I am still familiar with these red eyes due to Koby showing me pictures that he had taken on his own travels... I feel like I am being watched.”"
 				"{@pagebreak}"
 				"&7“Occasionally, a creature embedded in the stone will leap out and attack me, only to retreat back into its shell whenever it is not being observed. The monolithic stone that it uses to cover its body is impervious to traditional weaponry, but in return it is vulnerable to being attacked with a pickaxe.”"
 				"{@pagebreak}"
@@ -25084,7 +25084,7 @@
 				"&7“...While we fought the Apostle of Catastrophe, he spewed nothing but mad ravings, but right before I landed the killing blow, he confessed that he gave Koby to the &bWeaver of Souls&7.”"
 				"&b“He was next on our list anyhow. After defeating the Apostle and gearing up, I think we’re finally ready to take on the Weaver.”"
 				"{@pagebreak}"
-				"&7“Right. He’s in the very center of the void, underground within the Sepulchre. One more fight, then we can resurface and everything will be &ljust fine&r.”"
+				"&7“Right. He’s in the very center of the void, underground within the Sepulcher. One more fight, then we can resurface and everything will be &ljust fine&r.”"
 			]
 			icon: "the_deep_void:head_of_the_weaver"
 			id: "30BA63BCE8DAD0DE"
@@ -25135,9 +25135,9 @@
 			description: [
 				"&b“...We won. But, while we were fighting the Weaver, shadowed hands pierced through "
 				"{\"text\":\"Bernard\",\"obfuscated\":true}"
-				"&band now he’s in a coma. I can’t remember his name anymore… whenever I try to say it, I feel like I lose control of my body for the entire word. They stole his name. My only friend…”"
+				"&band now he’s in a coma. I can’t remember his name anymore... whenever I try to say it, I feel like I lose control of my body for the entire word. They stole his name. My only friend...”"
 				"{@pagebreak}"
-				"&b“With the Soul Forge, I took the Soul Shards synthesized by the Weaver and combined them with Netherite, which is a material that can only be found outside of this dimension. He just happened to have it on his person…”"
+				"&b“With the Soul Forge, I took the Soul Shards synthesized by the Weaver and combined them with Netherite, which is a material that can only be found outside of this dimension. He just happened to have it on his person...”"
 				"{@pagebreak}"
 				"&b&o“I don’t know what to do now.”&r"
 			]
@@ -25177,7 +25177,7 @@
 			description: [
 				"&b“After agonizing over it for what feels like a decade, I’ve made up my mind. The closest facsimile I've made of returning his soul is this Voodoo Doll, which is undoubtedly an artifact of great power, but it’s not enough.\""
 				"{@pagebreak}"
-				"&b\"I… I avoided thinking about going to the Overworld without him as a guide. But it looks like I’m going to have to search outside of the Deep Void for an answer on how to resuscitate him. This place only knows how to take precious things, not give them back.”"
+				"&b\"I... I avoided thinking about going to the Overworld without him as a guide. But it looks like I’m going to have to search outside of the Deep Void for an answer on how to resuscitate him. This place only knows how to take precious things, not give them back.”"
 				"{@pagebreak}"
 				"&b“Since I believe it was his wish, I’ll be scattering as many copies of this record across the dimension as I can. Hopefully it was of use to you. Goodbye.”"
 			]
@@ -25900,7 +25900,7 @@
 			]
 			description: [
 				"&b\"Using the Hard Flesh Ingot, I was able to create a variety of weapons with different uses and unique abilities!\""
-				"&7\"Do note that items made from Hard Flesh is sentient. They are also very hungry.\""
+				"&7\"Do note that items made from Hard Flesh are sentient. They are also very hungry.\""
 				"{@pagebreak}"
 				"&b\"The Hard Flesh Sword drinks the flesh of what it hits. Some of this life force is returned to the wielder, but the sword is rather greedy and keeps most of it to itself.\""
 				"{@pagebreak}"
@@ -26383,7 +26383,7 @@
 		}
 		{
 			dependencies: ["6516D88B029F38F1"]
-			description: ["&b\"I was tired of having my area of operations defaced by the denizens of the Deep Void, so I created the Voidrium Glass. When combined with a powerful enough source of light, it would revoke the right to alter the landscape to those who aren't allowed.\""]
+			description: ["&b\"I was tired of having my area of operations defaced by the denizens of the Deep Void, so I created the Voidrium Glass. When combined with a powerful enough source of light, it would revoke the right to alter the landscape from those who aren't allowed.\""]
 			id: "36E1BA9A10678554"
 			rewards: [
 				{
@@ -26480,7 +26480,7 @@
 		{
 			dependencies: ["152DC73801813764"]
 			description: [
-				"&b\"By constructing a chestpiece out of the Fleshy Bones of the hivemind, I'm able to traverse the flesh infection freely! When wearing it, I'm seen as a Fleshkin and not attacked. The terrain is noticeably less hostile too, with the teeth retracting when I walk over them and the pus sacks not exploding.\""
+				"&b\"By constructing a chestpiece out of the Fleshy Bones of the hivemind, I'm able to traverse the flesh infection freely! When wearing it, I'm seen as a Fleshkin and not attacked. The terrain is noticeably less hostile too, with the teeth retracting when I walk over them and the pus sacs not exploding.\""
 				"{@pagebreak}"
 				"&7\"...May I have one?\""
 				"&b\"Sure. We have enough bones for 2.\""
@@ -26883,7 +26883,7 @@
 			dependencies: ["7CFABDA77781489E"]
 			description: [
 				"&7\"...That looks disgusting.\""
-				"&b\"It's really nutritious! I can't really speak on the flavor, but it'll fill you up completely.\""
+				"&b\"It's really nutritious! I can't really speak on the flavour, but it'll fill you up completely.\""
 				"&7\"I'm not eating that.\""
 			]
 			hide_until_deps_complete: true
@@ -27080,7 +27080,7 @@
 			description: [
 				"&o&7A note is posted over the journal entry on waystones&r&r"
 				""
-				"&2A strange sword that remains one of the few to open a rift to another dimension that resembles some depictions of limbo in more religious descriptions.&r"
+				"&2A strange sword that remains one of the few to open a rift to another dimension that resembles some depictions of Limbo in more religious descriptions.&r"
 				"{@pagebreak}"
 				"&2Purgatory is a strange place, and seems devoid of life at times. It does contain some materials useful to elementalists, serving as great substitutes in many recipes.&r"
 			]
@@ -27110,11 +27110,11 @@
 			description: [
 				"&2Limbo Berries contain elemental purities within them, the plant crystallizing them into their fruit. These berries can thus be turned into inert crystal, providing a renewable source.&r"
 				""
-				"&2However, limbo berries can only be grown in Purgatory, reacting violently due to incompatibility when grown in other dimensions. Perhaps someone could find a way to grow them back home...&r"
+				"&2However, Limbo berries can only be grown in Purgatory, reacting violently due to incompatibility when grown in other dimensions. Perhaps someone could find a way to grow them back home...&r"
 				"{@pagebreak}"
-				"&2After experimentation, it seems that pure soil can be made from pure rock, compatible with limbo berries for them to be grown in the Overworld."
+				"&2After experimentation, it seems that pure soil can be made from pure rock, compatible with Limbo berries for them to be grown in the Overworld."
 				""
-				"&2Further research has made it known that elemental soil can be made from anomalous grass, but all of its nutrients seem sucked out after some growth, letting the limbo bush wither and die. It is much cheaper though.&r&r"
+				"&2Further research has made it known that elemental soil can be made from anomalous grass, but all of its nutrients seem sucked out after some growth, letting the Limbo bush wither and die. It is much cheaper though.&r&r"
 			]
 			icon: "perdition:limbo_berries"
 			id: "07D743EBC4DDD625"
@@ -27161,7 +27161,7 @@
 				"&2After spending time in that other realm, I have even managed to base myself on the properties innate to that purgatory world and create a sword that will allow me to bridge the gap between the two dimensions, opening a rift once again.&r"
 				""
 				"&2Nevertheless, the potion is the basis of that.&r"
-				"&o&2If only I could understand what the murmurs are saying… I wish to die in the know, and not be buried clueless…&r&r"
+				"&o&2If only I could understand what the murmurs are saying... I wish to die in the know, and not be buried clueless...&r&r"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -27423,7 +27423,7 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"&2Anomalous Shards, much like resonite ore, can be found crystallizing under anomalies, seeping into rock. Thorough digging may be required, but do not be hasty, the process takes a long time and can be accelerated with anomalous technology. "
+				"&2Anomalous Shards, much like resonite ore, can be found crystallizing under anomalies, seeping into rock. Thorough digging may be required, but do not be hasty; the process takes a long time and can be accelerated with anomalous technology. "
 				""
 				"&2They usually appear in shallow ground near anomalies, around two to five blocks of depth from the ground. &r"
 			]
@@ -31607,9 +31607,9 @@
 		{
 			dependencies: ["0F3237156DE95B07"]
 			description: [
-				"Gate to Perdition is a pack-wide event with limited-time rewards. Delve into a unique secondary questline sending you on a journey to investigate the disappearance of dimensional doors from the world and how we may reopen the door to limbo!"
+				"Gate to Perdition is a pack-wide event with limited-time rewards. Delve into a unique secondary questline sending you on a journey to investigate the disappearance of dimensional doors from the world and how we may reopen the door to Limbo!"
 				""
-				"Send your own theories on the pack's Discord server in #gate-to-perdition (link available on the title screen). Perhaps this will help the community figure out how to enter limbo? &lThe most elaborate and ludicrous theory weaver will get a unique custom item added to the pack!&r"
+				"Send your own theories on the pack's Discord server in #gate-to-perdition (link available on the title screen). Perhaps this will help the community figure out how to enter Limbo? &lThe most elaborate and ludicrous theory weaver will get a unique custom item added to the pack!&r"
 				"{@pagebreak}"
 				"All of the quests are hidden at the start and you must complete them to unlock the subsequent quest."
 			]
@@ -31953,7 +31953,7 @@
 		}
 		{
 			dependencies: ["793E50D268C0B230"]
-			description: ["For a time, I taught spellcasting and the basics of elemental sources to the few who begged for my knowledge. I don't know why they didn't simply sail across the sea. Over the course of a month, multiple laws on the restriction of magic were imposed and I quickly had to resort to holding most of my gatherings in secret. At least, I sent most of my apostles overseas since there weren't many elemental sources in the city, as no one had bothered to take care of them. Eventually, all of the exits from the city were heavily guarded. "]
+			description: ["For a time, I taught spellcasting and the basics of elemental sources to the few who begged for my knowledge. I don't know why they didn't simply sail across the sea. Over the course of a month, multiple laws on the restriction of magic were imposed, and I quickly had to resort to holding most of my gatherings in secret. At least, I sent most of my apostles overseas since there weren't many elemental sources in the city, as no one had bothered to take care of them. Eventually, all of the exits from the city were heavily guarded. "]
 			id: "47025B4852DC4F90"
 			rewards: [{
 				count: 3
@@ -32114,7 +32114,7 @@
 			description: [
 				"&o&7An extra note is posted over the page&r"
 				""
-				"&2I'm unsure of how this quantum core reacts to our realm. Drawing inspiration from studying the various anomalies and the distant realms that were opened up, we have figured out that by using nuclear power, we can react in a way with another world. Or rather, are we creating another? This seems similar in a way to those accounts of some geniuses managing to create their own dimensions with elaborate machinery."
+				"&2I'm unsure of how this quantum core reacts to our realm. Drawing inspiration from studying the various anomalies and the distant realms that were opened up, we have figured out that by using nuclear power, we can interact, in a way, with another world. Or rather, are we creating another? This seems similar in a way to those accounts of some geniuses managing to create their own dimensions with elaborate machinery."
 			]
 			id: "163FA79484716D9B"
 			rewards: [
@@ -32564,7 +32564,7 @@
 		{
 			dependencies: ["524067700E07EB06"]
 			description: [
-				"If something is not observed, a different behavior than expected may appear. These scarecrows affect the behavior of monsters substantially, drawing them away from peaceful areas, leading to a higher population of the likes of wild and farm animals. "
+				"If something is not observed, a different behaviour than expected may appear. These scarecrows affect the behaviour of monsters substantially, drawing them away from peaceful areas, leading to a higher population of the likes of wild and farm animals. "
 				""
 				"If placed on top of a monster spawner, monsters will seem to continually be summoned, as if an adventurer were still inside. This is very useful for industrial purposes."
 			]
