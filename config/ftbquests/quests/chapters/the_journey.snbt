@@ -17678,7 +17678,7 @@
 			]
 			dependency_requirement: "one_started"
 			description: [
-				"The Calralite ingot, often nicknamed Celestial Calralite, is a powerful material fit for high-grade armors and weapons."
+				"The Calralite ingot, often nicknamed Celestial Calralite, is a powerful material fit for high-grade armour and weapons."
 				""
 				"It is also used in high-tech machinery by the High Priestess pathway."
 				"{@pagebreak}"
@@ -22657,7 +22657,7 @@
 			description: [
 				"The focus of necromancy is a corrupted focus of summoning, able to turn summons into withered undead of considerable strength."
 				""
-				"One of the mages I knew was obsessed with producing one of these rumored focuses, only known in legends of long-gone lich kings of the past. All of his peers warned him, yet it was not insanity or corruption that brought down the society of magic in Sparkon."
+				"One of the mages I knew was obsessed with producing one of these rumoured focuses, only known in legends of long-gone lich kings of the past. All of his peers warned him, yet it was not insanity or corruption that brought down the society of magic in Sparkon."
 			]
 			hide_dependency_lines: true
 			id: "0A2CB31B617B9FA2"
@@ -23596,7 +23596,7 @@
 				""
 				"&2Do not go mining in Dis. Nothing good will happen to you. Except perhaps large fortunes.&r"
 				"{@pagebreak}"
-				"&2There are vast black seas in Dis, and ores are most commonly found under sea level. One great benefit of Dis is that both Overworld and &Nether ores&r&2 are found there. The marble is still very useful, though. It can be compacted and then crushed into various powders.&r"
+				"&2There are vast black seas in Dis, and ores are most commonly found under sea level. One great benefit of Dis is that both Overworld and &lNether ores&r&2 are found there. The marble is still very useful, though. It can be compacted and then crushed into various powders.&r"
 				""
 				"&2The resulting apatite powder can then be crushed even further into other kinds of powders. There are faint traces of diamonds in the marble of Dis.&r"
 				"{@pagebreak}"
@@ -31159,11 +31159,11 @@
 		{
 			dependencies: ["032A60B0D79C6ACB"]
 			description: [
-				"I have yet to find this rumored palace, but I have heard of plenty of legends and tales about it. A lot of adventurers ventured out for the legendary treasures of this palace. "
+				"I have yet to find this rumoured palace, but I have heard of plenty of legends and tales about it. A lot of adventurers ventured out for the legendary treasures of this palace. "
 				""
 				"All that I know is that it seems to be a gigantic desert palace."
 				"{@pagebreak}"
-				"I found something close, but not the rumored Shiraz Palace. It was a sprawling villa built to defy the desert, a holiday home of a very rich lord who normally lived in a complex on a sky island."
+				"I found something close, but not the rumoured Shiraz Palace. It was a sprawling villa built to defy the desert, a holiday home of a very rich lord who normally lived in a complex on a sky island."
 			]
 			id: "7C43A27C9882C9F2"
 			rewards: [
