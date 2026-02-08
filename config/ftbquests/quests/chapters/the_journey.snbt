@@ -2852,9 +2852,9 @@
 		{
 			dependencies: ["3B824E760CC7B14B"]
 			description: [
-				"The growth and harvest shrines can be combined for an automatic magical farm that grows crops faster and harvests crops itself."
+				"The Growth and Harvest Shrines can be combined for an automatic magical farm that grows crops faster and harvests crops itself."
 				"{@pagebreak}"
-				"The harvest shrine has an upgrade to automatically replant crops."
+				"The Harvest Shrine has an upgrade to automatically replant crops."
 				""
 				"You, however, need both a water and an earth source nearby for such a setup."
 			]
@@ -2906,9 +2906,9 @@
 		{
 			dependencies: ["3B824E760CC7B14B"]
 			description: [
-				"The lumber shrine automatically cuts down trees."
+				"The Lumber Shrine automatically cuts down trees."
 				""
-				"Similar to the harvest shrine, it can also be upgraded to replant saplings."
+				"Similar to the Harvest Shrine, it can also be upgraded to replant saplings."
 			]
 			id: "1E988E360B7AB9C1"
 			rewards: [{
@@ -2939,7 +2939,7 @@
 				"{@pagebreak}"
 				"It is most especially useful in the Netherworld to avoid dangerous mining. Magician card holders will later need to acquire Fireite ingots, requiring ancient debris. "
 				"{@pagebreak}"
-				"The most frustrating part of this shrine is that it spews its ore everywhere. You might require a vacuum shrine nearby to collect the yield."
+				"The most frustrating part of this shrine is that it spews its ore everywhere. You might require a Vacuum Shrine nearby to collect the yield."
 			]
 			id: "0BC1E2D2A0FE4141"
 			rewards: [
@@ -2982,7 +2982,7 @@
 		{
 			dependencies: ["3B824E760CC7B14B"]
 			description: [
-				"The sweet shrine automatically feeds nearby people."
+				"The Sweet Shrine automatically feeds nearby people."
 				"{@pagebreak}"
 				"How it does this is debatable. Does it turn water element into a nutritious fluid that enters the mouth without anyone noticing?"
 			]
@@ -3010,7 +3010,7 @@
 		}
 		{
 			dependencies: ["3B824E760CC7B14B"]
-			description: ["The spawning shrine summons mobs around itself every five seconds. This can be useful for a mob farm."]
+			description: ["The Spawning Shrine summons mobs around itself every five seconds. This can be useful for a mob farm."]
 			id: "5323FC721657F04B"
 			rewards: [{
 				id: "35F9C91EFE8D00F5"
@@ -3078,7 +3078,7 @@
 				"{@pagebreak}"
 				"The swift alloy must be produced at the element binder in its specific sequence: gold ingot, drenched ingot, copper ingot, redstone, and air crystal."
 				""
-				"The springaline shard is also produced at the element binder, but its production can be made renewable with the budding shrine upgrade."
+				"The springaline shard is also produced at the element binder, but its production can be made renewable with the Budding Shrine upgrade."
 			]
 			id: "4FA1B8DD76B592DD"
 			rewards: [{
@@ -11275,7 +11275,7 @@
 		{
 			dependencies: ["3B824E760CC7B14B"]
 			description: [
-				"The budding shrine is an especially useful shrine for renewable amethyst production close to home."
+				"The Budding Shrine is an especially useful shrine for renewable amethyst production close to home."
 				""
 				"It requires a steady flow of earth element, so using it next to an earth source is recommended. Check it every once in a while to see if it's grown a full-size amethyst cluster."
 				"{@pagebreak}"
@@ -11315,7 +11315,7 @@
 		{
 			dependencies: ["34457CDE76EDFEAC"]
 			description: [
-				"One of the main strengths of the budding shrine is that it can be upgraded with this Springaline Shrine Upgrade. "
+				"One of the main strengths of the Budding Shrine is that it can be upgraded with this Springaline Shrine Upgrade. "
 				""
 				"Springaline can become a renewable resource growing in someone's home."
 				"{@pagebreak}"
@@ -17684,7 +17684,7 @@
 				"{@pagebreak}"
 				"Quite ironically, the most efficient way of gathering the materials for this alloy is by mining in the Netherworld. "
 				""
-				"Magician card holders can especially make great use of the ore shrine to yield great quantities of cobalt and wolframite."
+				"Magician card holders can especially make great use of the Ore Shrine to yield great quantities of cobalt and wolframite."
 			]
 			hide_dependency_lines: true
 			id: "6853E3A8E74D815A"
@@ -28351,7 +28351,7 @@
 			description: [
 				"Many items can be cut or sawed using elemental power instead of our own bare hands, or the RF power that Hierophants use."
 				""
-				"This is of special use in conjunction with the springaline budding shrine to yield more springaline shards more easily."
+				"This is of special use in conjunction with the Springaline Budding Shrine to yield more springaline shards more easily."
 			]
 			id: "6ABB62AA49137211"
 			rewards: [{
@@ -28396,7 +28396,7 @@
 		{
 			dependencies: ["6635F7B2CD984F4F"]
 			description: [
-				"Dimensional shards can be processed into netherite. Usually, these shards can be found as a byproduct of Nether quarrying with an ore shrine in the quest for ancient debris, although they spawn in the Overworld and End as well."
+				"Dimensional shards can be processed into netherite. Usually, these shards can be found as a byproduct of Nether quarrying with an Ore Shrine in the quest for ancient debris, although they spawn in the Overworld and End as well."
 				""
 				"These shards can be turned into either an infused diamond or an infused ender pearl and then cooked or more efficiently - cooked with fire - to turn them into acclimated shards. These can then be infused with fire through either a manual or infusion process to yield greater results for a Magician than other Pathways."
 			]
